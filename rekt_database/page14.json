@@ -1,0 +1,956 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 723,
+        "projectName": "PancakeBunny",
+        "description": "<p><strong>Quick Summary</strong></p><p>PancakeBunny's VaultFlipToFlip vault was exploited using 8 flash loans, leading to a skewed calculation of the BUNNY price and a loss of approximately $1B in BUNNY tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker manipulated the price on various PancakeSwap pools using 8 flash loans, which skewed the calculation of the BUNNY price in the VaultFliptoFlip vault. They borrowed WBNB from seven different PancakeSwap pools and USDT from Fortube Bank, deposited a portion of these funds into the WBNB+BUSDT pool and swapped a large amount of WBNB for BUSDT. This manipulation allowed them to claim a reward of 6.97M BUNNY, valued at about $1B, from VaultFlipToFlip. After the exploit, they returned the flash loans to the PancakeSwap pools and Fortube Bank.</p><p><br></p><p>Stolen funds:</p><p>- 6.97M BUNNY (~$1B)</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://bscscan.com/address/0xa0acc61547f6bd066f7c9663c17a312b6ad7e187</p><p>The transaction behind the attack:</p><p>https://bscscan.com/tx/0x897c2de73dd55d7701e1b69ffb3a17b0f4801ced88b0c75fe1551c5fcce6a979</p>",
+        "date": "2021-05-19",
+        "fundsLost": "45000000",
+        "fundsReturned": "100000",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BUNNY",
+          "addresses": [
+            "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51"
+          ]
+        }
+      },
+      {
+        "id": 724,
+        "projectName": "ELONEBULA",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ELONEBULA",
+          "addresses": [
+            "0x50434a4198d0f98e42460ef8517bbbfc022f049c"
+          ]
+        }
+      },
+      {
+        "id": 725,
+        "projectName": "NEOBUX",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NBX",
+          "addresses": [
+            "0x255c19fe6883885ec963cb62737bc18724841b08"
+          ]
+        }
+      },
+      {
+        "id": 726,
+        "projectName": "UNIONJACK - BSC",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "UNION",
+          "addresses": [
+            "0xe43ea683dd9e8bcac199b6ff48c8efc036e5b486"
+          ]
+        }
+      },
+      {
+        "id": 727,
+        "projectName": "nintendo chain network",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NCN",
+          "addresses": [
+            "0xd0baa0fc8d6f46e26808365e2bd29531fe152896"
+          ]
+        }
+      },
+      {
+        "id": 728,
+        "projectName": "BERSERK Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BERT",
+          "addresses": [
+            "0x86025d5a06eb9b6ec4318947e520635c0999467e"
+          ]
+        }
+      },
+      {
+        "id": 729,
+        "projectName": "Quick Grow",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "QGW",
+          "addresses": [
+            "0x7126984859a937bf8c2b8b884a66f5137774a8f8"
+          ]
+        }
+      },
+      {
+        "id": 730,
+        "projectName": "WhiteX Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "WHX",
+          "addresses": [
+            "0x5ce082f7bc1d58ea8ea8eb294979db9166fc9161"
+          ]
+        }
+      },
+      {
+        "id": 731,
+        "projectName": "melonmars",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "melonmars",
+          "addresses": [
+            "0x05f9c61a66c7249fe802df4bc828c4c715963f4d"
+          ]
+        }
+      },
+      {
+        "id": 732,
+        "projectName": "safeokko",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SafeOkko",
+          "addresses": [
+            "0x90ab7bc86de8e44927aaac5ef8c6451ab95acb78"
+          ]
+        }
+      },
+      {
+        "id": 733,
+        "projectName": "Alpha Finance Lab",
+        "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited a bug in Cream's Iron Bank, resulting in a loss of 13,244.63 WETH, 3.6M USDC, 5.6M USDT, and 4.26M DAI.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker manipulated the system by swapping ETH for UNI, supplying ETH + UNI to the Uniswap pool, and swapping ETH for sUSD on Uniswap. They then deposited sUSD to Cream’s Iron Bank, borrowed 1000e18 sUSD, deposited UNI-WETH LP to WERC20, and used it as collateral. The attacker then repaid the sUSD, leaving a repay share of 1 less than the total share. This resulted in the attacker's EOA having 1 minisUSD debt and 1 debt share. They then borrowed 19709787742196 minisUSD and transferred it to their EOA, repeating this process 16 times, each time doubling the borrowed amount. The attacker then flash loaned from Aave, swapped USDC for sUSD, and deposited it to Cream to have enough liquidity to borrow using the custom spell. They continued doubling the sUSD borrow and swapped sUSD for USDC on Curve. They then borrowed 13,244.63 WETH + 3.6M USDC + 5.6M USDT + 4.26M DAI, supplied the stablecoins to Aave, and supplied aDAI, aUSDT, aUSDC to Curve a3Crv pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x2b528a28451e9853f51616f3b0f6d82af8bea6ae#tokentxns</p><p>The transactions behind the attack:</p><p>https://etherscan.io/tx/0x4441eefe434fbef9d9b3acb169e35eb7b3958763b74c5617b39034decd4dd3ad</p><p>https://etherscan.io/tx/0xcc57ac77dc3953de7832162ea4cd925970e064ead3f6861ee40076aca8e7e571</p><p>https://etherscan.io/tx/0xf31ee9d9e83db3592601b854fe4f8b872cecd0ea2a3247c475eea8062a20dd41</p><p>https://etherscan.io/tx/0x98f623af655f1e27e1c04ffe0bc8c9bbdb35d39999913bedfe712d4058c67c0e</p><p>https://etherscan.io/tx/0x2e387620bb31c067efc878346742637d650843210596e770d4e2d601de5409e3</p><p>https://etherscan.io/tx/0x64de824a7aa339ff41b1487194ca634a9ce35a32c65f4e78eb3893cc183532a4</p><p>https://etherscan.io/tx/0x7eb2436eedd39c8865fcc1e51ae4a245e89765f4c64a13200c623f676b3912f9</p><p>https://etherscan.io/tx/0xd7a91172c3fd09acb75a9447189e1178ae70517698f249b84062681f43f0e26e</p><p>https://etherscan.io/tx/0xacec6ddb7db4baa66c0fb6289c25a833d93d2d9eb4fbe9a8d8495e5bfa24ba57</p><p>https://etherscan.io/tx/0x745ddedf268f60ea4a038991d46b33b7a1d4e5a9ff2767cdba2d3af69f43eb1b</p><p>https://etherscan.io/tx/0xc60bc6ab561af2a19ebc9e57b44b21774e489bb07f75cb367d69841b372fe896</p>",
+        "date": "2021-02-13",
+        "fundsLost": "37500000",
+        "fundsReturned": "3700000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "ALPHA",
+          "addresses": [
+            "0xa1faa113cbe53436df28ff0aee54275c13b40975"
+          ]
+        }
+      },
+      {
+        "id": 734,
+        "projectName": "NYAN INU",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NYINU",
+          "addresses": [
+            "0x2fc13547824e60de83c41cd4dc88b9f99d894b1f"
+          ]
+        }
+      },
+      {
+        "id": 735,
+        "projectName": "PandoraBSC",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PDRBSC",
+          "addresses": [
+            "0xd461c271f7cf976c6be7762327c4836804054798"
+          ]
+        }
+      },
+      {
+        "id": 736,
+        "projectName": "Shozo Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SHINU",
+          "addresses": [
+            "0xb64708674dedcf4178033b4fea2d6218cb205faa"
+          ]
+        }
+      },
+      {
+        "id": 737,
+        "projectName": "Charged Particles Protocol",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "IONX",
+          "addresses": [
+            "0x19ff3c317e2bdf1fee7a1b6b4feed5c319f64b31"
+          ]
+        }
+      },
+      {
+        "id": 738,
+        "projectName": "Governor Network",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GVN",
+          "addresses": [
+            "0x449beb48bae34ece255674ff400f983615a86cd8"
+          ]
+        }
+      },
+      {
+        "id": 739,
+        "projectName": "WenMoon",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "WenMoon",
+          "addresses": [
+            "0x533a14e8f3954b0256f49ce47f591437ac7d86ec"
+          ]
+        }
+      },
+      {
+        "id": 740,
+        "projectName": "mooncake",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "mooncake",
+          "addresses": [
+            "0x82662b18cacf96234cded1663c98200f77227cf9"
+          ]
+        }
+      },
+      {
+        "id": 741,
+        "projectName": "ADRENALINE.FINANCE",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ADRENALINE_BONUS",
+          "addresses": [
+            "0x6584fbfe091bb519e21e70b5d5e64ad70c9d5a59"
+          ]
+        }
+      },
+      {
+        "id": 742,
+        "projectName": "RedSWAP",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "REDS",
+          "addresses": [
+            "0x1db644d6eae25f82945e76d80ef26958fa9f3dda"
+          ]
+        }
+      },
+      {
+        "id": 743,
+        "projectName": "Quantum Farm",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "QFARM",
+          "addresses": [
+            "0x1061a3ca048c13fb102139cf12ab7ab5073281c2"
+          ]
+        }
+      },
+      {
+        "id": 744,
+        "projectName": "LastOutFirstWin",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "LOFW+N",
+          "addresses": [
+            "0xb262e3daa48bf45b35d573a2b8e4639a340b3f4d"
+          ]
+        }
+      },
+      {
+        "id": 745,
+        "projectName": "ELONSPACE",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ELONSPACE",
+          "addresses": [
+            "0x923c2a705940908cbc6cc514a799c7dfa063703f"
+          ]
+        }
+      },
+      {
+        "id": 746,
+        "projectName": "EXODUS",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "EXODUS",
+          "addresses": [
+            "0xeba89d84b7c58a77d28388044b44b4a9f812ecf0"
+          ]
+        }
+      },
+      {
+        "id": 747,
+        "projectName": "Mars Ore",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MO",
+          "addresses": [
+            "0x76ec90673d206bb0593afbec594ede2679695b44"
+          ]
+        }
+      },
+      {
+        "id": 748,
+        "projectName": "GOSWAP.IO",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GOSWAP",
+          "addresses": [
+            "0x05a3d1c2b0fb66e67214f06c2e5060f2064b52a1"
+          ]
+        }
+      },
+      {
+        "id": 749,
+        "projectName": "Harvest Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited a vulnerability in the FARM_USDT and FARM_USDC pools, stealing $33.8 million through a series of flash loans and price manipulation.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by swapping 11.4 million USDC for USDT, causing the price of USDT to rise. They then deposited 60.6 million USDT into the Vault. Following this, they exchanged 11.4 million USDT back to USDC, causing the USDT price to drop. The attacker then withdrew 61.1 million USDT from the Vault, making a profit of 0.5 million. This process was repeated 32 times. The stolen funds were then converted to renBTC and exited to BTC / ETH via Tornado Cash.</p><p><br></p><p>Stolen funds:</p><p>- $33.8M USDT</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://app.zerion.io/0x3811765a53c3188c24d412daec3f60faad5f119b/history</p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0x9d093325272701d63fdafb0af2d89c7e23eaf18be1a51c580d9bce89987a2dc1/advanced</p><p>Detailed transaction analysis:</p><p>https://ethtx.info/mainnet/0x9d093325272701d63fdafb0af2d89c7e23eaf18be1a51c580d9bce89987a2dc1</p>",
+        "date": "2020-10-26",
+        "fundsLost": "33800000",
+        "fundsReturned": "2500000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "FARM",
+          "addresses": [
+            "0xa0246c9032bC3A600820415aE600c6388619A14D"
+          ]
+        }
+      },
+      {
+        "id": 750,
+        "projectName": "Instantly",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "TILY",
+          "addresses": [
+            "0xce0739c36fa56c9eb1fc05e6aedbcad92a9b32a0"
+          ]
+        }
+      },
+      {
+        "id": 751,
+        "projectName": "XDEFILABS",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "XDL",
+          "addresses": [
+            "0x5ca5da33a78a265d951bd2bfcdfee7d7a34ec2ff"
+          ]
+        }
+      },
+      {
+        "id": 752,
+        "projectName": "MOON1000X",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MOON1000X",
+          "addresses": [
+            "0x0fd233a6fa06e01844a1fbf35655edf9193690bd"
+          ]
+        }
+      },
+      {
+        "id": 753,
+        "projectName": "TILY",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "TILY",
+          "addresses": [
+            "0xc4d20eb7e9103e0dc0ab6a32c1105954fa3404bf"
+          ]
+        }
+      },
+      {
+        "id": 754,
+        "projectName": "bscgames.win",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BSCG",
+          "addresses": [
+            "0x5bcd4dafb373441e095dc7f6a9d33ce981133f0b"
+          ]
+        }
+      },
+      {
+        "id": 755,
+        "projectName": "SafeForever",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SAFE4EVER",
+          "addresses": [
+            "0xd562b120bb34f3424c668c17ca5b7f2ca7519390"
+          ]
+        }
+      },
+      {
+        "id": 756,
+        "projectName": "BSC HOTEL",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "$CREDIT",
+          "addresses": [
+            "0xb1203f408d8b2b56480471b97b356e8c52dcb8dc"
+          ]
+        }
+      },
+      {
+        "id": 757,
+        "projectName": "ElonHODL Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ELONHODL",
+          "addresses": [
+            "0x8289ec281d87d2074a6a67cfb28d2c0a8a147d37"
+          ]
+        }
+      },
+      {
+        "id": 758,
+        "projectName": "RiserDefi.com",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RISER",
+          "addresses": [
+            "0x293389af771ce6e4ab5f049846a483a5995a72b9"
+          ]
+        }
+      },
+      {
+        "id": 759,
+        "projectName": "white.finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "WHITE",
+          "addresses": [
+            "0x9cbb200216dba30d3b8db4c645ac149d677778a2"
+          ]
+        }
+      },
+      {
+        "id": 760,
+        "projectName": "Belt Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Belt Finance suffered a flash loan attack exploiting the Ellipsis strategy, resulting in a loss of approximately $6.3 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker manipulated the value of a token within a liquidity pool by borrowing cryptocurrency using a flash loan. They exploited a bug in the integration of the Ellipsis strategy within Belt, causing an imbalance in the 3eps pool by swapping BUSD to USDT. This imbalance led to an overestimation of the value of Belt Finance's vault shares. The attacker then withdrew BUSD from the Venus strategy, receiving more tokens than they should have, and providing a profit. The attack was repeated seven times, each iteration providing a profit of about $1 million.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xd8428836ed2a36bd67cd5b157b50813b30208f50</p><p><br></p><p>The contract used to perform the attack:</p><p>https://etherscan.io/address/0x1c93290202424902a5e708b95f4ba23a3f2f3cee#code</p><p><br></p><p>Example of the attack execution:</p><p>https://etherscan.io/tx/0xeefc22f2dbd8e1b886a7e59f66511e2735f4d04484f6258a9db6e661ed490f7b</p><p><br></p><p>Victim contract:</p><p>https://etherscan.io/address/0x41B856701BB8c24CEcE2Af10651BfAfEbb57cf49#code</p><p><br></p><p>Transaction of stolen funds transferred to the external wallet:</p><p>https://etherscan.io/tx/0xa8a61f779f514e59efa05a98152cf56c1942eff6cc56f506dab7c662ac1e775e</p>",
+        "date": "2021-05-29",
+        "fundsLost": "6300000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX),Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BELT",
+          "addresses": [
+            "0xe0e514c71282b6f4e823703a39374cf58dc3ea4f"
+          ]
+        }
+      },
+      {
+        "id": 761,
+        "projectName": "SafeMoon",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SMOON",
+          "addresses": [
+            "0xa846b39fd6a0d0f4c95763b15a3d5c6415526853"
+          ]
+        }
+      },
+      {
+        "id": 762,
+        "projectName": "gorillapump.net",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GPUMP",
+          "addresses": [
+            "0x777ec62ce0982a1c0bd71da92d408d781d5764a7"
+          ]
+        }
+      },
+      {
+        "id": 763,
+        "projectName": "BurgerSwap",
+        "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited BurgerSwap using flash loans and a fake token, resulting in a loss of $7.2 million.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated a flash swap of 6k WBNB ($2M) from PancakeSwap, which was then swapped for 92k BURGER on BurgerSwap. The attacker then created a non-standard BEP-20 token and formed a new trading pair with BURGER. Using this pair, the attacker swapped 100 fake tokens for 4.4k WBNB, and then swapped 45k BURGER for another 4.4k WBNB. The attacker then swapped 493 WBNB for 108.7k BURGER on BurgerSwap, before finally repaying the flash swap.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>The attacker's transaction:</p><p>https://bscscan.com/tx/0xf598e092ab82ce08798f9dab7ea6ade64f152aa91db897f3449b23ab591baa1d</p>",
+        "date": "2021-05-29",
+        "fundsLost": "7200000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BURGER",
+          "addresses": [
+            "0xae9269f27437f0fcbc232d39ec814844a51d6b8f"
+          ]
+        }
+      },
+      {
+        "id": 764,
+        "projectName": "Concordium",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GTU",
+          "addresses": [
+            "0x79f4fb9de652dd6a3ace7d25bb085072c727b373"
+          ]
+        }
+      },
+      {
+        "id": 765,
+        "projectName": "MEMElonMusk",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MEMELON",
+          "addresses": [
+            "0xf645fceaef0b30246224ebb637c113093b8eaa89"
+          ]
+        }
+      },
+      {
+        "id": 766,
+        "projectName": "Space X Crew",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PACEXC",
+          "addresses": [
+            "0xa5f5f1a85937d98ee538f2aaf3915e60ed9e06ba"
+          ]
+        }
+      },
+      {
+        "id": 767,
+        "projectName": "Crypto Puzzles",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-02",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CPTE",
+          "addresses": [
+            "0x4f3e8d76bb858e8340d30033ebdd486f4fb994e6"
+          ]
+        }
+      },
+      {
+        "id": 768,
+        "projectName": "Binance-Peg VeChain",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "VET",
+          "addresses": [
+            "0x7d62f3750bf4c9b238f0932a33a7cada2e1a957e"
+          ]
+        }
+      },
+      {
+        "id": 769,
+        "projectName": "ForTheWin",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-02",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "FTW",
+          "addresses": [
+            "0x1f4ddf1ef41fc52560cb901410a6e5c8f58ede0d"
+          ]
+        }
+      },
+      {
+        "id": 770,
+        "projectName": "Stability Protocol",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-02",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "STB",
+          "addresses": [
+            "0x944efded5c96ac43959cd4c090f4563fb1fa5280"
+          ]
+        }
+      },
+      {
+        "id": 771,
+        "projectName": "NoCapCoin",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-13",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NoCap",
+          "addresses": [
+            "0xe2580f471b336c6da0bf273d44f3e3e9ecfcf434"
+          ]
+        }
+      },
+      {
+        "id": 772,
+        "projectName": "Tentrix",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-05-01",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "TRIX",
+          "addresses": [
+            "0xcb85229dbc0a72bc5db68ce5090b11193ee459df"
+          ]
+        }
+      }
+    ]
+  }
+}

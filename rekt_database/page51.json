@@ -1,0 +1,942 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2609,
+        "projectName": "BabyCakeGold",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BCG",
+          "addresses": [
+            "0x56ec819a920fa0df6e7e9ae5086f63342342f518"
+          ]
+        }
+      },
+      {
+        "id": 2610,
+        "projectName": "Sigma",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SIGMA",
+          "addresses": [
+            "0x9AE2a45C924aF622B5155859920FEDB469e7FaF9"
+          ]
+        }
+      },
+      {
+        "id": 2611,
+        "projectName": "White Moon Finance",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MOON",
+          "addresses": [
+            "0xe62ae6Bf3817196d1122683df1aE4019014dD0b5"
+          ]
+        }
+      },
+      {
+        "id": 2612,
+        "projectName": "TreeToken",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TREE",
+          "addresses": [
+            "0xc38a62ecfcb31a69c9f7e5a39e9d0320d2f6729f"
+          ]
+        }
+      },
+      {
+        "id": 2613,
+        "projectName": "HarvestLock",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HL",
+          "addresses": [
+            "0xAA7BE9E55cA3a1B48dCbE4712E75a95A7D8AAc9F"
+          ]
+        }
+      },
+      {
+        "id": 2614,
+        "projectName": "Red Eagle Token",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EAGLE",
+          "addresses": [
+            "0x94ee788d976c680ca22e8782e4584ac60005d033"
+          ]
+        }
+      },
+      {
+        "id": 2615,
+        "projectName": "Cheetah Token",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CHEETAH",
+          "addresses": [
+            "0xc0af9cc9826e541489d02c0d2fa6eca0fe517e20"
+          ]
+        }
+      },
+      {
+        "id": 2616,
+        "projectName": "PolyGoose Token",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GOOSE",
+          "addresses": [
+            "0xb81ea7581aa24c4ca0e8fc99918da7ae60139a87"
+          ]
+        }
+      },
+      {
+        "id": 2617,
+        "projectName": "Euro Token",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Stablecoin",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EURO",
+          "addresses": [
+            "0x4d0b6356605e6fa95c025a6f6092eccf0cf4317b"
+          ]
+        }
+      },
+      {
+        "id": 2618,
+        "projectName": "Valorant Finance",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "valo",
+          "addresses": [
+            "0x7d0a7c00f9bb62aaf2c811c56716ab96ad216546"
+          ]
+        }
+      },
+      {
+        "id": 2619,
+        "projectName": "BeastMode Token",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BEAST",
+          "addresses": [
+            "0x4a6569ff2ca81a37342875d684aeb95e0a6d0534"
+          ]
+        }
+      },
+      {
+        "id": 2620,
+        "projectName": "Swaaaaap.com",
+        "description": null,
+        "date": "2021-09-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SWAAAAAAP",
+          "addresses": [
+            "0x1c738fc81d6dd69ad0bbc86b23f43265d65d92ce"
+          ]
+        }
+      },
+      {
+        "id": 2621,
+        "projectName": "White Moon Finance",
+        "description": null,
+        "date": "2021-09-07",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MOON",
+          "addresses": [
+            "0xe62ae6Bf3817196d1122683df1aE4019014dD0b5"
+          ]
+        }
+      },
+      {
+        "id": 2622,
+        "projectName": "MoneyTreeFarm",
+        "description": null,
+        "date": "2021-09-07",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TREE",
+          "addresses": [
+            "0xc38a62ecfcb31a69c9f7e5a39e9d0320d2f6729f"
+          ]
+        }
+      },
+      {
+        "id": 2623,
+        "projectName": "DAO Maker",
+        "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x2708cace7b42302af26f1ab896111d87faeff92f<br><br>DAO Maker vesting smart contracts had vulnerability that allowed a hacker to take ownership of the contract and withdraw the tokens from it. Tokens of DeRace, Showcase, Ternoa, Coinspaid were affected. The attacker initialized the key parameters of init() and changed the owner at the same time.<br><br>The attacker invoked <u>emergencyExit</u>() function to withdraw tokens at:<br>https://etherscan.io/tx/0xcb5be97496995d58da6f97491845040547b878e53a7b71f907a13408f3a54e5f<br>https://etherscan.io/tx/0x4c273c2403aafd97e4b553f0e381cf1c63e5f2efebbe2ded7642a06f2b68c879<br>https://etherscan.io/tx/0x1692a57f19b5e8e4bc6a372ac3c83c77cd4a1ea78414377ea66d3d59f4a7d2b7<br>https://etherscan.io/tx/0xdd0176475165b83c702d49a876d4dc888b73477ad8833582c72aa6ca5e0bacc3<br><br>The attacker sold tokens at:<br>https://etherscan.io/tx/0xbf38346aacf261f5e169a87ed874c33c21efb060c4a393e2b1443a3ac5d6e3fd<br>https://etherscan.io/tx/0x3436af2c84d67254a4b81adc350c91d1b98ae52b2ff84645d14d4245c2d08c27<br>https://etherscan.io/tx/0xc586a6b94e09556abf46ae3aa8cffa8e46dfcb0c22bce0b024d5e01743ceba9e<br>https://etherscan.io/tx/0x76163daf6cf0c815c02fb1a98f5c6283ee7a922cbad41218eb7a6452c91824c8</p>",
+        "date": "2021-09-04",
+        "fundsLost": "4000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "DAO",
+          "addresses": [
+            "0x0f51bb10119727a7e5ea3538074fb341f56b09ad"
+          ]
+        }
+      },
+      {
+        "id": 2624,
+        "projectName": "Gold Finance",
+        "description": null,
+        "date": "2021-09-10",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GOLD",
+          "addresses": [
+            "0x967e7ef78afbb658f1894f4d48fbe82899d5c4e8"
+          ]
+        }
+      },
+      {
+        "id": 2625,
+        "projectName": "TrollFace",
+        "description": null,
+        "date": "2021-09-13",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TROLL",
+          "addresses": [
+            "0xea27688726a94c21180a300484d55a791f993fc6"
+          ]
+        }
+      },
+      {
+        "id": 2626,
+        "projectName": "Zabu Finance",
+        "description": "<p>The attacker:<br>https://cchain.explorer.avax.network/address/0x9ed2D048e90CfFa5e4A778678CBc3acb8A3Abf86/transactions<br><br>The transaction behind the attack:<br>https://cchain.explorer.avax.network/tx/0x8b3042e55a63f39bb388240a089cf4d51e59abe7cb0bff303c6dbb19eaeb75ac/token-transfers<br><br>The hack was due to the lack of deflationary token support in the MasterChef contract. By repeated deposits and withdrawals with the MasterChef, the attacker frequently triggers the tax collection, which led to the exploit.<br><br>The attacker deployed the contract with the malicious logic at:<br>https://cchain.explorer.avax.network/tx/0x771c4454e2681f46bfb04e20acde021127e912b8a345baa98e3502761665c319/internal-transactions<br><br>Further, he interacted with that contract to successfully pulled out 4.5 billion ZABU tokens in Zabu Farm Contract.<br><br>The list of stolen assets:<br>- WETH: 402.9<br>- WAVAX: 23,157<br>- PNG: 21,501<br>- AVE: 106,848<br>- USDT: 361,267<br>- JOE: 23,958.93&nbsp;</p>",
+        "date": "2021-09-12",
+        "fundsLost": "3200000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          6
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "ZABU",
+          "addresses": [
+            "0xDd453dBD253fA4E5e745047d93667Ce9DA93bbCF"
+          ]
+        }
+      },
+      {
+        "id": 2627,
+        "projectName": "AFKSystems Finance",
+        "description": "<p>The EOA address deployed unverified smart contract at:<br>https://polygonscan.com/tx/0x371b8da1ef6fae5613025d6d3ac85b4eb989cabf91909ace8a7aaa81ec341eb5<br><br>This smart contract interacted with different MasterChef contracts:<br>https://polygonscan.com/tx/0xa4dafd21de907f594344876dd43977e2f03ab541085495ea5010a0c5d53fe470<br>https://polygonscan.com/tx/0x5a27947b4af14f897d35bc4457c4a00a1a3b3002db1b7552d680b7bb0e028de9<br>https://polygonscan.com/tx/0x758ca2462da1fba081c50e5e82abcf26225321ad409d9f2b0ae8623d61541e8b<br>https://polygonscan.com/tx/0xcb729d6c84ba291799a3bb9da4bef704a62f0608c178aa1230cbcd44d9d5038f<br>https://polygonscan.com/tx/0x80fc64a240a67f6eea8bd57367bc088b80ccfd5236c4cebcd46e7c24a147860f<br><br>The bytecoded contract had approval for spending LP tokens, as a result, funds were transferred to the external address:<br>https://polygonscan.com/address/0x0a301bdf8c02d19d8204712d9ef10fa38c6109e7<br><br>Withdrawn LP tokens were used to remove liquidity at:<br>https://polygonscan.com/tx/0xf68759da53b71917b87ef8ee0bfb4db1cb612ce993378b7c51e86c4840099dc8<br>https://polygonscan.com/tx/0x9f4d43f13df89109b10d181e24f2f28ddf88c9b8ea3c761b9f4600cf3b91a155</p>",
+        "date": "2021-09-10",
+        "fundsLost": "2017053",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SILVER",
+          "addresses": [
+            "0xbc7cb585346f4f59d07121bb9ed7358076243539"
+          ]
+        }
+      },
+      {
+        "id": 2628,
+        "projectName": "GulliFinance",
+        "description": null,
+        "date": "2021-09-15",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Gulli",
+          "addresses": [
+            "0x3929c90d3A081Ba1926a14d37260503BB1CE15ab"
+          ]
+        }
+      },
+      {
+        "id": 2629,
+        "projectName": "Earth DeFi Avalanche",
+        "description": null,
+        "date": "2021-09-15",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          6
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Avalaunch",
+          "addresses": [
+            "0xD875dAd15fa04d052DFD4709B0a60BE325a1C5AE"
+          ]
+        }
+      },
+      {
+        "id": 2630,
+        "projectName": "BloodySwap",
+        "description": null,
+        "date": "2021-09-15",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BLOOD",
+          "addresses": [
+            "0x7a2efb71a36b387e35e2cc683435727e35c1e978"
+          ]
+        }
+      },
+      {
+        "id": 2631,
+        "projectName": "MikuMilk Finance",
+        "description": null,
+        "date": "2021-09-16",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          6
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SLURP",
+          "addresses": [
+            "0x2f800db57B67e7c5216e76590D45B9B0B0BD7dCB"
+          ]
+        }
+      },
+      {
+        "id": 2632,
+        "projectName": "GullFinance Token",
+        "description": null,
+        "date": "2021-09-16",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GULL",
+          "addresses": [
+            "0xe007e72142217204041c6bf08e8dc0c9387d3cca"
+          ]
+        }
+      },
+      {
+        "id": 2634,
+        "projectName": "SushiSwap",
+        "description": "<p>The exploiter:<br>https://etherscan.io/address/0x3ddd8b6d092df917473680d6c41f80f708c45395<br><br>Sushiswap's launchpad MISO was attacked from the front end side. The anonymous contractor of the Sushiswap GitHub uploaded malicious code, which replaced the auction's wallet with the exploiter's wallet. Commit author was under the AristoK3 nickname. The exploiter's wallet was funded from exchanges like Binance, FTX.<br><br>The transaction where the funds were withdrawn:<br>https://etherscan.io/tx/0x78d6355703507f88f2090eb780d245b0ab26bf470eabdb004761cedf3b1cda44<br><br>The funds were returned back to the SushiSwap Operation Multisig wallet at:<br>https://etherscan.io/tx/0x4bfd68aaaaad03d0dd2d5b9e862e3bc4c7ee90cb85507eb85262e932c8748521<br>https://etherscan.io/tx/0x904e5bcb5ef9cfb19f19afd04849f3b12d17dc347d3e525072fcd139cc08cbdb<br>https://etherscan.io/tx/0x421e06f92f900692d4687b5c18422d73ab2d69ade0fbce300555ec6394f6fa61</p>",
+        "date": "2021-09-16",
+        "fundsLost": "2993606",
+        "fundsReturned": "2993606",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX),Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "SUSHI",
+          "addresses": [
+            "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+          ]
+        }
+      },
+      {
+        "id": 2635,
+        "projectName": "INTERSWAP",
+        "description": null,
+        "date": "2021-09-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SWP",
+          "addresses": [
+            "0xd496d4826ea04a96a7317c03e5451fd63a7e8b1b"
+          ]
+        }
+      },
+      {
+        "id": 2636,
+        "projectName": "PenginFinance Token",
+        "description": null,
+        "date": "2021-09-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PENGIN",
+          "addresses": [
+            "0x4fbDFB60ec6123821D09D645Fb94511A93C49f13"
+          ]
+        }
+      },
+      {
+        "id": 2637,
+        "projectName": "PlugToken",
+        "description": null,
+        "date": "2021-09-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PLUG",
+          "addresses": [
+            "0xaF6193aEAFFdd9C89D7b3A2bC9A96676328df230"
+          ]
+        }
+      },
+      {
+        "id": 2638,
+        "projectName": "Vee Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>A malicious smart contract was deployed to interact with one of the protocol smart contracts, leading to the withdrawal of funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker deployed a smart contract with malicious logic that interacted with one of the protocol smart contracts. Both contracts are unverified. The funds were then withdrawn through a series of transactions. The stolen WBTC and WETH were bridged to Ethereum and are still held on the attacker's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://cchain.explorer.avax.network/address/0xeeeE458C3a5eaAfcFd68681D405FB55Ef80595BA/transactions</p><p><br></p><p>The contract behind the attack:</p><p>https://cchain.explorer.avax.network/address/0x490D25A327768bD5E3d2bF98B8E10419B3E70B82/transactions</p><p><br></p><p>The list of transactions where the funds were withdrawn:</p><p>https://cchain.explorer.avax.network/address/0x490D25A327768bD5E3d2bF98B8E10419B3E70B82/token-transfers</p><p><br></p><p>The Ethereum address where the stolen WBTC and WETH are held:</p><p>https://etherscan.io/address/0xeeee458c3a5eaafcfd68681d405fb55ef80595ba</p>",
+        "date": "2021-09-21",
+        "fundsLost": "36000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          6
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "VEE",
+          "addresses": [
+            "0x3709E8615E02C15B096f8a9B460ccb8cA8194e86"
+          ]
+        }
+      },
+      {
+        "id": 2639,
+        "projectName": "CoffeeSwap Arbitrum",
+        "description": null,
+        "date": "2021-09-22",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "COFFEE",
+          "addresses": [
+            "0x397088cf75daacef28d12ad46d2cb01ade54e698"
+          ]
+        }
+      },
+      {
+        "id": 2640,
+        "projectName": "pNetwork",
+        "description": "<p><strong>Quick Summary</strong></p><p>pBTC-on-BSC cross-chain bridge was exploited, resulting in the theft of 277 BTC.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker targeted multiple pTokens bridges, but only the pBTC-on-BSC cross-chain bridge was affected. The attacker was funded with BNB from a Binance exchange wallet to cover gas fees for the deployment of contracts with malicious logic. These smart contracts created a series of event logs, including both legitimate and faulty peg-out requests. Due to a bug in the Rust code section responsible for extracting these log events, both types of logs were extracted and incorrectly processed, leading to the exploit. As a result, 277 BTC were stolen from the pBTC-on-BSC collateral.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x2bf5693dd3a5cea1139c4510fdce120cf042c934</p><p><br></p><p>First Exploit Transaction:</p><p>https://bscscan.com/tx/0x0eb55e02bce39ec1d2d2e911eca7dcca54e74841b53412c078185e43c5a2a551</p><p><br></p><p>Funding Transaction from Binance:</p><p>https://bscscan.com/tx/0x23db0ee27e10517dea0659a743fd6df92d482ad6796851c71127e5049e7bbd88</p><p><br></p><p>BTC Addresses of the Attacker:</p><p>https://pastebin.com/raw/bAquZVws</p>",
+        "date": "2021-09-19",
+        "fundsLost": "12700000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": "PNT",
+          "addresses": [
+            "0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92"
+          ]
+        }
+      },
+      {
+        "id": 2641,
+        "projectName": "Bitcoinica",
+        "description": "<p>According to a statement released on the Bitcoinica Web site, unknown hackers breached production servers and accessed information belonging to the Bitcoin exchange, Bitcoinica, stealing $87,000 in BTC.<br><br>The hack occurred on May 11 and resulted in the loss of 18,547 Bitcoins, which is worth more than $87,000 on the day of the attack. Attackers also obtained access to Bitcoinica users' user names, email addresses, and account histories.</p>",
+        "date": "2012-05-11",
+        "fundsLost": "87000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2643,
+        "projectName": "Coincheck",
+        "description": "<p><strong>Quick Summary</strong></p><p>On Jan. 26, about 523 million NEM (XEM) tokens, valued at over $530 million at the time, were illicitly transferred from its hot wallet address, resulting in an anomalous drop in the Japanese exchange's balance.</p><p><strong><br>Details of the Exploit</strong><br>The attack was made possible by the company's technological issues and staff scarcity, which resulted in inadequate security measures. The stolen NEM were held on an internet-connected hot wallet rather than an offline cold wallet.<br><br>Coincheck utilized its own funds to compensate all 260,000 impacted clients:<br>https://www.ft.com/content/6a761a60-2694-11e8-b27e-cc62a39d57a0</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://explorer.nemtool.com/#/s_account?account=NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG</p><p><br></p><p>Malicious transaction example:</p><p>https://explorer.nemtool.com/#/s_tx?hash=c2921d538a6192bf35e0bb49cefcf6aa8e19acb3fef08f70f5b6b977d9d50aee</p>",
+        "date": "2018-01-26",
+        "fundsLost": "534000000",
+        "fundsReturned": "534000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG"
+          ]
+        }
+      },
+      {
+        "id": 2644,
+        "projectName": "KuCoin",
+        "description": "<p><strong>Quick Summary&nbsp;</strong></p><p>Hackers managed to obtain the private keys to KuCoin's hot wallets and drain the exchange for various crypto assets in the amount of $280 million.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>This case lacks information with regard to the methodology hackers utilized in order to gain access to KuCoin's hot wallets. The hot wallet affected were designated for Bitcoin, Ethereum, and ERC-20 tokens.<br><br>Stolen funds included:<br>- 1,008 BTC ($10,758,404.86)<br>- 11,543 ETH ($4,030,957.90)<br>- 19,834,042 USDT-ETH ($19,834,042.14)<br>- 18,495,798 XRP ($4,254,547.54)<br>- 26,733 LTC ($1,238,539.89)<br>- 999,160 USDT ($999,160)<br>- $147M worth of ERC-20 tokens<br>- $87M of Stellar tokens<br><br>In an attempt to launder the ill-gotten funds, the attackers proceeded to use a mixture of DeFi protocols such as Kyber and Uniswap.<br>The CEO of KuCoin claims that through a mixture of on-chain analyses, judicial recovery, as well as contract upgrades, 84% of the stolen funds, had been recovered. The remaining losses were covered by KuCoin's own capital and insurance fund.</p>",
+        "date": "2020-09-25",
+        "fundsLost": "280000000",
+        "fundsReturned": "280000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2651,
+        "projectName": "PancakeBunny",
+        "description": "<p><strong>Quick Summary</strong></p><p>PancakeBunny's VaultFlipToFlip vault was exploited using 8 flash loans, leading to a skewed calculation of the BUNNY price and a loss of approximately $1B in BUNNY tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker manipulated the price on various PancakeSwap pools using 8 flash loans, which skewed the calculation of the BUNNY price in the VaultFliptoFlip vault. They borrowed WBNB from seven different PancakeSwap pools and USDT from Fortube Bank, deposited a portion of these funds into the WBNB+BUSDT pool, and swapped a large amount of WBNB for BUSDT. This manipulation allowed them to claim a reward of 6.97M BUNNY, valued at about $1B, from VaultFlipToFlip. After the exploit, they returned the flash loans to the PancakeSwap pools and Fortube Bank.</p><p><br></p><p>Stolen funds:</p><p>- 6.97M BUNNY (~$1B)</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://bscscan.com/address/0xa0acc61547f6bd066f7c9663c17a312b6ad7e187</p><p>The transaction behind the attack:</p><p>https://bscscan.com/tx/0x897c2de73dd55d7701e1b69ffb3a17b0f4801ced88b0c75fe1551c5fcce6a979</p>",
+        "date": "2021-07-16",
+        "fundsLost": "2395931",
+        "fundsReturned": "2395931",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "polyBUNNY",
+          "addresses": [
+            "0x4c16f69302ccb511c5fac682c7626b9ef0dc126a"
+          ]
+        }
+      },
+      {
+        "id": 2652,
+        "projectName": "BitGrail",
+        "description": "<p><strong>Quick Summary</strong></p><p>The BitGrail Operator may have hacked own crypto exchange to steal 120,000,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exchange was attacked by hackers in January-February 2018, as a result, 17 million Nano (NANO) tokens were stolen, worth between $146 million. Italian police have alleged a 34-year-old man from Florence, known as FF, is thought to be behind the theft from the exchange, which saw the company collapse into bankruptcy with significant losses for its users.<br><br>230,000 account holders at BitGrail were affected in the attack, which honed in on the platform’s reserves of Nano cryptocurrency. FF is thought to have been responsible, or to have taken no action to prevent the attack and the losses which resulted from it.</p>",
+        "date": "2018-02-10",
+        "fundsLost": "146000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2653,
+        "projectName": "PolyHomerToken",
+        "description": null,
+        "date": "2021-09-27",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HOMER",
+          "addresses": [
+            "0xeb9126d215f8c87b7dd864b3011fbb46260bcbe6"
+          ]
+        }
+      },
+      {
+        "id": 2654,
+        "projectName": "PolyMountain",
+        "description": null,
+        "date": "2021-09-27",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PMT",
+          "addresses": [
+            "0x78aa8f4c712d2be19e75472737e5e0d9ca43763e"
+          ]
+        }
+      },
+      {
+        "id": 2655,
+        "projectName": "MagicToken",
+        "description": null,
+        "date": "2021-09-28",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          4
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MAGIC",
+          "addresses": [
+            "0x454329a3a3f7e2b98c47fd0392e863dc6f51567f"
+          ]
+        }
+      },
+      {
+        "id": 2656,
+        "projectName": "PolyGladiatorToken",
+        "description": null,
+        "date": "2021-09-29",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GLAD",
+          "addresses": [
+            "https://polygonscan.com/token/0x1193b7059d65873efd8f781d77c60f1b81fe2ab2?a=0xbbeff55ee72fea0799e3fc26ec1537834c90b466"
+          ]
+        }
+      },
+      {
+        "id": 2657,
+        "projectName": "ApeRocket",
+        "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x53d07afa123702469ab6cf286e9ff7033a7eff65<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0x701a308fba23f9b328d2cdb6c7b245f6c3063a510e0d5bc21d2477c9084f93e0<br><br>The attacker:<br>- borrowed 1.6M CAKE ($21.8M) of flash loan from PancakeSwap<br><br>- added 509K CAKE of deposit to the CAKE vault. Got the majority share (99.5%) of the vault<br><br>- sent 1.1M CAKE to the CAKE vault contract<br><br>- called <u>harvest</u>() and <u>getReward</u>() on the CAKE vault<br><br>- with the rather large amount of CAKE token in the wallet balance of the vault contract (sent by the hacker at step 3), it returned a large amount of profit. As a result, the system minted 508K SAPCE as a reward to the attacker<br><br>- repeated one more time<br><br>- swapped the rewarded SPACE token to CAKE, repaid the flash loan<br><br>- taken out 883 BNB.<br><br>By delivering a large number of CAKE tokens to the vault and calling harvest(), the profit amount for everyone in the vault is increased. Despite the fact that the hacker owns the bulk of the vault, virtually all of the earnings will be returned to the hacker.</p>",
+        "date": "2021-07-14",
+        "fundsLost": "260000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Stablecoin",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "SPACE",
+          "addresses": [
+            "0xe486a69e432fdc29622bf00315f6b34c99b45e80"
+          ]
+        }
+      },
+      {
+        "id": 2658,
+        "projectName": "ApeRocket",
+        "description": "<p>The attacker's address:<br>https://polygonscan.com/address/0xfabd1c2f4f16f2f6e2007abbed5549c84d82c19d<br><br>The transaction behind the attack:<br>https://polygonscan.com/tx/0x377fb92f6e04db4bf5a0917a79d171ce27b28deaa23594b7fc498dd080cf9d35<br><br>The attacker:<br>- borrowed 24M DAI and 54M MATIC of flash loans from Aave<br><br>- created 25M DAIMATIC LP<br><br>- deposited 10M LP to the DAI-MATIC LP vault. Got the majority share (99%) of the vault<br><br>- deposited 15M LP from the MiniApeV2 contract of ApeSwap to the DAI-MATIC LP vault of ApeRocket<br><br>- called <u>withdrawAll</u>() on the vault<br><br>- with the rather large amount of LP token added (deposited from ApeSwap’s MasterChef) by the attacker at step 3, it returned a large amount of profit. As a result, the system minted 2.5M pSAPCE as a reward to the attacker<br><br>- swapped the rewarded pSPACE token to ETH, repaid the flash loan<br><br>- taken out 521 ETH.<br><br>The <u>deposit</u>() function of ApeSwap Polygon's MiniApeV2 (a fork of SushiSwap's MiniChefV2) allows deposits to any address, which is not possible for a regular MasterChef v1, allowing the profit amount for everyone in the vault to be increased.</p><p><br></p><p>Even if the attacker owns the bulk of the vault, virtually all of the profit will be returned to the attacker.</p>",
+        "date": "2021-07-14",
+        "fundsLost": "1000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "pSPACE",
+          "addresses": [
+            "0xd016caae879c42cb0d74bb1a265021bf980a7e96"
+          ]
+        }
+      },
+      {
+        "id": 2659,
+        "projectName": "PancakeHunny",
+        "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x0ef50be29c82ecf2158ec1886dc6692a2b0db411<br><br>The attacker:<br>- WBNB was swapped to CAKE at PancakeSwap</p><p>- sent CAKE to the HUNNY Minter contract</p><p>- staked on CAKE-BNB Hive in PancakeHunny</p><p>- HUNNY Minter was “tricked” to mint more HUNNY tokens, namely:<br>using all the wallet balance to make HUNNYBNB LP, and then uses it to calculate the profit hunnyBnbAmount, which can be easily tampered with by just sending the tokens to the minter contract<br><br>- the attacker then un-staked from CAKE-BNB Hive to receive the HUNNY tokens from the Minter<br><br>- the attacker then sold the HUNNY tokens on PancakeSwap<br><br>Stolen funds were transferred to the external address and deposited to the Binance exchange wallet at:<br>https://bscscan.com/tx/0xcc88d376224077f60ff7bcce62c6f077f14d0679d5fdd5bfde5934070a1b8324<br>https://bscscan.com/tx/0xba23b86d685aa04e8bb949fd5dc56710e68660f277364e27e2e113ffae62a215<br>https://bscscan.com/tx/0x4c93ae86c739cf76b7505846fb9c108d8852ccab94b26433f18f4fda5279dac8<br>https://bscscan.com/tx/0xe8f8d0e388bc099a9ccee842759c4fdb2cac2ea3142c28d29e65407678dc3fab</p>",
+        "date": "2021-06-03",
+        "fundsLost": "112187",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "HUNNY",
+          "addresses": [
+            "0x565b72163f17849832a692a3c5928cc502f46d69"
+          ]
+        }
+      },
+      {
+        "id": 2660,
+        "projectName": "ChocSwap.finance",
+        "description": null,
+        "date": "2021-09-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CHOC",
+          "addresses": [
+            "0x9da9dc22c7b7d1d38a01ee074ed46a8e10e129ad"
+          ]
+        }
+      },
+      {
+        "id": 2661,
+        "projectName": "cArbFarm",
+        "description": null,
+        "date": "2021-09-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CARB",
+          "addresses": [
+            "0x04665a677cee01ed7aad5f93367b26e1edb12d58"
+          ]
+        }
+      },
+      {
+        "id": 2663,
+        "projectName": "Compound Labs",
+        "description": "<p><strong>Quick Summary</strong></p><p>Compound's new proposal caused a loss of 237,000 $COMP tokens due to the smart contract issue</p><p><br><strong>Details of the Exploit</strong><br>Compound's governance Proposal 62 changed the distribution in the Comptroller contract to liquidity suppliers and borrowers from a previous 50:50 split to new governance proposed ratios:<br>https://compound.finance/governance/proposals/62<br><br>However, the Comptroller contract contains a bug, causing some users to receive too much COMP. The Comptroller received tokens for distribution from the Reservoir contract at:<br>https://etherscan.io/tx/0xe76167796646eb447cf53a72f1b912ad5028e64f8c8129b1a3fb71c1379f2322<br><br>84,000,000 in $COMP tokens are at risk<br><br>Approximately 237,000 $COMP tokens are already distributed between different addresses and can be calculated as a loss at the current moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The examples of transactions that trigger the bug:<br>https://etherscan.io/tx/0xc9244e5349f49f3b74a54a882e71f1ca11ba14ed74f73bf2cd091ed8be2b0001<br>https://etherscan.io/tx/0xbc246c878326f2c128462d08a0b74048b1dbee733adde8863f569c949c06422a<br>https://etherscan.io/tx/0xd77300cd5f10d835d60aa7560ab6a140887e6f84cc76b7911e83a46293492f94<br>https://etherscan.io/tx/0xc9244e5349f49f3b74a54a882e71f1ca11ba14ed74f73bf2cd091ed8be2b0001<br>https://etherscan.io/tx/0x0fefe4a123e9137e7725e07166ddd0e29e8e4a2e3f71d788c6edec6bf13b45c1<br>https://etherscan.io/tx/0xf3731f0e45a2a14fa93345453f10c793b29b707a92cb50d05a7ec5a4d280a973<br>https://etherscan.io/tx/0xb6d5122afe04a9905adc5de7f708cabc5821e65fb7d6f0bfd571d35b1ddab7f2<br>https://etherscan.io/tx/0xf4bfef1655f2092cf062c008153a5be66069b2b1fedcacbf4037c1f3cc8a9f45<br>https://etherscan.io/tx/0xee318650ae8bcf83517e77e8654d40201990080fcb888087f737aea28e70bdb1</p><p><br></p><p>Comptroller contract:<br>https://etherscan.io/address/0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b<br><br>Reservoir contract:<br>https://etherscan.io/address/0x2775b1c75658be0f640272ccb8c72ac986009e38<br><br>List of addresses, which claimed a huge amount of tokens:<br>https://twitter.com/0xngmi/status/1443442885618278407</p><p><br></p>",
+        "date": "2021-09-30",
+        "fundsLost": "71101556",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "COMP",
+          "addresses": [
+            "0xc00e94cb662c3520282e6f5717214004a7f26888"
+          ]
+        }
+      },
+      {
+        "id": 2665,
+        "projectName": "Hallowenswap",
+        "description": null,
+        "date": "2021-10-01",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Hallo",
+          "addresses": [
+            "0x15F203e0bf4F86f9C3b4a35be5433F2F9DaF2188"
+          ]
+        }
+      },
+      {
+        "id": 2668,
+        "projectName": "PolarBearToken",
+        "description": null,
+        "date": "2021-10-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PBT",
+          "addresses": [
+            "0xa2eb9e826d66d8399ad4b75d01da8f30ae29ef8b"
+          ]
+        }
+      },
+      {
+        "id": 2669,
+        "projectName": "Symmetry.Markets",
+        "description": null,
+        "date": "2021-10-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Symmetry",
+          "addresses": [
+            "0x67b537Abe7187e357D67593aa7a46806D0275389"
+          ]
+        }
+      },
+      {
+        "id": 2670,
+        "projectName": "PolyRainbowToken",
+        "description": null,
+        "date": "2021-10-07",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RNBW",
+          "addresses": [
+            "0xf093b0e654ec92bf0c2abc0d94e4a7e673fd03d4"
+          ]
+        }
+      }
+    ]
+  }
+}

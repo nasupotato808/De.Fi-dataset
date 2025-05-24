@@ -1,0 +1,949 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 3261,
+        "projectName": "MooCakeCTX",
+        "description": "<p><strong>Quick Summary</strong></p><p>MooCakeCTX was exploited via a flash loan attack. The attacker's profit reached 122,960 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MooCakeCTX is a yield protocol on the Binance Chain. The protocol supports $CAKE deposits for $mooCakeCTX. The attacker took 400,000 $BUSD as a flash loan and exploited the protocol's smart contract for 424 $BNB. The attacker's malicious smart contract bypassed isContract() function check by performing actions on the constructor and got rewards as $mooCakeCTX tokens after depositing $CAKE tokens. The flash loan was paid back after repeating previous actions multiple times and the exploiter took a profit of 424 $BNB. All the stolen funds were transferred to several EOA addresses in 4 transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x35700c4a7bd65048f01d6675f09d15771c0facd5</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x71ac864f9388ebd8e55a3cdbc501d79c3810467c</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x03d363462519029cf9a544d44046cad0c7e64c5fb1f2adf5dd5438a9a0d2ec8e</p><p><br></p><p>Funds transfer transactions:</p><p>https://bscscan.com/tx/0x963d1ff2fbb277376fb8a878e0275b63d861c0479a83ed2a3cf57573439cad6a</p><p>https://bscscan.com/tx/0x602c2220e4fa84cae5db564e08569327eeeb5de46d51f8033d2315f62787ba45</p><p>https://bscscan.com/tx/0x44922e9682f461cc669e3e72e4b9ff6202a49016920566625af15519f39ec913</p><p>https://bscscan.com/tx/0x58096e41e89f795bb409eebf9c28a2ee8b7025b6f6823a448421bbab74cca119</p>",
+        "date": "2022-11-06",
+        "fundsLost": "122960",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token,Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "MooCakeCTX",
+          "addresses": [
+            "0x489afbaed0ea796712c9a6d366c16ca3876d8184"
+          ]
+        }
+      },
+      {
+        "id": 3262,
+        "projectName": "Pando",
+        "description": "<p><strong>Quick Summary</strong></p><p>Pando Network was used to steal 18,577,305 $USD in $ETH and $BTC. It seems like the hacker compromised the private key of the project's wallets on both chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Pando is a decentralized network based on MTG technology. The project was exploited to steal 5128 $ETH and 11,107,488 in stablecoins from the Ethereum chain, and 83.5 $BTC from the Bitcoin chain. It seems like the hacker compromised the private keys of the wallets, as stealing transactions were just direct transfers. The stolen funds remain at the attacker's original addresses at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0xd3f04cE2d37b182432e2f804F9913a02071CEa54</p><p>https://www.blockchain.com/btc/address/bc1qjnsx0sdxksh4w2azwu5ngr8sax46vcu52ljfcx</p>",
+        "date": "2022-11-05",
+        "fundsLost": "18577305",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xbea134b1920311f241416ba3bc6ebac277724d8a",
+            "bc1q93nlc94txeqakkgude7wtl7t7a0gq5fjj07vzp"
+          ]
+        }
+      },
+      {
+        "id": 3263,
+        "projectName": "DFX Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>DFX Finance was exploited due to a flashloan vulnerability. The attacker siphoned off 4,445,279 $USD worth of assets, and an MEV bot was able to frontrun the hacker for the additional 3,200,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DFX Finance is a trading protocol providing flash loans. The attacker drained 4,445,279 $USD worth of assets in various tokens and transferred 2962 $ETH through Tornado Cash. 545,312 $USD worth of $CADC stays at the attacker's address, and 135,265 $USD worth of $TRYb remains at the malicious contract used for an attack. The malicious actor exploited a known smart contract vulnerability that allows passing the balance check after a flashloan and gives approval of tokens to the attacker. The MEV bot was able to frontrun the hacker during token transfers for an additional 3,200,000 $USD in $USDC, $NZDS, $CADC, and $GYEN tokens. The DFX team claims that they are contacting the MEV bot owners to return the lost funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x14c19962e4a899f29b3dd9ff52ebfb5e4cb9a067</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x6cfa86a352339e766ff1ca119c8c40824f41f22d</p><p><br></p><p>MEV bot:</p><p>https://etherscan.io/address/0xfde0d1575ed8e06fbf36256bcdfa1f359281455a</p><p><br></p><p>Malicious transactions list:</p><p>https://etherscan.io/txs?a=0x6cfa86a352339e766ff1ca119c8c40824f41f22d</p>",
+        "date": "2022-11-10",
+        "fundsLost": "7645284",
+        "fundsReturned": "204800",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "DFX-XIDR-v2",
+          "addresses": [
+            "0x46161158b1947d9149e066d6d31af1283b2d377c"
+          ]
+        }
+      },
+      {
+        "id": 3264,
+        "projectName": "Silk Road",
+        "description": "<p><strong>Quick Summary</strong></p><p>Silk Road dark web market was exploited on 19 September 2012. 50,676 $BTC was seized from James Zhong by the U.S. Government after pleading a fraud.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Silk Road was an anonymous market running on the darknet since 2011 until the FBI shut down the website in 2013 and arrested Ross Ulbricht. The website was exploited by James Zhong for approximately 53,500 $BTC. Then the funds were distributed between multiple addresses and part of them were swapped to $BCH.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://www.blockchain.com/btc/address/1DwCny29uDhpmd8Mz4hKudwmrSGBdUvrtL</p><p>https://www.blockchain.com/btc/address/12hkgmdqps76Bp3e466c2DTGDfg8tKRGLM</p><p>https://www.blockchain.com/btc/address/1P1ik9HkCNSs7Zmgc3LzEN72X1Egwm9Chb</p>",
+        "date": "2012-09-19",
+        "fundsLost": "3360000000",
+        "fundsReturned": "3360000000",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3265,
+        "projectName": "FTX Group",
+        "description": "<p><strong>Quick Summary</strong></p><p>FTX crypto exchange, Alameda Research trading company, and 130 other affiliated companies declared bankruptcy. Lost funds are valued at an estimated 1,000,000,000 to 2,000,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sam Bankman-Fried announced the bankruptcy of his two companies: FTX and Alameda Research. The accident begins with the research revealing Alameda Research's collateral was dominated by FTX's native token $FTT. For being concrete about the collateral, Alameda had 14,600,000,000 $USD worth of assets in total, where 3,660,000,000 $USD was free $FTT tokens, and 2,160,000,000 $USD in \"FTT collateral\". There were also major amounts of $SOL and $SRM tokens. Mr. Bankman-Fried was an early investor in the Solana chain and the co-founder of the Serum exchange.</p><p>It sparked a run on FTX, with panicked customers withdrawing billions of dollars from the exchange. $FTT token crashed by more than 95% in 24 hours. $SOL was also affected by the accident and by the recent on-chain activity that 49,000,000 $SOL tokens were withdrawn from the staking which caused the token price to drop by approximately 60%. FTX halted withdrawals on the exchange and declared bankruptcy. Because FTX was a major player in the crypto industry, other crypto projects that relied on the exchange were reporting fund losses one by one at the time.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p><p>https://bscscan.com/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p>",
+        "date": "2022-11-11",
+        "fundsLost": "1000000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi,Other",
+        "issueType": "Other",
+        "token": {
+          "name": "FTT",
+          "addresses": [
+            "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3"
+          ]
+        }
+      },
+      {
+        "id": 3266,
+        "projectName": "Skyward Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Skyward Finance was exploited via smart contract vulnerability. Funds loss reached approximately 3,000,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Skyward Finance is a decentralized exchange. The project's treasury was exploited on the NEAR chain. The attacker called redeem_skyward() function multiple times and transferred the funds to another address after an incident. The funds loss is roughly 3,000,000 $USD.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://explorer.near.org/accounts/5ebc5ecca14a44175464d0e6a7d3b2a6890229cd5f19cfb29ce8b1651fd58d39</p><p><br></p><p>Malicious transaction:</p><p>https://explorer.near.org/transactions/92Gq7zehKPwSSnpoZ7LGGtSmgmBb4wP2XNDVJqUZRGqz</p>",
+        "date": "2022-11-01",
+        "fundsLost": "3000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Exchange (DEX),Token",
+        "issueType": "Other",
+        "token": {
+          "name": "SKYWARD",
+          "addresses": [
+            "token.skyward.near"
+          ]
+        }
+      },
+      {
+        "id": 3267,
+        "projectName": "Gate.io",
+        "description": "<p><strong>Quick Summary</strong></p><p>Gate.io crypto exchange's cold wallets were exploited via access control. The previous hacker address on the 2015 exploit was involved in this one too. The stolen amount reached roughly 230,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Gate.io is a centralized crypto exchange. The exchange's cold wallet's private keys were compromised. There is an address involved in the previous 14 February 2015 hack. The total stolen funds were valued at 234,337,668 $USD at the moment of the accident, which contains 10,777 $BTC, 218,790 $ETH, 175,866 $ETC, 3,043,268 $XRP, 11,000 $LTC, 3,783 $ZEC, and 99,999,000 $DOGE.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Compromised address:</p><p>https://www.blockchain.com/btc/address/1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e</p><p><br></p><p>Major transactions:</p><p>https://www.blockchain.com/btc/tx/086f9d27f574c7a1b9179fc7524c2a5227a095ca7c3b096d93ed6fbf8e92af16</p><p>https://www.blockchain.com/btc/tx/d08acac36311373f81f45179de3aa72174cb665122eb2aadefc74738fc6cbcd5</p>",
+        "date": "2018-04-21",
+        "fundsLost": "230000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": "GT",
+          "addresses": [
+            "1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e"
+          ]
+        }
+      },
+      {
+        "id": 3268,
+        "projectName": "Gate.io",
+        "description": "<p><strong>Quick Summary</strong></p><p>Gate.io, a crypto exchange also known as BTER in the past, has been exploited through private key compromise. The hacker drained 7,170 $BTC from the exchange's cold wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Gate.io centralized crypto exchange's wallet's private keys were compromised. The hacker transferred roughly 1,750,000 $USD worth of 7,170 $BTC from the exchange's cold wallet in a single transaction.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://www.blockchain.com/btc/address/18ywz63JuUjsQ9kWyKs48dnRd2w1Hix7FY</p><p><br></p><p>Malicious transaction:</p><p>https://www.blockchain.com/btc/tx/f5b0363f03e1ed8bb812c135361ea93590c831ce9f13a3750be1b93575baccc6</p>",
+        "date": "2015-02-14",
+        "fundsLost": "1750000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": "GT",
+          "addresses": [
+            "1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e"
+          ]
+        }
+      },
+      {
+        "id": 3269,
+        "projectName": "Fair Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Fair Token was rugpulled by the deployer-related address. 428,872 $USD was drained from the liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Fair is a BEP20 token trading on PancakeSwap. The token deployer sent 180,000,000 $Fair tokens to an EOA address. Which received additional 52,000,000 $Fair tokens from other addresses and drained the liquidity from the pool. The scammer was able to siphon 428,872 $USD in total. All the stolen funds remain at the scammer's address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x224bc6579c62d003a3353dc4a41a5d79b039be6c</p><p>https://bscscan.com/address/0x7972aba9f0236ded31b193729b636bac5581b6d6</p><p>https://bscscan.com/address/0x79203eaf041b39327bb7f06e7380cba7ac4647a3</p><p><br></p><p>Token transfer transaction:</p><p>https://bscscan.com/tx/0x659eddc54f8e74b383aa58bf6b6d5c7ab8cf49320c62c104d0b9d6e5b4067f60</p>",
+        "date": "2022-11-10",
+        "fundsLost": "428872",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Fair",
+          "addresses": [
+            "0xC5C24Cb9177A130128Fb15b0B0a74a502974F379",
+            "0x2Ef3d5FAf2bb625F0a6a44BF7d6A422fc43202F9"
+          ]
+        }
+      },
+      {
+        "id": 3270,
+        "projectName": "DeFi WZ Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>DeFi WZ Token was rugpulled for 207,620 $USD. The deployer-related EOA address removed liquidity and transferred the funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DeFi WZ is a BEP20 token trading on PancakeSwap. The token deployer-related EOA address removed liquidity for 44,822 $USD. Consequently, the swapped 2648 $DEFIWZ tokens for 162,797 $USD in one transaction. All the stolen amount was transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x8a8072bae4e1954eef33b36421cf73167ef86629</p><p>https://bscscan.com/address/0x5c469dc53ff2e51d84f162431b2f95c9194f9dcd</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x547d0921364e91402adf971b845cb590805cdc039751368380b0f49fa62ac139</p><p><br></p><p>Token swap transaction:</p><p>https://bscscan.com/tx/0x4f8df80306f2b31d6e07b70717a3d15bb16fa6cb6e5eef0a56138674bf4d49fc</p><p><br></p><p>Funds transfer transaction:</p><p>https://bscscan.com/tx/0xbd6d0ba6d39638687daf8566e5131ea73a42ae7a134c87fe67a84ca753c3b666</p>",
+        "date": "2022-11-07",
+        "fundsLost": "207620",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DEFIWZ",
+          "addresses": [
+            "0x418Db510B4f1CF33565C459cfB6D838bbbbFf8F9",
+            "0x851E41C8632CDFf3af8eB2b7fefA8e2ed70d34Ff"
+          ]
+        }
+      },
+      {
+        "id": 3271,
+        "projectName": "Abracadabra Money",
+        "description": "<p><strong>Quick Summary</strong></p><p>Abracadabra Money was exploited via the oracle issue. The attacker used temporarily $MIM depegging and profited for 110,911 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Abracadabra.Money is a decentralized protocol providing staking, lending, and borrowing opportunities. The protocol's lending pool was exploited via the oracle issue. Temporarily depegging of $MIM stablecoin allowed the attacker to withdraw 110,911 $MIM tokens at nearly zero cost using a deployed smart contract with unverified source code. All the stolen funds were transferred through Tornado Cash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xb7ea0f0f8c6df7a61bf024db21bbe85ac5688005</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x3d163bfbec5686d428a6d43e45e2626a220cc4fcfac7620c620b82c1f2537c78</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x8c761066bc6c20e9c65ece9972a9eb6ed511fd4d</p>",
+        "date": "2022-11-08",
+        "fundsLost": "110911",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX),Stablecoin,Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": "MIM",
+          "addresses": [
+            "0xf5bce5077908a1b7370b9ae04adc565ebd643966"
+          ]
+        }
+      },
+      {
+        "id": 3272,
+        "projectName": "Brahma Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Brahma protocol was exploited due to the smart contract vulnerability. The attacker drained user funds for 89,522 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Brahma Finance is a crosschain yield and hedge protocol. The project's Zapper contract was exploited via smart contract vulnerability. The attacker used the deployed unverified smart contract to exploit the logic of the Zapper contract to drain $USDC from three users. The stolen amount of 89,522 $USDC was swapped to $DAI and remains at the attacker's original address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x6fa00a7324dc293ea8ecf56fe3143104494c4213</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xeaef2831d4d6bca04e4e9035613be637ae3b0034977673c1c2f10903926f29c0</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x60032a41726241499b0c626c836c9099cb895c05#code</p><p><br></p><p>Swap transaction:</p><p>https://etherscan.io/tx/0x4249331dd223230b701331a4ee36ec4bb37032435da51ec53368bc1d224181a0</p>",
+        "date": "2022-11-09",
+        "fundsLost": "89522",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX),Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "brahTOPG",
+          "addresses": [
+            "0xd248b30a3207a766d318c7a87f5cf334a439446d"
+          ]
+        }
+      },
+      {
+        "id": 3273,
+        "projectName": "DeFi Safe",
+        "description": "<p><strong>Quick Summary</strong></p><p>DeFi Safe token was rugpulled by the token owner a week after the deployment. The scammer removed 127,421 $BUSD from the liquidity pool.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DeFi Safe token is a BEP20 token trading on PancakeSwap. The token deployer removed liquidity in the single transaction and gained 127,421 $BUSD. The $dSafe token was created on November 1 and scammed after seven days. All the stolen funds were distributed among several EOA addresses.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xdd20cfffb480c9c3709fcce070ce8da6024645e1</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x7e2654c9424086f327fc6f6a90d1194cd3f14b5b7efb35e0450ef5ff206db17f</p>",
+        "date": "2022-11-07",
+        "fundsLost": "127426",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "dSafe",
+          "addresses": [
+            "0x761776f726168c9dF6dC63d5864880801E21F403",
+            "0xDd7eC39E17060EE5CfD00cC0f47F2a0799fda777"
+          ]
+        }
+      },
+      {
+        "id": 3274,
+        "projectName": "Lottery Swap",
+        "description": "<p><strong>Quick Summary</strong></p><p>Lottery Swap was rugpulled by the initial token holder. The scammer drained 82,646 $USD from the liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Lottery Swap is a BEP20 token trading on PancakeSwap. The token deployer sent $LOTTO token to the multiple EOA addresses in the single transaction. Then one of the receivers drained the liquidity from PancakePool and gained 82,646 $USD. 40,000 $USD from the stolen funds were transferred to another EOA address, and the rest was used to add liquidity to the pool again.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x0812f45267784e74e87d5006e192f0942fd248a4</p><p><br></p><p>Token distribution transaction:</p><p>https://bscscan.com/tx/0x94432e289ecb202d942e9578f3d547eb42d4b7de8299b7a418e736ce1fccb4fc</p><p><br></p><p>Token transfer transaction:</p><p>https://bscscan.com/tx/0xc31da3121ea5172fbf8c28e15ee6736acc678906d42f9448a2a7d5044d3a794a</p>",
+        "date": "2022-11-07",
+        "fundsLost": "40000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LOTTO",
+          "addresses": [
+            "0x605cFB514a2845902e17ed3c9416bD461e3f2E1B",
+            "0xb3693a38C364FdD572d2DED163eAB569eB30a4E7"
+          ]
+        }
+      },
+      {
+        "id": 3275,
+        "projectName": "King Tribe",
+        "description": "<p><strong>Quick Summary</strong></p><p>King Tribe was rugpulled by the token deployer-related EOA addresses. The total drained amount reached 997,086 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>KingTribe is NFT and a BEP20 token on the Binance chain. The $KTB token price dropped by more than 95% after several EOA addresses drained the liquidity from the PancakeSwap pool. The scammers received $KTB tokens from the token deployer. All the stolen amount was collected to a certain EOA address which sent the funds to an address labeled \"mexc.com\". The total stolen amount reached 997,086 $USD and the last transfer happened on November 18.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x2015ca29bd0ab4adead28e08a9fa0aa3dffd202d</p><p>https://bscscan.com/address/0xca13add78bd66f9e5e52612d81fb1d78f3a4cbce</p><p>https://bscscan.com/address/0x87b89a7ed1cf3ca8a491788ccf98fa68ff2ba72d</p><p>https://bscscan.com/address/0x9b629e1a662be030fafb3cb18e0e4a0b51b798ff</p><p><br></p><p>Address collected the funds:</p><p>https://bscscan.com/address/0x36e39ce87d1a60507143acf6c04d798bf9a2814b</p><p><br></p><p>Final destination address:</p><p>https://bscscan.com/address/0x4982085c9e2f89f2ecb8131eca71afad896e89cb</p><p><br></p><p>Token distribution transactions:</p><p>https://bscscan.com/tx/0x9f45aa5e1e2f025de6d69bc06125f575acd2826052c1cc81f863f8b103242863</p><p>https://bscscan.com/tx/0x0999d3b1019afc4f9cbded399dd576f4cda8e09b6194bc4a1885f680a9619fe2</p><p>https://bscscan.com/tx/0x87762d7bc077e84490eea8e5a5e219ec7f7a78578183e961c1d6e6896070b342</p>",
+        "date": "2022-11-06",
+        "fundsLost": "997086",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token,NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KTB",
+          "addresses": [
+            "0x7696c8BCF00D42C2A93a3750D13B80D6A61B45F5",
+            "0x3225B653545318bFd0A347dfe2B5CECF8DFD05DB"
+          ]
+        }
+      },
+      {
+        "id": 3276,
+        "projectName": "SCAT",
+        "description": "<p><strong>Quick Summary</strong></p><p>SCAT copycat project was rugpulled. An EOA address received $SCAT tokens from the token deployer and drained liquidity for 26,081 $USD .</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SCAT is a copycat BEP20 token and can't be confused with other tokens with the same name and symbol. The token was rugpulled by the EOA address which received 100,000,000,000 $SCAT tokens from the token deployer. 26,081 $USD was stolen from the PancakeSwap liquidity pool and transferred through TransitSwap.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xc96d3505203641749ade6a2e62ce21d4ff43e8f6</p><p>https://bscscan.com/address/0xb0f6da6732a5f2dcd8fee016f2554b4a3670b4a4</p><p><br></p><p>Funds transfer transaction:</p><p>https://bscscan.com/tx/0x6e7888d9a3ed8a18a1e1f1b892cc13f776573e6108b7ca3b7601b77e79da1af1</p><p><br></p><p>Token transfer transactions:</p><p>https://bscscan.com/tx/0x95ce806fa05334b53174a130b8492e8236f7177993c93b20995f332ac027bf4b</p><p>https://bscscan.com/tx/0x932f66e7eeaaecf78566e2584827716814e1190a607f2fd5feb692d516e2c68d</p>",
+        "date": "2022-11-10",
+        "fundsLost": "26081",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SCAT",
+          "addresses": [
+            "0x22a681b2b57050Ab42cb4a426d56A733c6ca859A",
+            "0xc75F5c15b2373DC86BbfFc3FCd213Dced58E4B00"
+          ]
+        }
+      },
+      {
+        "id": 3277,
+        "projectName": "Trust Bridge",
+        "description": "<p><strong>Quick Summary</strong></p><p>Trust Bridge token was rugpulled by the token deployer. Liquidity removal caused a loss of 120,083 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Trust Bridge is a BEP20 token trading on PancakeSwap. The token deployer created a pool with 5,000,000 $TWB tokens and 20,009 $BUSD on 15 November. On 20 November all the provided liquidity was removed for 140,092 $BUSD. All the stolen funds were transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x4f515c945216efe889fd29eb79d6136cc4c99b91</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0xdfc47840433a1e44910b6898950baa252eab5d53bece1ab14c051b71f84fb7a8</p>",
+        "date": "2022-11-20",
+        "fundsLost": "120083",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TWB",
+          "addresses": [
+            "0x737F5942D70f8F433d65823535e7Ae1DE1950d8e",
+            "0x77b1173E3Dc3e73306a6f15e9c7e830B0F20E59A"
+          ]
+        }
+      },
+      {
+        "id": 3278,
+        "projectName": "Safuu Protocol",
+        "description": "<p><strong>Quick Summary</strong></p><p>Safuu Protocol was rugpulled by the project-related EOA address. 6,000,000 $USD worth of $SAFUU tokens were swapped to $BUSD and transferred to another EOA address.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Safuu Protocol is a Yield Aggregator providing compounding opportunities. The project-related EOA addresses labeled \"Safuu: Auto Liquidity\" and \"Safuu: Insurance Fund\" started transferring $SAFUU tokens to \"Safuu: Treasury\" address on 21 November. The transferred tokens were swapped to $BUSD and sent to an EOA address. 6,073,084 $BUSD was accumulated in the Treasury address. Consequently, 5,030,437 $BUSD was already transferred to an EOA address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xa9c6d0cc785569b450393a69599e97faed5d9dd9</p><p><br></p><p>Funds transfer transactions:</p><p>https://bscscan.com/tx/0x16f570b1bf00fffc886a9e59bd93ebe40abaee0d4d7d9217fbea582c8050073b</p><p>https://bscscan.com/tx/0xa280cbb3c830e9fde51b7c4e56d20fb795030dd9a4c8f9dc410e8fe59a367f42</p><p>https://bscscan.com/tx/0x32b6f1b40b5a90e7566be853c3e9d0222b0ce090b6a0a33a60ff9c041004b1b8</p><p>https://bscscan.com/tx/0x31d8200f47b44be79437d7b14467d9703d751ded204a97432c56cb3f00cd51ab</p><p>https://bscscan.com/tx/0x20e8b6b344ffb635e0961a5312512dbef70cb45cfaa2eb990a71989d9755f884</p><p>https://bscscan.com/tx/0x791272edbf61a70bbe034596fca821736b9614a5bf1cafd8ad1dc85f66b1f7f3</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0xe964e707321aa626fce933bc6c30ad2bbc8bac99</p>",
+        "date": "2022-11-21",
+        "fundsLost": "6073083",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SAFUU",
+          "addresses": [
+            "0xE5bA47fD94CB645ba4119222e34fB33F59C7CD90",
+            "0xf5D9b8947b11DdF5eE33374cC2865E775EBE00Dc",
+            "0xa9c6d0cc785569b450393a69599e97faed5d9dd9",
+            "0x5562640b953b6c2f79a655e930afa68b2a65c627",
+            "0x082d0fbca3d80b2d4a05e20bfc227523be8efef3"
+          ]
+        }
+      },
+      {
+        "id": 3280,
+        "projectName": "Genesis",
+        "description": "<p><strong>Quick Summary</strong></p><p>Genesis crypto trading platform has 2,800,000,000 $USD in outstanding loans on a balance sheet. The firm revealed it had about 175,000,000 $USD in its FTX account, and withdrawals were halted on the platform due to the situation on the market.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Genesis is a platform for trading, derivatives, and lending. Genesis is a counterparty to many in the digital asset space and is closely watched as a gauge of the industry's strength. It's among the lenders that suffered from the prolonged crypto fall. The company has 2,800,000,000 $USD in outstanding loans. On 10 November the company revealed it had roughly 175,000,000 $USD worth of funds stuck in an FTX trading account. On 16 November withdrawals were halted on the platform, due to \"unprecedented market turmoil\" after the FTX collapse. On 22 November the spokesman for Genesis said they are aiming to resolve the situation without filing for bankruptcy.</p>",
+        "date": "2022-11-21",
+        "fundsLost": "2800000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi,Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3281,
+        "projectName": "Sheep Farm",
+        "description": "<p><strong>Quick Summary</strong></p><p>Sheep Farm on-chain gaming dapp was exploited due to smart contract vulnerability. 91,320 $USD worth of $BNB was stolen from the project.</p><p><br></p><p><strong>Details of the Blockchain</strong></p><p>Sheep Farm is a GameFi dapp on the Binance chain. The project was exploited due to smart contract vulnerability, which allowed the attacker to register multiple times and increase the amount of owned gems using a deployed smart contract with unverified source code. 309 $BNB was stolen from the project's smart contract, which is valued at 91,320 $USD at the moment. All the stolen funds were transferred through TornadoCash.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2131c67ed7b6aa01b7aa308c71991ef5baedd049</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xf2db8665d82e1a23895ed78b213d36d62eec6bbc</p><p><br></p><p>Malicious transaction example:</p><p>https://bscscan.com/tx/0x8b3e0e3ea04829f941ca24c85032c3b4aeb1f8b1b278262901c2c5847dc72f1c</p>",
+        "date": "2022-11-15",
+        "fundsLost": "91320",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x4726010da871f4b57b5031e3ea48bde961f122aa"
+          ]
+        }
+      },
+      {
+        "id": 3282,
+        "projectName": "BlockFi",
+        "description": "<p><strong>Quick Summary</strong></p><p>BlockFi filed for bankruptcy as FTX collapse grips crypto markets. The company filed a lawsuit against Emergent Fidelity Technologies which Sam Bankman Fried owns. The lending platform has 1,000,000,000 $USD in liabilities as a minimum.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BlockFi is a crypto lending platform, that provides lending opportunities using crypto assets as collateral. The platform halted withdrawals on November 11, the day when FTX filed for bankruptcy, citing \"significant exposure\" to the FTX exchange and Alameda Research hedge fund as well. The company filed for Chapter 11 and a lawsuit against Bankman Fried's Emergent Fidelity Technologies, demanding they turn over collateral that BlockFi claims is owed. BlockFi estimates it has between 1,000,000,000 $USD and 10,000,000,000 $USD in liabilities, according to the filing. The company owed money to more than 100,000 creditors, and the largest one is Ankura Trust which is owed roughly 729,000,000 $USD.</p>",
+        "date": "2022-11-28",
+        "fundsLost": "1000000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3283,
+        "projectName": "Voyager",
+        "description": "<p><strong>Quick Summary</strong></p><p>Voyager crypto platform filed for bankruptcy, revealing it had more than 1,000,000,000 $USD in liabilities. The Voyager stock price dropped over 12% as filing for Chapter 11.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Voyager crypto platform filed for bankruptcy for Chapter 11. The platform had between 1,000,000,000 and 10,000,000,000 $USD in liabilities according to the filing. All operations on the platform were halted, after revealing it had 661,000,000 $USD exposure to Three Arrows Capital, a crypto hedge fund that failed to meet margin calls and eventually filed for bankruptcy as well. The Voyager stock plunged roughly 12%.</p>",
+        "date": "2022-05-07",
+        "fundsLost": "1000000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3284,
+        "projectName": "Bo Shen Wallet Hack",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bo Shen's hot wallet was exploited via access control. 41,053,572 $USD worth of assets in four chains was stolen from his Trust Wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bo Shen is the founder of Fenbushi Capital. His Trust Wallet's mnemonic keys were compromised, which led to the loss of 41,053,572 $USD in various assets. 38,233,180 $USDC, 1,606 $ETH, 719,760 $USDT, and 4.13 $BTC were transferred to various sources. Trust Wallet has no issues related to the hack because it was a mnemonic phrase compromise.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0x24b93eed37e6ffe948a9bdf365d750b52adcbc2e</p><p>https://www.blockchain.com/btc/address/39R7sdAUWfL6JE37BWorfHFb5sgjMLNZqz</p>",
+        "date": "2022-11-10",
+        "fundsLost": "41053572",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3285,
+        "projectName": "Flare Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Flare Token was possibly rugpulled. An EOA address was able to remove funds from the PancakeSwap pool for a total of 17,010,503 $USD after claiming roughly 4,000,000,000 $FLARE tokens from a vault contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Flare Token is a BEP20 token trading on PancakeSwap and can't be confused with Flare Network with the $FLR token symbol. An EOA address called a withdrawProfit() function on a contract with an unverified source code and received 3,973,277,600 $FLARE tokens. The part of the claimed tokens was used to perform a swap and drain of liquidity. The exploiter profited 17,010,503 $USD and transferred funds to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xa0a613ca05daa8e8f43130a53be09bbd1a53d898</p><p>https://bscscan.com/address/0xE55D77F74Ea9335d3a83A673f83f38527a68Eb20</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xa09135020bb1271ff684db407783a52163c31c7255955cec1e83fc68a751c027</p><p><br></p><p>Liquidity drain transaction:</p><p>https://bscscan.com/tx/0x2af9b1c4f4b063a31babe75d0a7ef711e063d7ecb10cb0ecd6f572c8971c1d51</p>",
+        "date": "2022-11-13",
+        "fundsLost": "17010503",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FLARE",
+          "addresses": [
+            "0x85aa3f04e539e426cbb55c0d584ea99cfe1d96a1",
+            "0xeBf5d39Ffa10cdB637f8078faDa533fc0F7AE974"
+          ]
+        }
+      },
+      {
+        "id": 3286,
+        "projectName": "EmpiresX",
+        "description": "<p><strong>Quick Summary</strong></p><p>The head trader of EmpiresX Joshua David Nicholas pled guilty to running a Ponzi scheme. 100,000,000 $USD of investor's funds were taken over two years.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EmpiresX was a fake trading company, which used \"trading bots with artificial and human intelligence\" . Actually, there were no bots behind trading operations, and the 'guaranteed' returns for early investors had been paid by recent investor's funds. The classic Ponzi scheme was run over two years from 2020 to 2022. The total stolen amount reached approximately 100,000,000 $USD, when the actual amount that was used for trading was just nearly 1,000,000 $USD. On 30 November 2022, Joshua David Nicholas pled guilty to running a Ponzi scheme and have been handed an over four-year jail sentence.</p>",
+        "date": "2022-09-08",
+        "fundsLost": "100000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3287,
+        "projectName": "Ankr",
+        "description": "<p><strong>Quick Summary</strong></p><p>Ankr protocol was exploited by private key compromisation. The attacker replaced contract implementation and was able to mint aBNBc tokens infinitely.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Ankr is a decentralized infrastructure with a rich ecosystem. The staking contract of the protocol on the Binance Smart Chain was exploited using access control vulnerability. The attacker replaced the implementation for the staking proxy with an unverified malicious contract. Consequently, the malicious contract was used to mint 10,000,000,000,000 $aBNBc which were exchanged for 5,500 $BNB and 5,340,000 $USDC. $aBNBc token price dropped nearly 99% and almost all the liquidity was drained from PancakeSwap and ApeSwap pools. The stolen amount almost completely was transferred through TornadoCash, AnySwap, and CelerBridge. There is just 100 $BNB left in the attacker's original address at the moment.</p><p>At this moment proxy implementation was replaced with the new unverified one.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf3a465C9fA6663fF50794C698F600Faa4b05c777</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x61e0f3f0dc5cc84f0547799ebb19515ce5f5d20c0b57442135263bcb1b506812</p><p>https://bscscan.com/tx/0xcbc5ff4a6c9a66274f9bde424777c3dc862ab576e282fbea3c9c2609ca3e282b</p><p><br></p>",
+        "date": "2022-12-02",
+        "fundsLost": "24000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": "ANKR",
+          "addresses": [
+            "0xE85aFCcDaFBE7F2B096f268e31ccE3da8dA2990A"
+          ]
+        }
+      },
+      {
+        "id": 3288,
+        "projectName": "Lodestar Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Lodestar protocol was exploited via price feed oracle vulnerability. plvGLP price was manipulated which led to the protocol liquidity draining.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Lodestar Finance is a borrowing and lending protocol, based on the Compound fork, initially built and launched on the Arbitrum network. Lodestar aims to bring the critical DeFi primitive of decentralized money markets to Arbitrum communities. The protocol was exploited by manipulating the plvGLP oracle price using flashloans to create a large plvGLP collateral position. The attacker increased the plvGLP/<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>GLP</span> rate and created the ability to change the price immediately, which was then compounded through the loops and led to significant borrowing ability. The main vulnerability that allowed such exploit flow was in GLPOracle price logic.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker contract:</p><p>https://arbiscan.io/address/0x7596ACadf6c93f01b877F5A44b49407ffFC53508</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Attacker&nbsp;</span> address:</p><p>https://arbiscan.io/address/0xc29d94386ff784006ff8461c170d1953cc9e2b5c</p><p><br></p><p>Exploit TX:</p><p>https://arbiscan.io/tx/0xc523c6307b025ebd9aef155ba792d1ba18d5d83f97c7a846f267d3d9a3004e8c</p>",
+        "date": "2022-12-10",
+        "fundsLost": "5800000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "LODE",
+          "addresses": [
+            "0x7596ACadf6c93f01b877F5A44b49407ffFC53508",
+            "0x5326E71Ff593Ecc2CF7AcaE5Fe57582D6e74CFF1"
+          ]
+        }
+      },
+      {
+        "id": 3289,
+        "projectName": "Health",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Price of the HEALTH token in a Uniswap pool <span style=\"box-sizing: border-box; font-family: Arial; font-size: 11pt; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">was manipulated</span> allowing the attacker to take a 33 BNB profit.&nbsp;</span></p><p><br></p><p><strong><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Details of the Exploit</strong></span></strong></p><p>The exploit was possible due to a bug in the internal _tranfer() function of the token contract that was causing decrease of HEALTH in the pool.&nbsp;</p><p><br></p><p>The attack was performed in three transactions. Each transaction involved the following steps:&nbsp;</p><p>1. Taking a flash loan of 40 WBNB;</p><p>2. Exchanging the borrowed amount to HEALTH;</p><p>3. Calling 999 token transfers with 0 value. Due to the bug in _transfer(), the number of HEALTH in the pool decreased each time, hence the token price was increasing.</p><p>4. Exchanging the inflated HEALTH token to WBNB with profit.&nbsp;</p><p>5. Paying back the flashloan&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The attacker contract:</span></strong></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/0x80e5fc0d72e4814cb52c16a18c2f2b87ef1ea2d4&nbsp;</span></strong></p><p><br></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The attack transactions:</span></strong></p><p>https://bscscan.com/tx/0xae8ca9dc8258ae32899fe641985739c3fa53ab1f603973ac74b424e165c66ccf&nbsp;</p><p>https://bscscan.com/tx/0x780f712866bc2ad2a32239b2702121856693476580ffee772f9a49148be0266a&nbsp;</p><p>https://bscscan.com/tx/0x0daad55e460d673a554fc9458032ce70d3d201b6506474b15b24f2f14aa3a462</p>",
+        "date": "2022-10-20",
+        "fundsLost": "8800",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "HEALTH",
+          "addresses": [
+            "0x32B166e082993Af6598a89397E82e123ca44e74E"
+          ]
+        }
+      },
+      {
+        "id": 3290,
+        "projectName": "Polynomial Protocol",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker could drain USDC balances of user addresses that approved their tokens to be spent by the PolynomialZap contract.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The swapAndDeposit() function of the PolynomialZap contract contains a bug: there are no limitations for two input parameters - swapTarget and swapData. This allows anyone to abuse the function and steal tokens approved to the contact.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">All tokens that are approved to the vulnerable contract are still in danger.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The vulnerable contract:&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://optimistic.etherscan.io/address/0xB162f01C5BDA7a68292410aaA059E7Ce28D77c82#code\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://optimistic.etherscan.io/address/0xB162f01C5BDA7a68292410aaA059E7Ce28D77c82#code</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attack contract:</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://optimistic.etherscan.io/address/0xf682e302f16c9509ffa133029ccf6de55f4e29a8#code\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://optimistic.etherscan.io/address/0xf682e302f16c9509ffa133029ccf6de55f4e29a8#code</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+        "date": "2022-11-18",
+        "fundsLost": "7000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "-",
+          "addresses": [
+            "0xB162f01C5BDA7a68292410aaA059E7Ce28D77c82",
+            "0xF682E302F16c9509fFa133029Ccf6De55f4e29a8"
+          ]
+        }
+      },
+      {
+        "id": 3291,
+        "projectName": "BGE",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The token deployer sold off BGE that had been preminted to their address on PancakeSwap.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exit scam </strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">13M of the BGE were preminted to the token’s deployer address in the contract’s creation transaction.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The deployer dumped 705,000 BGE on PancakeSwap in 23 transactions having gained $</span><span style=\"font-size:12pt;font-family:Nunito,sans-serif;color:#212529;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">426,892.</span></p><p><br></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The deployer address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/address/0xcdf77769ab5abf61097969417789101913e1c2d8\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/address/0xcdf77769ab5abf61097969417789101913e1c2d8</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Example sell transactions:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/tx/0xb54485b09bf1d86d5091adc586af492a57ed8eabc90bafdea8b5cc73e28b82d7\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0xb54485b09bf1d86d5091adc586af492a57ed8eabc90bafdea8b5cc73e28b82d7</span></a></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/tx/0x3ac49ba765703bc03e4bb3c52220332feb142d2968f52d32a025f82a3dd42a9f\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0x3ac49ba765703bc03e4bb3c52220332feb142d2968f52d32a025f82a3dd42a9f</span></a></p><p><a href=\"https://bscscan.com/tx/0xabcd55d399bfb15a1c841989261d023a23aef224e3d77d31067256d61ec15d3b\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0xabcd55d399bfb15a1c841989261d023a23aef224e3d77d31067256d61ec15d3b</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+        "date": "2022-12-01",
+        "fundsLost": "426892",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BGE",
+          "addresses": [
+            "0xbD7afa932F59F0e451D57BA523bA379e7545a4b3"
+          ]
+        }
+      },
+      {
+        "id": 3292,
+        "projectName": "Vauld",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On the 4th of July 4 2022, the trading and lending platform Vauld freezed user withdrawals.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Case</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Vauld faced financial challenges due to market conditions, such as the Terra Luna crash and paused withdrawals by <span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Celsius</span>, and financial difficulties of the platform’s key business partners.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Following withdrawals from Vauld of about $200 million that happened in 25 days after Terra's case, the platform’s management decided to stop all deposits and further withdrawals.</span></p>",
+        "date": "2022-07-04",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": "-",
+          "addresses": [
+            "-"
+          ]
+        }
+      },
+      {
+        "id": 3293,
+        "projectName": "Raydium",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The private key of&nbsp;</span><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">the Pool Owner account&nbsp;</span><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;was compromised.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker drained nine Raydium’s constant product liquidity pools having stolen crypto worth around 4.4m USD.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The affected pools are ETH-USDC, RAY-SOL, RAY-USDC, RAY-USDT, SOL-USDT, SOL-USDC, stSOL-USDC, UXP-USDC, ZBC-USDC.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The funds draining was performed through repeatedly calling the &nbsp;withdrawPNL function that allows to withdraw fees from the pools. &nbsp;The expected fees to be withdrawn were increased with the SetParams and AmmParams::SyncNeedTake functionality.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The pool owner account:&nbsp;</span></p><p><a href=\"https://solscan.io/account/HggGrUeg4ReGvpPMLJMFKV69NTXL1r4wQ9Pk9Ljutwyv\" style=\"text-decoration:none;\"><span style=\"font-size:15pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://solscan.io/account/HggGrUeg4ReGvpPMLJMFKV69NTXL1r4wQ9Pk9Ljutwyv</span></a><span style=\"font-size:15pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+        "date": "2022-12-16",
+        "fundsLost": "4400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          24
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": "RAY",
+          "addresses": [
+            "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+            "EoNrn8iUhwgJySD1pHu8Qxm5gSQqLK3za4m8xzD2RuEb",
+            "AVs9TA4nWDzfPJE9gGVNJMVhcQy3V9PGazuz33BfG2RA",
+            "6UmmUiYoBjSrhakAobJw8BvkmJtDVxaeBtbt7rxWo1mg",
+            "DVa7Qmb5ct9RCpaU7UTpSaf3GVMYz17vNVU67XpdCRut",
+            "58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2",
+            "7XawhbbxtsRcQA8KTkHT9f9nc6d69UwqCDh6U5EEbEmX\tS",
+            "6a1CsrpeZubDjEJE9s1CMVheB6HWM5d7m1cj2jkhyXhj",
+            "6tmFJbMk5yVHFcFy7X2K8RwHjKLr6KVFLYXpgpBNeAxB",
+            "AceAyRTWt4PyB2pHqf2qhDgNZDtKVNaxgL8Ru3V4aN1P"
+          ]
+        }
+      },
+      {
+        "id": 3294,
+        "projectName": "Lymex",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">46.6M LYM were dumped on Pancakeswap by the attacker.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker received 46.6M LYM tokens from a proxy contract with unverified implementation (0xbC8054Ab4Bb4E60a13eDE09854F7957FF16D9679) through calling the claimStaticReward() function. All the received tokens have been sold off on the DEX. &nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><strong>&nbsp;</strong></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/address/0x00e6392f9ae5d022e30ff406830bb9b3bed6993e#tokentxns\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/address/0x00e6392f9ae5d022e30ff406830bb9b3bed6993e#tokentxns</span></a></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attack transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0x8fc7dce64ee16be4d494282f9b9a03853b483e8d1bce9ad005891cd243e03a92&nbsp;</span></p>",
+        "date": "2022-12-04",
+        "fundsLost": "301754",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LYM",
+          "addresses": [
+            "0xbC8054Ab4Bb4E60a13eDE09854F7957FF16D9679",
+            "0x6F5aC65CA70F2a44d73c8f711Cb2bDf425D9F304"
+          ]
+        }
+      },
+      {
+        "id": 3295,
+        "projectName": "Nimbus DAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>Nimbus DAO protocol was exploited via FlashLoan attack. The attacker stole worth around $76,000 USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The flashloan was used for the price oracle manipulation and the NIMB/NBU_WBNB pool was affected. Exploit led to the unfair reward distribution in getReward() function.</p><p>In case, of computation of the token reward is proportional to the ratio of $NIMB and $GNIMB in the pool, the ratio of Nimbus Utility tokens to Nimbus Governance tokens was broken. To repay the flash loan, the exploiter exchanged $GNIMB for $BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x86aa1c46f2ae35ba1b228dc69fb726813d95b597</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1</p><p>https://phalcon.blocksec.com/tx/bsc/0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1</p><p><br></p>",
+        "date": "2022-12-14",
+        "fundsLost": "76000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "NBU",
+          "addresses": [
+            "0x3aA2B9de4ce397d93E11699C3f07B769b210bBD5",
+            "0x706065716569f20971F9CF8c66D092824c284584",
+            "0xCb492C701F7fe71bC9C4B703b84B0Da933fF26bB"
+          ]
+        }
+      },
+      {
+        "id": 3296,
+        "projectName": "Defrost Finance",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Defrost has been hacked with losses reaching $12M. The protocol’s V1 and V2 have been affected.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">There are suspects the attack was an insider job.</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On December 23th 2022, Defrost reported they had been exploited due to missing reentarncy lock in flashloan() and deposit() functions. As a result, the share price of LSWUSDC was manipilated and approximately $173K were gained by the attacker.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Later on, it was revealed that the protocol’s vaults have been exploited as well: a fake collateral token was added, and though calling the setOracleAddress() function, the price oracle was replaced with a malicious one leading to liquidations of user collaterals in Defrost’s vaults. The loss estimation is $12M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The risk of user funds liquidations in case of replacing oracle to a malicious one was reported by Defiyield in its audit:&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://defiyield.app/audit-database/defiyield/defrost_finance &nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/address/0x7373dca267bdc623dfba228696c9d4e8234469f6\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/address/0x7373dca267bdc623dfba228696c9d4e8234469f6</span></a></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exploit transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/tx/0xc6fb8217e45870a93c25e2098f54f6e3b24674a3083c30664867de474bf0212d\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/tx/0xc6fb8217e45870a93c25e2098f54f6e3b24674a3083c30664867de474bf0212d</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">An example transaction of the oracle replacement:&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/tx/0x34eb46f498c418285323e6e146ae84ea836e49822fa254c865f59d650261c3dd\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/tx/0x34eb46f498c418285323e6e146ae84ea836e49822fa254c865f59d650261c3dd</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:13.5pt;font-family:Roboto,sans-serif;color:#373f47;background-color:#ffffff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>UPD</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On December 26th, the Defrost team reported the stolen funds had been returned, and they are going to check onchain what users have been affected in order to send them their funds back.&nbsp;</span></p>",
+        "date": "2022-12-23",
+        "fundsLost": "12000000",
+        "fundsReturned": "12000000",
+        "chaindIds": [
+          6
+        ],
+        "category": "Stablecoin",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MELT",
+          "addresses": [
+            "0xfF152e21C5A511c478ED23D1b89Bb9391bE6de96",
+            "0x792E8f3727cad6e00c58d478798F0907c4cEC340",
+            "0x29BC14D1720f8ba74B7e62E223FBd79AF90B3Ae0",
+            "0x69526dE7CcA6886C5Dd0D8513811B0C1431B79aC",
+            "0xd8AFaa43f68D1f4D763FBCFacc8bB2aF38bE05BC"
+          ]
+        }
+      },
+      {
+        "id": 3297,
+        "projectName": "ElasticSwap",
+        "description": "<p><strong>Quick Summary</strong></p><p>On the 13th of December, 2022, Elastic Swap was hacked on the Avalanche and Ethereum Chain using a calculation issue. The malicious actor stole worth around 850k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack was possible in the reason of using two different logic of calculation in the exploited smart contracts. Functions addLiquidity and removeLiquidity have different logic of accounting. While the first one uses constant variables the second one is using dynamic pool balance calculation. This led to the possibility of price manipulation after the pool unbalancing.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><strong>Avalanche:</strong></p><p>Attacker address:</p><p>https://snowtrace.io/address/0x3bdf01ed32f07e8e843163b5d478d4502f5743cd</p><p>https://snowtrace.io/address/0x25fde76a52d01c83e31d2d3d5e1d2011ff103c56</p><p>https://snowtrace.io/address/0xdd8429b85a92b35712659bd945462a41bfd60cbd</p><p><br></p><p>Exploit tx:</p><p>https://snowtrace.io/tx/0x782b2410fcc9449ead554a81f78184b6f9cca89f07ea346bc50cf11887cd9b18</p><p><br></p><p><strong>Ethereum:</strong></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xc2d86035f20389088b4277de6f13ca3f8bb819381b95e58359a22d0ad6f5cbda</p><p>Front-run tx:</p><p>https://t.co/YGMaRQj6Lk</p>",
+        "date": "2022-12-13",
+        "fundsLost": "850000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          6
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "TIC",
+          "addresses": [
+            "0xa0c5aA50cE3cc69b1c478d8235597bC0c51DfDAb",
+            "0x4ae1da57f2d6b2e9a23d07e264aa2b3bbcaed19a"
+          ]
+        }
+      },
+      {
+        "id": 3298,
+        "projectName": "Gemini",
+        "description": "<p><strong>Quick Summary</strong></p><p>A Third-party phishing campaign that affected some customer data was performed on the Gemini users.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Some users have been targeted by a phishing attack. &nbsp;This led to the collection of Gemini users' email addresses and phone numbers. Gemini claims that no account information or systems were impacted, and all funds and customer accounts remain secure.</p>",
+        "date": "2022-12-14",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3299,
+        "projectName": "BlackGold",
+        "description": "<p><strong>Quick Summary</strong></p><p>&nbsp;$BGLD was exploited while the token migration process.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack was possible in the reason of the price difference between the two versions of the BGLD token while the migration process.</p><p>The attacker took a 125 BNB flashloan and bought almost all the balance of the WBNB/BGLD pair in BGLD token. Then complete the migrating process via migratory contract and swapped out the new version on BGLD to DEBT and then to WBNB token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf4fd2ebe7196c8e99e88bcc4aef69dda0e493b8f</p><p><br></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0xea108fe94bfc9a71bb3e4dee4a1b0fd47572e6ad6aba8b2155ac44861be628ae</p>",
+        "date": "2022-12-12",
+        "fundsLost": "18476",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "BGLD",
+          "addresses": [
+            "0x169f715CaE1F94C203366a6890053E817C767B7C",
+            "0xC2319E87280c64e2557a51Cb324713Dd8d1410a3",
+            "0xE445654F3797c5Ee36406dBe88FBAA0DfbdDB2Bb"
+          ]
+        }
+      },
+      {
+        "id": 3300,
+        "projectName": "Rubic",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">USDC balances of Rubic’s users have been drained. The current losses reached $1.42M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">All USDC approved to the RubicProxy contract got under the risk of being drained after the USDC address was added into the list of available routers in the RubicProxy contract.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Through the routerCallNative() &nbsp;function, the attacker could call safeTransferFrom() on the USDC contract inputting user addresses, which have approved their USDC balances to be spent by RubicProxy, as the “from” parameter.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference&nbsp;</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exploit transactions:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The “add available router ” transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+        "date": "2022-12-25",
+        "fundsLost": "1420000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "RBC",
+          "addresses": [
+            "0x3335A88bb18fD3b6824b59Af62b50CE494143333",
+            "0x253dD81d642220267ccAc1d8202c0B96a92b299e"
+          ]
+        }
+      },
+      {
+        "id": 3301,
+        "projectName": "BitKeep",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Some users of the multi-chain wallet BitKeep had downloaded a hacked APK version. This allowed the hackers to start draining their addresses. Current losses reached $8M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Users that were using the hacked version 7.2.9 of the BitKeep’s APK have been losing their funds.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;The APK has been hacked due to a vulnerability in the API server used by the wallet app. This allowed the attacker to access the app’s database, which held critical user information such as private keys of their wallets.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Funds have been stolen on BSC, Ethereum, TRON and Polygon.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference&nbsp;</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker addresses:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/address/0x36225a2721DCb124F3E185d3c177049813b279ba\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/address/0x36225a2721DCb124F3E185d3c177049813b279ba</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p><a href=\"https://etherscan.io/address/0x9f12243d60c301d4e01a3d24bb620e8ffb40f855\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/address/0x9f12243d60c301d4e01a3d24bb620e8ffb40f855</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+        "date": "2022-12-26",
+        "fundsLost": "8000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          2,
+          3
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3302,
+        "projectName": "BTC.com",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">BTC.com - one of the biggest mining pools - &nbsp;has been attacked. Although the hack happened on December 3d,&nbsp;</span><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">BIT Mining Limited, the parent company, officially&nbsp;</span><a href=\"https://www.prnewswire.com/news-releases/bit-mining-limited-subsidiary-experiences-cyberattack-301709947.html\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">announced</span></a><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;the attack on December 26th.</span><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The cyberattack is reported to law enforcement authorities in China. They started an investigation, which already helped to recover some of the stolen assets.</span></p>",
+        "date": "2022-12-03",
+        "fundsLost": "3000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": "-",
+          "addresses": [
+            "-"
+          ]
+        }
+      },
+      {
+        "id": 3303,
+        "projectName": "Auros",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">Auros market maker filed for bankruptcy. It holds approximately 20M USD frozen assets in the FTX exchange. The official statement was published on the 20th of December 2022.</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">A significant amount of Auros assets were stored on the FTX exchange, which filed for <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>bankruptcy&nbsp;</span>on the 11th of Nov 2022. &nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">On the 13th of Dec has defaulted on an 8,400 $wETH loan on the crypto lending protocol Maple Finance.</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">The official statement was published on the 20th of Dec: https://twitter.com/Auros_global/status/1605227442838175745</p>",
+        "date": "2022-12-20",
+        "fundsLost": "20000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3304,
+        "projectName": "Coinsuper",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">A Hong Kong based centralized exchange Coinsuper stopped user withdrawals. All complaints were ignored by the administration.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">In January 2022, a few users reported their losses to the Hong Kong police.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exchange’s website is down.&nbsp;</span></p>",
+        "date": "2021-11-28",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3305,
+        "projectName": "Frosties",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The developers of the Frosties NFT collection sold 8,888 tokens with a floor price of 0.04 ETH and disappeared. Their social accounts were immediately deactivated.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The token price fell to zero.&nbsp;</span></p>",
+        "date": "2022-01-09",
+        "fundsLost": "1300000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "FROST",
+          "addresses": [
+            "0x3C99F2A4b366D46bcf2277639A135A6D1288EcEB"
+          ]
+        }
+      },
+      {
+        "id": 3306,
+        "projectName": "Rich Dwarves Tribe",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Rich Dwarves Tribe rugpulled shortly after the collection had been fully minted out. The creators abandoned the NFT project and disappeared with $3M gained from selling the collection.&nbsp;</span></h2><p><br></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 4pt 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The&nbsp;</span><span style=\"font-size:11.5pt;font-family:Roboto,sans-serif;color:#0f1419;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">funds were transferred to Binance and FTX addresses. Two receiver addresses on Binance are connected to three other rug pulls: Bored Bunny, Ancient Cats Club and Mayweverse.</span></h2><p><br></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:4pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The last tweet was posted on the 22nd of January. The project’s website is down.&nbsp;</span></h2>",
+        "date": "2022-01-23",
+        "fundsLost": "3000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "DWARF",
+          "addresses": [
+            "0x0A0211973587a837491f0AbE8Bd1Ec8D442efAC8"
+          ]
+        }
+      },
+      {
+        "id": 3307,
+        "projectName": "CryptoBike",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">CryptoBike rugpulled only a few days after its launch. The gamefi project had been released on the 27th of December, and on the 1st of January,&nbsp;</span><span style=\"font-size:10.5pt;font-family:Arial;color:#343a40;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">6 million CBs were sold for $1.4M. The token price was immediately decreased from $0.81 to $0.019.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#343a40;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The website went down, and all communication channels with the team closed.&nbsp;</span></p>",
+        "date": "2022-01-01",
+        "fundsLost": "1400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CB",
+          "addresses": [
+            "0xF66a8a197D5cb0e2799D79bE115208899332a0bA"
+          ]
+        }
+      },
+      {
+        "id": 3308,
+        "projectName": "Cryptoburgers",
+        "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">CryptoBurgers suffered a flashloan attack that was possible due to a bug in the token contract. The estimated loss is $770K.</span></h2><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">T</span><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">he token contract had a bug in the external burn() function that allowed hackers to burn tokens of any address. Using this vulnerability, the hacker performed multiple flash loan attacks. The burn of $BURG was pumping its price in the pair. So the hacker first bought $BURG, burned tokens in a PancakeSwap pair, and sold their overpriced $BURG.</span></h2>",
+        "date": "2022-01-17",
+        "fundsLost": "770000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Other",
+        "token": {
+          "name": "BURG",
+          "addresses": [
+            "0xF40d33DE6737367A1cCB0cE6a056698D993A17E1"
+          ]
+        }
+      },
+      {
+        "id": 3310,
+        "projectName": "Snowflake",
+        "description": "<p><strong>Quick Summary</strong></p><p>Snowflake finance was rug pulled. An EOA address was able to remove liquidity from the Snowflake pools for a total of 468,000 $USD due to the backdoor functionality in the protocol.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Snowflake Exchange protocol is a single-side AMM (decentralized exchange) designed for</p><p>exchanging stable cryptocurrencies (USDT, USDC, DAI).</p><p>All protocols contracts are built using a Proxy upgradability pattern. In that case, the project admin has the ability to change implementation anytime. All project liquidity pools have a privileged caller with the role of \"pool\". Currently, the pool has unverified implementation and exactly this contract was used for the rug pull.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresess:</p><p>https://bscscan.com/address/0x198C258B3BeE99CED4E1e3CECfCAE3D5eD481Db6</p><p>https://polygonscan.com/address/0x37fb3B6F911F9d2AAd643e2Bc275eC6AC7781A28</p><p>https://bscscan.com/address/0x74016af21F6A0bCe08fBc8bca5f352d705125b18#tokentxns</p><p>https://bscscan.com/address/0x37fb3b6f911f9d2aad643e2bc275ec6ac7781a28#tokentxns</p><p><br></p><p><br></p><p>Liquidity drain transactions:</p><p>https://bscscan.com/tx/0x3f4510867ecf743b6e6674ec570d1750ac77f35b4c621bb74c63b88dbd4615a9</p><p>https://bscscan.com/tx/0x538498d63c342db94d0014403b4d4d30afaf659578a8b7099eefa7f1bb7c0b95</p><p>https://bscscan.com/tx/0xd8efdc86e8791b15a13b9e79ebf6d0776f978d36cf6e98cb40ac357906bed511</p><p>https://bscscan.com/tx/0xab6bad65be1bc2d25b6f22e52c84899aa3dc8af2b72843097da874d4784bb0c8</p>",
+        "date": "2022-12-30",
+        "fundsLost": "468000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SNOW",
+          "addresses": [
+            "0x45659c218a55555652f28780fac77b5c9C559E66",
+            "0x0187f3401b83324b0f28ab4005e1f699606f082e",
+            "0xe72187dd63cd006085bacc7af1dc65c5319f06e4",
+            "0x6f52d32dff6a9b9d9a20c5d059f83c2183527f95",
+            "0x9972e9f0ba155c3b901258b7b5ab23e2ee442ca6"
+          ]
+        }
+      },
+      {
+        "id": 3311,
+        "projectName": "Dictum Exchange",
+        "description": "<p><strong>Quick Summary</strong></p><p>Dictum Exchange has rugged pulled. On the 31st of Dec 2022, just after airdropping its $DIC token, the project shut down all of its social networks and performed hard rug from unverified proxy <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>liquidity pool&nbsp;</span>contracts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The protocol built on the Arbitrum network <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Dictum Exchange</span> performed hard rug from its LPs.&nbsp;</p><p>Most of the contracts of the protocol are built using a proxy upgradeability pattern. In this case, it allows deploying new implementations with any malicious logic. Currently, the source code of all LPs is not verified and includes malicious logic in the burn() function.&nbsp;</p><p>This function was called on each LP contract to drain a huge share of liquidity from them.</p><p>Currently, all stolen funds are bridged to the Ethereum Mainnet as ETH and stored in the account: 0xaF8f284e93c5bF5795ccA636D8AeE62a2616e21d</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addreses:</p><p>https://arbiscan.io/address/0xaf8f284e93c5bf5795cca636d8aee62a2616e21d</p><p>https://etherscan.io/address/0xaF8f284e93c5bF5795ccA636D8AeE62a2616e21d</p><p><br></p><p>Liquidity draining TXs:</p><p>https://arbiscan.io/tx/0xbe0e8d8304f1057a19cb15e1bbb8917d1e3dac60e9b779ab628d9a4c1ce17112</p><p>https://arbiscan.io/tx/0xe7275b599228ffe565a9894011c949c3037a2ad90dc1b1adee14284bfe02b307</p><p>https://arbiscan.io/tx/0xe197f911e263ee6079db65398b3a7e4dbf2fdff5cce9dbe79c43137eed4c187f</p><p>https://arbiscan.io/tx/0x874e189e44ef1d378a0c94bf9a2df2102444f55e7c08dde658fa72cf05667f66</p><p>https://arbiscan.io/tx/0xf3b3099021a657383c5af009ffa0fdbabb062d7cc360c2de96b018299533540a</p><p>https://arbiscan.io/tx/0x4812d74fd976e42798f4b61e6a008fcec0f89ba1cf51ffab94051bfdd651c7bc</p><p>https://arbiscan.io/tx/0x67ac2279d9ac0cb49bc5269c8edc79f4a999fcffa08eb2ddcbb0a196470723b1</p><p>https://arbiscan.io/tx/0xb0f0bc34f36c12cf32c94a1965999e400bb84ce3bc56eb3d8e3303eca2e8effc</p><p>https://arbiscan.io/tx/0x48805ffac3d061aff5d96b115e2991a01be87083432d900f725575e3c7123876</p><p><br></p>",
+        "date": "2022-12-31",
+        "fundsLost": "2100000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DTOKEN",
+          "addresses": [
+            "0xfa3e4050dd383b8df1990831e59a82c350379bd7",
+            "0xfd742b576c123b6447c98ffaa54941e3fc41ebe7",
+            "0xa0e07bd009f53cf0be73e0995b7445dfd8888c4b"
+          ]
+        }
+      },
+      {
+        "id": 3313,
+        "projectName": "Nikhil Gopalani Wallet",
+        "description": "<p><strong>Quick Summary</strong></p><p>Nikhil Gopalani, chief operating officer of Nike's encrypted fashion brand RTFKT wallet was compromised by a phisher. NFTs for about 170k USD were transferred to malicious addresses.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresess:</p><p>https://etherscan.io/address/0x6c7ae5fd5cdfdad9efd68d2d131ebb6aa935cf46</p>",
+        "date": "2023-01-03",
+        "fundsLost": "170000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2928,
+        "projectName": "CoinDash",
+        "description": "<p><strong>Quick Summary</strong></p><p>CoinDash's ICO was compromised, leading to the theft of $7 million in Ethereum.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CoinDash, a cryptocurrency portfolio management platform based in Israel, was set to launch its Initial Coin Offering (ICO). However, during the event, an attacker changed the CoinDash wallet address posted on the CoinDash website to one they owned. This led to the theft of millions in Ethereum, estimated at the time to be around $7 million. Investors were promised their funds, not in their original cryptocurrency, but in the CoinDash event token. In a surprising turn of events, the attacker returned 10,000 ETH in September and a further 20,000 ETH later. These transactions can be viewed through the CoinDash public wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Compromised Address:</p><p>https://etherscan.io/address/0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48</p><p><br></p><p>Transaction of Returned ETH:</p><p>https://etherscan.io/tx/0x39ae8444634d679c6618fd28439c80a4a1913e6752008fb88a46bb27d6520aea</p>",
+        "date": "2017-07-01",
+        "fundsLost": "12200000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2929,
+        "projectName": "Bithumb",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bithumb, South Korea's leading virtual currency exchange, suffered a hack resulting in a loss of cryptocurrencies worth $1.04 million.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>Hackers managed to steal cryptocurrencies valued at approximately $1.04 million from Bithumb. Following the incident, the exchange suspended all deposits and payments. Bithumb assured its users that the stolen cryptocurrencies would be covered by the exchange itself. In response to the abnormal access detected, Bithumb transferred a large amount of Ethereum to its cold wallet to safeguard it.</p><p><br></p><p>Stolen funds:</p><p>- 1.2 billion won worth $1.04M</p>",
+        "date": "2017-06-03",
+        "fundsLost": "1040000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2930,
+        "projectName": "Yapizon",
+        "description": "<p>South Korean exchange Yapizon has become the victim of hackers, reportedly losing 3,800 BTC in customer funds.<br><br>The exchange confirmed the theft of 3,831 Bitcoins, “equivalent to 37.08% of the total assets.”<br><br>“After many discussions, legal and accounting consultations and reviews, We have come to the conclusion that it should be applied fairly to all members. It is also the most common way to go through the liquidation process. The loss of 37.08% will have the same effect on all members' assets.” -Yapizon said.</p>",
+        "date": "2017-04-22",
+        "fundsLost": "4980000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2931,
+        "projectName": "Bitcurex",
+        "description": "<p>Bitcurex posted an announcement revealing the exchange had suffered a hack attack. The message said a third party was able to perform an automated data collection on the site, resulting in the loss of partial assets.<br><br>According to the Polish Bitcoin news website Bitcoin.pl, one of the bitcoin addresses for Bitcurex is 1K2PKGPGrYTQjPohXjDgbjeRtynGAZU9cF.<br><br>When reviewing the address, you can see large chunks of bitcoin being sent (withdrawn) from that address on October 13. In total, the sum of those transactions is over 2300 BTC. This converts to a loss of over $1.5 million in funds.</p>",
+        "date": "2016-10-15",
+        "fundsLost": "1500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2932,
+        "projectName": "Gatecoin",
+        "description": "<p>Gatecoin experienced a cyberattack on its hot wallets that resulted in the loss of funds. A new update from the exchange team indicated that as much as $2m was lost.<br><br>Gatecoin has claimed that it lost as much as 185,000 ethers and 250 bitcoins, an amount worth roughly $2.14m at press time.<br><br>Gatecoin said in a statement:<br>\"We have previously communicated the fact that most clients’ crypto-asset funds are stored in multi-signature cold wallets. However, the malicious external party involved in this breach, managed to alter our system so that ETH deposit transfers by-passed the multi-sig cold storage and went directly to the hot wallet during the breach period. This means that losses of ETH funds exceed the 5% limit that we imposed on our hot wallets.\"</p>",
+        "date": "2016-05-10",
+        "fundsLost": "2140000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2933,
+        "projectName": "Shapeshift",
+        "description": "<p>Digital currency exchange ShapeShift lost as much as $230,000 in three separate thefts over the course of a month.<br><br>According to the report, the first incident took place on 14th March, the company said, resulting in the loss of 315 BTC. It was soon established that a ShapeShift employee was behind the incident.<br><br>The employee was fired the next day. Work was then begun on moving the service onto safer hardware.<br><br>Yet according to ShapeShift’s report, the thefts continued. On 7th April, 97 BTC, 3,600 ETH, and 1,900 LTC in funds were stolen. Within two days of that theft, after the site was taken offline and steps were taken to beef up security, an additional 57 BTC and 2,200 ETH were taken.</p>",
+        "date": "2016-04-01",
+        "fundsLost": "269000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2934,
+        "projectName": "Purse",
+        "description": "<p>Purse.io users were the target of hackers who may have gained access and compromised a third-party email service provider used by the company.<br><br>The first signs of the theft came to light after a user took to Reddit to report unauthorized withdrawals from the user’s Purse.io wallet:<br>https://www.reddit.com/r/Bitcoin/comments/3o9ju8/my_purseio_account_was_compromised/<br><br>The attack flow:<br>- users received an email asking for their account passwords to be changed<br>- soon after, the targeted users also received a withdrawal request (after the compromise of the password)<br>- moments later, a withdrawal confirmation came along, confirming the theft.<br><br>The company stated that 11 users were affected and 10.235 bitcoins were withdrawn without users’ consent. Purse.io confirmed that the compromised users have been reimbursed, and their accounts have since been secured.</p>",
+        "date": "2015-10-11",
+        "fundsLost": "2510000",
+        "fundsReturned": "2510000",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2935,
+        "projectName": "BitFinex",
+        "description": "<p>BitFinex’s hot wallet has been compromised. The hack may have resulted in the loss of only 0.5% of the total funds.<br><br>“Dear Customer although we keep over 99.5% of users' BTC deposits in secure multisig wallets, the small remaining amount in coins in our hot wallet are theoretically vulnerable to attack. We believe that our hot wallet keys might have been compromised and ask that all of our customer cease depositing cryptocurrency to old deposits addresses. We are in the process of creating a new hot wallet and will advise within the next few hours. Although this incident is unfortunate, its scale is small and will be fully absorbed by the company. Thanks a lot for your patience and comprehension. Bitfinex Team.” - Bitfinex team stated.<br><br>The hacker's address:<br>https://www.blockchain.com/btc/address/17owg8RWb73qfE5HeQk6gg6RAgEUfxPXks</p>",
+        "date": "2015-05-22",
+        "fundsLost": "332000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2936,
+        "projectName": "Kipcoin",
+        "description": "<p>The Chinese Bitcoin exchange Kipcoin announced that it lost some or all of its user’s bitcoins and will temporarily be shutting down. The exchange claimed to have lost over 3000 bitcoins in the hack. The announcement was made on the site’s Weibo page.<br><br>The hacker apparently gained access to Kipcoin’s server back in May and downloaded the wallet.dat file at that time. For months, according to Kipcoin, the hacker did nothing with the funds before beginning to move them in December 2014. It is not clear why the site didn’t secure its funds at that time.<br><br>The addresses Kipcoin claimed belong to the hacker:<br><br>1Chg6NxMeTcZ3DQvYA9gocjU4RQwH1LtKD</p><p>18zf9CWe4uBy8BesHU3BWqjpibDRRBoPLD</p><p>1MYkHXvnWuZ5FaMJkNv4uCLoVC2Ztp2DXK</p><p>152BSsbpcGMdj9WBGHq3wXHgJVuqQCs4aJ</p><p>16j131w3cvkdAc13sg5nREMiiJj3zoRw5n</p><p>16qHXy4RDeek56mNDN84d2F6niE96taQso</p><p>175L5Sx81dZZBureP8RtLUyUXoruVdAj1E</p><p>17ZJ1sqDRxq7oRVrnNLxoyrvHrtrjtPRfp</p><p>17amdMD8JJPcipWqUEwzEtsAuYu1FzkVtg</p><p>181qVdiaCcJmzGJV9PEobeYYnkC25PyJdT</p><p>18ncsALSWGWRG3JK6yio4PXoiWBbvxAxng</p><p>1XgAzaQEe9iDEohWCmdNXSH8XZ74uLBnd</p>",
+        "date": "2015-02-18",
+        "fundsLost": "721000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2937,
+        "projectName": "BTER",
+        "description": "<p>Digital currency exchange BTER announced that it has lost 7,170 bitcoins, or roughly $1.75 million at press time, in an apparent hack on its cold wallet system.<br><br>In a statement posted to the China-based exchange's website, the company said that it had shut down its platform in the wake of the attack and that withdrawals for user balances \"will be arranged later\".<br><br>A separate post on the Chinese social media platform Weibo from BTER claimed that it was working with law enforcement officials on the matter.<br><br>The stolen funds were broadcast through the transaction below, according to the announcement, and the bitcoins appear to have been split into a number of separate wallets since the alleged intrusion:<br>https://www.blockchain.com/btc/tx/f5b0363f03e1ed8bb812c135361ea93590c831ce9f13a3750be1b93575baccc6</p>",
+        "date": "2015-02-15",
+        "fundsLost": "1790000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2938,
+        "projectName": "Exco",
+        "description": "<p>Exco.in suffered an attack that may have resulted in the loss of up to 2,000 BTC, according to some reports.<br><br>Exco.in believes one of their competitors may know the identity of the hacker who attacked them. The alleged hacker goes by the name \"ambiorx,\" and Exco.in says the Danish-based exchange CCEDK knows who he is.<br><br>CCEDK's founder appears to have posted conversations he had with a user who had found an exploit in Exco.in. Additionally, Exco.in has revealed that they believe DD4BC, the notorious hacking group responsible for attacks on both Bitalo and Nitrogensports.eu, was involved in the attack. DD4BC performed a DDoS attack on Exco.in. During that time, ambiorx allegedly hacked into Exco.in and pulled off the theft, according to sources. Other exchanges have also been experiencing downtime, but it is unclear whether the attacks are related.</p>",
+        "date": "2015-02-10",
+        "fundsLost": "460000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2939,
+        "projectName": "MyCoin",
+        "description": "<p><strong>Quick Summary</strong></p><p>Hong Kong bitcoin exchange MyCoin was shot down, taking with it as much as HK$3bn ($386.9m) in investor funds.&nbsp;</p><p><strong><br>Details of the Exploit</strong></p><p>MyCoin promised its investors a return of 150% for a few months of locking up 90 Bitcoin at a price of HK$400,000 at the time.</p><p><br></p><p>30 people were claiming to be victims of the company's actions petitioned a local member of the Legislative Council, Leung Yiu-Chung.<br><br>Some reports stated the company never operated as a genuine bitcoin business at all. Testimonies from customers describe an operation more like a Ponzi scheme that used the veneer of bitcoin trading as its lure.<br><br>Customers were never presented with receipts and were led to deposit their newly-acquired coins at a separate site to earn interest.<br><br>MyCoin had promised that it would soon be listed on the Hong Kong stock exchange, and according to photos posted online, also operated a bitcoin ATM:<br>http://news.yibite.com/application/2015/0208/27667.shtml</p>",
+        "date": "2015-02-09",
+        "fundsLost": "387000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2940,
+        "projectName": "796 Exchange",
+        "description": "<p>\"According to the explanation, hackers had compromised areas of the exchange in the previous days, which had caused a user “to mention the current address has been tampered with, coupled with hackers deliberately [using] a similar address with the original withdrawals address to confuse users…”<br><br>The hacker exploited vulnerabilities in the exchange to tamper with the withdrawal address of a customer. The customer legitimately requested the withdrawal and failed to notice the changed address. “796” has handled this well, and the situation was quickly made right. No other customers appear to have been affected.</p>",
+        "date": "2015-01-28",
+        "fundsLost": "253000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2941,
+        "projectName": "LocalBitcoins",
+        "description": "<p>Peer-to-peer bitcoin marketplace LocalBitcoins suffered a hack that resulted in the distribution of malware and a loss of customer funds.<br><br>Affected users will be granted refunds after taking steps to address security vulnerabilities, according to the company.<br><br>Vice president Nikolaus Kangas explained:<br>“The attacker used that LiveChat access to spread some kind of Windows executable, which probably was some new kind of keylogger software which is not yet detected by virus protection mechanisms. If the user got that executable installed, with some social engineering, the attacker managed to get access to different accounts of those victims.”<br><br>LocalBitcoins estimated 17 BTC lost from customer wallets.</p>",
+        "date": "2015-01-27",
+        "fundsLost": "4440",
+        "fundsReturned": "4440",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2942,
+        "projectName": "EgoPay",
+        "description": "<p>Third-party payment processor EgoPay suffered a hack, which was confirmed in a company's blog post:<br>https://web.archive.org/web/20150126160707/https://blog.egopay.com/further-egopay-updates/<br><br>EgoPay explained: \"False values were made available in the merchants platform, when no actual value was transmitted in EgoPay. This hacker then proceeded to convert this fake value into irreversible currencies all within a one-hour window. These merchants believed that this value was in their EgoPay account, but unfortunately it was not.\"<br><br>A number of staff members were then suspended as it was concluded that someone from within the company had perpetrated the hack.</p>",
+        "date": "2015-01-23",
+        "fundsLost": "1100000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2943,
+        "projectName": "BitPay",
+        "description": "<p>The attack started with an email sent to BitPay's Chief Financial Officer (CFO), Bryan Krohn. According to court filings, the email's sender is David Bailey. David Bailey claimed to be from yBitcoin, a digital currency newspaper and asked for Mr. Krohn's opinion on a bitcoin industry whitepaper.<br><br>David Bailey's computer had apparently been hijacked as well, and the email forwarded to Mr. Krohn pointed him to a hacker-controlled website. Mr. Krohn was requested to give his login credentials for his workplace email account on the hacker's website. The hacker was subsequently able to transfer unlawful transactions using Mr. Krohn's work email account utilizing those credentials. This occurred on December 11th and 12th, 2014.<br><br>The hacker initially investigated how BitPay conducted business. He then used Mr. Krohn's email account to send emails to BitPay CEO Stephen Pair. Mr. Pair was instructed in the emails to send 1,000 bitcoins to a customer's wallet, which he did. Mr. Pair then received a second email requesting that he give another 1,000 bitcoins to the same buyer, which he did.<br><br>The hacker became more daring the next day. In his email, he requested that the BitPay CEO give an additional 3,000 bitcoins. Mr. Pair wrote an email to Mr. Krohn asking for confirmation this time, not realizing that Mr. Krohn's email had been hijacked. It was found because Mr. Pair duplicated the customer on the 3,000 bitcoin transfer. The consumer said that they had not bought any bitcoins.</p>",
+        "date": "2014-09-12",
+        "fundsLost": "2370000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2944,
+        "projectName": "BTER",
+        "description": "<p>BTER reported that 50m NXT, or roughly $1.65m at press time, has been stolen from its exchange following an attack on one of its hosting servers.<br><br>A developer representing the China-based digital currency exchange platform confirmed the news on the community information website NXT Forum, suggesting that the BTER team was considering urging the NXT community to roll back the NXT block chain to recover the lost funds.<br><br>BTER announced on Twitter that it would seek to retrieve the stolen funds through other means.<br><br>The company said: \"We have decided not to rollback but get the stolen funds back from the hacker since we have got lots of information of him.\"</p>",
+        "date": "2014-08-15",
+        "fundsLost": "1910000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2945,
+        "projectName": "Cryptsy",
+        "description": "<p><strong>Quick Summary</strong></p><p>Cryptsy lost 13,000 BTC and 300,000 LTC due to an IRC backdoor in the code of the Lucky7Coin wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The developer of Lucky7Coin had inserted an IRC backdoor into the wallet's code, which functioned as a Trojan or command and control unit. This Trojan had likely been present for several months, gathering enough information to execute the attack. Cryptsy was alerted of a decrease in their safe/cold wallet balances of Bitcoin and Litecoin, as well as a few other minor cryptocurrencies, leading to the discovery of the exploit.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The transactions made by the attacker can be found at the following link:</p><p>https://www.walletexplorer.com/wallet/0c07e0bec1002bd2</p><p><br></p>",
+        "date": "2014-07-29",
+        "fundsLost": "9890000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2946,
+        "projectName": "Doge Vault",
+        "description": "<p>Online dogecoin storage provider DogeVault.com has been compromised by hackers, according to an official announcement from the service.<br><br>The site shut down as a result of the attack, which also saw the destruction of all of the service’s data. As a result, DogeVault is encouraging users not to transfer any funds to its wallet addresses while the attack is under investigation, and explained:<br>“We are currently in the process of identifying the extent of the attack and potential impact on users’ funds. This involves salvaging existing wallet data from an off-site backup.”<br><br>DogeVault has indicated that it will issue an additional statement on its findings within 24 to 48 hours of the initial post.<br><br>The overall loss of funds sustained by the site is as-yet unknown, though The Cryptocurrency Times has estimated that as many as 111m DOGE (nearly $51,000 at press time) could have been lost in the theft.</p>",
+        "date": "2014-05-13",
+        "fundsLost": "51100",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2947,
+        "projectName": "Bitcurex",
+        "description": "<p>The exchange's staff published a message on Facebook which stated that due \"to an error and ongoing maintenance works” the platform had decided to \"temporarily shut down [its] service”.<br><br>A statement from the company said:</p><p>\"We successfully blocked a hacking attack on Bitcurex, preventing mass theft of BTC funds of our users. Thanks to automatic safety procedures, hackers managed to defraud only a portion of the funds stored in operational Hot Wallet Bitcurex. The majority of funds from Hot Wallet, as well the entirety of funds from Cold Wallet and FIAT monetary funds remained intact.\"</p>",
+        "date": "2014-03-16",
+        "fundsLost": "108000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2948,
+        "projectName": "Crypto Rush",
+        "description": "<p>About 1.5 million coins were stolen after hackers tampered with a glitch at currency exchange company Crypto Rush.<br><br>The hack involved temporarily inflating the amount of coins available in accounts by about 22 million, then withdrawing the coins from the exchange.<br><br>“Once again we apologize for our own issues with both downtime and late upgrades of the client,” a representative of Crypto Rush said in a forum post. “We’ll post more when we know how we can pay back affected users or get some compensation for this massive, massive loss. 100 BTC doesn’t just come out of thin air, so please be patient while we make this right.”</p>",
+        "date": "2014-03-15",
+        "fundsLost": "659000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2949,
+        "projectName": "Poloniex Exchange",
+        "description": "<p>Digital currency exchange Poloniex has lost 12.3% of its total bitcoin supply in an attack.<br><br>The exchange took to Bitcoin Forum on 4th March to report it had been compromised by a previously unknown vulnerability in its coding:<br>https://bitcointalk.org/index.php?topic=499580<br><br>Poloniex owner Tristan D'Agosta:<br>\"The hacker discovered that if you place several withdrawals all in practically the same instant, they will get processed at more or less the same time. This will result in a negative balance, but valid insertions into the database, which then get picked up by the withdrawal daemon.\"<br><br>D'Agosta also stated that Poloniex compensated users:<br>\"97 BTC were taken and 97 BTC were paid back. Although the value of bitcoin fluctuated, it is not very different now from what it was in the beginning of March.\"</p>",
+        "date": "2014-03-04",
+        "fundsLost": "65600",
+        "fundsReturned": "65600",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2950,
+        "projectName": "PicoStocks",
+        "description": "<p><strong>Quick Summary</strong></p><p>PicoStocks suffered a significant loss due to unauthorized access to their keys, leading to the defunding of both hot and cold wallets&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An individual with prior access to PicoStocks' keys exploited this access to drain both the hot and cold wallets of the stock exchange. Despite the substantial loss, PicoStocks managed to cover the entire amount, ensuring that creditors were not affected by this incident</p>",
+        "date": "2013-11-29",
+        "fundsLost": "6420000",
+        "fundsReturned": "6420000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2951,
+        "projectName": "BIPS",
+        "description": "<p>Hackers have allegedly stolen over a thousand bitcoins from the European payment processor BIPS in a theft.<br><br>The payment provider said that it was initially hit with a DDoS attack on November 15th, followed by a second attack on November 17th that managed to take the funds. BIPS said that the attacks appear to have originated from Russia and neighboring countries.</p>",
+        "date": "2013-11-17",
+        "fundsLost": "600000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2952,
+        "projectName": "Bitcash.cz",
+        "description": "<p>Czech Republic-based bitcoin exchange Bitcash.cz has been hacked and up to 4,000 customers’ wallets have been emptied.<br><br>According to Czech news site E15.cz, some 4,000 bitcoin wallets had been opened with Bitcash.cz, with a total value of over 2 million Czech koruna (roughly equivalent to $100,000).<br><br>A post on the company's Facebook page reads:</p><p>\"Unfortunately, as we have already announced on our website Bitcash.cz, our server was attacked and compromised – including the wallets.<br><br>We are trying to resolve the situation, but we want to warn our users about fraudulent emails and scams [claiming to be from Bitcash].<br><br>We never ask anyone for access to his or her accounts or wallets nor ask for money.<br><br>We will inform you of any developments as soon as possible.<br><br>Thanks.\"</p>",
+        "date": "2013-11-11",
+        "fundsLost": "161000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2953,
+        "projectName": "GBL",
+        "description": "<p>Beijing-based “GBL” was advertised as a Hong Kong-based exchange and shut down after attracting significant investment. At the time, there was a Bitcoin craze in China, which lasted for much of the latter half of 2013 and was credited as the leading cause of the November 2013 bubble.</p>",
+        "date": "2013-10-26",
+        "fundsLost": "4000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2954,
+        "projectName": "Inputs.io",
+        "description": "<p>Inputs.io was compromised on October 23 and then again on October 26, with hackers making off 4,100 bitcoins total. The loss was a result of a social engineering attack that compromised a chain of email accounts. Eventually, the attacker gained access to reset the password for the Linode server.</p>",
+        "date": "2013-10-23",
+        "fundsLost": "809000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2955,
+        "projectName": "BASIC-MINING",
+        "description": "<p>Mining company BASIC-MINING took advantage of the ASIC boom to become a leading publically-traded mining company by early 2013. After the collapse of BTC-TC, the exchange on which it was traded, the founder disappeared with substantial assets.</p>",
+        "date": "2013-10-01",
+        "fundsLost": "277000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2956,
+        "projectName": "Just-Dice",
+        "description": "<p>The owner of the bitcoin betting site Just-Dice, a rival to SatoshiDice, had a severe moment of panic when a user taking advantage of a human error caused him to lose 1,300 bitcoins (around $116,090 at the time of writing).<br><br>Known only as ‘dooglus’, the owner revealed on the Bitcoin Talk forum that he had made something of a colossal mistake. What happened was this: a player won a load of bitcoins on the site and asked to withdraw them, dooglus paid out, but forgot to remove the balance from the user’s Just-Dice account. The user then gambled — and lost — the bitcoins that were left in his account and dooglus covered the loss out of his own pocket.<br><br>When he realized his mistake, dooglus contacted the user, who claimed he had left his laptop in a café and that someone else logged onto his Just-Dice account and gambled the money.</p>",
+        "date": "2013-07-15",
+        "fundsLost": "123000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2957,
+        "projectName": "WeExchange",
+        "description": "<p>“In July 2013, BitFunder’s software was said to be hacked, enabling the theft of 6,000 bitcoin from Montrol’s companion fiat-to-crypto platform, WeExchange. Montrol allegedly failed to communicate the lost monies with investors or regulatory authorities. On one occasion, he promoted the operation as “commercially successful” instead of insolvent.”<br><br>Improper storage combined with a lack of transparency enabled this operation to continue for many years as an insolvent firm. This also shows the very real tendency of some exchange operators to hide key details of hacks that occur, which is why a mandated level of transparency is so critical. Regular audits alone are only effective if the results are communicated and verifiable by the general public.</p>",
+        "date": "2013-07-01",
+        "fundsLost": "545000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2958,
+        "projectName": "PicoStocks",
+        "description": "<p>\"the stock market suffered a hack attack in June 2013 in which 1,300 bitcoins were stolen...PicoStocks announced that it had been robbed again. This time a total of 5,896 bitcoins were missing from both its “hot” and “cold” wallets. Because cold wallets can’t be accessed in online attacks, the theft may have been an inside job.\"</p>",
+        "date": "2013-06-01",
+        "fundsLost": "167000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2959,
+        "projectName": "Vircurex",
+        "description": "<p>On the 10th of May, a security breach led to an unauthorized withdrawal from our hot and warm wallet, the following are the withdrawn amounts and the respective destination addresses and transaction IDs:<br><br>1. 17gPdCyzEMRXdNTBpHrUhsM4FaiWMHhx2Q<br>cbce6bd1e274a9ea9d6946feaf4a1b0f80a5885a8482f4ebf3caa052f22bb4bf<br><br>2. 1PWQJu9AskoXEBYMod1KqPE6TTG4VYNz1P<br>85489430661f3041608749acb3019a1dcbf07a60f22e4bc43acfd05b46496cc9<br><br>3. 1Mu1wbyfkcrRarPveiihy5iuceLGC91Z4T<br>33011a0e26fe1c3515c699eecdae9d7550218779ae72fe7af063fffc80361d64<br><br>4. 1MeY3VVudFUV91gxVZsaY92TguRWy7eQbE<br>90239779a08243883f54bdb2503f4f40be2541487c2ef2383ef4d8277660e88b<br><br>5. LV8VnCDYJzd3FYNwn6n3Kyi1i7PB2MvXPo<br>30231aee25900b9cb1fba16f1a8923a0cd866d60b01e542be1a4b26f92d9d10f<br><br>The total losses of the security breach are:<br>1454 BTC<br>225,263 TRC<br>23,400 LTC<br><br>The attacker has acquired login credentials to the Vircurex VPS control account with their hosting service provider and has then asked for the root password reset of all servers which – unfortunately – the service provider has then done and posted the credentials in their helpdesk ticket, rather than the standard process of sending it to Vircurex email address (which had 2FA protection), also the security setup of allowing only Vircurex IP range to login to the management console was not working. It was an additional security feature the provider offered but was obviously circumvented by the attacker.</p>",
+        "date": "2013-05-10",
+        "fundsLost": "342000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2960,
+        "projectName": "Bitmit",
+        "description": "<p>The auction site Bitmit had 15 BTC stolen, after the server was accessed by an employee of their hosting company without authorization.<br><br>Bitmit, known as the 'eBay of bitcoin', has had a string of setbacks since its inception. After the theft the site has remained online, albeit with the header \"Bitmit is going to be sold. Please complete your orders and withdraw your funds asap!\"<br><br>\"We are planning to let another company take over Bitmit. Meanwhile we deactivated the site to let you withdraw your funds &amp; complete your orders. The chances are good that Bitmit will be continued.\" - Bitmit stated.</p>",
+        "date": "2013-04-26",
+        "fundsLost": "202000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2961,
+        "projectName": "OzCoin",
+        "description": "<p>OzCoin, a Bitcoin mining pool, has reported that an unknown attacker managed to hack into their server, defacing their website and database and stealing 923 BTC ($135,000) from their Bitcoin wallet. However, in less than a day over half of the money was seized as it was passing through the web wallet StrongCoin, and promptly returned to Ozcoin.</p>",
+        "date": "2013-04-19",
+        "fundsLost": "135000",
+        "fundsReturned": "83215",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2962,
+        "projectName": "ZigGap",
+        "description": "<p>User aethero, who was originally a reputable Bitcoiner, founded ZigGap after two previously succesful ventures, including BitPantry. Purporting to offer easy ways to purchase BTC, ZigGap saw little business. The founder seems to have also suffered mental illness in the latter stages of business operation</p>",
+        "date": "2013-04-01",
+        "fundsLost": "169000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2963,
+        "projectName": "Bitcoin Rain",
+        "description": "<p>A suspected long-running con likened to the infamous Bitcoin Savings and Trust, Bitcoin Rain finally defaulted on March 28, 2013. Leandro César claimed there was a security breach on his exchange website Mercado Bitcoin. As Bitcoin Rain's funds were stored there, investors in Bitcoin Rain, as well as account holders on Mercado Bitcoin, lost money.</p>",
+        "date": "2013-03-28",
+        "fundsLost": "370000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2964,
+        "projectName": "BTC Guild",
+        "description": "<p>When BTCGuild was upgrading the Bitcoind client to 0.8, the mining pool used its original upgrade plan. However, 0.8 is unique in that it reindexes the blockchain. This prompted a temporary state in which the pool was paying out for difficulty-1 shares, as that was the extent of the blockchain parsed. Sixteen separate thieves subsequently emptied the hot wallet. 47 BTC have been returned to the pool. The pool would on the following day lose even more money thanks to a bug causing its recent upgrade to 0.8 to differ from nodes running 0.7 or lower.</p>",
+        "date": "2013-03-10",
+        "fundsLost": "58000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2965,
+        "projectName": "Bit LC Inc.",
+        "description": "<p>One of the major Bit LC Inc. company shareholders disappeared with a huge amount of user assets. He was a holder of the Bit LC Inc. cold wallet that allowed him to withdraw funds without any problems. After this incident Bit LC Inc. announced its closing.</p>",
+        "date": "2013-02-13",
+        "fundsLost": "50800",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2967,
+        "projectName": "Trojan Wallet",
+        "description": "<p>Using a trojan horse, a cyber-terrorist stole thousands of bitcoin between September and November 2012. The biggest individual loss was about 2,600 BTC.</p>",
+        "date": "2012-11-16",
+        "fundsLost": "39200",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2968,
+        "projectName": "50BTC",
+        "description": "<p>The 50BTC mining pool suffered a hack of the billing software in late 2012. They were unable to identify the vulnerability. After the incident, 50BTC completely rewrote the billing software.</p>",
+        "date": "2012-10-13",
+        "fundsLost": "14000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2969,
+        "projectName": "Cdecker",
+        "description": "<p>A supposedly long-time user of Bitcoin found his personal wallet emptied of a significant amount in late September 2012. Because far more severe personal thefts had occurred in the past, the theft went by without much incident.</p>",
+        "date": "2012-09-28",
+        "fundsLost": "113000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2970,
+        "projectName": "BitFloor",
+        "description": "<p>Bitfloor stated that it had been hacked and that the service had suffered a loss of 24,000 BTC, which was worth around $250,000 at the time of the heist. As Bitfloor's creator, Roman Shtylman, put it, \"last night, a handful of our systems were hijacked.\" As a result, the attacker was able to obtain an unencrypted backup of the wallet keys (the actual keys live in an encrypted area). They were able to transfer the coins by using these keys. The vast bulk of the coins BitFloor had on hand was taken in this incident.\" As a result, BitFloor has temporarily halted all exchange activities.<br><br>The unencrypted backup that enabled the thief to carry out the attack was created when Shtylman performed a manual upgrade earlier in the day and saved the data to an unencrypted partition on his disk; Shtylman has so far declined to comment further on the details of the attack, saying that \"my current focus is on the future and not the past.\" Bitfloor made not one, but two errors that were both necessary to result in such a severe loss; the first, leaving data stored unencrypted, was an honest and perhaps unavoidable mistake, but it would not have had nearly the same impact if the second error of leaving so much money in an online-accessible \"hot wallet\" had not also occurred.</p>",
+        "date": "2012-09-05",
+        "fundsLost": "251000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2973,
+        "projectName": "Bitcoinica",
+        "description": "<p>BitCoinica hadn't changed all of their passwords after the previous hack two months before, and the attacker was able to steal 40,000 BTC and 40,000 USD.</p>",
+        "date": "2012-07-13",
+        "fundsLost": "303000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2974,
+        "projectName": "Bitcoin Syndicate",
+        "description": "<p>The Bitcoin Syndicate account on the Mt. Gox exchange was breached, and the attacker sold off the USD and withdrew all assets.<br><br>The withdrawal transaction:<br>c61d3639f010e30ad305b294cd128f381f58fc161d0badda1f39807dc2f12f7</p>",
+        "date": "2012-07-04",
+        "fundsLost": "12000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2975,
+        "projectName": "Bitcoin Savings and Trust",
+        "description": "<p>Bitcoin Savings &amp; Trust (abbreviated as BST) was a Ponzi scheme operated by Trendon Shavers (then known as Pirate). It was launched in November 2011 as First Pirate Savings &amp; Trust. Pirate claimed to have been selling bitcoins to some local tight-lipped buyers, and that he started BST to provide more volume to these buyers. By selling invested bitcoins at a high rate and rebuying them at the market price, Pirate was supposedly able to offer a very high-yield interest rate of 7% per week. This rate attracted many investors, and Pirate claimed that over 500,000 bitcoins had been deposited.<br><br>After accumulating an ever-larger amount of bitcoin, transactions were becoming difficult and expensive. Pirate attempted to reduce the strain by lowering the interest rate, but this sparked unrest and mass withdrawals. After a discussion with his clients, Pirate decided to close BST and announced his intentions to return all owned bitcoins. After repaying at least 11 small beneficiaries, BST suddenly announced a default on August 28, 2012. It was later revealed that the missing money went towards \"rent, car-related expenses, utilities, retail purchases, casinos, and meals.\"</p>",
+        "date": "2012-07-02",
+        "fundsLost": "4630000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2976,
+        "projectName": "Betcoin",
+        "description": "<p>The attacker compromised three Betcoin computers and stole all of the deposits and cold wallet funds amounting to 3,171 BTC. Just a small part of the stolen coins was refunded to the users.</p>",
+        "date": "2012-04-11",
+        "fundsLost": "15300",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2977,
+        "projectName": "Bitscalper",
+        "description": "<p>Initially presented as a successful investment project, Bitscalper invited users to invest their hard-earned money. High and profitable returns were promised. However, it was planned as scam from the beginning. Bitscalper subsequently shut down and never returned any of the funds.</p>",
+        "date": "2012-03-01",
+        "fundsLost": "6450",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2978,
+        "projectName": "Linode",
+        "description": "<p>On March 1, web hosting provider Linode was hacked, resulting in a theft of 3000 BTC from Slush and 43000 BTC from Bitcoinica. There have been two major BTC heists before, one 25,000 BTC theft in June and a 17,000 BTC theft from the BTC exchange Bitomat in August, resulting in the exchange being bailed out and acquired by MtGox.</p>",
+        "date": "2012-03-12",
+        "fundsLost": "228000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2979,
+        "projectName": "Mt. Gox",
+        "description": "<p>2,609 bitcoins from Mt. Gox were destroyed by the initializing of dozens of transactions that sent large amounts of bitcoin to invalid scripts.</p>",
+        "date": "2011-10-28",
+        "fundsLost": "8020",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2980,
+        "projectName": "Bitcoin7",
+        "description": "<p>On October 6, Bitcoin7 posted a message on their website that informed the users that Russian and Eastern European hackers attacked cryptocurrency exchange. The hackers breached Bitcoin7 servers and gained full access to the main BTC depository and 2 of the 3 backup wallets.</p>",
+        "date": "2011-10-05",
+        "fundsLost": "53100",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      }
+    ]
+  }
+}

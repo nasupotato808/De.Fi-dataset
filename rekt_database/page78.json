@@ -1,0 +1,509 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 4041,
+        "projectName": "Loopring",
+        "description": "<p><strong>Quick Summary</strong></p><p>On June 9, 2024, Loopring Smart Wallets suffered a security breach where attackers exploited the Recovery process for wallets that had only one Guardian, specifically the Loopring Official Guardian. By compromising Loopring's 2FA service, the attackers were able to impersonate wallet owners, gain approval from the Official Guardian, and reset wallet ownership to steal assets. Loopring has paused Guardian and 2FA-related functions, and is working with Mist security experts, SlowMist, and law enforcement to investigate.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker’s strategy focused on wallets with single-guardian setups, particularly those where the Loopring Official Guardian was the sole protector. By breaching Loopring’s 2FA system, the hacker bypassed ownership verification and falsely initiated wallet Recovery. This gave them control of the wallets, enabling them to withdraw assets to two addresses:</p><p>0x44f887cfbd667cb2042dd55ab1d8951c94bb0102</p><p>0xbacef3a142e39f14f4f15e22e9248ee4141af18f</p><p>The 2FA compromise appears to be the core vulnerability, allowing the attacker to impersonate users during the Guardian approval process. After identifying the breach, Loopring halted Guardian and 2FA-related features, stopping further unauthorized recoveries. Investigations are ongoing with SlowMist and law enforcement, and Loopring has pledged to update the community as more details emerge.</p>",
+        "date": "2024-06-09",
+        "fundsLost": "5000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4042,
+        "projectName": "1Inch",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 6, 2025, 1inch’s Fusion v1 Settlement Contract suffered a $2.6 million exploit, losing approximately $1.2 million in USDC and 638 ETH. The root cause was a re-entrancy vulnerability in the fillOrderInteraction() function, which allowed attackers to repeatedly gain approvals for asset transfers.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploited function, fillOrderInteraction(), blindly accepted user-supplied input (takingAmount) and returned that value as the approved transfer amount. This function is part of the 1inch Aggregation Router (0x1111111254eeb25477b68fb85ed929f73a960582), which called fillOrderTo(). Critically, both functions accepted arbitrary calldata, opening the door to a re-entrancy attack. This re-entrancy flaw enabled multiple fraudulent approvals, allowing the attacker to withdraw funds far beyond legitimate order amounts.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX Example:</p><p>https://etherscan.io/tx/0xb5c94efa0c8fd8f5c8cc2826e374a99620b01061d395b59b8f45dddc9fce1c60</p>",
+        "date": "2025-03-06",
+        "fundsLost": "2600000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xa88800cd213da5ae406ce248380802bd53b47647"
+          ]
+        }
+      },
+      {
+        "id": 4043,
+        "projectName": "Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 12, 2025, a victim lost $1.82M worth of cUSDCv3 due to a phishing attack. The scammer tricked the victim into signing a malicious transaction, allowing them to transfer the assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker (0x000069f70a9d4bae49c15b0818842eb0ce2f0000) used a phishing scheme to deceive the victim (0xa4c11b4a73a43329d1f52c3142137acf6184683f) into signing an unauthorized transaction. This likely involved:</p><p><br></p><p>Fake dApp or Social Engineering – The victim was lured into interacting with a malicious contract, possibly through fake websites, Discord messages, or Twitter DMs.</p><p>Malicious Transaction Signature – The victim unknowingly approved token transfers, allowing the scammer to drain $1.82M worth of cUSDCv3 from their wallet.</p><p>Immediate Asset Transfer – The funds were quickly moved to the scammer’s wallet, with no reported recovery attempts at this time.</p>",
+        "date": "2025-03-12",
+        "fundsLost": "1820000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4044,
+        "projectName": "ModelpiToken",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $MODELPI token suffered an attack or rug pull on March 10, 2025, resulting in a loss of ~$107K. The issue stemmed from a burn mechanism affecting the swap pair's address, likely causing price manipulation or liquidity depletion.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The incident was identified by Tikkala Security, which pointed out that the token’s burn function improperly affected the swap pair’s address. This suggests:</p><p>1) Burn Mechanism Exploitation – The contract likely included a function that burns tokens from any address, including the liquidity pool.</p><p>2) Impact on K Constant – In AMM-based DEXs (e.g., PancakeSwap), the constant product formula (x * y = k) maintains price balance. If the LP’s balance is altered unnaturally (e.g., by burning tokens from the pair), it can severely impact price calculations.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit Tx:&nbsp;</p><p>https://bscscan.com/tx/0x222cd1e7eb977c94cf45f46faebf952baa95c54090227a89fe480fbd5b142bf8</p>",
+        "date": "2025-03-10",
+        "fundsLost": "107000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x61a7abf93f0f326d5e08b3d5db312ab2cedb8927"
+          ]
+        }
+      },
+      {
+        "id": 4045,
+        "projectName": "MAID",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 13, 2025, the $MAID token suffered a private key leak, allowing an attacker to mint 0x10000000000000000000000000 MAID tokens and swap them for 89 ETH ($166K). The deployer wallet was also drained, increasing the total loss to 101 ETH ($190K). Funds were dispersed to four different addresses.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker used the compromised deployer wallet to mint 0x10000000000000000000000000 MAID tokens and immediately swapped them for 89 ETH ($166K). Additionally, the deployer wallet held 12.4 ETH, which was also drained, bringing the total stolen amount to 101 ETH ($190K). The stolen funds were distributed across four different addresses for further obfuscation. This incident highlights the critical importance of securing deployer and multisig keys, implementing timelocks or additional security layers for minting functions, and actively monitoring wallet activity to detect suspicious transactions early. There has been no official response from the $MAID team regarding fund recovery or mitigation actions.</p>",
+        "date": "2025-03-13",
+        "fundsLost": "166000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4046,
+        "projectName": "WebKeyDao",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 15, 2025, WebKeyDao was exploited for ~$737K due to an unprotected buy function in the contract 0xD5110...CD851.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On March 15, 2025, an attacker exploited a vulnerability in WebKeyDao’s smart contract 0xD5110...CD851, which lacked proper protection in its buy function. By using 1,159 BUSD, the attacker minted 230 wkeyDao tokens at a highly favorable rate. These storage values were set using the SetSaleInfo function, modifying storage slots 0x9c and 0x9e, which controlled token pricing. The attacker then sold the 230 tokens for 13,167 BUSD on a decentralized exchange (DEX), making a 10x profit. Despite the vulnerability, the contract had a 67-token sale threshold, preventing a full drain of the $11M liquidity pool. Initially, the loss was estimated at $73K, but after further analysis, the total stolen funds were confirmed to be ~$737K. The vulnerable contract is no longer exploitable, and full details have been disclosed to the community.</p>",
+        "date": "2025-03-15",
+        "fundsLost": "737000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4047,
+        "projectName": "Arcade",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 17 2025 the Arcade Token on BSC was exploited due to a vulnerability in its public signer mechanism with a loss of about 5k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract had an insecure public signer verification system, making it susceptible to signature replay attacks. The attacker exploited this by crafting valid signatures that the contract mistakenly recognized as legitimate, allowing them to mint and transfer tokens without proper authorization. As a result, a significant amount of funds were drained.</p>",
+        "date": "2025-03-17",
+        "fundsLost": "5000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": "ARC",
+          "addresses": [
+            "0x67f785d5cf3784e8f35876df323acf193350081f"
+          ]
+        }
+      },
+      {
+        "id": 4048,
+        "projectName": "BBX Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 20, 2025, BBX Token (BSC) suffered a $12,000 loss due to a liquidity pool manipulation attack exploiting its _transfer() function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On March 20, 2025, the BBX Token contract on BNB Smart Chain (BSC) was exploited due to a flaw in its _transfer() function, which burned liquidity pool tokens and forced a sync() call on PancakeSwap. The attacker repeated this process 252 times, causing a pool imbalance and manipulating the token’s price. Once the reserves were distorted, they executed a swap via PancakeRouter, extracting value at a favorable rate. The stolen funds were then laundered through Tornado Cash, making recovery difficult.</p>",
+        "date": "2025-03-20",
+        "fundsLost": "12000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x67Ca347e7B9387af4E81c36cCA4eAF080dcB33E9"
+          ]
+        }
+      },
+      {
+        "id": 4049,
+        "projectName": "Zoth",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 21, 2025, Zoth (Ethereum) was exploited for $8.32 million due to admin privilege leakage, allowing the attacker to replace the logic contract with a malicious one.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker gained unauthorized admin privileges, enabling them to upgrade Zoth’s logic contract to a malicious version. This tampered contract allowed the attacker to siphon funds from the protocol. The hacker’s initial funding came from address 0x3b33c5cd..., and the stolen assets were transferred to 0x7b0cd0d8.... The exploit suggests a private key compromise or an access control vulnerability, leading to full control over contract logic and fund withdrawals.</p>",
+        "date": "2025-03-21",
+        "fundsLost": "8320000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4050,
+        "projectName": "Berally",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 15, 2025, Berally (Ethereum) was hacked due to a compromised deployer key, leading to the dumping of all vesting tokens and the draining of the liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker gained access to Berally’s deployer key, allowing them to transfer and sell vesting tokens meant for controlled distribution. This mass sell-off drained the liquidity pool, likely crashing the token price. However, the dApp contracts remain unaffected, and users were advised to revoke access from the dApp and staking contracts as a precaution. The breach suggests either private key leakage or an internal security lapse, enabling unauthorized transactions.</p>",
+        "date": "2025-03-15",
+        "fundsLost": "90000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4051,
+        "projectName": "SIR",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 30, 2025, SIR (Synthetics Implemented Right) was exploited for $355,000 due to improper use of transient storage (EIP-1153) in the uniswapV3SwapCallback() function, allowing an attacker to manipulate storage and mint synthetic assets without authorization.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Vault contract used transient storage to store the Uniswap V3 pool address at slot 0x1, but later overwrote it with a user-controlled amount within the same transaction. This allowed the attacker to bypass authentication checks and execute unauthorized minting of synthetic assets. The vulnerability was due to not clearing transient storage after authentication, enabling the attacker to repeatedly call the function with manipulated data. The stolen WETH was laundered via ParaSwap, Odos Router V2, and Railgun, making tracking difficult. The SIR team acknowledged the breach and is investigating recovery options.</p>",
+        "date": "2025-03-30",
+        "fundsLost": "355000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xb91ae2c8365fd45030aba84a4666c4db074e53e7"
+          ]
+        }
+      },
+      {
+        "id": 4052,
+        "projectName": "Abracadabra",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 25, 2025, Abracadabra.Money was exploited for $13 million (6,260 ETH) due to state tracking errors in GMX-linked cauldrons, allowing the attacker to self-liquidate positions and take bad loans without repaying them. The stolen funds were bridged from Arbitrum to Ethereum and laundered via Tornado Cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack abused GMX-based cauldrons, which track collateral states for loans. The attacker failed a GMX deposit, leaving funds stuck in the OrderAgent contract, then self-liquidated a borrowed position, causing the system to erase it without removing collateral. This allowed them to borrow again using already liquidated collateral, effectively draining $13 million from the protocol. The funds were bridged from Arbitrum to Ethereum and washed through Tornado Cash. Despite initial confusion, GMX contracts were not directly affected, and Abracadabra has offered a 20% bounty for fund recovery.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:&nbsp;</p><p>https://arbiscan.io/tx/0xed17089aa6c57b7d5461209e853bdb56bc3460a91805e20d2590609a515ef0b0</p><p><br></p><p>Exploiter:</p><p>https://arbiscan.io/address/0xaf9e33aa03caaa613c3ba4221f7ea3ee2ac38649 </p>",
+        "date": "2025-03-25",
+        "fundsLost": "13000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Exchange (DEX),Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4053,
+        "projectName": "UPCX",
+        "description": "<p><strong>Quick Summary</strong></p><p>On April 1, 2025, UPCX suffered an exploit, leading to the theft of 18.4M UPC (~$70M). The attacker gained access to the ProxyAdmin contract, upgraded it, and used the withdrawByAdmin function to drain funds from three management accounts.&nbsp;</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker compromised the ProxyAdmin contract, which controls contract upgrades. They modified it to introduce a malicious function, withdrawByAdmin, enabling them to transfer 18.4M UPC (~$70M) from three management accounts. The funds remain untouched at address 0xFf7…334, suggesting further laundering or negotiation attempts. UPCX has suspended deposits/withdrawals but claims user assets are safe while investigations continue.</p>",
+        "date": "2025-04-01",
+        "fundsLost": "70000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4054,
+        "projectName": "Vicuna",
+        "description": "<p><strong>Quick Summary</strong></p><p>On March 28, 2025, Vicuna Finance was exploited via an oracle manipulation attack, leading to a loss of approximately $700K. Only the S Market and Stablecoin Market were affected, while the Main Protocol remains safe and operational.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack targeted oracle price feeds used in Vicuna’s S Market and Stablecoin Market. By manipulating price data, the attacker was able to unfairly borrow and drain funds from the protocol. This caused about 40% of total funds in affected markets to be lost. In response, Vicuna is redistributing remaining assets to users based on net supply positions between two snapshot points. While Gems and point farming on Sonic have been revoked, users will be able to review and claim funds via a dedicated claim page, with support provided for disputes.</p>",
+        "date": "2025-03-28",
+        "fundsLost": "700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4055,
+        "projectName": "AIRWA",
+        "description": "<p><strong>Quick Summary</strong></p><p>On April 4, 2025, AIRWA token on BNB Smart Chain (BSC) was exploited for approximately $34,000 due to a misconfigured public setBurnRate() function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability stemmed from the setBurnRate() function in the AIRWA token contract being publicly accessible. The attacker called setBurnRate(980)—an extremely high burn percentage—and then executed a transfer(pair, 0). This combination caused the pair’s tokens to be burned, manipulating the liquidity pool and allowing the attacker to extract value.&nbsp;</p>",
+        "date": "2025-04-04",
+        "fundsLost": "34000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x3af7da38c9f68df9549ce1980eef4ac6b635223a"
+          ]
+        }
+      },
+      {
+        "id": 4056,
+        "projectName": "BankX",
+        "description": "<p><strong>Quick Summary</strong></p><p>On February 8, 2025, BankX was exploited for approximately $43,000 through a reentrancy attack on the swapXSDForETH function within the Router contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability arose from missing reentrancy protection and incorrect pool state validation. The attacker used the swapXSDForETH() function, which performs an external call (IXSDWETHpool.swap) before updating internal state. This allowed the attacker to reenter the function multiple times, triggering excessive token burns via the burnpoolXSD() call.</p><p>Steps:</p><p>Attacker sent XSD to the pool to swap for ETH.</p><p>Reentered before state update, repeatedly triggering burns.</p><p>Used IWBNB(WETH).withdraw() to unwrap WETH into ETH.</p><p>Funds were sent via TransferHelper.safeTransferETH.</p><p><br></p><p><strong>Block Data Referance</strong></p><p>Attacker&nbsp;</p><p>https://bscscan.com/address/0x867aa2a2667060096d0f108ddfa3367caca9fd34</p><p>https://etherscan.io/address/0x18f9f77b5b70339e6fe564d3abea72d326b810c9</p>",
+        "date": null,
+        "fundsLost": "43000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          2
+        ],
+        "category": "NFT,Stablecoin",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4057,
+        "projectName": "Mantra",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 13, 2025, Mantra’s OM token crashed by over 90%, wiping out more than $5.5 billion in market cap. The event appears to be a coordinated insider dump rather than a technical smart contract exploit.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The price collapse began after suspicious on-chain activity showed over 43 million OM tokens—roughly 4.5% of the circulating supply—being sent to exchanges like OKX just days prior to the crash. A particularly large transfer of 14 million OM was identified, further fueling speculation of insider involvement. Although Mantra co-founder JP Mullin denied any wrongdoing and claimed centralized exchanges liquidated OM margin positions irresponsibly, blockchain data suggests otherwise. The OM token had recently undergone changes in emissions and tokenomics, which may have enabled early investors or insiders to unlock and sell significant volumes. The Mantra team insisted that team wallets remain locked, yet failed to provide clear evidence absolving themselves. While the price partially recovered to $1.10, the scale and suddenness of the drop raised red flags across the crypto community, prompting comparisons to the Terra collapse and triggering calls for deeper scrutiny of token transparency and centralized exchange practices.</p>",
+        "date": "2025-04-13",
+        "fundsLost": "5500000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4058,
+        "projectName": "ZKsync",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 15, 2025, a compromised admin account exploited the ZKsync airdrop distribution contracts and stole approximately $5 million worth of unclaimed ZK tokens.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attack stemmed from the compromise of the admin address 0x842822...587D, which had privileged access to three airdrop distribution contracts. Using this access, the attacker called the sweepUnclaimed() function and minted around 111 million unclaimed ZK tokens, representing roughly 0.45% of the total token supply. This unauthorized minting directly inflated the circulating supply and resulted in the attacker gaining control of tokens worth about $5 million. Importantly, this was an isolated incident affecting only the airdrop contracts; the ZKsync protocol itself, the core ZK token contract, governance contracts, and capped minters were not compromised. The attacker still holds most of the stolen funds at 0xb1027e...05d3, and recovery efforts are ongoing in coordination with Seal and various exchanges. The ZKsync team has reached out to the attacker to encourage communication and possible fund return.</p>",
+        "date": "2025-04-15",
+        "fundsLost": "5000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          47
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e"
+          ]
+        }
+      },
+      {
+        "id": 4059,
+        "projectName": "KiloEx",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 14, 2025, KiloEx was exploited due to a contract vulnerability, resulting in the loss of an undisclosed amount of funds from its Vault.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attacker exploited a critical lack of access control in the MinimalForwarder contract, enabling unauthorized calls that manipulated oracle prices. Through a multi-step function call chain involving MinimalForwarder, PositionKeeper, Keeper, and ultimately the KiloPriceFeed, the attacker was able to pass a forged signature and arbitrary data, bypassing intended permission checks. By doing so, they first set the oracle price to an abnormally low value to open a leveraged long position, then artificially raised the price to close the position for profit. The malicious activity originated from the wallet 0x00fac92881556a90fdb19eae9f23640b95b4bcbd, which has since begun bridging the stolen funds to BNB Chain via Polyhedra. KiloEx has halted platform activity, is working with security firms and partners to trace the stolen assets, and plans to launch a bounty program while preparing a detailed postmortem report.</p>",
+        "date": "2025-04-14",
+        "fundsLost": "7000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2,
+          49
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4060,
+        "projectName": "The R0AR",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 16, 2025, The R0AR staking contract was exploited due to a backdoor vulnerability, leading to the loss of approximately $790,000.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attack stemmed from a maliciously embedded backdoor in the staking contract during its deployment. Specifically, the attacker preset the user.amount mapping for their wallet (0x8149f77504007450711023cf0eC11BDd6348401F) to a large value directly in the contract's storage. This manipulation gave the appearance that the wallet had staked a substantial number of tokens. Later, by invoking the emergencyWithdraw() function, the attacker was able to withdraw 100 million $1ROR tokens from the contract. This withdrawal was possible despite the tokens never actually being staked, resulting in the full drain of the contract's funds. The vulnerability highlights poor storage initialization and the absence of proper validation checks on state variables at contract deployment.</p>",
+        "date": "2025-04-16",
+        "fundsLost": "790000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4061,
+        "projectName": "BTCM App",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 22, 2025, BTCMapp contracts on Arbitrum were exploited through a logical vulnerability, resulting in ongoing losses exceeding $1 million.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attackers targeted a flaw in the overPaper function of the BTCMapp smart contract, which lacked proper checks and allowed them to withdraw approximately half of the contract’s balance in repeated calls. The exploit was initiated by a wallet that performed several malicious transactions, systematically draining assets. Following the theft, the attacker began laundering the funds by bridging them to Ethereum using intermediary addresses. The exploit is still in progress, with stolen funds actively moving across chains, prompting investigators and the community to monitor and attempt containment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx</p><p>https://arbiscan.io/tx/0xc0ef229256b2a6bc076a2de136f00f6161c959e4c56240bdb580ae2fde177c0b</p><p>Attacker&nbsp;</p><p>https://arbiscan.io/address/0xbf4fe9c88660d628e11702ef780376dd16495b16</p>",
+        "date": "2025-04-22",
+        "fundsLost": "1000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x271013fd6c1c2e5317af3e9db311a2d5c9e2d360"
+          ]
+        }
+      },
+      {
+        "id": 4062,
+        "projectName": "ACB",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 23, 2025, the ACB token on BNB Chain was exploited through an airdrop vulnerability, resulting in losses of approximately $60,000.</p><p><strong><br></strong></p><p><strong>Details of the exploit</strong></p><p>The attacker, funded via Tornado Cash, exploited a vulnerability in the ACB token’s airdrop mechanism that allowed them to claim rewards multiple times, draining the airdrop contract. The exploit involved abusing a cash exploit flaw without proper eligibility or duplication checks. After successfully extracting around $60,000, the attacker moved the stolen funds back to Tornado Cash to obfuscate their trail. The compromised contract was a proxy pointing to a vulnerable implementation contract, and the exploit has been confirmed as fully executed.</p>",
+        "date": "2025-04-23",
+        "fundsLost": "60000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x4b1bf735731e29e2d385e4bedcce5031eac259bb"
+          ]
+        }
+      },
+      {
+        "id": 4063,
+        "projectName": "Phishing",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 28, 2025, a social engineering attack led to the theft of 3,520 BTC (~$330.7M) from an individual user.</p><p><strong><br></strong></p><p><strong>Details of the exploit</strong></p><p>The attacker used social engineering to deceive an elderly U.S. victim into transferring 3,520 BTC to the address bc1qcrypchnrdx87jnal5e5m849fw460t4gk7vz55g. Soon after the theft, the funds began moving through over six instant exchanges and were rapidly converted into Monero (XMR), contributing to a 50% spike in XMR’s price. This laundering tactic was likely chosen for its privacy features, making tracking difficult. The event has been confirmed as a non-smart-contract exploit, and instead a high-value personal compromise—highlighting ongoing risks from social engineering in crypto.</p>",
+        "date": "2025-04-28",
+        "fundsLost": "330000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4064,
+        "projectName": "Loopscale",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 26, 2025, Loopscale was exploited due to a pricing system vulnerability, resulting in the loss of approximately 39,474 SOL (~$5.8M), though over $2.8M has since been returned.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attacker exploited a flaw in Loopscale’s pricing mechanism, enabling them to manipulate loan conditions and extract funds from the SOL and USDC Genesis Vaults. In response, the Loopscale team temporarily suspended most app functions while investigating the breach and coordinating with security partners and law enforcement. A message was sent directly to the exploiter, offering a whitehat agreement: return 90% of the stolen funds (35,527 SOL) in exchange for keeping a 10% bounty (3,947 SOL) and exemption from liability. As of April 27, the exploiter returned a total of 19,463 WSOL (~$2.88M), with funds delivered across multiple transactions. Law enforcement, exchanges, and bridge protocols have been alerted, and further legal steps are pending if no agreement is reached. A full post-mortem is in progress.</p>",
+        "date": "2025-04-26",
+        "fundsLost": "5800000",
+        "fundsReturned": "2880000",
+        "chaindIds": [
+          24
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4065,
+        "projectName": "Impermax",
+        "description": "<p><strong>Quick summary</strong></p><p>On April 27–28, 2025, Impermax V3 suffered an exploit resulting in a loss of approximately $300K, with an additional $300K–$350K at risk if borrowers repay loans and unlock vulnerable liquidity.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attacker exploited a misvaluation in how Impermax handled uncollected trading fees used as collateral. By manipulating a low-liquidity Uniswap V3 pool and inflating the uncollected fee value through multiple swaps, they were able to borrow against this artificially high collateral. They then auto-compounded the fees at an incorrect price tick, reducing real collateral value due to impermanent loss, before reverting the tick to extract value. The attacker repeated this process to drain available liquidity and dilute lenders via the restructureBadDebt() function, securing stolen funds before legitimate users could react.</p>",
+        "date": "2025-04-28",
+        "fundsLost": "300000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          49
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4066,
+        "projectName": "Mobius Token",
+        "description": "<p><strong>Quick summary</strong></p><p>On May 11, 2025, Mobius Token (MBU) on Binance Smart Chain suffered a suspicious incident involving an unverified contract, resulting in a loss of approximately $2.16 million. The nature of the event suggests it could be an exploit or a potential rug pull.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attacker exploited an unverified contract that contained a critical miscalculation—an unintended surplus 1e18 multiplier—leading to massive inflation of MBU token supply. With only 0.001 BNB, the attacker minted over 9.7 quadrillion tokens due to faulty pricing logic. These tokens were immediately swapped for USDT, netting over $2.1 million. Since the contract was unverified and deployed just days before the incident, combined with prior activity from the same funded wallet, the event raises strong suspicion of a premeditated rug pull rather than a purely technical exploit.</p>",
+        "date": "2025-05-11",
+        "fundsLost": "2160000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x0dfb6ac3a8ea88d058be219066931db2bee9a581#code"
+          ]
+        }
+      },
+      {
+        "id": 4067,
+        "projectName": "Zunami",
+        "description": "<p><strong>Quick summary</strong></p><p>On May 15, 2025, Zunami Protocol suffered a $500,000 exploit involving the collateral backing its zunUSD and zunETH stablecoins. The attacker laundered the stolen funds via Tornado Cash, making recovery difficult.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>Unlike previous incidents involving flash loans or price manipulation, this attack stemmed from compromised privileged access. The exploiter used admin-level permissions to withdraw and redeem protocol collateral directly, indicating a critical failure in access control. The ETH obtained from the redemption was swiftly transferred to Tornado Cash, obfuscating the attack trail. The exploit, executed entirely at the protocol level, suggests either a severe internal security lapse or potential insider threat.</p>",
+        "date": "2025-05-15",
+        "fundsLost": "500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4068,
+        "projectName": "Nitron Demex",
+        "description": "<p><strong>Quick summary</strong></p><p>On May 16, 2025, Demex’s lending platform Nitron was exploited through an oracle manipulation attack, leading to a loss of approximately $950,559. The exploit affected only the Nitron markets, while spot and perpetual trading on Demex remained unaffected.</p><p><br></p><p><strong>Details of the exploit</strong></p><p>The attacker manipulated the price oracle for the deprecated dGLP vault, which had low TVL due to prior user withdrawals. By donating fsGLP to the vault, they artificially inflated its redemption rate. This manipulated value was then propagated across Nitron markets via the Demex oracle. Using the falsely elevated price of dGLP as collateral, the attacker borrowed real assets and withdrew them for profit. The root causes included a misused audited contract not intended for oracle use, failure to implement a price cap safeguard, and the omission of zeroing out LTV and supply caps after the vault was deprecated.</p>",
+        "date": "2025-05-16",
+        "fundsLost": "950000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 4069,
+        "projectName": "Cetus",
+        "description": "<p><strong>Quick Summary</strong></p><p>On May 22, 2025, Cetus Protocol, the largest decentralized exchange on the Sui Network, was exploited, resulting in a loss of approximately $260 million. The attack triggered a steep crash in token prices—some falling by over 90%—and prompted the team to halt smart contract operations while investigations were underway.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited a flaw in Cetus’s token swap mechanism by introducing spoofed tokens and manipulating the AMM curve's price calculations. These malicious tokens were used to artificially inflate pool reserves and trading prices, allowing the attacker to drain real assets from liquidity pools at distorted valuations. The exploit bypassed standard token validation mechanisms, indicating weaknesses in the protocol’s input verification and curve logic. The attacker’s wallet was observed holding a range of valuable tokens post-exploit, and laundering efforts were underway through various swaps and transfers.</p>",
+        "date": "2025-05-22",
+        "fundsLost": "260000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      }
+    ]
+  }
+}

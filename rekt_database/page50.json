@@ -1,0 +1,948 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2553,
+        "projectName": "THORChain",
+        "description": "<p><strong>Quick Summary</strong></p><p>Thorchain Bifrost component was exploited through the ETH Router contract, resulting in the loss of various tokens including 966.62 ALCX, 20,866,664.53 XRUNE, 1,672,794.010 USDC, 56,104 SUSHI, 6.91 YFI, and 990,137.46 USDT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker created a fake router and emitted a deposit event by sending ETH. They then passed returnVaultAssets() with a small amount of ETH, but the router was defined as an Asgard vault. On the Thorchain Router, it forwarded ETH to the fake Asgard. This action created a fake deposit event with a malicious memo. Thorchain Bifrost interpreted this as a normal deposit and refunded to the attacker due to a bad memo definition.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xd95e6eab231b9f3afa24c31c7050bd84c2982072#tokentxns</p><p><br></p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0x9db403ad39d3fe78de378af0b49f03d244326662f7fee230db87d12a624f564b</p><p><br></p><p>Other relevant addresses:</p><p>Router: https://etherscan.io/address/0xc145990e84155416144c532e31f89b840ca8c2ce</p><p>Vault: https://etherscan.io/address/0xf56cba49337a624e94042e325ad6bc864436e370</p><p>Attack contract: https://etherscan.io/address/0x700196e226283671a3de6704ebcdb37a76658805</p><p>Attack wallet (spawned from Tornado Cash): https://etherscan.io/address/0x8c1944fac705ef172f21f905b5523ae260f76d62</p>",
+        "date": "2021-07-22",
+        "fundsLost": "8000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "RUNE",
+          "addresses": [
+            "0x3155ba85d5f96b2d030a4966af206230e46849cb"
+          ]
+        }
+      },
+      {
+        "id": 2554,
+        "projectName": "FURUCOMBO",
+        "description": "<p><strong>Quick Summary</strong></p><p>Furucombo proxy contract was exploited, resulting in the loss of various tokens worth millions of dollars.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker manipulated the Furucombo proxy contract to believe that Aave V2 had a new implementation. This new implementation had the ability to transfer all approved tokens to addresses controlled by the attacker. This was possible because users had approved the Furucombo contracts to use their tokens on their behalf. The attacker was able to steal a variety of tokens including stETH, USDC, USDT, DAI, aWBTC, aWETH, aETH, aAAVE, WBTC, CRV, LINK, cETH, cUSDC, cWBTC, BAO, PERP, COMBO, PAID, UNIDX, GRO, and NDX. The total value of the stolen tokens is in the millions of dollars.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xb624E2b10b84a41687caeC94BDd484E48d76B212</p><p><br></p><p>Malicious Transaction:</p><p>https://ethtx.info/mainnet/0x5af11a27e98a167b61b01fea093cf612d5ec76c20fd2032f2d1aa49c8b1ee529/</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0x86765dde9304bea32f65330d266155c4fa0c4f04</p>",
+        "date": "2021-03-01",
+        "fundsLost": "14000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator,Other",
+        "issueType": "Other",
+        "token": {
+          "name": "COMBO",
+          "addresses": [
+            "0xffffffff2ba8f66d4e51811c5190992176930278"
+          ]
+        }
+      },
+      {
+        "id": 2555,
+        "projectName": "DODO",
+        "description": "<p>The exploits targeted several DODO V2 Crowdpools, namely the WSZO, WCRES, ETHA, and FUSI pool.<br><br>The DODO V2 Crowdpooling smart contract has a bug that allows the <u>init</u>() function to be called multiple times. This means that an exploiter can perform an attack with the following steps:<br><br>1. Exploiter creates a counterfeit token and initializes the smart contract with it by calling the <u>init</u>() function.<br>2. Exploiter calls the <u>sync</u>() function and sets the “reserve” variable, which represents the token balance, to 0.<br>3. Exploiter calls <u>init</u>() again to re-initialize - this time with a “real” token (i.e. tokens in DODO’s pools)</p><p>Exploiter uses a flash loan to transfer all real tokens from the pools and bypass the flash loan check.<br><br>The exploiter 1:<br>- interacted with a centralized exchange<br><br>- withdrew 0.46597 ETH from Binance: https://etherscan.io/tx/0x970b32a8c81dd3fc47fa118621726fc418ec3526c4379470a4000ed7b448360f<br><br>- executed, in quick succession, 7 BUSD withdrawal transactions (see the link for one example), possibly involving the Binance Bridge: https://etherscan.io/tx/0x300de107cbca466abe121112848daaf7f5f0d15625d54773dd0bbbff4e276e93<br><br>- transferred 67,416 BUSD to 0xa305fab8bda7e1638235b054889b3217441dd645 twice: https://etherscan.io/tx/0x306d08f3d8af85dfdea7a6edb336d7504e8ecc7c609e4b940d188ba68e11cab5 https://etherscan.io/tx/0x56dbf6421c6e6bd779ab0c12fd49e1f7714dd85023aa74abae1940f8d88669cf<br><br>- transferred 59,245.324743 USDT to 0xa305fab8bda7e1638235b054889b3217441dd645 twice: https://etherscan.io/tx/0xbee2f507b2f4b4321927a9762dac757df12fe1ba2d6f85314273b9ea542a5c13 https://cn.etherscan.com/tx/0xaf80cf58c88f0e0f2f44e3902e4c7cd2c17122511fbc6c2d9b2cd43fbc4199b9<br><br>- executed two exploits against DODO smart contracts. The first one was against the DODO-USDT test contract, and funds were transferred to 0xa305fab8bda7e1638235b054889b3217441dd645: https://etherscan.io/address/0x328410f276d4fe83fc78fa56ad32d9821a5e5c1c#tokentxns<br><br>- second one was against the WCRES-USDT contract, and funds were transferred to 0x56178a0d5f301baf6cf3e1cd53d9863437345bf9: https://cn.etherscan.com/address/0x910fd17b9bfc42a6eea822912f036ef5a080be8a#tokentxns<br><br>The exploiter 2:<br><br>- executed 3 exploits against DODO contracts:<br><br>1. ETHA-USDT: https://etherscan.io/tx/0x0b062361e16a2ea0942cc1b4462b6584208c8c864609ff73aaa640aaa2d92428</p><p>2. WSZO-USDT: https://etherscan.io/tx/0xff9b3b2cb09d149762fcffc56ef71362bec1ef6a7d68727155c2d68f395ac1e<br><br>3. vETH-WETH, with 93,148 gwei: https://etherscan.io/tx/0x561f7ccb27b9928df33fa97c2fb99ea3750593e908f9f0f8baf22ec7ca0c5c4a</p>",
+        "date": "2021-03-09",
+        "fundsLost": "3800000",
+        "fundsReturned": "3100000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "DODO",
+          "addresses": [
+            "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
+          ]
+        }
+      },
+      {
+        "id": 2556,
+        "projectName": "DAO Maker",
+        "description": "<p><strong>Quick Summary</strong></p><p>Hackers exploit smart contract vulnerability in crowdfunding platform DAO Maker, stealing approximately $7 million in USD Coin (USDC) from over 5,000 user accounts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The hackers exploited a smart contract vulnerability in DAO Maker, a platform aimed at raising funds for crypto projects. They initially stole 10,000 USDC and then made 15 more transactions to acquire additional funds, totaling approximately $7 million. The attack affected 5,251 user accounts. According to DAO Maker CEO Christoph Zaknun, the Strong Holder Offering (SHO) contract was targeted because the number of deposits exceeded their expectations. Users with up to $900 in their accounts were reportedly unaffected as the platform moved their funds into different wallets. DAO Maker has suspended all deposits pending a full Root Cause Analysis. Blockchain intelligence firm CipherBlade is conducting an investigation into the hack and has identified a Binance account associated with the attacker. DAO Maker is exploring compensation options for all affected users.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xd8428836ed2a36bd67cd5b157b50813b30208f50</p><p><br></p><p>The contract used to perform the attack:</p><p>https://etherscan.io/address/0x1c93290202424902a5e708b95f4ba23a3f2f3cee#code</p><p><br></p><p>The transaction of the attack execution:</p><p>https://etherscan.io/tx/0xeefc22f2dbd8e1b886a7e59f66511e2735f4d04484f6258a9db6e661ed490f7b</p><p><br></p><p>The victim's contract:</p><p>https://etherscan.io/address/0x41B856701BB8c24CEcE2Af10651BfAfEbb57cf49#code</p><p><br></p><p>The transaction of the stolen funds transfer:</p><p>https://etherscan.io/tx/0xa8a61f779f514e59efa05a98152cf56c1942eff6cc56f506dab7c662ac1e775e</p>",
+        "date": "2021-08-12",
+        "fundsLost": "6884420",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Stablecoin,Other",
+        "issueType": "Other",
+        "token": {
+          "name": "DAO",
+          "addresses": [
+            "0x0f51bb10119727a7e5ea3538074fb341f56b09ad"
+          ]
+        }
+      },
+      {
+        "id": 2558,
+        "projectName": "Punk Protocol",
+        "description": "<p><strong>Quick Summary</strong></p><p>Punk Protocol suffered a loss due to a missing Modifier in the initialize() function of the CompoundModel code, allowing an attacker to manipulate the function and withdraw assets directly to their wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited a vulnerability in the initialize() function of the CompoundModel code, which lacked an \"initializer\" Modifier. This allowed the attacker to manipulate the function, despite it being connected to an unknown contract. The attacker then updated the contract address and called withdrawToForge(), sending the assets controlled by the CompoundModel directly to their malicious contract and into their wallet. The stolen funds were then swapped on ETH and deposited into the Tornado Cash mixer. A white-hat hacker managed to front run the attack and returned $5 million to the Punk Protocol deployer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x1d5a56402425c1099497c1ad715a6b56aaccb72b</p><p><br></p><p>The attacker's smart contract:</p><p>https://etherscan.io/address/0x1695ce70da4521cb94dea036e6ebcf1e8a073ee6</p><p><br></p><p>The white-hat hacker address:</p><p>https://etherscan.io/address/0x3aa27ab297a3a753f79c5497569ba2dacc2bc35a</p><p><br></p><p>white-hat hacker smart contract:</p><p>https://etherscan.io/address/0x00000000b2ff98680adaf8a3e382176bbfc34c8f</p><p><br></p><p>Transaction of the attack:</p><p>https://etherscan.io/txs?a=0x1d5a56402425c1099497c1ad715a6b56aaccb72b</p><p><br></p><p>Transaction of the returned funds:</p><p>https://etherscan.io/tx/0x008dd92f8bcfcee400aed26d13495fbfc8351f9b21289792fc2bb9e771668147</p><p>https://etherscan.io/tx/0xace7c07695ec1bbf917486c3c81ee7de79c04e0309d4f6a149688463e6f83247</p>",
+        "date": "2021-08-10",
+        "fundsLost": "8900000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT",
+        "issueType": "Other",
+        "token": {
+          "name": "PUNK",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2559,
+        "projectName": "Maze Protocol",
+        "description": "<p>The attackers exploited a leak inside the lending protocol that allowed them to initiate loans under users’ collateral.</p><p>The examples of the attacker’s transaction:</p><p>https://www.bscscan.com/tx/0x2a389d058977f0327839ddf5fc3a56b025e937fed67137e0259dce1eb02f1355<br>https://www.bscscan.com/tx/0x636c682937831ce4585ab8bb547801508688393070bd03010485f8fc86935fc8</p><p><br></p><p>The project’s contract was attacked by the following addresses:</p><p>1. 0x330bF950Ab2Fb1f8Ed039a50b1a92478714a6c7c</p><p>2. 0x4f5BC3866858bF892118aC675e015286C37bBEfd</p><p>3. 0xdAF38D906A94a20B07Aef895A2cDE34877f9da7f</p><p>4. 0x3551fD337471a8C6374D2F9c97519cA94BA1D59a</p><p>5. 0x79391843A5EfF373A20e9F93096B41ff38f38013</p><p>6. 0x6666666C0765744193F48255717f05A0105D2401</p>",
+        "date": "2021-08-11",
+        "fundsLost": "4000000",
+        "fundsReturned": "3800000",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "NEKO",
+          "addresses": [
+            "0xdedf440ad8bf07729ead58f4ff52edab20d2628d"
+          ]
+        }
+      },
+      {
+        "id": 2560,
+        "projectName": "Red Rose Finance",
+        "description": null,
+        "date": "2021-08-15",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Red Rose Finance",
+          "addresses": [
+            "0x5e46AA897F7545628fde5Aeba7a202547572eb9e"
+          ]
+        }
+      },
+      {
+        "id": 2561,
+        "projectName": "0xNinja",
+        "description": null,
+        "date": "2021-08-14",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "0xNinja",
+          "addresses": [
+            "0x2D4EFFc84fABB4AbA0bc16582Cd9931498Af10e4"
+          ]
+        }
+      },
+      {
+        "id": 2562,
+        "projectName": "Rimau Finance",
+        "description": null,
+        "date": "2021-08-12",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Rimau Finance",
+          "addresses": [
+            "0x1ef43a30b70628d0BFe676D036D3B7147B250B51"
+          ]
+        }
+      },
+      {
+        "id": 2563,
+        "projectName": "Happy Frog Finance",
+        "description": null,
+        "date": "2021-08-12",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HFF",
+          "addresses": [
+            "0x48445110EDC612CD2520F3f48F877817800e792a"
+          ]
+        }
+      },
+      {
+        "id": 2564,
+        "projectName": "VIVAToken",
+        "description": null,
+        "date": "2021-08-09",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VIVA",
+          "addresses": [
+            "0xD9D4467F115EFFAA0dd3af9749768eBb5D9f06e1"
+          ]
+        }
+      },
+      {
+        "id": 2565,
+        "projectName": "Photon-Swap",
+        "description": null,
+        "date": "2021-08-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Photon-Swap",
+          "addresses": [
+            "0x099c7ff2783CD9Bef5942352084a9d4D5669285d"
+          ]
+        }
+      },
+      {
+        "id": 2566,
+        "projectName": "PolyMind",
+        "description": null,
+        "date": "2021-08-11",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PolyMind",
+          "addresses": [
+            "0x9096236747706f7BfFab31578615534ad62eF5c5"
+          ]
+        }
+      },
+      {
+        "id": 2567,
+        "projectName": "BeaverSwap.finance",
+        "description": null,
+        "date": "2021-08-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BEAVER",
+          "addresses": [
+            "0xbA4b394be503D49fbCaf044272eB3f74effcb62f"
+          ]
+        }
+      },
+      {
+        "id": 2568,
+        "projectName": "Yoshi Defi",
+        "description": null,
+        "date": "2021-08-10",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Yoshi Defi",
+          "addresses": [
+            "0x76693A1EDc643855ce2d437a93666875481861aE"
+          ]
+        }
+      },
+      {
+        "id": 2569,
+        "projectName": "Planetswap Uranus",
+        "description": null,
+        "date": "2021-08-05",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Planetswap Uranus",
+          "addresses": [
+            "0xEfBB2129A700eb79AD7BABE2EAb477bCfC95Dc38"
+          ]
+        }
+      },
+      {
+        "id": 2570,
+        "projectName": "Corgi Finance",
+        "description": null,
+        "date": "2021-08-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Corgi Finance",
+          "addresses": [
+            "0x002e53436696821ec06B177EbC24d1765aeC08ec"
+          ]
+        }
+      },
+      {
+        "id": 2571,
+        "projectName": "YFARM",
+        "description": null,
+        "date": "2021-08-14",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YFARM Token",
+          "addresses": [
+            "0xf5d0fefaab749d8b14c27f0de60cc6e9e7f848d1"
+          ]
+        }
+      },
+      {
+        "id": 2572,
+        "projectName": "FASTSWAP",
+        "description": "<p>The attacker:</p><p>https://bscscan.com/address/0xfd544b216bf23f4051281f13836c040feefd0921, as was stated by the project team in the tweet:<br>https://archive.is/4MRMN<br><br><u>tokenMigrate</u>() function was called by the address which probably was saved to MasterChef in the <u>constructor</u>() initialization into private variable <u>migrateAddress</u>. Since the caller of the <u>tokenMigrate</u>() function was address 0x193D4D22A8610Da6A89b36a1C938778D268D15ef, he was able to invoke LP and token migrations multiple times at:<br>https://explorer.bitquery.io/ru/bsc/txs/calls?contract=0xad4219cd9e26832269a49fe6d0edb3c40f64d701&amp;method=99594431<br><br>After, tokens were transferred to the external address multiple times, the example transaction:<br>https://bscscan.com/tx/0x5bb2d2cef907dba0ea6de4b6ea3a3f1c26e57fd99d3dd68b50d6e94d5fb0f9e2<br><br>Liquidity was removed multiple times, tokens were sold as well, the example transaction:<br>https://bscscan.com/tx/0x830f9f79b3d43976ed204d095e03b2e9a9b048cdbff2f20a7fc03ac94cb144ba</p>",
+        "date": "2021-08-14",
+        "fundsLost": "290738",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "FAST, Duke",
+          "addresses": [
+            "0x2322afaac81697e770c19a58df587d8739777536, 0xaee234825dc4687fae606485c1ebd06336052bcc"
+          ]
+        }
+      },
+      {
+        "id": 2573,
+        "projectName": "XSURGE",
+        "description": "<p>The transaction behind the attack:<br>https://bscscan.com/tx/0x7e2a6ec08464e8e0118368cb933dc64ed9ce36445ecf9c49cacb970ea78531d2<br><br>The hacker made a flash loan of 10,000 BNB and purchased 202 trillion SURGEs, next <u>sell</u>() 202 trillion SURGEs within reentrancy to <u>purchase</u>(), where the price is calculated before updating <u>_totalSupply</u> to a smaller one, thus gaining more SURGEs.<br><br>The hacker exploited five times in five different transactions and gained 13,112 BNBs in total (with ~$5.57M). The funds were transferred to Ethereum via Binance Bridge.</p>",
+        "date": "2021-08-16",
+        "fundsLost": "5570000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Stablecoin",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "SURGE",
+          "addresses": [
+            "0xe1e1aa58983f6b8ee8e4ecd206cea6578f036c21"
+          ]
+        }
+      },
+      {
+        "id": 2576,
+        "projectName": "Pirate Farm",
+        "description": null,
+        "date": "2021-08-16",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Pirate Farm",
+          "addresses": [
+            "0xe5E28532614Ec9FC81B1B83404faBB09E6B2B591"
+          ]
+        }
+      },
+      {
+        "id": 2577,
+        "projectName": "Tetris Finance",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://www.bscscan.com/tx/0x932f162d0821bf6bf3345fee5336590156c14341b7597fc03ca912ca38bd8a39<br><br>The contract deployer used hidden migration functionality under the <u>rewardUpdate</u>() to transfer all LP tokens from the reward distribution contracts onto the own wallet at:<br>https://www.bscscan.com/tx/0x26a4c4163fc5c459da79a89d8d2e6eb85108b484211bfb1fe838fd1b6614d497<br>https://www.bscscan.com/tx/0x0f1c4a132cd00035ef510a235c9ef1afba0abe2bceb99fd9fae1cf30be896f21<br>https://www.bscscan.com/tx/0xd6dbb59f15b0a5b69e37668722cf50cae140d3c6024d7de3f2ea143fa4db71fd<br>https://www.bscscan.com/tx/0x026d36499eeade202777a81c557103960e9b8ef82d5c63853bb06decf1108d22<br>https://www.bscscan.com/tx/0x18c3914e1779f2a534ee6d2ba531fa573c917a479312e42c6be1cb43dc9ed52e<br>https://www.bscscan.com/tx/0x7d54686bc40d2df363fc0fea2cca429eeadff00f99d24bb9fb7efaf0a05e5590<br>https://www.bscscan.com/tx/0x45e47c922d4c6c0c10c02f4c662948f4274f16d9623b110be0b07b57bfb3084d<br>https://www.bscscan.com/tx/0x8d176f37962de80beaf160e930508071ea19430b00cb6f58595a2c76bb07d106<br><br>The project's native tokens were sold as well, the example transaction:<br>https://www.bscscan.com/tx/0xd8dd42cb76ca3d69d5e4c93e71e4a9bbf154500dfc9a9c979212eefaa5f373f7<br><br>The liquidity was removed by the contract deployer. The received tokens were exchanged on BNB and were distributed between different external wallets at:<br>https://www.bscscan.com/tx/0x965d4dd7c1cf670477dea9d681f077b091749b2922c2fadc2856c3bafebc81ef<br>https://www.bscscan.com/tx/0x5030fc706d05dfbceaebe4ed464940dd146862102919ae7867bd03935297a26f<br>https://www.bscscan.com/tx/0x84d0f4baadb846524be2a4eed8e02d343a9250a61e02d9ec5cc4a18666f29ae8<br>https://www.bscscan.com/tx/0x46b5fee4b7bdd5f75b914cbca65576d6c707a6e7a373392d2c1765f870db6943<br>https://www.bscscan.com/tx/0x671ce1007ae06f60da40a3477572023bfcd99032be4f0a7276cc4dc79fe12e91<br>https://www.bscscan.com/tx/0x6985c92ba8f3d9b1242abbea2e15db6bcc4b1201d43534ad1e683f923d1fda37<br>https://www.bscscan.com/tx/0x8dfbab27a511e173adf7e1be3aaadc901c737ec2fbdf94a78f962788f0c1a0bb<br>https://www.bscscan.com/tx/0xbacda7bf73e32cc9279731d8a8dcd63f3f2e0e8751a2a349e6811308b72f2d16</p>",
+        "date": "2020-12-17",
+        "fundsLost": "217507",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TTR",
+          "addresses": [
+            "0x7924afd2b21caf0ab09e53cc91cdec0761db99b4"
+          ]
+        }
+      },
+      {
+        "id": 2578,
+        "projectName": "SharkTron",
+        "description": "<p><strong>Quick Summary</strong></p><p>Malicious function in the staking contract allowed the contract deployer to transfer 229M TRX from it. The tokens were then spread to different EOAs and exchanges.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract deployer had the ability to call the rrInfo() function in the staking contract, which was designed for the malicious transfer of TRX from it. An example of this function calling resulted in a 1M TRX transfer. The code of the smart contract isn’t verified. The deployer then bought SRX and SWD on JustSwap. There was another malicious function, getAllT(), which was used to perform a rug pull, removing 229M TRX from the staking contract. These TRXs were then sent to other EOAs.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The contract deployer:</p><p>https://tronscan.org/#/address/TJTAYhG2EwqWuMF6v1UFP3KqZXX32UBtdz</p><p><br></p><p>Example of the function calling (1M TRX transfer):</p><p>https://tronscan.org/#/transaction/f1aa69f5bb2c70572006ffc7b94f8b000c1f047d00b57224357cbd0bce80b1f7</p><p><br></p><p>Transaction of 229M TRX removed from staking contract:</p><p>https://tronscan.org/#/transaction/f381e7d013022504257e02d3e6b51bef247ed94b8e916999dbb33a3e07a919af</p><p><br></p><p>Transactions of TRXs sent to other EOAs:</p><p>https://tronscan.org/#/transaction/793669f6efa3321704c06578a6941fca6f4a098512c7ff9808802c90da5fbd4f</p><p>https://tronscan.org/#/transaction/c1bf2b328ce16f53d65908b21d128ca7e5492ec848f9f3cf8a577ea907a9e460</p><p>https://tronscan.org/#/transaction/e68088aff5aa8dd688faa4b7b4d679aed5e74fc2969036207d07da8f12cc3fb8</p><p>https://tronscan.org/#/transaction/657315fb2bd3e3581376d691b26f87691166927273cbd937243dfcdb52b3128f</p>",
+        "date": "2020-10-28",
+        "fundsLost": "10000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SRX",
+          "addresses": [
+            "TQSTsAT1pWopxDgvhz3jBo77T8NgCXrzBr"
+          ]
+        }
+      },
+      {
+        "id": 2579,
+        "projectName": "RIFT Token",
+        "description": "<p>The project was holding a presale event just by depositing Ether into the EOA wallet at:<br>https://etherscan.io/address/0x5b2d21c435552e944ccdbef1cd0e608e72388925<br><br>The gathered funds were transferred to the RIFT token deployer at:<br>https://etherscan.io/tx/0xa9ae2f1d5ee5cebe78e3ff448442fd89a1695ceaf5c58089842809c5bca3c966<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x037b41bc6ffb1ac93448230f95522ac977ed5351a33e1e5b75a7c8ba2f0a498d<br><br>The liquidity was locked till 31.12.2021:<br>https://etherscan.io/tx/0x6d077135005b47e839fadd13066d04001299f9eeab37249d505f83a7482a3f73<br><br>However, the rest funds (80.09 ETH) were deposited into the Tornado Cash mixer together with other Ether, taken from another scam:<br>https://bloxy.info/txs/calls_from/0x71323ce9372381e33524ccd5b9ede10e7414725d?signature_id=994162&amp;smart_contract_address_bin=0x905b63fff465b9ffbf41dea908ceb12478ec7601</p>",
+        "date": "2020-12-31",
+        "fundsLost": "59040",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RIFT",
+          "addresses": [
+            "0xadeee1bcb63f3477c45400249e78bc4f565a59e0"
+          ]
+        }
+      },
+      {
+        "id": 2580,
+        "projectName": "Lendf.Me",
+        "description": "<p><strong>Quick Summary</strong></p><p>Lendf.Me exploited due to a bug in the deposit function, allowing the attacker to manipulate their collateral amount and withdraw all available assets from multiple liquidity pools.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited a bug in the deposit function, supply(), in Lendf.Me. The function was hooked by embedding an extra withdraw() function, which allowed the attacker to increase their internal record of imBTC collateral amount without actually depositing the amount. The attacker first deposited a specific quantity of imBTC into Lendf.Me. However, in the second supply(), the attacker not only supplied 0.00000001 imBTC but also withdrew 290 imBTC within the hook by hijacking the transferFrom() function within doTransferIn(). As a result, 290 imBTC were deducted from the attacker's balance under the integrated withdraw(). When the execution returned to supply(), however, the balance was reset to 290 imBTC. This allowed the attacker to modify the internal record of the imBTC collateral amount in Lendf.Me. With a big enough collateral value, the attacker was thus able to borrow all available assets from multiple liquidity pools.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xa9bf70a420d364e923c74448d9d817d3f2a77822</p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0xae7d664bdfcc54220df4f18d339005c6faf6e62c9ca79c56387bc0389274363b</p><p>The withdrawal of the funds by the attacker:</p><p>https://etherscan.io/tx/0x9a5899d2151d84a9a8dccd1b1a03abbdf91ea83b1f78f3c631b858c20658c12d</p>",
+        "date": "2020-04-19",
+        "fundsLost": "25236849",
+        "fundsReturned": "25236849",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "USDx",
+          "addresses": [
+            "0xeb269732ab75a6fd61ea60b06fe994cd32a83549"
+          ]
+        }
+      },
+      {
+        "id": 2581,
+        "projectName": "Hegic",
+        "description": "<p>The platform discovered a mistake in one of its smart contracts: ‘options.length' rather than ‘optionIDs.length.' This resulted in no liquidity for expiring contracts since user assets were locked whenever they did not utilize their options. Hegic spent $48K to fix the problem and reimburse impacted users.</p>",
+        "date": "2020-04-24",
+        "fundsLost": "47765",
+        "fundsReturned": "47765",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "HEGIC",
+          "addresses": [
+            "0x584bC13c7D411c00c01A62e8019472dE68768430"
+          ]
+        }
+      },
+      {
+        "id": 2583,
+        "projectName": "ChainSwap",
+        "description": "<p>The attacker's address:<br>https://etherscan.io/address/0xEda5066780dE29D00dfb54581A707ef6F52D8113<br><br>On the Ethereum network, each token to be bridged has its own proxy Factory contract. The attacker was able to exploit the contract, minting tokens directly into different addresses, before reaccumulating them into the wallet from which the transactions were initially sent.<br><br>The attacker:<br>- called <u>receive</u>() function to the Factory minting contract<br><br>- dodged the sloppy auth check system using a new address as signature each tx<br><br>- paid 0.005 ETH <u>chargeFee</u><br><br>- set to parameter to the desired address, which receives the minted volume<br><br>- repeated x times.<br><br>Using the NFT platform WilderWorld as an example, this is one of 40 repeated transactions, each of which produced 500,000 $WILD tokens.<br><br>These 20M WILD were subsequently sold for 650 WBNB, or little more than $200,000 USD, using PancakeSwap, essentially emptying the WILD/WBNB pool.<br><br>The example transaction:<br>https://bscscan.com/tx/0x83b4adaf73ad34c5c53aa9b805579ed74bc1391c5297201e6457cde709dff723<br><br>Projects which got harmed:<br>- Wilder Worlds<br>- Antimatter<br>- Optionroom<br>- Umbrella Blank<br>- Nord<br>- Razor<br>- Peri<br>- Unido<br>- Oro<br>- Vortex<br>- Blank<br>- Unifarm</p>",
+        "date": "2021-07-11",
+        "fundsLost": "4400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": "ASAP",
+          "addresses": [
+            "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890"
+          ]
+        }
+      },
+      {
+        "id": 2584,
+        "projectName": "ChainSwap",
+        "description": "<p>The attacker's wallet:<br>https://etherscan.io/address/0x941a9e3b91e1cc015702b897c512d265fae88a9c#tokentxns<br><br>For cross-chain transfers, each token has its own proxy contract, with the implementation pointing to the Factory contract. The hacker used the Factory contract's <u>receive</u>() method. The attacker was required to pay a fee of 0.005 ETH in <u>_chargeFee</u>. There are no real authentication checks, and just one signature is necessary. To get around this, the attacker simply signed signatures with new addresses each time. In the <u>_receive()</u> function, the volume argument is subsequently sent to the attacker's address.</p>",
+        "date": "2021-07-02",
+        "fundsLost": "800000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": "ASAP",
+          "addresses": [
+            "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890"
+          ]
+        }
+      },
+      {
+        "id": 2585,
+        "projectName": "opyn",
+        "description": "<p>The example transaction of the attack:<br>https://etherscan.io/tx/0xd06378b73536e7718895069a5219855774d362db47312dc304dfd4b6e39ef000<br><br>This exploit was carried out by using <u>exercise</u>() function with more than two vaults containing ETH as the underlying asset. Because the implementation interprets the same batch of ETH as many batches of ETH receptions, the hacker re-uses that batch of ETH to recover the collateral USDC and profit. Opyn allowed anyone to exercise a vault with underlying assets and oTokens. By burning the oTokens and taking in the underlying assets, the Option Contracts payout collateral assets to the caller of <u>exercise</u>().<br><br>The Opyn ETH Put contract must take in the underlying assets and burn oTokens inside the <u>_exercise</u>() method before paying out collateral assets. The <u>transferFrom</u>() function is used to transfer assets from the msg.sender to address(this), which is a very typical approach. When the underlying asset is ETH, the treatment is completely different. In Solidity, msg.value refers to the amount of ETH carried by the current transaction that would be collected by the smart contract with a payable interface (in this example, <u>exercise</u>()).</p>",
+        "date": "2020-08-04",
+        "fundsLost": "371260",
+        "fundsReturned": "371260",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "oToken",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2586,
+        "projectName": "Soft Yearn Finance",
+        "description": "<p>The protocol did not handle the rebase event correctly. It enabled a user to start Uniswap sell transaction immediately following the modification of wallet balances, but before any price change in the token was registered.<br><br>The rebase event functioned wrong. Because the YFI to SYFI conversion rate was incorrectly entered, an erroneous balance change was started. Together, these two errors permitted a transaction to be initiated that would basically remove the pool's aggregate cash.<br><br>The transaction, where the external address buys 2 SYFI using 0.5 ETH on the Uniswap:<br>https://etherscan.io/tx/0xed33e727dd5b2f8e5164f6e15dabc1923652f2e933645378a87c45bf33c4e59a<br><br>15 minutes later, the same external address sells 15,551 SYFI for 747 ETH after the positive rebase event:<br>https://etherscan.io/tx/0xbb45a3aaa222432f50974b4be0852445e446698d33b0fcd47a4f627a2764ea83</p>",
+        "date": "2020-09-03",
+        "fundsLost": "281382",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "SYFI",
+          "addresses": [
+            "0x322124122df407b0d0d902cb713b3714fb2e2e1f"
+          ]
+        }
+      },
+      {
+        "id": 2587,
+        "projectName": "AutoSharkFinance",
+        "description": "<p>The transaction behind the attack:<br>https://bscscan.com/tx/0xfbe65ad3eed6b28d59bf6043debf1166d3420d214020ef54f12d2e0583a66f13<br><br>The attacker's address:<br>https://bscscan.com/address/0xd9c7efe29f3e90ce3630ea1c665217c7ab298a3b<br><br>The attacker:<br>- added a small sum of deposit to the SHARK-BNB Vault:<br>https://bscscan.com/tx/0x2a2003fb4c57c0e03dfbdda8eb695ef8f39022df30da977942d930fffbb8e125<br><br>- borrowed 100K BNB of flash loan from PancakeSwap<br><br>- swapped 50K BNB into SHARK token and sent them alongside the rest 50K BNB to the SharkMinter contract<br><br>- called <u>getReward</u>() with the deposit of SHARK-BNB Vault from the first step<br><br>- with the huge amount of SHARK token and WBNB in the wallet balance of the minter contract, it returned an extremely large amount of profit. As a result, the system minted 100M SHARK as a reward to the hacker<br><br>- sold SHARK token for 102K WBNB, repaid flash loans, taken out 2.2K WBNB<br><br>- exchanged BNB on ETH at:<br>https://bscscan.com/tx/0xa6e265b96d92a24b1b3307f14367ac18031c33062fa6c195331db50417011df7<br><br>- bridged ETH into Ethereum network:<br>https://bscscan.com/tx/0x33c01cf4885553542a8b820ef57f079ea8fe165e41b57d30b5492cfe47b0ba3b</p>",
+        "date": "2021-05-24",
+        "fundsLost": "759046",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "SHARK",
+          "addresses": [
+            "0xf7321385a461c4490d5526d83e63c366b149cb15"
+          ]
+        }
+      },
+      {
+        "id": 2588,
+        "projectName": "Pinecone Finance",
+        "description": "<p>The attackers' addresses:<br>https://bscscan.com/address/0x472a2c88c1a5f794eb80706e587d4a120d9be255<br>https://bscscan.com/address/0x430ad7e178d3e00145f35c041c7f486d7e8a4c7e<br>https://bscscan.com/address/0xfc6682db7e9f57882e8b18ebc9adc7a19f770494<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0xe23ffa079edd975b5bd48503757040b7aa60e63d66972419fd56f4404c6d4da1<br><br>The root cause is a false deposit bug in the staking logic of Pinecone finance. In particular, the affected vault counts as valid deposits even no tokens are actually transferred in. The hacker has no sufficient PCT balance but stakes 200K PCTs to the vault. However, the tx still succeeds and credits the hacker with 200K valid PCTs staked:<br>https://bscscan.com/tx/0x10236426cbe9a6380b7990150013125a623784ed1002fe3e34d07ff89ffa2619<br><br>Overall, three hackers gathered 3.5 million PCTs, which were converted into 516.83 BNB (~$200,000).</p>",
+        "date": "2021-08-18",
+        "fundsLost": "200000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "PCT",
+          "addresses": [
+            "0x4631d9d8b34f51b82958a19453bdc9ea0c4e49fc"
+          ]
+        }
+      },
+      {
+        "id": 2589,
+        "projectName": "PolyYeld Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>PolyYeld finance introduced a transfer fee, which was inconsistent with its masterchef contract. The resulting vulnerability was exploited by an attacker for $250k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>PolyYeld Finance is a yield aggregator protocol on the Polygon network. PolyYield introduced the $xYELD token, a deflationary token in order to support its yield aggregator services. A fee was applied on the transfers of the $xYELD token. The PolyYeld Masterchef contract was not designed to support this token type, which created an exploit opportunity. After a series of deposits and withdraws, the $xYELD balance of the Masterchef became 1 WEI. The calculation of the $YELD rewards were based on the xYELD balance of the pool. <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>This referral mechanism generated &nbsp;$YELD 49B tokens to the attackers address. The attacker dumped a part of his balance in order to receive $ETH 123. The funds were then bridged and transferred through Tornado.cash.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:<br>https://polygonscan.com/address/0xa4bc39ff54e1b682b366b57d1f6b114a829f5c01</p><p><br></p><p>The transaction behind the hack:<br>https://polygonscan.com/tx/0x3c143d2a211f7448c4de6236e666792e90b2edc8f5035c3aa992fd7d7daca974<br><br><br></p>",
+        "date": "2021-07-28",
+        "fundsLost": "250000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "YELD",
+          "addresses": [
+            "https://polygonscan.com/token/0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891"
+          ]
+        }
+      },
+      {
+        "id": 2590,
+        "projectName": "Percent Finance",
+        "description": "<p>The problem was that the old interest rate contracts have different signatures for `<u>getSupplyRate</u>` and `<u>getBorrowRate</u>`. They return 2 uint values, the first one being an error code. So, after the swap, they were unable to call these functions on the new interest rate contracts, as the signatures do not match. Making the problem worse, these functions are checked before every interaction with these contracts (supplying, borrowing, redeeming, repaying, etc). They are also checked before changing the interest rate contract again. So, because the current interest rate contract does not work, it is impossible to change to a new one.</p><p>This meant that these 3 contracts were no longer usable, and the user funds in them were permanently locked. These amounted to: 446,813 USDC, 28 wBTC and 313 ETH.</p>",
+        "date": "2020-11-04",
+        "fundsLost": "1900000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "PCT",
+          "addresses": [
+            "0xbc16da9df0a22f01a16bc0620a27e7d6d6488550"
+          ]
+        }
+      },
+      {
+        "id": 2591,
+        "projectName": "Venus",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Venus Protocol experienced a massive liquidation event, due to market circumstances and oracle problems</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Venus Protocol is an algorithmic-based money market system, that offers lending opportunities on Binance Smart Chain. The project experienced a big liquidation event. In comparison, the 0xef044206db68e40520 bfa82d45419d498b4bc7bf account lost about $66 million in net loss. Liquidators earned around $20 million profit; Sellers made approximately $55 million profit, and Scalpers made approximately $2 million profit.<br><br>Due to unpredictable market fluctuations and the lack of deviation controls on oracles, the protocol lost about $77 million.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token address:</p><p>https://bscscan.com/address/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63</p><p><br></p>",
+        "date": "2021-05-18",
+        "fundsLost": "77000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": "XVS",
+          "addresses": [
+            "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
+          ]
+        }
+      },
+      {
+        "id": 2592,
+        "projectName": "Iron Finance",
+        "description": "<p>On the 16th of April, TITAN reached an all-time high of $64 and some investors cashed out. As a result, the price dropped to $60, where it remained for a time.<br><br>However, when TITAN fell below $60, it prompted a fresh wave of selling by big investors, commonly known as whales, driving the price down below $30. Because of the decline in the TITAN price, the IRON stablecoin lost its peg and fell to $0.90. This is where the real issues started.<br><br>The price oracle, which is a smart contract that generates token prices from liquidity pools, could not keep up with the volatility since it utilizes a 10 minute Time Weighted Average Price (TWAP) to determine the CR. Users could purchase IRON tokens for $0.90 and instantly redeem them for $0.75 USDC and $0.25 TITAN, which they could then sell for a risk-free profit.<br><br>Investors were ready to purchase dips in IRON and TITAN, helping IRON to briefly reclaim its peg and driving the TITAN price back up to $50.<br><br>This triggered another wave of selling as additional major traders began to take advantage of the arbitrage opportunity, flooding the market with newly minted TITAN and finally dumping it as the price approached zero. As a result, IRON fell further, reaching a low of $0.58 before rebounding to $0.74 at the time of writing.<br><br>The TITAN supply that was supposed to be capped at 1 billion tokens expanded without limit.</p>",
+        "date": "2021-06-16",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "TITAN",
+          "addresses": [
+            "0xaaa5b9e6c589642f98a1cda99b9d024b8407285a"
+          ]
+        }
+      },
+      {
+        "id": 2593,
+        "projectName": "Iron Finance",
+        "description": "<p>Two vFarms were exploited:</p><p>50% IRON — 50% SIL</p><p>50% IRON — 50% BUSD<br><br>A user who farmed in these two pools claimed all SIL rewards allocated for farming over the next 12 months and made a profit of around $170K by selling SIL for BUSD on vSwap.<br><br>Value DeFi team has upgraded FaaS, in which the reward rate is in normal integer instead of Ggwei as before. Iron.Finance team was unaware of the change and updated Iron vFarm pools with reward rate in Gwei. This caused the pools' rewards to inflated by 10^18 times.<br><br>The following address took advantage of the mistake and drained all SIL rewards and sold them to the market:<br>https://bscscan.com/address/0x69655181a55755adc854cd35c15995393f63e9e5#tokentxns</p>",
+        "date": "2020-03-16",
+        "fundsLost": "170000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Stablecoin",
+        "issueType": "Other",
+        "token": {
+          "name": "SIL",
+          "addresses": [
+            "0xc66e4de0d9b4f3cb3f271c37991fe62f154471eb"
+          ]
+        }
+      },
+      {
+        "id": 2594,
+        "projectName": "Yam DAO",
+        "description": "<p>The bug is in the rebase function of smart contract YAM.sol in the YAM project:<br>https://github.com/yam-finance/yam-protocol/blob/767e3a4a6918b6fb6100ad6bb356164408f5d82f/contracts/token/YAM.sol#L340<br><br>The rebase function was built to keep the token at a stable price. However, the line in the code mistakenly calculates the <u>totalSupply</u> wrong, which would reserve too many minted tokens. The correct code/calculation equation for the line of code should be:<br><br>totalSupply = initSupply.mul(yamsScalingFactor).div(BASE);<br><br>The rebase bug led to the minting of decillions of YAM to the governance vault. As a result, a larger supply diluted the intended price. YAM token has lost more than 90% of its market capitalization. The bug resulted in a loss of funds worth $750,000.</p>",
+        "date": "2020-08-13",
+        "fundsLost": "750000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "YAM",
+          "addresses": [
+            "0x0AaCfbeC6a24756c20D41914F2caba817C0d8521"
+          ]
+        }
+      },
+      {
+        "id": 2595,
+        "projectName": "xToken",
+        "description": "<p><strong>Quick Summary</strong></p><p>The exploitation of Synthetix and Bancor protocols led to a loss of $24.5M in ETH, BNT, SNX, and xBNTa tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by borrowing a 61.8k ETH flash loan from dYdX. They then deposited 10k ETH to borrow 564k SNX on Aave and swapped 5.5k ETH for 700k SNX on SushiSwap. The attacker sold 1.2M SNX for 818 ETH on Uniswap v2, significantly reducing the SNX price. They then used only 0.12 ETH to mint 1.2B xSNXa, because the protocol buys SNX through Kyber, who in turn led to use Uniswap v2 for this swap. However, within the protocol, the xSNXa price turned out to be normal, which made it possible to swap 105M xSNX into 414 ETH. The attacker then began to do reverse swaps in SushiSwap and Uniswap and repaid loans in Aave. They began to sell the existing xSNXa to the Balancer SNX/ETH/xSNXa (25/25/50) pool, repaid the flash loan to dYdX, issued xBNTa four times for 0.03 ETH, which ultimately gave them 3.9B xBNTa, and swapped half of xBNTa to 781k BNT.</p><p><br></p><p>Stolen funds:</p><p>- 2.4k ETH ($10.3M)</p><p>- 781k BNT ($6.2M)</p><p>- 407k SNX ($8M)</p><p>- 1.9B xBNTa</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x07e02088d68229300ae503395c6536f09179dc3e</p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0x7cc7d935d895980cdd905b2a134597fb91004b5d551d6db0fb265e3d9840da22</p>",
+        "date": "2021-08-29",
+        "fundsLost": "4500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "XTK",
+          "addresses": [
+            "0x7f3edcdd180dbe4819bd98fee8929b5cedb3adeb"
+          ]
+        }
+      },
+      {
+        "id": 2596,
+        "projectName": "Cream Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Cream Finance got exploited through a vulnerability hidden in the borrow() function, which was repeatedly utilized for reentrancy attacks. The attacker made away with approx. $36 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Cream (Crypto Rules Everything Around Me) Finance is a decentralized lending protocol designed for institutions, protocols and people in order to access financial services.</p><p>The risk for reentrancy arose because of the way $AMP was integrated into the protocol. The $AMP token contract is based on the ERC777 standard, which utilizes the _callPostTransferHooks hook. The attack transactions started with supplying $ETH as a collateral for borrowing $AMP from the crAMP market. When transferring AMP to the attacking contract, the _callPostTransferHooks was called, which in turn triggered the execution of a fallback function in the attack contract allowing the latter to re-enter the crETH market to borrow $ETH against the very same collateral initially supposed to be used for borrowing $AMP.</p><p>The flow of an example exploit transaction: https://etherscan.io/tx/0xa9a1b8ea288eb9ad315088f17f7c7386b9989c95b4d13c81b69d5ddad7ffe61e</p><p>- The hacker creates contract A to flash loan 500 $WETH and use the funds as collateral on cream, minting 24.17k crETH;</p><p>- borrows 19.48M $AMP for the received crETH;</p><p>- exploits the reentrancy possibility by repeatedly calling borrow() during the token transfer, taking a further 355 $ETH before the state of the initial borrow() has been updated;</p><p>- uses contract B, which receives a half (9.74M) of A's borrowed $AMP;</p><p>- contract B liquidates part of A's loan, redeeming 187 $WETH and transferring it back to contract A;</p><p>- contract A uses $ETH borrowed via reentrancy to repay the remainder of the flash loan.</p><p><br></p><p>The profits of the above explained transaction amounted to 41 $ETH and 9.74M $AMP.</p><p>In total, 17 attack transactions were conducted netting the attackers a total of $AMP 462,079,976 and $ETH 2,804.96.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attack contract A:</p><p>https://etherscan.io/address/0x38c40427efbaae566407e4cde2a91947df0bd22b</p><p>Attack contract B:</p><p>https://etherscan.io/address/0x0ec306D7634314D35139d1dF4A630d829475A125</p><p>Exploiter address 1:</p><p>https://etherscan.io/address/0xce1f4b4f17224ec6df16eeb1e3e5321c54ff6ede</p><p>Exploiter address 2:</p><p>https://etherscan.io/address/0x8036EbD0Fc9C120BA0469ffCB27b204AA06aaF1F</p><p><br></p>",
+        "date": "2021-08-31",
+        "fundsLost": "36154954",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "CREAM",
+          "addresses": [
+            "https://etherscan.io/token/0x2ba592F78dB6436527729929AAf6c908497cB200"
+          ]
+        }
+      },
+      {
+        "id": 2597,
+        "projectName": "Casper DeFi",
+        "description": "<p>In the official post mortem, the project team says that their Solidity developer left the minting possibility in the contract constructor.<br><br>Their Solidity developer is the contract deployer as well:<br>https://ftmscan.com/address/0xe6a025845e9ab116a135dbaec6de0f521219782b<br><br>The contract deployer invoked the <u>mint</u>() function in the following transactions:<br>https://ftmscan.com/tx/0xf296baf2e970316949e6910b54decbea52aaabc94447cb52fcbca6049205f29d<br>https://ftmscan.com/tx/0x4d02eac3127a00c673f0ce314d5565931e125c98605c2d74ced29543008d4a36<br>https://ftmscan.com/tx/0x86360b2e69fd75f62424a17f6241112b0bd831679fe48aaab37f5acf5c7ea35d<br><br>The minted tokens were sold by the contract deployer multiple times:<br>https://ftmscan.com/txs?a=0xe6a025845e9ab116a135dbaec6de0f521219782b&amp;p=1<br><br>Received WFTM tokens were exchanged on BNB tokens and bridged to the BSC:<br>https://ftmscan.com/tx/0xf1d92544deb38a4508d85b2810da37aad8d03dae56e051142b80b0c0fc5586f8<br>https://ftmscan.com/tx/0xb099c04d0d5ef612e950ab019c9ab5888656f3d7823ff4fe6b9be34eafb6fd80<br><br>The token recipient on the Binance Smart Chain:<br>https://www.bscscan.com/address/0xe6a025845e9ab116a135dbaec6de0f521219782b<br><br>The stolen 516.91 BNB tokens were exchanged on BTCB at:<br>https://www.bscscan.com/tx/0xf4bc083c0436311870ca57996bb4de209b7df537a739ce9312d793945141c41b<br><br>BTCB tokens were bridged through Ren:<br>https://www.bscscan.com/tx/0x2c22bd5fdc0faaf2d025a9bb77ce185c1a8e4b893f53fcd20ec53220f06111c2<br><br>According to the announcement below, stolen funds were returned:<br>https://casperdefi.medium.com/casper-defi-post-mortem-after-casper-token-hack-part-2-1bae9a65ae5c</p>",
+        "date": "2021-08-04",
+        "fundsLost": "172411",
+        "fundsReturned": "190383",
+        "chaindIds": [
+          4
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "CASPER",
+          "addresses": [
+            "0xc30d1b0ce932c3dd3373a2c23ada4e9608caf345"
+          ]
+        }
+      },
+      {
+        "id": 2600,
+        "projectName": "Luna Yield",
+        "description": "<p><strong>Quick Summary</strong></p><p>During the Luna Yield IDO event on SolPAD platform, funds were stolen from Luna Yield's address with a loss amounting to around $6.7M in different tokens including SOL, ETH, USDT, and YFI.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>After the fundraising event for Luna Yield on SolPAD, the Luna Yield's website was taken down. The funds were stored at an address and were stolen. The stolen Wrapped Ether was distributed between different wallets. Solpad Finance has announced that they have refunded 60% of the stolen funds to the investors.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Luna Yield's address:</p><p>https://solscan.io/account/EiySftqENviEh339R1UhXN2Yxg9wi4ZpVHiRd99SXap7</p><p><br></p><p>Distribution of the stolen Wrapped Ether:</p><p>https://solscan.io/account/EiySftqENviEh339R1UhXN2Yxg9wi4ZpVHiRd99SXap7#splTokenTxs</p><p><br></p><p><br></p>",
+        "date": "2021-08-20",
+        "fundsLost": "6709834",
+        "fundsReturned": "4025900",
+        "chaindIds": [
+          24
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LUNY",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2601,
+        "projectName": "Polysafemoon",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PMOON",
+          "addresses": [
+            "0xfd99fc6c75bf49c8de18cc706c478b7349fe2777"
+          ]
+        }
+      },
+      {
+        "id": 2602,
+        "projectName": "Pikachu Swap",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Pikachu",
+          "addresses": [
+            "0x54863FC7fDEb8DdF1D1637B9CBb3EcC16C173108"
+          ]
+        }
+      },
+      {
+        "id": 2603,
+        "projectName": "Fire Swap",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FIRE",
+          "addresses": [
+            "0x359ef5f20c07b1f8e76c69399789fc7d4ffac912"
+          ]
+        }
+      },
+      {
+        "id": 2604,
+        "projectName": "PolyApe Token",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "APE",
+          "addresses": [
+            "0xa2a0337e366c20de4b76457e3f6a45cfee9eab74"
+          ]
+        }
+      },
+      {
+        "id": 2605,
+        "projectName": "Golden Bar Farm",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GOLD",
+          "addresses": [
+            "0xdEC72bbC3365646fE0267fC08Cd05F79C4Be0060"
+          ]
+        }
+      },
+      {
+        "id": 2606,
+        "projectName": "Fisherman Finance",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FISH",
+          "addresses": [
+            "0xEABABf66BDa0ECD0e3534f8df6c85683Beed2D44"
+          ]
+        }
+      },
+      {
+        "id": 2607,
+        "projectName": "Stonks Token",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "$STONKS",
+          "addresses": [
+            "0xb966150c7a0150ed4ea979e04f18d109301aab95"
+          ]
+        }
+      },
+      {
+        "id": 2608,
+        "projectName": "Rapture",
+        "description": null,
+        "date": "2021-09-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RT",
+          "addresses": [
+            "0x9aD36aFF5C08f5007e5F1C168f2B958db77ef7C4"
+          ]
+        }
+      }
+    ]
+  }
+}

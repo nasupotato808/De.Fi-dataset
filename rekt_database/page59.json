@@ -1,0 +1,944 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 3050,
+        "projectName": "HEGE coin",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">The $Hege token was rugpulled by the token creator. The token creator took away approximately $400k in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The $HEGE token creator prepared the rugpull by funnelling $HEGE token to this address https://bscscan.com/address/0xecc5df612d6d15f034e4ef557abefed71b02ece2 through a number of addresses.</p><p style=\"margin:0cm;background:white;\">Below some example transactions of the funding;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0xbc26b7d92f2df83efdc98785cf324a5e2c1b2deb10fcf3010b1bfb12f1dcd428</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x475f576841c15e8af8a0a179ba27d70860535a0a5de863cb3d01559d0e2f01af</p><p style=\"margin:0cm;background:white;\">The token creator then proceeded to dump the $HEGE against $USDT on pancake swap in a series of transactions ultimately netting him approximately $400k in funds.</p><p style=\"margin:0cm;background:white;\"><br>Example transactions;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x338d1db9dd5cf7bf63b2454e3da587559a0d86144534b411f0b45dfdb5ef9232</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x713acac7b6ad807f76cfdfebce8f14e737de0fbbd03b1127607216f8805958fe</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Scammers address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0xecc5df612d6d15f034e4ef557abefed71b02ece2</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Transactions that proof funding of Scammers address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x40ef73f29f02a247636d75d9ada427b3786211f8bb62a1a076131f44a3fc3e5a</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x351e50dab6dd27a0973d0c77a5dfec050fd2b75cf1ebd8c9cf940f2e9c5b17d5</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x0926208a7914e8e261c35d94327420ad3546b8a160a193792401568a33cbcf12</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xdd9d79f1450e231aae4df4193bd3a4fddb2d4b01905ef5d04d4c71819bb614a7</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x475f576841c15e8af8a0a179ba27d70860535a0a5de863cb3d01559d0e2f01af</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x816402e5599020ab48c76dcee2ed49155bcf0fb6a951ec89ad7e733e940e16f2</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xb63339897943bfc290619110eabd969f2c9a7d04bcc724fbe16912a8106cbed4</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x314f57f40c530af037f35d18bd6fb613a9dec2592ccf043b638fb0b986fc0cb9</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x23ffc6c27c7185112b4ea3716b0aa0ada1e716ec6e49a9ce156e41a29ded7c7c</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xbc26b7d92f2df83efdc98785cf324a5e2c1b2deb10fcf3010b1bfb12f1dcd428</p><p><br></p>",
+        "date": "2022-06-11",
+        "fundsLost": "400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HEGE",
+          "addresses": [
+            "0x9Bb6C19905c4EC8B8D10ceEd5ce1781885B137a9"
+          ]
+        }
+      },
+      {
+        "id": 3051,
+        "projectName": "Gooniez Gang",
+        "description": "<p>Gooniez Gang discord has been hacked. 16 NFTs stolen with a total floor price of roughly 6.634 ETH. Hacker hacked discord of @MoonboyMoe (https://twitter.com/MoonboyMoe/status/1535813390798663681), and sent a phishing link. Discord is not available for now.</p><p><br></p><p>Contract address: https://etherscan.io/address/0x18cd9fda7d584401d04e30bf73fb0013efe65bb0</p><p><br></p>",
+        "date": "2022-06-12",
+        "fundsLost": "9700",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT,Gaming / Metaverse",
+        "issueType": "Other",
+        "token": {
+          "name": "GG",
+          "addresses": [
+            "0x18cD9fDa7d584401D04E30bf73FB0013EfE65bb0"
+          ]
+        }
+      },
+      {
+        "id": 3052,
+        "projectName": "Celsius Network",
+        "description": "<p><strong>Quick Summary</strong></p><p>Celcius Network filed Chapter 11 bankruptcy after a month of halting the services. The approximate budget hole reached 1,190,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Celsius is a centralized exchange and borrowing and earning protocol. Celsius Network filed for Chapter 11 bankruptcy on 13 July. The day after, it listed a 1,190,000,000 $USD deficit on its balance sheet. The liabilities of the Celcius reached 5,500,000,000 $USD when their assets were valued at 4,300,000,000 $USD. The project halted operations on the platform a month before an announcement, citing \"extreme market conditions\".</p>",
+        "date": "2022-06-13",
+        "fundsLost": "1190000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi,Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "CEL",
+          "addresses": [
+            "https://etherscan.io/token/0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d"
+          ]
+        }
+      },
+      {
+        "id": 3053,
+        "projectName": "FSWAP",
+        "description": "<p>FSWAP has been exploited. Approximately <span data-original-title=\"Current Price : $223.11 / WBNB\" data-toggle=\"tooltip\">1,751</span> $BNB was sent to: https://bscscan.com/token/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c?a=0x0007d40f29c7a1713b251c69f5d999f16ec09dfc.</p><p>652 $BNB was laundered via TornadoCash.</p><p><br></p><p>BlockSec Team made a white hat hacker attack on the return of funds stolen from FSWAP: https://bscscan.com/tx/0xeedacfdf51ad015cc6c5b20285d9b5cdf165cbe2986e03af252a7e9592adf63f</p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0x000c84c59385b64c3ea4d48cc3fca1f08f3abcfc</p><p>https://bscscan.com/address/0x0007d40f29c7a1713b251c69f5d999f16ec09dfc</p><p>Attacker successful transaction: https://bscscan.com/tx/0xe75e30dafd865331e6a002d50effe084c21e413c96d4550d5e09cf647686fcbe</p><p><span data-original-title=\"Current Price : $223.24 / WBNB\" data-toggle=\"tooltip\">1,751.62</span> $BNB were transferred to: https://bscscan.com/address/0x0007d40f29c7a1713b251c69f5d999f16ec09dfc, then funds were laundered via Tornado.Cash</p><p><br></p><p>Repelled attacks by BlockSec:</p><p>1) https://bscscan.com/tx/0x700404943edd4ed9f40c7b17b476c0b63693a1aa77184da2c66f740ad01425b2</p><p>2) https://bscscan.com/tx/0xbfb493f6eca38a2756f44fcc3c9bf5b0d3277eb9bb65b6fefc266ea5c5341e2a</p>",
+        "date": "2022-06-13",
+        "fundsLost": "432497",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3054,
+        "projectName": "Equalizer Finance",
+        "description": "<p>On June 7-th Equalizer Finance suffered from a flash loan attack. The EqualizerFinance has FlashLoanProvider contract that providers flash loans, and the Vault contract used for borrowing funds by calling <em>flashLoan()&nbsp;</em>function.</p><p><br></p><p>Flash loan attack explanation:</p><p>The attacker first borrows 165.3 WBNB from PancakeSwap using flash loan.&nbsp;</p><p>Event 15: https://bscscan.com/tx/0xdc4ea764632bb264bf820e1942c20cda4c9564c1255f78a6b8aa62c31d5035f0#eventlog</p><p>The FlashLoanProvider provider first transfers the WBNB liquidity to the attacker in the WBNB storage contract, which is then followed by the flash loan callback.<br>The attacker then provides liquidity to the WBNB repository in a second instant callback.<br>The attacker then returns the secondary flash loan and removes the liquidity from the WBNB vault.<br>By targeting the storage contracts in each chain, the attacker was able to withdraw liquidity from Equalizer Finance.</p><p><br></p><p>Attack transactions:</p><p>ETH - https://etherscan.io/tx/0x9b17f61d2c7fc4463ff94c5edfea6695d131584a6e07fed5b9ed298c16c17f41</p><p>BSC - https://bscscan.com/tx/0xdc4ea764632bb264bf820e1942c20cda4c9564c1255f78a6b8aa62c31d5035f0</p><p><br></p><p>Attacker address:&nbsp;</p><p>BSC - https://bscscan.com/address/0x0000003502aa61a5f1b1fdadff2cf947dfda526e</p><p>ETH - https://etherscan.io/address/0x0000003502aa61a5f1b1fdadff2cf947dfda526e</p><p><br></p><p>Attacker contract address:</p><p>ETH - https://etherscan.io/address/0xf667e04a8d5910328ae92750c0459d2e9e29a67f</p><p>BSC - https://bscscan.com/address/0xf667e04a8d5910328ae92750c0459d2e9e29a67f</p>",
+        "date": "2022-06-07",
+        "fundsLost": "72000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "EQZ",
+          "addresses": [
+            "0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0"
+          ]
+        }
+      },
+      {
+        "id": 3055,
+        "projectName": "Treasure Swap",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Treasure Swap project has been exploited by hackers. Using the vulnerability, the hacker needed only 1 wei to exchange all the $WETH tokens in the transaction pool.</p><p><strong><br>Details of the Exploit</strong></p><p>Treasure Swap is a donation protocol driven by the community to build a sustainable DAO.</p><p>The hacker noticed a vulnerability in the Treasure Swap contract, where in the swap<em>&nbsp;</em>function the check for the <strong>k</strong>-value of the constant formula <strong>k = a * b</strong>, which determines the price of the token (A) in the token (B), was skipped. The hacker noticed this vulnerability, deployed his malicious contracts on the network with which he began to steal the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$WETH&nbsp;</span>reserves from the protocol.</p><p>Example transactions of the exploit:</p><p>1) https://bscscan.com/tx/0x13285cc0397d529d81b70e1736c81b73c585532d6290803f0f371e2f9beba0c3</p><p>2) https://bscscan.com/tx/0x90a8e176537782ac64c672b0140133974873e92eafef835bdf2d6f2fd180c92d</p><p>3) https://bscscan.com/tx/0x0b13710aebdc2fa7655a511655cac84ae9ae8a93a778d7628fd7f0b21afc219c</p><p>All stolen $BNB are still held on the hacker's wallet.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Hacker address: https://bscscan.com/address/0x0FaCB17eFCb6cA6Ff66f272DE6B306DE9fb5931D</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Vulnerable contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xe26e436084348edc0d5c7244903dd2cd2c560f88</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x96f6eb307dcb0225474adf7ed3af58d079a65ec9</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Malicious contract addresses:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xd53826f2c10b116990507d35f7b9fe4461651fba</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x5baa2e6b84c2bd1871e147983bc57fa90bdce376</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/address/0xd14c71b8f1b9576e0560273c764e289f593c2016</p>",
+        "date": "2022-06-10",
+        "fundsLost": "1100000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3056,
+        "projectName": "Inverse Finance",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Ethereum-based Inverse Finance was exploited for more than $1.2 million by an attacker utilizing an oracle manipulation through a flash loan attack.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p><br></p><p><strong>Details of the exploit</strong></p><p><br></p><p>1) The attacker flashloaned 27,000 WBTC using it's contract from AAVE. Then WBTC was added as liquidity to the Curve pool.</p><p>2) The obtained LP tokens were deposited to the Yearn’s Vault. Yearn’s Vault tokens were deposited to Inverse Finance’s Yearn 3Crypto Vault to serve as collateral on Inverse Finance.</p><p>3) The attacker's then uses the remaining 26,775 WBTC of the initial flashloan to swap for 75M USDT on Curve 3Crypto. It manipulates the pricing oracle that let's the attacker is then able to borrow $10M worth of Dola USD StableCoin.</p><p>4) Then, the 75M USDT is swapped for 26,626 WBTC.</p><p>5) The attacker then uses the borrowed DOLA to provide liquidity to the Curve Metapool. When the liquidity is ~10.1M USDT, it is removed.</p><p>6) Then, it converts 10M USDT to 451 WBTC using the 3Crypto pool on Curve. A remaining 99,976.294 USDT was kept in the attacker’s smart contract.</p><p><br></p><p>Exploit transaction: https://etherscan.io/tx/0x958236266991bc3fe3b77feaacea120f172c0708ad01c7a715b255f218f9313c</p><p>Exploiter address: https://etherscan.io/address/0x7b792e49f640676b3706d666075e903b3a4deec6</p><p>Exploiter contract: https://etherscan.io/address/0xf508c58ce37ce40a40997c715075172691f92e2d</p><p>Withdrawing 100K USDT: https://etherscan.io/tx/0x3d2f86c1c289731f56bed95dce20434eff48e3bd4a50cdc007ef5d0a2177a9f7</p><p>Withdrawing 53.<span data-original-title=\"Current Price : $20,265.00 / WBTC\" data-toggle=\"tooltip\">24</span> WBTC: https://etherscan.io/tx/0x9959f8f10f59b3b88a5499066a21237e492f193e5ff2950bcc7e6c1f5e1fa60c</p>",
+        "date": "2022-06-16",
+        "fundsLost": "1260000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "INV",
+          "addresses": [
+            "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68"
+          ]
+        }
+      },
+      {
+        "id": 3057,
+        "projectName": "Whale Loans",
+        "description": "<p>Whale Loans was exploited due to K-check of the WhaleSwap Finance Pair contract. When a user swaps, there is an issue with the magnitude of the parameters passed in.&nbsp;</p><p>The attacker flashloaned <a data-original-title=\"View Token Tracker Page\" data-toggle=\"tooltip\" href=\"https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955\" style=\"box-sizing: border-box; color: rgb(52, 152, 219); background-color: rgb(255, 255, 255); text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\" title=\"\"></a>BSC-USD and then returns flashloan with a K-check parameter in function <em>swap()</em> contract WhaleswapPair.sol of magnitude 10000^4. However, the K-check takes a parameter of magnitude 10000^2, which causes the K-check to fail.</p><p><br></p><p>Exploiter address: https://bscscan.com/address/0xd793ff8d744828c25da7f80123b88dd5c2bf7a50</p><p>Attack transaction: https://bscscan.com/tx/0x9f5b02cb1ce2d75ba457a2d152d89b6d3932ff057c03739a0071fb816e0ebab3</p><p>Attacker contract: https://bscscan.com/address/0xf95536755732544e41baad22f1c79d1ee529385f</p><p>Victim address: https://bscscan.com/address/0x8bfee2caff6b5d4ac9f438f4b1f36feeb5e76794</p>",
+        "date": "2022-06-20",
+        "fundsLost": "12374",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "HUMP",
+          "addresses": [
+            "0xfAAec9f866Fa7f34a2c31c2B11D1723Ad4a46446"
+          ]
+        }
+      },
+      {
+        "id": 3058,
+        "projectName": "Terra Classic",
+        "description": "<p><strong>Quick Summary</strong></p><p>A complex mixture of events and market dynamics cost the implosion of the $40b Terra (Classic) Network.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Terra Luna Network was focused on its two native coins $LUNC and $USTC. $USTC was the algorithmic Stablecoin that was supposed to hold the peg to 1$ and $LUNC functioned as the satellite asset that absorbed $USTC’s volatility. This was achieved through a mint and burn functionality as well as by arbitrage which the former function inherently enabled.</p><p><br></p><p>$USTC rose to prominence in rapid fashion even surpassing $DAI in market cap. The Luna Foundation Group decided to start a new Curve4pool with $FRAX, $USTC, $USDC and $USDT as assets, excluding $DAI in an attempt to starve the most used StableCoin pool used by institutions the Curve3pool on the Ethereum network.</p><p><br></p><p>The migration of $USTC from the Curve3pool is the event that started the bankrun. In early May, the Luna Foundation Guard withdrew 250 million $USTC from the Curve3pool in preparation for the Curve4pool. Simultaneously, a handful of whales withdrew sizeable amounts from the anchor protocol, a crypto savings bank. The biggest wallet withdrew 347 million $USTC in total and bridged funds to the Curve3pool in order to swap for other assets. This movement of funds created an imbalance between $USTC and other Stablecoins in the pool, resulting in devaluation of $USTC on exchanges.</p><p><br></p><p>As a result of the tokenomics of $USTC and $LUNC the firesale of $USTC resulted in uncontrollable minting of the $LUNC token and a rapid fall in valuation. Additionally, the Terra network went down due to overload in transaction as market participants were panicking and trying to answer margin calls within the Anchor protocol. Eventually massive liquidations of collateral in the Anchor protocol would be incurred by investors.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Whale Addresses:</p><p>https://etherscan.io/address/0x8d47f08ebc5554504742f547eb721a43d4947d0a</p><p>https://etherscan.io/address/0x4b5e60cb1cd6c5e67af5e6cf63229d1614bb781c</p><p>https://etherscan.io/address/0x1df8ea15bb725e110118f031e8e71b91abaa2a06</p><p>https://etherscan.io/address/0xeb5425e650b04e49e5e8b62fbf1c3f60df01f232</p><p>https://etherscan.io/address/0x41339d9825963515e5705df8d3b0ea98105ebb1c</p><p>https://etherscan.io/address/0x68963dc7c28a36fcacb0b39ac2d807b0329b9c69</p><p>https://etherscan.io/address/0x9f705ff1da72ed334f0e80f90aae5644f5cd7784</p>",
+        "date": "2022-05-08",
+        "fundsLost": "40000000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          22
+        ],
+        "category": "Stablecoin",
+        "issueType": "Other",
+        "token": {
+          "name": "LUNC, USTC",
+          "addresses": [
+            "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+            "0x7e43d25EaD96B1058f671F6690ea705BA2C7e5B9"
+          ]
+        }
+      },
+      {
+        "id": 3059,
+        "projectName": "DHE",
+        "description": "<p data-pm-slice=\"1 1 []\"><strong>Quick summary</strong></p><p>At the inception of the project 3,999,000 $DHE token were minted to the address of the scammer. The scammer dumped the $DHE token against $USDT on pancake swap, resulting in a 92% drop in the token value and 142k $USDT in ill-gotten gains.</p><p><strong>&nbsp;</strong></p><p>&nbsp;</p><p><strong>Details of the exploit&nbsp;</strong></p><p>The project promised its investors to revolutionize content ownership through NFTs and thus making content tradable on its own platform, denominated in $DHE.</p><p>&nbsp;The owners of the project never intended to make due on this promise as a large amount of $DHE token were minted to a specific wallet at inception resulting in a massive centralization issue from the start. Within 5min in the evening of the 20<sup>th</sup> June the scammer decided to dump his $DHE token through pancake swap.&nbsp;</p><p><br></p><p>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"background:white;\"><strong>Block Data Reference</strong></p><p style=\"background:white;\">Token Holder Structure</p><p data-renderer-start-pos=\"2730\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances\">https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances</a></p><p data-renderer-start-pos=\"2811\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Scammer Wallet Address (A), which received 3,999,000 $DHE.</p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a\">https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a</a></p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Transaction over 100,000 DHE Token from&nbsp;scammer Wallet Address (A) to (B)</p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">https://bscscan.com/tx/0x08d1a07ab7e438c082f1a7a9af51a8e9bf75e83a19b5987faccb05c704771e29</p><p data-renderer-start-pos=\"2966\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Scammer Wallet Address (B), which dumped the $DHE.</p><p data-renderer-start-pos=\"3018\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e\">https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e</a></p><p><br></p><p>&nbsp;</p><p><br></p>",
+        "date": "2022-06-20",
+        "fundsLost": "142000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DHE",
+          "addresses": [
+            "0x11CBC781DadAAD13fc3a361772C80B1C027820AF"
+          ]
+        }
+      },
+      {
+        "id": 3060,
+        "projectName": "LV Metaverse",
+        "description": "<p>The LV Plus token of the LV Metaverse project was rugpulled in the amount of $1.5M. The addresses that received the tokens then started exchanging them on PancakeSwap.</p><p>The wallet that caused the token dump received the tokens through the contract depositor:<br>https://bscscan.com/tx/0xb2fca71b5bb6f8ec59308f26a6fa8635668e7b9945e79a18ff00b44b5664c307</p><p><br></p><p>Some of the tokens were subsequently sent to these addresses:&nbsp;</p><p>1) https://bscscan.com/address/0x1e156e7b84fd61e70e6f6d45c3ba67aeaa4fa6a6<br>Transaction 1: https://bscscan.com/tx/0x9494749d663f94240c301f9efa2c5bbc615347d29a6d2b210e01017e3a32ac23<br>Transaction 2: https://bscscan.com/tx/0xca877351324c32789f22d136541401810ccdd75ed93b38d7212539c1c836e8e0</p><p>2) https://bscscan.com/address/0x9174297d1ffb50af9d582920ac2e57e2bd4b932b</p><p>Transaction: https://bscscan.com/tx/0x2f58f02dea396c6ef8e1fc2084a25e115937428ce56603e1ca586d7601b1efd0</p><p>3) https://bscscan.com/address/0x9730bc1939faae571c601bb5222839626b0f1f03</p><p>4) https://bscscan.com/address/0x4d11581887ed03d190329402e6162340d1b0b4e0</p><p>5) https://bscscan.com/address/0x2c48ba8e237285671e15dddd44ef6f9fe010d1da</p><p><br></p><p>Then they started dumping token price (transactions example):</p><p>1) https://bscscan.com/tx/0xc3b7e1559d1f9f26dc28ff9da028df86f60108692ff57fab59bace8fdf59a805</p><p>2) https://bscscan.com/tx/0x35efcc3e6367fc5965101fbbba06bd5b7479f13e5c979867fcf0fa5e899a64f3</p><p>3) https://bscscan.com/tx/0x3c28da5f95db6b34cf8ae0853c15ee1666cb35de8ecbaf28f2d8fd383237cbb1</p><p>4) https://bscscan.com/tx/0xf6855384439b0eaa3fd6a238e5257d57f5c0feece8f91a253ab1741000a89d48</p><p>5) https://bscscan.com/tx/0xb2fca71b5bb6f8ec59308f26a6fa8635668e7b9945e79a18ff00b44b5664c307</p><p><br></p><p>Token address: https://bscscan.com/address/0x5927b72440D8A8b8c6ca5A8be60e88975F9063fc</p><p>Deployer address: https://bscscan.com/address/0x7721034753ebe6f5714a7c5ebd0d188fa4a3b167</p>",
+        "date": "2022-06-21",
+        "fundsLost": "1500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LVP",
+          "addresses": [
+            "0x5927b72440D8A8b8c6ca5A8be60e88975F9063fc"
+          ]
+        }
+      },
+      {
+        "id": 3061,
+        "projectName": "Inverse Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Inverse Finance was exploited due to price manipulation, resulting in a loss of approximately $14.5M in assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Inverse Finance, a DeFi platform, was exploited due to the manipulation of the 'external price oracle'. The attacker purchased INV tokens and manipulated the price to overestimate its value. This allowed the attacker to borrow 1588 ETH, 94 WBTC, 3999669 DOLA, and 39 YFI, which significantly exceeded their initial INV investment. The attacker deployed a malicious smart contract and used SushiSwap and Curve.fi to manipulate the price. Due to the small liquidity of SushiSwap on the INV/ETH pair, an exchange for 300 ETH was enough to change the price of the INV token. The attacker then deposited the funds in INV received at the preparation stage and minted 1746 XINV tokens. With the rise in the price of XINV, the attacker was able to borrow assets using the minted XINV tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter Addresses:</p><p>https://etherscan.io/address/0x8b4c1083cd6aef062298e1fa900df9832c8351b3</p><p>https://etherscan.io/address/0x117c0391b3483e32aa665b5ecb2cc539669ea7e9</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0xea0c959bbb7476ddd6cd4204bdee82b790aa1562</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x20a6dcff06a791a7f8be9f423053ce8caee3f9eecc31df32445fc98d4ccd8365</p>",
+        "date": "2022-04-02",
+        "fundsLost": "14500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": "INV",
+          "addresses": [
+            "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68"
+          ]
+        }
+      },
+      {
+        "id": 3062,
+        "projectName": "Horizon by Harmony",
+        "description": "<p><strong>Quick Summary</strong></p><p>Harmony's Horizon Bridge was exploited by an attacker resulting in losses of roughly $100M. The bridge was secured by multisig wallet which needed 2 out of 5 wallets to confirm transaction. The hacker gained control over 2 wallets which enabled the attacker to drain the funds of the bridge and transfer said funds to his wallet.</p><p><br></p><p><strong>Details of the Exploit&nbsp;</strong></p><p>For yet unspecified reasons the attacker gained access over 2 of the 5 multisig wallets.</p><p>The attacker was able to enter and confirm transactions by himself. The exploit resulted in the loss of: ETH, USDC, WBTC, USDT, DAI, BUSD, AAG, FXS, SUSHI, AAVE, WETH, and FRAX. The ONE token was not affected by this attack.</p><p><br></p><p>For more context, bridges in DeFi are used to enable interoperability between blockchains. Through bridges a user of DeFi may pursue opportunities in an ecosystem that is not native to the coins or tokens a user is holding. For example through Harmony's Horizon Bridge a user holding $ETH on the Ethereum network could bridge $ETH over to the Harmony blockchain receiving newly minted wrapped $1ETH on a 1:1 ratio.&nbsp;</p><p><br></p><p>Since the funds on the bridge were seized by the attacker, the receipt was no longer backed by the collateral on a 1:1 ratio. The depreciation of the wrapped assets were felt by users in the form of massive slippages on dexes and other bridges as users tried to flee the Harmony Ecosystem.</p><p><br></p><p>Below a breakdown of the specific function used by the attacker.</p><p><br></p><p>1) The multisig owner called the <em>submitTransaction(),&nbsp;</em>then to confirm owner calls confirmTransaction() from the MultiSigWallet with the input transactionId 21106.</p><p>2) The executeTransaction() function has made an external call with input that will call the unlockEth() function in the Ethmanager contract. <span lang=\"en\"><span data-language-for-alternatives=\"en\" data-language-to-translate-into=\"ru\" data-number-of-phrases=\"1\" data-phrase-index=\"0\">The input specifies the amount, recipient, and receiptId to be passed to the unlockEth() function.</span></span></p><p>3) The following steps were repeated with different ids.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker transactions:</p><p>640K BUSD: https://bscscan.com/tx/0x4ed7941394725e49e7423e56553901c4ce841792c70e87adeee282cd78500668</p><p>Link to attacker draining bridge for ERC20 tokens: https://etherscan.io/address/0x0d043128146654c7683fbf30ac98d7b2285ded00#tokentxns</p><p><br></p><p>Multisig wallet addresses that were compromised:</p><p>1) https://etherscan.io/address/0xf845a7ee8477ad1fb4446651e548901a2635a915</p><p>2) https://etherscan.io/address/0x812d8622c6f3c45959439e7ede3c580da06f8f25</p><p>These addresses confirmed the transaction with id 21108. It can be checked by this multisig wallet (https://etherscan.io/address/0x715CdDa5e9Ad30A0cEd14940F9997EE611496De6#readContract) in the <em>getConfirmations()&nbsp;</em>function.</p><p><br></p><p>Attacker addresses:</p><p>1) https://etherscan.io/address/0x0d043128146654c7683fbf30ac98d7b2285ded00</p><p>2) https://etherscan.io/address/0x58f4baccb411acef70a5f6dd174af7854fc48fa9</p><p>3) https://etherscan.io/address/0x9e91ae672e7f7330fc6b9bab9c259bd94cd08715</p><p>4) https://etherscan.io/address/0x1ec6f83b55c3f4cefc630442716872ba15f16430</p><p>5) https://etherscan.io/address/0x432a9cb4353bed67ec5351734d4a44c0826847ae</p><p>6) https://etherscan.io/address/0x4507ac1bdf4ae5e61ffcec3a9aeda312e2505970</p><p>7) https://etherscan.io/address/0x8a0858888beeb5d1435ecd3657831699f169c3f4</p><p><br></p><p>Victim addresses:</p><p>Harmony ETH Bridge: https://etherscan.io/address/0xf9fb1c508ff49f78b60d3a96dea99fa5d7f3a8a6</p><p>Harmony ERC20 Bridge: https://etherscan.io/address/0x2dCCDB493827E15a5dC8f8b72147E6c4A5620857</p><p>Harmony BUSD Bridge: https://etherscan.io/address/0xfd53b1b4af84d59b20bf2c20ca89a6beeaa2c628</p><p><br></p><p>Funds from the Harmony hack are being laundered via Tornado Cash mixing services. In total 42,000 ETH ~$44,7m have been laundered as the time of writing.</p>",
+        "date": "2022-06-23",
+        "fundsLost": "100000000",
+        "fundsReturned": "1400000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Access Control",
+        "token": {
+          "name": "ONE",
+          "addresses": [
+            "0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ]
+        }
+      },
+      {
+        "id": 3063,
+        "projectName": "DMC Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>At the inception of the project 520m DMC tokens were minted. The scammer received 100m DMC by the contract deployer. The scammer waited 25 days for the project to accrual value before he started dumping the DMC tokens and extracting nearly 500k $BUSD in ill-gotten gains in the process.</p><p><br></p><p><strong>Details of the Exploit&nbsp;</strong></p><p>The 520m DMC tokens were minted to the deployer's address, which were sent to an intermediary address. Part of the tokens were sent to scammer addresses for creating a pair on PancakeSwap. When the price reached a certain value, the address (B) that had a huge amount of tokens sent 390m DMC to the address (C) that started dumping the price.</p><p><br></p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><br></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token minting to contract deployer: https://bscscan.com/tx/0x2ee4aabed51e08527a4b1f87986c42336df83e2169b286bff8dce9b2305c1de5</p><p>Transferring total supply to address (B): https://bscscan.com/tx/0x73dcbb2c1d2b7ad3e48fbcd882b835fdbb1c5eb073f69730470cd2eae9f653d2</p><p>Transferring 390m DMC tokens to (C): https://bscscan.com/tx/0xc585157bb4ac8aafc84c810c4ed1d505e799fd68618e98c413e698137ea47a3c</p><p>Transferring 100m tokens to address (D): https://bscscan.com/address/0x3f9a3e5e49e3e34f053f0eaa8e6b365eea5bf772</p><p><br></p><p>Example transactions of scammer dumping tokens on Pancake Swap.</p><p>1 https://bscscan.com/tx/0x7abcebdba7019c86b7674eb1a4723e361237fc871d650ed79ad91262deff1712</p><p>2) https://bscscan.com/tx/0x3bc3d314e8ee59bbd22e8fda9f79bbb65266497f27df29ea01f4d5a7a2611954</p><p>3) https://bscscan.com/tx/0x4cf32944509161688089649b70de0052da46a00b4d19be234cf4c8337eb55c36</p><p><br></p><p>Scammer addresses:</p><p>1) https://bscscan.com/address/0x094f8627495e735497673cdd762123999e2923e2</p><p>2) https://bscscan.com/address/0xbdb67e30ec651b0d86ff05e9afe4df5017fb081e</p><p>3) https://bscscan.com/address/0x7fa859c9fd2e36d8b57fcb0e05f0789daa7650ec</p><p><br></p><p>Involved addresses:</p><p>https://bscscan.com/address/0x3f9a3e5e49e3e34f053f0eaa8e6b365eea5bf772</p><p>https://bscscan.com/address/0xb72d20ead225d5d9a536f6e548d56effe1d82ad8</p><p><br></p><p>Scammer smart-contracts:</p><p>https://bscscan.com/address/0xde8e87b2b2111c3e09b74bc1e2dd13b7087e7c0e</p><p>https://bscscan.com/address/0xeb58734f2d4eeededf6449a6bb0c515e0a49c770</p>",
+        "date": "2022-06-25",
+        "fundsLost": "497386",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DMC",
+          "addresses": [
+            "0x947e47f01bF2f383Ba4F6FCa9cf7419eA8Ea8936"
+          ]
+        }
+      },
+      {
+        "id": 3064,
+        "projectName": "Swello Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Swello Finance has been rugpulled by the contract owner of the project. The contract owner called the <em>pullForBNB()&nbsp;</em>function through an unverified contract that dumped $SWLO against $WBNB via PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Swello Finance was<strong>&nbsp;</strong>a staking service provider with a high APY rating.</p><p><span style=\"background-color: transparent;\">The token owner address received 3.8b $SWLO tokens from the contract deployer in this tx: https://bscscan.com/tx/0x66bc683326ce4ed62ce04ad85dba4355302eebd82223db4d06a249c947c690a4.</span></p><p>Then the token owner interacted with an unverified smart contract that was created by the scammer. By calling &nbsp;the <em>pullForBNB()&nbsp;</em>function the smart contract exchanged 7.3b $SWLO tokens in total on PancakeSwap to ~891 WBNB &nbsp;and transferred the funds to the scammer wallet address (https://bscscan.com/tx/0xb99d2914505b533abd97fe94d697a2ef98cfa6c3642ecddfd356c5cf825b9971<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>).</span></p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address (A): https://bscscan.com/address/0xf23c31aae62f7cc8f21b043d4036308373b67c32</p><p>Scammer address (B): https://bscscan.com/address/0x70d4a89b2085b8cc73dcc868fabbeb19f4e13100</p><p><br></p><p>Scammer's contract: https://bscscan.com/address/0x4aa97b495e5602147b5bc625fb85aac6a83d5e6f</p><p><br></p><p>Involved addresses:</p><p>https://bscscan.com/address/0x511396d971405bc99ea2031b1ca579c11a5dc22c</p><p>https://bscscan.com/address/0x7cc490281dddc886ca0901f36cbc8942a4be7e79</p><p><br></p><p>Addresses contacted with scammer's contract: https://bscscan.com/address/0x4aa97b495e5602147b5bc625fb85aac6a83d5e6f#tokentxns</p>",
+        "date": "2022-06-25",
+        "fundsLost": "210000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SWLO",
+          "addresses": [
+            "0xdD6C57f8403aEF4bd9282c81C0d1887222e86710"
+          ]
+        }
+      },
+      {
+        "id": 3067,
+        "projectName": "LV Metaverse",
+        "description": "<p><strong>Quick Summary</strong></p><p><span data-complaint-target=\"true\" data-complaint-type=\"fullTextTranslation\">The <span data-align=\"0:3\">LVP</span> <span data-align=\"4:9\">token</span> has <span data-align=\"10:13\">been</span> <span data-align=\"14:21\">r</span>ugpulled for a second time as scammers make use of remaining liquidity in the project<span data-align=\"24:37\">. The scammers managed to sell $LVP for ~$50k.<br></span></span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer address (A) sent ~96.534t $LVP tokens to scammer address (B) in the following two transactions:&nbsp;</p><p><br></p><p>https://bscscan.com/tx/0xf5e95a1e074c2e005bc322dacbafa13ba96f0f9a1a1e8019bbeebfa5506fa1c https://bscscan.com/tx/0x6bd27154df4d9b9a78639d91dcd82abd58f61fb7c881051a87dad044315cf831</p><p><br></p><p>Then scammer address (B) started dumping the token price by exchanging $LVP through PancakeSwap.</p><p>ExampleTransactions:</p><p><br></p><p>https://bscscan.com/tx/0x0217ddf8e974bed819339ff74fbe4d9a3863042ba727338da9e324f5eccb4e9e https://bscscan.com/tx/0x3b39c03c4e93d2116e9ff354c8c398c6df53dcdeed514b73624e6bcf2d719d81</p><p>&nbsp;https://bscscan.com/tx/0x3d891b3d0cc5c0ca4c226c445009291908cbefaa5abe2d9118a09140ed69d412</p><p><br></p><p>The funds were transferred to a new address where they are currently located, at the time of writing.</p><p><br></p><p>https://bscscan.com/tx/0xb9d61ff29405d50c5e510550fcdedec71ecd5585ce3ec6cdff2fa9a9b9f43967</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address A: https://bscscan.com/address/0x190d744ba9d3a0ca9d86b47064182b5954c1001e</p><p>Scammer address B: https://bscscan.com/address/0xff869ecd6dcef75a59dd76cbb2469309666e39e6</p><p>Scammer address C: https://bscscan.com/address/0x1f47353f9930ce18657fa4498e0d9c417b5873fe#tokentxns</p>",
+        "date": "2022-06-28",
+        "fundsLost": "50625",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT,Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LVP",
+          "addresses": [
+            "0x5927b72440D8A8b8c6ca5A8be60e88975F9063fc"
+          ]
+        }
+      },
+      {
+        "id": 3068,
+        "projectName": "Dark Light",
+        "description": "<p><strong>Quick Summary</strong></p><p>Dark Light token has been rugpulled by the contract creator. The contract creator exchanged a sizeable amount of $DK tokens to $BNB via PancakeSwap. The funds were then laundered via Tornado.cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract creator exchanged 980T $DK tokens for $BNB. Then the received $BNBs were sent to the Scammer's address (B), where all funds were collected and subsequently sent to the scammer's address (C), where they were laundered via Tornado.cash. The exit scam occurred within two hours of the project going live.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract creator, scammer address (A): https://bscscan.com/address/0xe074488ff2394807c936172efaa45d802feb9454</p><p>Scammer address (B):&nbsp;</p><p>https://bscscan.com/address/0x7c734ef5517030ff9bbf4878fca8f1cf0437c6f8</p><p>Scammer address (C): https://bscscan.com/address/0x7bf286752dba3094c209693bdf9a73efa811a0e5</p><p><br></p><p>Contract creator exchanging DK tokens to BNB via PancakeSwap: https://bscscan.com/tx/0x9dffda273e52abc9cf633999306227c2434471af74148c7ef8ad25dff25be060</p><p><br></p><p>Contract creator transferring BNB to scammer address (B): https://bscscan.com/tx/0x9dffda273e52abc9cf633999306227c2434471af74148c7ef8ad25dff25be060</p><p>Scammer address (B) &nbsp;transferring BNB to scammer address (C): https://bscscan.com/tx/0xd09fbd4493e1c8274545228b822578ecf7dcf728d8747183e0e4f18e98b6a01d</p>",
+        "date": "2022-06-30",
+        "fundsLost": "134120",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DK",
+          "addresses": [
+            "0x2d1bec79f2789a454134efaab9c4caa28f3c5828"
+          ]
+        }
+      },
+      {
+        "id": 3069,
+        "projectName": "Skate Metaverse",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $SMC token has been rugpulled by the token creator. The creator of the token exchanged 10m of $SMC tokens for $BNB via PancakeSwap and &nbsp;then proceeded to launder &nbsp;~530 $BNB through the Tornado.cash of which ~158 $BNB were identified as stolen.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract deployer created the token contract on the BSC network in this transaction (https://bscscan.com/tx/0xa37b6029e61502a06924d42bd730ed56dce20547745496021d47d32ef779407c), where 100m of $SMC tokens were minted. After 12 days, 12.5m tokens were sent to the other of the scammer's addresses in these two transactions:</p><p>1) https://bscscan.com/tx/0x255ec873c42e58f90b4855e566cfb9ba058508c66efc946d1d244faa6dd2a54b</p><p>2) https://bscscan.com/tx/0xfb3bc48eca5899e5666fab5f76d9db0091b90fe95e3728410d4dda9bc15023f6</p><p><br></p><p>The tokens were then exchanged for $BNB via PancakeSwap:</p><p>1) https://bscscan.com/tx/0xef60bf9f24607f8983dd72f5a434336dd147c9df2e5ac35f3d6420c61d0ecbea</p><p>2) https://bscscan.com/tx/0x4bfe3ad896811793caa83467657547c84dd30f91f1b0816a19316f028f2fe2aa.</p><p><br></p><p>After the token was dumped, and $BNB was received, they were sent to the scammer address (D) where they were laundered through Tornado.cash.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract creator address, scammer address (A): https://bscscan.com/address/0xa5f49aa1b8b160b32a9ef15b6cae5f48d4e780f9</p><p>Scammer address (B): https://bscscan.com/address/0x541f18b1fc94b3b5db2872414791d0253493f63f</p><p>Scammer address (C): https://bscscan.com/address/0xd12b691a14d0294fde28a663026dbbcc57732c96</p><p>Scammer address (D): https://bscscan.com/address/0xb391729a8eeaf377aeadb9d6058cbdeb07050f58</p><p><br></p><p>Intermediary scammer addresses:</p><p>A) https://bscscan.com/address/0x518a04690fb6c61a14ad28dc279284eb56d6e944</p><p>B) https://bscscan.com/address/0xdae1b0e7db198979eb569aec15d7d150b4a0b267</p><p>C) https://bscscan.com/address/0xef428cee530d9235218b6c0af44c8b2465c37bc8</p>",
+        "date": "2022-06-29",
+        "fundsLost": "34721",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SMC",
+          "addresses": [
+            "0x6a6585b7c3def7b8b65c4bc670f2f9713846c9d1"
+          ]
+        }
+      },
+      {
+        "id": 3070,
+        "projectName": "XCarnival",
+        "description": "<p><strong>Quick Summary</strong></p><p>XCarnival was attacked by a hacker for 3,087 $ETH of which 1,467 $ETH was returned to the creator address of the vulnerable contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker created a contract, with the help of which it was just the same that managed to carry out the attack and pump out 3k $ETH from the victim's contract.</p><p>Contract creation transaction: https://etherscan.io/tx/0xe4f99b2fb86a317eb16f7f288fda74ab07f0ffcbf645fb3b1a6490ca23206d09</p><p>The attacker called the pledgeAndBorrow() function, which creates an orderID and calls xToken.borrow. The function marks that the order has been borrowed. However, an attacker can control xToken, so an attacker can transfer an NFT with a fake xToken, and then borrow all the assets.<span data-complaint-target=\"true\" data-complaint-type=\"fullTextTranslation\"><span data-align=\"0:5\">&nbsp;When</span> the attacker <span data-align=\"15:22\">received</span> <span data-align=\"23:24\">$ETH,</span> <span data-align=\"29:34\">2,967</span> <span data-align=\"35:39\">was</span> <span data-align=\"40:50\">sent</span> <span data-align=\"51:53\">to</span> <span data-align=\"54:60\">another</span> <span data-align=\"61:66\">address</span> <span data-align=\"67:70\">where</span> some <span data-align=\"71:76\">of</span> the <span data-align=\"77:84\">tokens</span> <span data-align=\"85:89\">were</span> <span data-align=\"90:98\">withdrawn</span> <span data-align=\"99:104\">via</span> <span data-align=\"105:112\">Tornado.cash.</span><br><span data-align=\"130:138\">Transfer</span> <span data-align=\"119:129\">transaction to another address:</span> <span data-align=\"145:235\">https://etherscan.io/tx/0x7687857bbb7501741bbe00ddabd6ee3f0a3a61fbc4260608a984e7f2862a2f49</span></span></p><p>Half of the tokens were returned to the creator of the XCarnival contract in this transaction: https://etherscan.io/tx/0xcc3fda1e5540486de15f707ccc82a6f9c8c78e0ef3ef02e4318b3bea24ace701</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attack transaction where $3,087 $ETH was withdrawn: https://etherscan.io/tx/0x51cbfd46f21afb44da4fa971f220bd28a14530e1d5da5009cfbdfee012e57e35</p><p>XCarnival Exploiter address: https://etherscan.io/address/0xb7cbb4d43f1e08327a90b32a8417688c9d0b800a</p><p>Exploiter contract address: https://etherscan.io/address/0xf70f691d30ce23786cfb3a1522cfd76d159aca8d</p><p>Victim address: https://etherscan.io/address/0x39360ac1239a0b98cb8076d4135d0f72b7fd9909</p><p><br></p><p>Example transactions of funds withdrawal via Tornado.cash:</p><p>1) https://etherscan.io/tx/0xf8eb760b44ab8fff8fd385ed0fe013b776c10b47271335b754dbbdf5aab21eb0</p><p>2) https://etherscan.io/tx/0xf6ffbc99369865d703b8b949b668123fef9ca3fcdb43919a6b524b39d401ca87</p><p>3) https://etherscan.io/tx/0xd6be8d7fead1a0901e70697ffbffa96ab687208f5eef986bc6e9e29415668a0d</p><p><br></p><p>The transaction of the return of 1,467 $ETH to the XCarnival creator: https://etherscan.io/tx/0xcc3fda1e5540486de15f707ccc82a6f9c8c78e0ef3ef02e4318b3bea24ace701</p>",
+        "date": "2022-06-26",
+        "fundsLost": "3837110",
+        "fundsReturned": "1746801",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending,NFT",
+        "issueType": "Other",
+        "token": {
+          "name": "XCV",
+          "addresses": [
+            "0x493CbBd4A5da462E3dbc3E5c8e2A1E37D1D03CAc"
+          ]
+        }
+      },
+      {
+        "id": 3071,
+        "projectName": "Crema Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Crema Finance was attacked by a white hat hacker for ~$8.8M who then returned the majority of stolen funds, leaving the attacker with 45455 $SOL as a reward for finding the exploit. The Solana network became the place of the exploit, and all funds were transferred by the attacker through the Wormhole Bridge to the ETH network and swapped to 6K $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span lang=\"en\">Crema Finance is a concentrated liquidity protocol that provides superior performance for both traders and liquidity providers on Solana network.</span><strong>&nbsp;</strong></p><p>The hacker took advantage of the vulnerability of the Crema Finance protocol to withdraw funds from this platform, but after negotiations between Crema Finance and the attacker, they came to an agreement that the hacker would keep 45455 SOL as a reward for finding the vulnerability, and return the remaining funds back to their ETH network address.</p><p><br></p><p>Exploit step by step:</p><p>1) The hacker created a fake Tick account. Tick Account is a special account that stores price tick data in the Crema Finance platform.</p><p>2) After creating a fake Tick account, the attacker bypassed the standard check for the owner of the Tick account. The fraudster wrote the initialized address of the Pool Tick to a fake account in this transaction: https://solscan.io/tx/5kfoGgEvhBiHXz1MBVxn8rfJh3cf98m3D64YHE2Q1SsXLiaahvdK4hCJfkMA7jQFXLjP9YdNSTMSor3oXbKrLTev</p><p>3) Next, the hacker deployed the contract and used it to provide a flash loan from Solend to add liquidity to Crema to open positions. Contract creations transaction: https://solscan.io/tx/JdorRBPfKNWnZNhWcjwc9Uz5yYaA15CVjT8kLM12tVUqZUu28CqtVEuJ5KpjWHJmVtL7j7sQVhPHHrByhNEKqej</p><p>4) Then the hacker used smart contract to lend a flash loan from Solend to add liquidity on Crema Finance to open positions:</p><p>&nbsp; &nbsp;A) https://solscan.io/tx/5B4QXpMfpDpaX8dg2GF5DVLz9dAiZz1sjPL45wgP7X1o9fpdgCvYKi2FHEosSQBS63uDsos37AyrKC1a4YbKohGv</p><p>&nbsp; &nbsp;B) https://solscan.io/tx/4FaMTKqha9Uw6hvxg5TQc5W7vRDKxVkfPn5GDMThGYSj3tgyCYSzXzQsAsT3dXDY6yZ26iYieV6bcV7bFDkTZ83W</p><p>5) After that, the hacker exchanged tokens for $SOL, some of which are on the Solana account, and the rest was transferred to the ETH blockchain through the Wormhole.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:&nbsp;</p><p>Solana: https://solscan.io/account/Esmx2QjmDZMjJ15yBJ2nhqisjEt7Gqro4jSkofdoVsvY</p><p>ETH: https://etherscan.io/address/0x8021b2962db803b73aa874030b0b42c202e8458f</p><p>Attacker's smart contract: https://solscan.io/account/CiDwX4eMS7hfit1oMHK6MCrgve9HVvgm2PAp7Cz6Bck</p><p>Contract creation transaction: https://solscan.io/tx/JdorRBPfKNWnZNhWcjwc9Uz5yYaA15CVjT8kLM12tVUqZUu28CqtVEuJ5KpjWHJmVtL7j7sQVhPHHrByhNEKqej</p><p>Victim address: https://solscan.io/account/Ej4KxxUz73edQzjfsPVWvYxT5eyhQoWoXpo7BYm2Ejhj</p><p><br></p><p>Attacker returning funds transactions:</p><p>1) https://etherscan.io/tx/0xb5935f1fc30921733644de621bb64589f57c650a1985cc5d01c9d24ce03a95bb</p><p>2) https://etherscan.io/tx/0xe7bda58d0d0e7ffdbdfd13326da8d26312442e078a86d6458c276ecbfc3a3d3a</p><p>3) https://solscan.io/tx/5BxSYVzfaNaKT3HsHGrSze2R4Ue5121e2zJH67u7ncFHqauCzpfm92yk3ULDrtHwt46dF44NwyDC3mYx2cVJDtrS</p><p>4) https://solscan.io/tx/5sN74N2Mb9TrbU5LZ5VqyeX5xroeLSaXkWdzzNVbA1sYw7EumvDKBTiRinUdf7esCCz81quoEpGQzsjs6uLWYjJx</p>",
+        "date": "2022-07-02",
+        "fundsLost": "8782446",
+        "fundsReturned": "7356932",
+        "chaindIds": [
+          24
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3072,
+        "projectName": "Starstream / Agora",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Starstream project was exploited on 532M $STARS tokens, which were then placed on Agora DeFi, where assets including $METIS, $WETH and $MUSDC were borrowed. Total losses amounted to ~$15M.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Starstream is a suite of products for providing yield aggregation and yield generation on the Metis L2 rollup.</p><p>The attacker used the external function <em>execute()</em>, the Distributortreasury contract, which allowed sending $STARS tokens to the attacker's address. The attacker then deposited the stolen $STARS tokens in Agora DeFi loan contracts and leveraged assets, including $METIS, $WETH, and $MUSDC. The attacker used an Exchange Proxy to move the funds to the Ethereum blockchain before sending funds to Tornado.cash. In total the attacker sent 900 $ETH to Tornado.cash. The attacker then returned 120 $ETH back to METIS network via the Metis Andromeda Bridge.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>ETH: https://etherscan.io/address/0xffd90c77eaba8c9f24580a2e0088c0c940ac9c48</p><p>METIS: https://andromeda-explorer.metis.io/address/0xFFD90C77eaBa8c9F24580a2E0088C0C940ac9C48/transactions</p><p><br></p><p>0x Exchange proxy transaction: https://etherscan.io/tx/0xd72b46cf015e43df4be3d1daa1685fa2ec7158dcfd121f57b6dc2279a358858d</p><p><br></p><p>Tornado.cash deposit example transactions:</p><p>https://etherscan.io/tx/0x4f112e1077ec4199b1f73420f3573d6f07b095cb9fa53e4d951cc3a04f28125d</p><p>https://etherscan.io/tx/0x80a3aad3b5a10317fec1d3e3d0ededb6095e50843a8ebe961461724167bf15d0</p><p>&nbsp;https://etherscan.io/tx/0x596cdfe19961b50975b0aac8776be65d5cb92fca6ef31d9bee541acf1226aca6</p>",
+        "date": "2022-04-07",
+        "fundsLost": "15000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "STARS",
+          "addresses": [
+            "https://andromeda-explorer.metis.io/token/0xb26F58f0b301a077cFA779c0B0f8281C7f936Ac0/token-transfers"
+          ]
+        }
+      },
+      {
+        "id": 3073,
+        "projectName": "Fantom",
+        "description": "<p><strong>Quick Summary</strong></p><p>A validator wallet was drained for 250k FTM by an attacker during the node setup process on Fantom network. The problem is a go-opera code bug, allowing users to unlock the local account with http/ws enabled.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker tracked the transfers to the node accounts, so he could know when and how much a validator account would receive, and taking advantage of the vulnerability, was able to steal money from the node validator. The vulnerability is in the <em>UnlockAccount()&nbsp;</em>function, in which the <em>ExtRPCEnabled()</em> flag does not work correctly, which makes the entire security check useless.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p>",
+        "date": "2022-07-01",
+        "fundsLost": "62500",
+        "fundsReturned": "0",
+        "chaindIds": [
+          4
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": "FTM",
+          "addresses": [
+            "0xad29abb318791d579433d831ed122afeaf29dcfe"
+          ]
+        }
+      },
+      {
+        "id": 3074,
+        "projectName": "Nody",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $NODY token has been rugpulled by the token creator. The token creator transferred 950M $NODY tokens to a second &nbsp;address (B) under his control. When the price of the token increased, the attacker started selling them, which is why the token began to depreciate. At the moment of writing ~$104k are on scammer's address (B) of which ~55k are identified as stolen.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer created $NODY token at this transaction: https://bscscan.com/tx/0xde9f9d0842b5c21a52455594d8e1361ca2e5835f529c48d9ab0b5021d0b17998.</p><p>After 14 days, 950M $NODY token were sent to intermediary addresses in order to create a fake distribution between token holders and 100M $NODY tokens to the scammer address (C) which created a liquidity pool on PancakeSwap with 50k $BUSD and 50M $NODY. (https://bscscan.com/tx/0xe7e6d52318fcbf08ef93bd9e6aafb87facc6752f96a3293c1e8c43aee2345b81).&nbsp;</p><p>When the people invested their money and the price of the token became acceptable for the scammer, all the intermediary addresses sent tokens to the address of the scammer (B) where, in turn, he began to dump the price by selling assets. Here are the transactions of transferring from intermediary addresses to scammer address (B):</p><p>1) https://bscscan.com/tx/0xc4e3335823bccd1e846a2419c83652603e8686260c941d3abcc367c68d1947b8</p><p>2) https://bscscan.com/tx/0x898e0dade51cc9a5432dff59de95f9959533ae86f5ade0bc166d806705281125</p><p>3) https://bscscan.com/tx/0xcafab31af828888ffc459e063a537b0eb7db98eaec7435b86852c837be848cc5</p><p>4) https://bscscan.com/tx/0x1945b09cc38c029a608b40867a55da1ed5c177d099c965f74d50fd2c31034693</p><p>Then scammer address (B) swapped $NODY tokens for $BUSD through the 1inch.</p><p>Here are example transactions of swap:</p><p>1) https://bscscan.com/tx/0x61473eef0a78736c1a3c06b04eaf70fcac6865c43b832fdb91cd8cd958f37e49</p><p>2) https://bscscan.com/tx/0x11dae52a29282aa139b37e60243d449110b940fa6d7b25e32a9da1808e1d49c0</p><p>3) https://bscscan.com/tx/0xce754bb12b4872aff50b3898c5eedfaf992b7afba3b0db7ea92fa77877cf49f5</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>1) https://bscscan.com/address/0xba3e8569d406a6e549fa2607632a5205111aff40</p><p>2) https://bscscan.com/address/0xde512ea6cb8329ed5c49d769ea2d4ab2363735d2</p><p>3) https://bscscan.com/address/0xc45c80c984d3694a994213bdb652e9f5f809c22f</p><p><br></p><p>Intermediary addresses:</p><p>1) https://bscscan.com/address/0x1bd55d3c10779106b9afbd49cbc52d7a0de95dab</p><p>2) https://bscscan.com/address/0xe001a4708d06ca74f160d020f33e93792845185e</p><p>3) https://bscscan.com/address/0x5414414832b3055510a98b7edc216ed49728987b</p><p>4) https://bscscan.com/address/0x893a49263bae3dfee4aef69243804b9617ba3105</p>",
+        "date": "2022-07-02",
+        "fundsLost": "54559",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NODY",
+          "addresses": [
+            "0xfe01c159ecdee4377abfc4cd1827089c47b806ea"
+          ]
+        }
+      },
+      {
+        "id": 3075,
+        "projectName": "BabyDAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $BabyDAO token has been rugpulled by the token creator for $7.6k. Then funds where sent to another address from which they were laundered via Tornado.cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The token creator deployed a BabyDAO contract, where 10T tokens were minted to his account (https://bscscan.com/tx/0x3af2f636d7b5b2965f818fd374b1c7b6cb9d0b697375b2e1c50a823043650e88).</p><p>After the token deployment, the scammer address created a pair on PancakeSwap of $10 WBNB and $100M BabyDAO (https://bscscan.com/tx/0x8ad196e570fc4382c343c9fe0c706715ee94d362515bba83c4f663068f8f183b).</p><p>After 14 days, 300 $BNB was sent to the deployer's address, of which 290 $BNB was used to increase the liquidity pool on PancakeSwap.</p><p>Transfer transactions to deployer's address: https://bscscan.com/tx/0x166c1cedcbcfc9bafbd4c15ec55e633a4070167d4706eee0109c370061231429</p><p>Adding liquidity to PancakeSwap: https://bscscan.com/tx/0x67e83954bd116ff9145146d267e3722405671e66c5495dfea09581843bccec3c</p><p>When the price of the token went up, the deployer removed liquidity and took a profit of 32.25 $WBNB. All the funds were transferred to another address where funds were laundered via Tornado.cash.</p><p>Transferring funds to address from which funds were laundered via Tornado.cash: https://bscscan.com/tx/0x40a34d6f65a8155e15d4b72955ced2ab1a8f3bff1d5d365072c7407d04a31ea3</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Creator address: https://bscscan.com/address/0xe153c4b638d2c5db64adf804bd7410203e29c78a</p><p>The address to which the tokens were sent for laundering via Tornado.cash: https://bscscan.com/address/0xd759da5909237b687fc53bab9dd92bfd8deb7f0a</p><p>Token address: https://bscscan.com/address/0xf2d5d38fa88f9e2be0830351275d0724f96b0f5f</p>",
+        "date": "2022-07-06",
+        "fundsLost": "7602",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BabyDAO",
+          "addresses": [
+            "0xf2d5d38fa88f9e2be0830351275d0724f96b0f5f"
+          ]
+        }
+      },
+      {
+        "id": 3076,
+        "projectName": "FlippazOne",
+        "description": "<p><strong>Quick Summary</strong></p><p>The creators of the FlippazOne project created a NFT smart contract, which is also an auction contract. The contract included a serious vulnerability in the <em>ownerWithdrawAllTo()&nbsp;</em>function, in which there is no verification of the owner, which allows anyone to take all the funds of the contract through calling this public function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract creator of FlippazOne created a contract with a vulnerability that enables anyone to withdraw all $ETH<strong>&nbsp;</strong>from the contract to any address. The vulnerability lies in the fact that this function does not have a check on the owner, which means anyone can pick up $ETH tokens to their address at any time. This account with address (https://etherscan.io/address/0x194a39f48f1d5e310d0e0cc25e727c7d2bff0b14) made a bid sending 1.5 $ETH to the FlippazOne contract that were successfully withdrawn by unverified contract (https://etherscan.io/address/0xb314fd4ac6e10a7e27929cbc8db96743739c82b6) in this transaction: https://etherscan.io/tx/0x670da209fb1168941c4565a9a86f87d1011b24b857ea64f658b126a43f031fa0.</p><p>Then another 4 $ETH were withdrawn by EOA address in this transaction: https://etherscan.io/tx/0xf2cc19d4c8bfb04e35789e9b716c5f1ba8b893df3a821b104ed5f845230a3762</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Vulnerable contract address: https://etherscan.io/address/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944</p><p>Contract owner and creator: https://etherscan.io/address/0x7f377ee93b2c7856838c9fb7effe0ba34399d9d3</p>",
+        "date": "2022-07-05",
+        "fundsLost": "6828",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Access Control",
+        "token": {
+          "name": "FlippazOne",
+          "addresses": [
+            "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944"
+          ]
+        }
+      },
+      {
+        "id": 3077,
+        "projectName": "SHADE INU Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $SadeIT token has been rugpulled by the token creator. The token creator deployed $SadeIT token and when the price increased the scammer exchanged tokens for $BNB dumping the price of $SadeIT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The creator of the token $SadeIT deployed the smart contract and minted himself 5B tokens in this transaction: https://bscscan.com/tx/0x5f5bd205678799dd9d9d2e4496d6351218504d2924b85df379a7b5f913c146d7</p><p>Immediately after the contract was created, 200 BNB was received by another address in this transaction: https://bscscan.com/tx/0x09aa93f9d544932ca25d068d5643b19ba976c5a42c10bfccd0e4d1ef7f62137f Received $BNB were used to create a liquidity pool on PancakeSwap:&nbsp;</p><p>https://bscscan.com/tx/0xcba090862949fc20f4e701af0867541e63306731eac3ebf3070374477feaef9e</p><p>When the price of the token became acceptable to the scammer, the two swapping transactions was made for ~983T $SadeIT, receiving 424.8 $BNB of which the profit is 224.8 $BNB:</p><p>1) https://bscscan.com/tx/0xd2811df9e4dcd2204421620e21f5e4f0b380de00adbeb5ce481db76e0aedc733</p><p>2) https://bscscan.com/tx/0xd6fb62acc00921f22d6a76e54a5db5d5cef8e526b5fb0ff4a4cac19de532ddc7</p><p>Then all the tokens were transferred to another address in this transaction: https://bscscan.com/tx/0x1b672d0aa565b5ee6e68512e9bd45cf1b55a2c7d5a2a2f39ef35c6ee9fa939fa</p><p>From this address, 150 BNB was sent to the address of the creator of the $NodyC token, which also got rugpulled.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://bscscan.com/address/0x24676ea2799ac6131e77bcd627cb27dee5c43d7e</p><p><br></p><p>Scammer addresses:&nbsp;</p><p>1) https://bscscan.com/address/0x698c726d33b0ba736391eecf81aa743e648ba003 (Token creator)&nbsp;</p><p>2) https://bscscan.com/address/0x91a20dcb398d9cd19e841175f395138a9bb4b073 (EOA that sent 200 $BNB to token creator)</p><p>3) https://bscscan.com/address/0x5f56e93b54e6f9f25c437995af13f16c68706f6c (Creator of $NodyC)</p><p><strong><br></strong></p><p><strong>A little warning (NFA)</strong></p><p>Attention, do not interact with projects that are sponsored by this account (https://bscscan.com/address/0x91a20dcb398d9cd19e841175f395138a9bb4b073). This account creates tokens which are then rugpulled, taking a good profit for themselves. There is a possibility that this account has a telegram group or it sponsors telegram groups to purchase its tokens.</p>",
+        "date": "2022-07-06",
+        "fundsLost": "53761",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SadeIT",
+          "addresses": [
+            "0x24676Ea2799ac6131E77bCd627CB27dEe5C43d7e"
+          ]
+        }
+      },
+      {
+        "id": 3078,
+        "projectName": "Klein Bottle",
+        "description": "<p><strong>Quick Summary</strong></p><p>The $KLB token has been rugpulled by the token creator. The token creator deployed $KLB token and when the price of it went up the scammer exchanged tokens for $BNB dumping the price of $KLB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><em>Klein Bottle's smart contract had never been published by the project deployer, https://bscscan.com/address/0x60930de2669670d1768108a77244f8ef56b4c544#code. This implicates that any investors intending to conduct due diligence and research on the source code would not have encountered any useful information. In simple terms, the project stood only on the grounds of promises made by the team, which could not be checked by investors since the source of code was not available to them</em>.</p><p><br></p><p>The creator of the $KLB token minted 100B $KLB tokens. (https://bscscan.com/tx/0x6d022790ad69a30e3f44022f5ca8da4583052dd541de4d41e0a41f814688d319).</p><p>After the creation of the price asset, 70% of the total supply was sent to this address (https://bscscan.com/token/0x60930de2669670d1768108a77244f8ef56b4c544?a=0x486844e15606aa9e4eb9b66fccf038404d7ec91b), where the tokens are located at the time of this writing. 13.8% were distributed among various scammer addresses. Perhaps an attempt to make the token distribution appear more normal. The below transactions show where funds have been sent:</p><p>Transfer transaction to address (A): https://bscscan.com/tx/0x2d97020d6751d01b7367c3266313642ae83e0054bca21a47833a9c9d4501a421<br>Transfer transaction to address (B): https://bscscan.com/tx/0x6c26372cdbc781e09966b34a9242ec93d526a2b0f8d975ba0f3b3c607d654fea<br>Transfer transaction to address (C): https://bscscan.com/tx/0x4f08766c87dcfa9ade917a5e097b89542c0e262069f52db6187da820442ca448</p><p>The address (A) created a liquidity pool between $BNB and $KLB. They waited until the token price became acceptable, then they started dumping the token price.</p><p><br></p><p>Stolen funds are currently located at these addresses:</p><p>1) https://bscscan.com/address/0x67074b65c6ce584692d85e1568c32f8139c962b6 - ~ $87k</p><p>2) https://bscscan.com/address/0xc42d3f5d4af4557fbc678929fabc5d9531192300 - ~ $2k</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://bscscan.com/address/0x60930de2669670d1768108a77244f8ef56b4c544</p><p><br></p><p>Scammer addresses:&nbsp;</p><p>1) https://bscscan.com/address/0x13cdf67b7dff09b0efc234fb88570b05a89e30f8</p><p>2) https://bscscan.com/address/0x67074b65c6ce584692d85e1568c32f8139c962b6</p><p>3) https://bscscan.com/address/0xc42d3f5d4af4557fbc678929fabc5d9531192300</p>",
+        "date": "2022-07-06",
+        "fundsLost": "89747",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KLB",
+          "addresses": [
+            "https://bscscan.com/address/0x60930de2669670d1768108a77244f8ef56b4c544"
+          ]
+        }
+      },
+      {
+        "id": 3079,
+        "projectName": "Automated Assassins",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Automated Assassins has been rugpulled by the project team. The team that was involved in the project created a collection on OpenSea, then to make the collection look more attractive, they raised the price of the token. When people minted the NFT by investing their funds in the contract, the team called function withdraw() to get all the funds from it in the amount of $202K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Automated Assassins was supposed to be a P2E game.</p><p>The team of the project created the NFT contract with this transaction (https://etherscan.io/tx/0x026b705a99af7ff24b1e70e02fc1d432025b4a669320f8d8c6e254204b07d7a4).</p><p><br></p><p>The project team used funds that were raised in the initial minting phase in order to sweep the floor price of the collection on OpenSea, making the collection appear successful to investors (https://etherscan.io/tx/0x7200806a75448f6fb4f3dcf741195a4479cd3e23bd6674eaad4df338964bb79e).</p><p>In this transaction, the <em>withdraw()</em> function is called, where all the $ETH from the contract are withdrawn<br>(https://etherscan.io/tx/0x03987fdd2ae42a01b201b4abeab462c8302ab457ff7021b466f5e92ef6c24b40).</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://etherscan.io/address/0x8abfc9689827db7b00f67b7ebc90ee707bc07437</p><p><br></p><p>Address that deployed the contract: https://etherscan.io/address/0xff45874e2bde87e773551b7eb086533df02f022f</p><p><br></p><p>Scammer addresses:&nbsp;</p><p>1) https://etherscan.io/address/0x3c1e66d6fe004b581ace44612726164ad34dbd7f&nbsp;</p><p>2) https://etherscan.io/address/0xb7c8d69703289bdaf21d7a419b7af95b32d8ca40&nbsp;</p><p>3) https://etherscan.io/address/0x67ef43a7b0fdc38db0990413a86f7b0dc0220f7f&nbsp;</p><p>4) https://etherscan.io/address/0x1f07957e1e5f3585c762736a83a2ce3140fccfa9&nbsp;</p><p>5) https://etherscan.io/address/0xd40999c2b045f6a175acc0b478bbf0bed6e918fc&nbsp;</p><p>6) https://etherscan.io/address/0x5609b9338ec0351dd0f31d29c9a5105b0c22371a</p>",
+        "date": "2022-06-03",
+        "fundsLost": "202000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "AA",
+          "addresses": [
+            "0x8aBFc9689827DB7B00f67b7ebc90ee707bC07437"
+          ]
+        }
+      },
+      {
+        "id": 3080,
+        "projectName": "Bilaxy",
+        "description": "<p><strong>Quick Summary</strong></p><p>The cryptocurrency exchange Bilaxy became a victim of a <span data-contrast=\"auto\">hack that compromised a hot wallet on its platform for $21M</span>.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span lang=\"en\">The Bilaxy exchange is a cryptocurrency trading service.</span>&nbsp;</p><p>The platform was attacked by hackers, in the amount of $21M. Hackers managed to gain access to the Hot Wallet of this company and withdraw funds from there. <span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #1d2228;\">Approximately 295 ERC20 tokens were transferred by the hacker to this&nbsp;</span></span><span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #1d2228;\">address&nbsp;</span></span>(https://etherscan.io/address/0xA14d5DA3C6BF2D9304FE6D4BC6942395b4dE048b)<span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #4a4f55;\">. The hack involved the transfer of nearly 300 cryptocurrencies, including $USDT, $USDC, $UNI, $SUSHI amongst others.<br></span></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The address of the Bilaxy Hot Wallet that was the victim of hackers: https://etherscan.io/address/0xCCE8D59AFFdd93be338FC77FA0A298C2CB65Da59</p>",
+        "date": "2021-08-29",
+        "fundsLost": "21000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": "BIA",
+          "addresses": [
+            "0x40d52577830e01aaefa80659aa90ee8b34685f4e"
+          ]
+        }
+      },
+      {
+        "id": 3081,
+        "projectName": "ProjectX",
+        "description": "<p><strong>Quick Summary</strong></p><p>ProjectX has been rugpulled by the token creator. The token creator minted 1M $PXT tokens which were distributed among several addresses that dumped the token price taking profits of ~$28K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ProjectX was a nodes as a service project promising passive income to its holders.&nbsp;</p><p>The creator of the contract, deployed the token contract into the network and minted himself 1M $PXT (https://snowtrace.io/tx/0xf9cb648f4243b2796f77be3deae5c692e1f1f27c848ed759e7c186573a299dd5).&nbsp;</p><p>Then, 1M$PXT tokens were sent to the scam address (B) in this transaction (https://snowtrace.io/tx/0x07ca84475a6d999128625c5fa102e084cbb961d543b5182e7ebeb0bae047ea97)</p><p>The team opened a liquidity pool on Trader Joe, where the liquidity with a profit of 584 $WAVAX was ultimately removed&nbsp;</p><p>(https://snowtrace.io/tx/0xc674da82fc0814a8209448404d3757897837ba688e56b1e2a3d433b93248d4b9).</p><p>At the time of this writing funds are partly located at this address (<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://snowtrace.io/address/0x9c02ac147096ed92a53d9dca3fd04b4b001151fa</span>). &nbsp;The scammer address (D) received 500K $PXT tokens from scammer address (C), and swapped the tokens to 911.21 $WAVAX in these two transactions:</p><p>1) https://snowtrace.io/tx/0x177a8060163f2b6021cef2c17baf5fe42fe995e26b38d6d4ab01257651756826</p><p>2) https://snowtrace.io/tx/0x283d99a5f9d6a46629467900886a92cd291c03987b091dbe852b9640e79e7e3a</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://snowtrace.io/address/0x9adcbba4b79ee5285e891512b44706f41f14cafd</p><p>Token creator address: https://snowtrace.io/address/0x9dc72782deac4cf25e8319b9ffc1f689f5bf67fd</p><p><br></p><p>Scammer addresses:</p><p>1) https://snowtrace.io/address/0x9dc72782deac4cf25e8319b9ffc1f689f5bf67fd</p><p>2) https://snowtrace.io/address/0x19c7798a756e353f6585302b8cb71fd31dea83af</p><p>3) &nbsp;https://snowtrace.io/address/0xadbf6ee98f86d5c234d60662639d0c067818294e</p><p>4) https://snowtrace.io/address/0x9c02ac147096ed92a53d9dca3fd04b4b001151fa</p><p><br></p><p>Involved address: https://snowtrace.io/address/ 0xFbB3A79B276fE81719f24E96b78DfcEa7DCA3987</p>",
+        "date": "2022-07-07",
+        "fundsLost": "28247",
+        "fundsReturned": "0",
+        "chaindIds": [
+          6
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PXT",
+          "addresses": [
+            "0x9ADCbba4b79eE5285E891512b44706F41F14CAFd"
+          ]
+        }
+      },
+      {
+        "id": 3082,
+        "projectName": "Miss Universe NFT",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The official Miss Universe NFT project that boasted a roadmap with monthly AMAs, charity donations and signed prints, rugpulled its holders within 3 days after inception and incurred losses of approx. $360k to its holders.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The Miss Universe NFT project was in fact endorsed by Paula Shugart, the president of The Miss Universe Organization as well as by Steve Harvey the famous American television host and other Miss Universe models. The project promised its holders an array of off-chain benefits such as exclusive events, signed prints and virtual AMAs with a strategic orientation towards women's empowerment.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Within the next day after the minting of the project took down its official Instagram account.</p><p style=\"margin:0cm;background:white;\">Moderators on discord still encouraged members to buy more NFTs. Within 3 days all social media channels were deleted.</p><p style=\"margin:0cm;background:white;\">The transactions that evolved on-chain appear to be undertaken by professionals since transfers and cash-outs between more than 20 wallets have been detected.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Miss Universe NFT token address: https://etherscan.io/token/0xa048c212449c68eaaf866309c1202db7ab512c5c</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Token creator addresses (Scammer):</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">1) https://etherscan.io/address/0x8831569a68dcb1e1091f86443ac75214f8f95a86</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Some of the intermediary wallet address:</p><p style=\"margin:0cm;background:white;\">2) https://etherscan.io/address/0x0171a1e4cc0b2e5170c93bf155670e2c223d6a0e</p><p style=\"margin:0cm;background:white;\">3) https://etherscan.io/address/0x992ec9e34faa0b9975409b6c4789368e6ad2925f</p><p style=\"margin:0cm;background:white;\">4) https://etherscan.io/address/0x83e657aa83c649cdff5b2ffd7a363ec6f0e25c35</p><p style=\"margin:0cm;background:white;\">5) https://etherscan.io/address/0x3bd3de20a6dba974affcbbb4f4397f70fe1011f6<a href=\"https://etherscan.io/address/0x3bd3de20a6dba974affcbbb4f4397f70fe1011f6\"></a></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Sample of cash out transactions:</p><p style=\"margin:0cm;background:white;\">1)https://etherscan.io/tx/0xe475a5774698a8db0e97f8eff5722df4fa1c7cef0b827c1b600cb31df035ee52</p><p style=\"margin:0cm;background:white;\">2)https://etherscan.io/tx/0x3442786129a4d39b8f2287c74a726ef132be90ecbb1a0c45825863f5e3da96c8</p>",
+        "date": "2021-12-12",
+        "fundsLost": "360000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MU",
+          "addresses": [
+            "https://etherscan.io/token/0xa048c212449c68eaaf866309c1202db7ab512c5c"
+          ]
+        }
+      },
+      {
+        "id": 3083,
+        "projectName": "MAD",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The $MAD token was stolen by a hacker who noticed a vulnerability in the contract that held most of the assets. The hacker withdrew the profit through Tornado.cash.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">Token $MAD had been stolen from the token storage due to the lack of specific verification, as a result, anyone could pick up tokens, knowing how to interact with the function. The contract is unverified, so the function looks like \"0x9763a894\". The hacker stole the tokens, and called <em>selfdestruct</em> in this transaction: https://bscscan.com/tx/0xbaf42be5ad9a6b259fa7bf6219f3672e5afda267219dddabd82d31b82808ab59</p><p style=\"margin:0cm;background:white;\">Then, using another contract, he took the tokens from all the addresses where the tokens from the previous transaction were sent and swapped them to $BSC-USD via PancakeSwap: https://bscscan.com/tx/0xbaf42be5ad9a6b259fa7bf6219f3672e5afda267219dddabd82d31b82808ab59.</p><p style=\"margin:0cm;background:white;\">Which were subsequently sent to the main address from which the money was withdrawn via Tornado.cash:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x39ddbe914af0abd9f4f1429f5aa47561e1da8223ada43100755c3ea6d6114def</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token creator address: https://bscscan.com/address/0x963fc5af34b5dfac05491620122ed12f3634a2ec</p><p style=\"margin:0cm;background:white;\">Token contract: https://bscscan.com/address/0x525c8e9c8240a55014bc55cbe8908eadadb02094</p><p style=\"margin:0cm;background:white;\">Vulnerable storage contract: https://bscscan.com/address/0x19b9c6984a6B545407d83C8Ec421D7D00695BaD8</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Attacker addresses: https://bscscan.com/address/0x957e949afa38011947a76d871c66f13af11eae93</p><p style=\"margin:0cm;background:white;\">Attacker contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xe6016d18c0cf515f4cda8b38907617bd370e6819</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x2002c47eca93e3873ea1fa4f797bb6ca9c0d7f28</p>",
+        "date": "2022-06-29",
+        "fundsLost": "122354",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "MAD",
+          "addresses": [
+            "0x525c8e9c8240a55014bc55cbe8908eadadb02094"
+          ]
+        }
+      },
+      {
+        "id": 3084,
+        "projectName": "Bifrost",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Bitcoin wallet Bifrost was attacked by hackers.<br>During the attack, the key of the server issuing the address was revealed, and the attacker was able to self-sign his own deposit address. Since the attacker could generate a valid signature on the deposit address, the BiFi platform recognized the attacker's $BTC transfer as a $BTC deposit in Bifrost. As a result, the attacker was able to borrow 1,852 $ETH with fake deposit.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. During the attack, the server key of the address issuing server was revealed, which is why the attacker was able to independently sign his own deposit address. In this transaction, the attacker signs the address: https://etherscan.io/tx/0x1a507140573d10fed06a9052a58b46621a1fbfad2d4a54fd0f5db40e1788a29d</p><p style=\"margin:0cm;background:white;\">Since the attacker managed to generate a valid signature on the deposit address, BiFi recognized the attacker's $BTC transfer as a deposit, so attacker sends 321.7 $BTC as a \"deposit\": https://www.blockchain.com/btc/tx/dd0bf6ab976f2090dd48cf6223a50e3c6c8a616e5c28dfc9448f81f1b7e99346</p><p style=\"margin:0cm;background:white;\">The relayer detected the deposit and transmitted the verified deposit history to BiFi. Then the relayer minted $BiBTC as a $BTC collateral for the attacker.<br>Transaction of deposit detection: https://etherscan.io/tx/0x5c0460f529a003d11911f21f8a8decb15aeaf07e9682a0d6e15aeb1cd5c39e69<br>Transaction of deposit confirmation with minting $BiBTC: https://etherscan.io/tx/0x2e4422dd80350bd57cca6707a69473da20282c6b318c48a642e690e691a0c15f</p><p style=\"margin:0cm;background:white;\">The attacker then called the <em>borrow()</em> function to take 1.8k $ETH:<br>https://etherscan.io/tx/0x4b5d66871af64da0fd5ac448474235079ae0cb93db70366eed2808ca56dfcf76</p><p style=\"margin:0cm;background:white;\">which were subsequently withdrawn via Tornado.cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attacker address on ETH: https://etherscan.io/address/0x282971deD7D0B8C5b0358EbEbe3B2bC6A24a6b10</p><p style=\"margin:0cm;background:white;\">Attacker address on Bitcoin: https://www.blockchain.com/btc/address/bc1qmgh7w47myz7kt7x34zqlr5azck7u8j8ewg3u2j</p><p style=\"margin:0cm;background:white;\">Attacker public keyhash: 0xDa2fe757Db20Bd65F8D1a881F1D3a2C5BdC3c8F9</p>",
+        "date": "2022-07-08",
+        "fundsLost": "2248328",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "BFC",
+          "addresses": [
+            "0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c"
+          ]
+        }
+      },
+      {
+        "id": 3085,
+        "projectName": "OMNI",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A reentrancy attack was carried out on the OMNI protocol, yielding the attacker 1300 $ETH, which were subsequently laundered through Tornado.cash.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">OMNI is a NFT finance platform that lends out cryptocurrency in exchange for staked NFTs. This platform allows users to stake NFT tokens to receive fungible tokens e.g. $ETH. The attacker deposited NFTs from the collection Doodles that were used as a collateral to borrow $WETH. Then the attacker exploited a vulnerability in order to execute a reentrancy attack by withdrawing all NFTs deposited as collateral by the attacker except for one NFT. This action triggered a malicious callback function that allowed the attacker to buy more Doodles before <span data-v-046f6c7b=\"\">&nbsp;liquidating the loan position:&nbsp;</span></p><p style=\"margin:0cm;background:white;\"><span data-v-046f6c7b=\"\">https://etherscan.io/tx/0x05d65e0adddc5d9ccfe6cd65be4a7899ebcb6e5ec7a39787971bcc3d6ba73996</span></p><p style=\"margin:0cm;background:white;\"><span data-v-046f6c7b=\"\">When the position is liquidated, the remaining Doodle NFT from the collateral were returned to the&nbsp;</span>attacker. The credit position is liquidated because NFT value from initial collateral is insufficient to cover the debt position. A<span data-v-046f6c7b=\"\">s the attacker is able to force through using the borrowed WETH to buy more NFTs before the liquidation occurs. As a result, the money received from the attack was withdrawn through Tornado.cash.</span></p><p style=\"margin:0cm;background:white;\">&nbsp;</p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attacker account address: https://etherscan.io/address/0x627a22ff70cb84e74c9c70e2d5b0b75af5a1dcb9</p><p style=\"margin:0cm;background:white;\">Attacker contract address: https://etherscan.io/address/0x5992f10a5b284be845947a1ae1694f8560a89fa8</p><p style=\"margin:0cm;background:white;\">Contract creations transaction: https://etherscan.io/tx/0x193016ce1ed6c7ec6377efd89309f7415c21190619b8e1fe625a6cdcca4f5ba5</p><p style=\"margin:0cm;background:white;\">Exploited smart contract address: https://etherscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8</p>",
+        "date": "2022-07-10",
+        "fundsLost": "1430000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT,Borrowing and Lending",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3086,
+        "projectName": "Quint",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Quint project was attacked by hackers in the amount of $130K. The attacker took advantage of the vulnerability, thanks to which he was able to withdraw his rewards again.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">Quint is a stacking and farming platform where users can stake $QUINT at low transaction fees while enjoying the rewards in the form of a variety of tokens.</p><p style=\"margin:0cm;background:white;\">The attack occurred due to a vulnerability in the contract called by the <em>reStake()&nbsp;</em>function. When this function is performed, the reward time in LP tokens is not updated, as a result an attacker can claim the issued rewards several times.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attacker account addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0x82f42c1172ff2dab3129045de05cde0ca8c87fca</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0xcBd00C9A86f3BfD4441693E0D23F5026A648117F&nbsp;</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/address/0xa59D3d8911DbC3Ba7c56A2Bc35c22Cbef759992d&nbsp;</p>",
+        "date": "2022-06-29",
+        "fundsLost": "130000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT,Other",
+        "issueType": "Other",
+        "token": {
+          "name": "QUINT",
+          "addresses": [
+            "0x64619f611248256F7F4b72fE83872F89d5d60d64"
+          ]
+        }
+      },
+      {
+        "id": 3087,
+        "projectName": "RETAWATCH",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The $RTW token has been rugpulled by the contract creator. The contract creator sent 15M $RTW to the scammer address (B) who created a liquidity pool between $BNB and $BUSD. When the price of the token appreciated, the scammer took profits.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The contract creator deployed the contract to the network and verified its source code. Then he sent 15M $RTW tokens to scammer address (B), which created a liquidity pool between tokens such as $BNB and $BUSD. In total, the value of the pool was approximately $16.8K.&nbsp;</p><p style=\"margin:0cm;background:white;\">Liquidity creation with $BUSD: https://bscscan.com/tx/0x1b7df8869b89ca56a2d8099e9571b49b0ff9365f2d6d170de0290adfe5d351b9</p><p style=\"margin:0cm;background:white;\">Liquidity creations with $BNB: https://bscscan.com/tx/0xab1311a612f6db0802f707847970f7a010a217b8d5e3926483fc9ced514c516b</p><p style=\"margin:0cm;background:white;\">After the pool was created, the deployer began distributing tokens between accounts artificially created by the team that took up this project to create a fake distribution of tokens between accounts, here is an example addresses:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xf04fc8f792c4fb57d838e3f356a500bafb0007c4</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x1232ca2ec69288b1c1e0496a3c3022ca6ef9929e</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/address/0xfccd8eff2e66010796b63ca77ddf42c74bb95dfe</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Scammer address (B) removed the liquidity several times, taking profit, of $3.7K.</p><p style=\"margin:0cm;background:white;\">Remove liquidity transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x219bae11a712ba8a6f31022c47dc55d9c10b9d9e613ee9c3e077f751be693543</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x9c0b9854cd54cee54128be8ed64a7ab22c577e045c933535f0ef244f6f9700df</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x1132159cdf4ae2ec1af006985bf3a173d6d63151df2d0889e29ad2da16b2edad</p><p style=\"margin:0cm;background:white;\">The contract creator then sent 20M tokens to &nbsp;scammer address (C) in this transaction:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x1f61d9216cb7bb94f36dc756e2f638c1c80c78d4540b0e540b6dff9cf420bb76</p><p style=\"margin:0cm;background:white;\">The tokens received by scammer address(C) were exchanged for 96.5 $BNB via PancakeSwap:&nbsp;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0xd18e87e3d37d291b861193b280085c5f6638322a</p><p style=\"margin:0cm;background:white;\">Then 25 $BNB was sent to scammer address (D) in this transaction:&nbsp;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x7bdcb62bfb7b2cf8447cc6a5dca8f9328ecf3ee1a282e587ce4576fae2291711</p><p style=\"margin:0cm;background:white;\">Scammer addresses (E) and (F) swapped tokens for BUSD:</p><p style=\"margin:0cm;background:white;\">Scammer address (E) transaction: https://bscscan.com/tx/0x78f785033f5f0f05acf9b8d59c0f29e040905b8f20dc93366a653e41e8893fd9</p><p style=\"margin:0cm;background:white;\">Scammer address (F) transaction: https://bscscan.com/tx/0xf7b329e7c02946256d2c8b62d92ba6529525422b26eff83e28c71cea1fd68337</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer account addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0x94ba905729b3f1e776f4183766341fc78a3f5a5a</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0xd18e87e3d37d291b861193b280085c5f6638322a</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/address/0xc39e6417f10a8d365d59ea2148c15712b2120d75</p><p style=\"margin:0cm;background:white;\">4) https://bscscan.com/address/0xf5d2e7d1a9d86069eb5635db516782f57ea653ef</p><p style=\"margin:0cm;background:white;\">5) https://bscscan.com/address/0xbf0b5accfac2cdcf2a41f010edda9b5c2a395dcb</p><p style=\"margin:0cm;background:white;\">6) https://bscscan.com/address/0x829d223530b91095caf4ebf2382eaefff3be5f1f</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Contract creation transaction: https://bscscan.com/tx/0x84abb3f01790a2cd2f899aca5699d573381d6b3d80e172c64e00dee98c969709</p>",
+        "date": "2022-07-13",
+        "fundsLost": "29069",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RTW",
+          "addresses": [
+            "0xDF9427170B3aB5e26039591797b538a82391Eac2"
+          ]
+        }
+      },
+      {
+        "id": 3088,
+        "projectName": "Uniswap",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A Uniswap liquidity provider was subjected to a phishing attack, which incurred losses of $8M. <em>Uniswaps smart contracts were not involved in any shape or form in this phishing attack.&nbsp;</em></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The victim received a fake airdrop of a lp token from the attacker disguised as a transaction coming directly from Uniswap. The attacker manipulated the trade log in order to make \"Uniswap\" appear as the sender of the transaction on blockscan.</p><p style=\"margin:0cm;background:white;\">The attacker set up a fake airdrop claim website upfront. When the victim tried to claim the airdrop on the phishing website, approvals were given to the attacker that enabled the hacker to gain control over the funds of the victims wallet.</p><p style=\"margin:0cm;background:white;\">The hacker exited a <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>WBTC/USDC</span> liquidity pool position the victim had established on Uniswap and exchanged assets for $ETH, which were withdrawn through Tornado.cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Uniswap was not the target of this attack, nor were any of Uniswaps smart contracts affected in this exploit.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">The fake airdrop token address: https://etherscan.io/address/0xcf39b7793512f03f2893c16459fd72e65d2ed00c</p><p style=\"margin:0cm;background:white;\">Creator of the malicious fake airdrop tokens address: https://etherscan.io/address/0x24a4b33bfa8e32b3456f95381de429c11c2c6fd6</p><p style=\"margin:0cm;background:white;\">Hacker wallet address: https://etherscan.io/address/0x09b5027ef3a3b7332ee90321e558bad9c4447afa</p><p style=\"margin:0cm;background:white;\">Callling multicall for swapping $WBTC and $USDC to $ETH transaction: https://etherscan.io/tx/0x49efa8a111019e6117721042bc92de0b462ee6fa8a46e775c3f688614f02ce2d</p>",
+        "date": "2022-07-11",
+        "fundsLost": "8000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Phishing",
+        "token": {
+          "name": "UNI",
+          "addresses": [
+            "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+          ]
+        }
+      },
+      {
+        "id": 3089,
+        "projectName": "Convex Finance",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A DNS attack was conducted on Convex Finance. The hacker managed to create a contract with a similar address, prompting users to sign approval without noticing the substitution.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a>Convex Finance, a protocol offering boosted rewards for Curve liquidity providers and stakers.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Hackers changed the original website address with the original contract to a copy of the website with a fake contract address.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Original contract address: 0xF403C135812408BFbE8713b5A23a04b3D48AAE31</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Malicious contract address: 0xF403a2c10B0B9feF8f0d4F931df5d86aD187AE31.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The hackers managed to recreate the address of the contract, very similar to the address of the Convex contract, and the users did not notice the substitution, paying attention to the first 4 or last 4 characters thinking there is no problem and signed the malicious approval transaction. In total, 15,968 $CVXCRV and 433 $CRV were lost.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer address: https://etherscan.io/address/0xb73261481064f717a63e6f295d917c28385af9aa</p><p>Malicious contract address: https://etherscan.io/address/0xF403a2c10B0B9feF8f0d4F931df5d86aD187AE31</p><p><br></p><p>Accounts that approved malicious contract:</p><p>1) https://etherscan.io/address/0x496e53c32a69a79a82ed85d2913010dd2f9d1b4f</p><p>2) https://etherscan.io/address/0x4ffc5f22770ab6046c8d66dabae3a9cd1e7a03e7</p><p>3) https://etherscan.io/address/0x5b186c93a50d3cb435fe2933427d36e6dc688e4b</p><p>4) https://etherscan.io/address/0x624301090700ea1e3c5b5224f89adfae405412c1</p><p>5) https://etherscan.io/address/0x92557b6ffa116b53cf2c3bc1d6d33f78d97ed4c9</p>",
+        "date": "2022-06-23",
+        "fundsLost": "11578",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "CVX",
+          "addresses": [
+            "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b, BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz"
+          ]
+        }
+      },
+      {
+        "id": 3090,
+        "projectName": "My Farm Pet",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A flashloan attack was made on the My Farm Pet project with a profit of $31k gained by the attacker</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">My farm pet is a blockchain farming game, where anyone can buy and own virtual farms.</p><p style=\"margin:0cm;background:white;\">The attacker created a contract in which there was a flashloan function to perform arbitration on the marketplace between versions V2 and V3. The attacker used 340k $BUSD to exchange for 22k $MYFARMPET, of which 1k were used to buy 70k $ChickenFood on My Farm Pets Marketplace V2. The contract then exchanged 21k $MYFARMPET tokens for 337k$BUSD, thereby increasing the pool on PancakeSwap, and exchanged 70k $ChickenFood on the V3 market for 34k $BUSD. Then, when the deposit of 340k was repaid, the attacker received a net profit of 31k $BUSD.</p><p style=\"margin:0cm;background:white;\"><br></p>",
+        "date": "2021-10-06",
+        "fundsLost": "31410",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "MYFARMPET",
+          "addresses": [
+            "0x903fcaf1a49b29678c15b43bc9f852232bfa7df1"
+          ]
+        }
+      },
+      {
+        "id": 3091,
+        "projectName": "Ribbon Finance",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A DNS attack was made on Ribbon Finance. During the attack one of the users lost 16.5 $WBTC.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">A DNS attack was carried out on the Ribbon Finance project, during which 16.5 $WBTC was lost. The on-chain analysis revealed that the attack has common features with the DNS attack on Convex Finance and was made by the same hacker team. Hackers created a similar website with a malicious contract that required calling the approve() function.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer address: https://etherscan.io/address/0xb73261481064f717a63e6f295d917c28385af9aa</p><p style=\"margin:0cm;background:white;\">Contract creator address: https://etherscan.io/address/0x47832f5505847b6e1cce802201c55ad885146fc6</p><p style=\"margin:0cm;background:white;\">Malicious contract address: https://etherscan.io/address/0x65a8ec2c367a2d60efc1944c6eab614d73453b2f</p><p style=\"margin:0cm;background:white;\">Transferring 16.5 $WBTC from \"victim\" to scammer address transaction: https://etherscan.io/tx/0xd09057f1fdb3fa97d0ed7e8ebd8fd31dd9a0b5b61a29a22b46985d6217510850</p>",
+        "date": "2022-06-24",
+        "fundsLost": "351064",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Phishing",
+        "token": {
+          "name": "RBN",
+          "addresses": [
+            "0x6123b0049f904d730db3c36a31167d9d4121fa6b"
+          ]
+        }
+      },
+      {
+        "id": 3092,
+        "projectName": "PREMINT | NFT",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Users of the PREMINT NFT platform transferred approval rights to the hacker instead of logging into the platform due to a malicious code, uploaded by the hacker. $375k worth of NFT's were stolen by the hacker.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">PREMINT is an NFT service intended to help project creators build access lists for new NFT projects based on various qualifications.</p><p style=\"margin:0cm;background:white;\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The PREMINT's platform website was attacked by a hacker utilizing a malicious JavaScript code.</span></p><p style=\"margin:0cm;background:white;\">When users tried to log into the platform, they instead signed over all approvals of their wallet to the attacker. The attacker proceeded to exploit affected wallets and send NFTs out of famous collections such as Murakami.Flowers, Kaiju Kingz and Azuki to a variety of his own wallets. Below a number of transaction made by the attacker:</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0xc705b6add99f1bcffeb07bddf39406d34e8bfdb278eead2320a1e59015ab0662</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x81d49fc3cc37409fc7a0a0adb43be57f998c5faf24b79c9aa1a3843a9bba25a8</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x78607d70ef50db5ad506ae529b2c778fc96d31c62c23b190ba9784e49effb4ab</p><p style=\"margin:0cm;background:white;\">A majority of the funds were aggregated in this wallet (https://etherscan.io/address/0x99aeb028e43f102c5776f6b652952be540826bf4). As the time of this writing 284 $ETH have been laundered through Tornado.Cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attackers addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0xaab00f612d7ded169e51cf0142d48ff560f281f3</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/txs?a=0x4499bac5b15321b6fcd6faf781be8ae96eaafeef</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x4ed07767e70199f2423dc67fde6802c1e7d06ca1</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x28733543ec21dfd4dac3fa2d7ad74d6c6d2bb49d</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x0C9797805a22E507Bf48F35C72A67f001b7418d0</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x99aeb028e43f102c5776f6b652952be540826bf4</p>",
+        "date": "2022-07-17",
+        "fundsLost": "375000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3093,
+        "projectName": "Space Godzilla",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The $SpaceGodzilla token has been subjected to a Flash Loan Attack. During this attack, the attacker made a profit of more than $26K.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">The $SpaceGodzilla token was exposed to the flash loan attack. During the analysis of transactions, the course of the attack was revealed. The attacker borrowed flash loans for $USDT, which he then exchanged for $SpaceGodzilla to raise its value. Then the attacker calls the swapAndLiquifyStepv1() function, which invests both $USDT and $SpaceGodzilla in an unbalanced pool, as a result of which he can exchange the $SpaceGodzilla token for $USDT. Ultimately, the attacker repays the loans and takes a profit of $26k. $25k was transferred to scammer's contract address (https://bscscan.com/tx/0xa74e446aaf0b34a34a4193bda036820944ededbf4d151dcf9757294480c13f4e)</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Exploiter address: https://bscscan.com/address/0x00a62eb08868ec6feb23465f61aa963b89e57e57</p><p style=\"margin:0cm;background:white;\">Exploiter contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0x3d817ea746edd02c088c4df47c0ece0bd28dcd72</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x05ad60d9a2f1aa30ba0cdbaf1e0a0a145fbea16f</p><p style=\"margin:0cm;background:white;\">Exploit transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x7f183df11f1a0225b5eb5bb2296b5dc51c0f3570e8cc15f0754de8e6f8b4cca4</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x67ba949a3fa10bea9ab78b6bb0866bef81370c269debcbae920692bc2081bdeb</p>",
+        "date": "2022-07-13",
+        "fundsLost": "26153",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "SpaceGodzilla",
+          "addresses": [
+            "0x2287c04a15bb11ad1358ba5702c1c95e2d13a5e0"
+          ]
+        }
+      },
+      {
+        "id": 3094,
+        "projectName": "Citizen Finance",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Citizen Finance platform suffered from an attack by a hacker who managed to obtain the private key of one of the Citizen Finance wallets and proceeded to steal $94k.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">Citizen Finance is a platform where players are the true owners of their in-game assets. Players can stake, resell, gift them or use assets as a collateral.</p><p style=\"margin:0cm;background:white;\">Citizen Finance was attacked by a hacker who obtained a private key with access to the BSC and Polygon chains. The attacker used their access to transfer 244 $BNB, 57k $MATIC and 7k $USDC that attacker withdrew in these transactions:<br>1) https://bscscan.com/tx/0xcf24e27679c25e1454a2532811c871ec0618660ee84c21cdec2c815966403ab0</p><p style=\"margin:0cm;background:white;\">2) https://polygonscan.com/tx/0x3fe2204878587a18dcfd6001429f92282ad5960cb87fa54f6d429920b288e4f7</p><p style=\"margin:0cm;background:white;\">The theft caused a price drop of the $CIFI token by more than 50%.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Account addresses where stolen funds are currently located:</p><p style=\"margin:0cm;background:white;\">(BSC) https://bscscan.com/address/0xac3dc7bb5f09871ee2cbf0f9d20911c960f6ac2b</p><p style=\"margin:0cm;background:white;\">(Polygon) https://polygonscan.com/address/0xac3dc7bb5f09871ee2cbf0f9d20911c960f6ac2b</p>",
+        "date": "2022-07-11",
+        "fundsLost": "94336",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2,
+          3
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": "CIFI",
+          "addresses": [
+            "0x4DCd4700B38ce6562730c27Da557F6de819b347B, 0x12365293cb6477d4fc2686e46BB97E3Fb64f1550"
+          ]
+        }
+      },
+      {
+        "id": 3097,
+        "projectName": "Forest Tiger Pro",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Forest Tiger Pro project has been rugpulled by the token creator, resulting in $700k of ill-gotten funds.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">The creator of the token deployed the token on the BSC network, where 21M $TIGER was minted in total and 500k tokens of the total supply was minted to the scammer address (B). The token creator made a series of transactions where all tokens from his balance were sent to three staking contracts and two exchange contracts:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0xf28bd3d5b34dbbd6a9ccd9a7df88afe289a44d1e477bbbee6036d7facb75691b</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0xf1e106bc213449efae59c85cbf269f5c213a2347d7f2ba59bd02bbb0b2c4ed9b</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x20cf8df34e6726579ce258b9d8fdb50c3588b40c4a012f05d64aa1ff3ab44e9d</p><p style=\"margin:0cm;background:white;\">4) https://bscscan.com/tx/0x284bc017261ded87954d708e0416c85ffc21a9933ef817f3afd5cb475232df81</p><p style=\"margin:0cm;background:white;\">5) https://bscscan.com/tx/0x722e161e9c56fe447a7f456026163f8ccf438b9671d1229a625e4d3b000f1bdd</p><p style=\"margin:0cm;background:white;\">The scammer address (B, which held 500k tokens sent 35k tokens to scammer address (C), then an hour later another 150k were sent:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x10fe4704bbd828867f732e686e60826d171840cec35c4f9bb79c79b2d45af0e8</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0xe6744c64611480eb37c84042fa8b8c17ce72a031a1c91ada91379ce298d89df6</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">The scammer address (B) added liquidity to the TIGER/USDT pair for 2.6M $USDT in these 3 transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x1465e26a1d8bcc811c7d35cf3d991e7d480bc18704a238eb55ebcb7aba325504</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x15f761f34d5c08f58633f3521fe1dbd055a7dfedd9d552739dd556360ac00a70</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0xcca2ebf33ca4e76c36f4bec93a715cbb95895096777caefb1c6c6a38277c458f</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">The scammer address (C) added liquidity to the</p><p style=\"margin:0cm;background:white;\">TIGER/USDT pair for 1M $USDT and approximately 39k $TIGER:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x7dc35d4f133832502bc3c36a52213eb175da6ac1ff15553d57a6fd1f91bf5a58</p><p style=\"margin:0cm;background:white;\">Then he proceeded to gradually raise the price of the token by making exchanges for 8.7k on average $USDT, investing a total of $55k. Below some example transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x76c9c19aa5f938f95aec2e4943ec246485732f614ca0de7bed5304e247cc14e0</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x179f31f383c9f9ce9a6faa8367e3bcb121916ccd8c919419df60965dddb71d8e</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x00ea36814d8feef6b811c9d11631645a2942ec2aaa6d14994a5737d23fedd652</p><p style=\"margin:0cm;background:white;\">On July 13, scammer address (C) removed the liquidity with a profit of 500k $USDT:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xd72bdfc13adec524e45652321f247f0546470bc8520c2c54df96b9dbb939cff5</p><p style=\"margin:0cm;background:white;\">Then the scammer address (B) also removed the liquidity with permission: https://bscscan.com/tx/0xc03899a5384dea089c7ce6843230190c08f22fe8106a4e609a79c0b808539d93</p><p style=\"margin:0cm;background:white;\">All the USDT were transferred to scammer address (D):&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x8de163930db6eadd00f6add3c372e1ede0debe9cd346810dd64f0b7f8fd9b84f</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x96248173fb20078b2212620e6f2eae835df3bb5c2682e0ed227b0605fe9b817a</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><br></p>",
+        "date": "2022-07-13",
+        "fundsLost": "732647",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse,Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TIGER",
+          "addresses": [
+            "0x486eB84e0C8469197A2f392B633C51b401abf757"
+          ]
+        }
+      },
+      {
+        "id": 3098,
+        "projectName": "Elron Token",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Forest Elron Token project has been rugpulled by its own team. They created a pair between ELR/USDT tokens, where the initial deposit was 300k $USDT and 300k $ELR, and after a while they dumped the token taking a profit of 122k.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">The token creator deployed the $ELR where the creator is given the minter role, and also transfers ownership to his address: https://bscscan.com/tx/0x1438a06f58cf1e1e19b5bac24f9dd540a914a8562985865b8248247e60b6fc19#eventlog</p><p style=\"margin:0cm;background:white;\">Also analyzing the code, it was noticed that total supply was minted to this address: https://bscscan.com/address/0xF0C13C7b330145c903cCB98F3ccd54D9C9D44708</p><p style=\"margin:0cm;background:white;\">300k tokens were sent from mulitisig's wallet to another address, where 300k $USDT was also sent to create an ELR/USDT pair with a ratio of 1 to 1:</p><p style=\"margin:0cm;background:white;\">1) The sending path of 300k $ELR from Multisig:</p><p style=\"margin:0cm;background:white;\">&nbsp; &nbsp; 1.1) https://bscscan.com/tx/0xe1c01d6403fb21990686a7abe686302b61ec2f4e949d8da95ebed21e2e95c936</p><p style=\"margin:0cm;background:white;\">&nbsp; &nbsp; 1.2) https://bscscan.com/tx/0x01837b52e7ff69254c874c9531923b17a3a6bfa68827022da401316f17852678</p><p style=\"margin:0cm;background:white;\">2) Receiving 300k $USDT from Binance Hot Wallet 6: https://bscscan.com/tx/0x2864bc927bfe113643e5562fefc0d564effb738b330fbc6fef43d1d0e7972df9</p><p style=\"margin:0cm;background:white;\">3) Transferring 300k $USDT to lp creator: https://bscscan.com/tx/0xc5b9b5a5f2c53355d4d1d9bfbc9e5935092516c6bce3e10681db8d0742de05df</p><p style=\"margin:0cm;background:white;\">4) Add liquidity transaction: https://bscscan.com/tx/0xefaed2cab8c814734e6cfbfafcc023f9c433b2d27f9fe021cdca804a525f5f5c</p><p style=\"margin:0cm;background:white;\">Multisig wallet sent 1M $ELR tokens to the address of the token creator: https://bscscan.com/tx/0xecc3fbdfc214505555b7998d73bd17e26b88e9fcffc109450ddd63f8459774ef</p><p style=\"margin:0cm;background:white;\">After some time, unusual behavior was noticed from the address of the token creator, he started sending a bunch of transactions for 13,899 $ELR to the scammer address (B), here is an example of transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x5d05ae17a1e4e3a0b540de422f7cd269ca2d6894d6dc778830b8ee1eb8b9b1a7</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0xc2b840a031db580e6f16f281ff2bb277039923767031d5a59206379906bf018f</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0xb86955fe35d44641e63c36a02bd52a6d1118e4edd10c8caf66af81c8efa8f1e2</p><p style=\"margin:0cm;background:white;\">After scammer address (B) started dumping the token price by selling $ELR on PancakeSwap, example transactions:<br>1) https://bscscan.com/tx/0x8e52247ecb967e0eb5186d50970cafaddc7be01c2e4eddd7a47d4bef7afb487e<br>2) https://bscscan.com/tx/0x195b4b038fc68f2687be36a751647bb9770a66e2341001b10f70f462360dcd7d<br>3) https://bscscan.com/tx/0x014dd513493ab8849a8540be783699a923a1ede16343f3fc56074a5e030042ea</p><p style=\"margin:0cm;background:white;\">from the moment the pool was created until July 15, 122k $BUSD was invested, ~$242k was taken from the pool and at the moment 180k $BUSD is still in the pool.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Token creator - scammer address (A): https://bscscan.com/address/0x2cc11e2cade4f7a18f9607ef9b5352bfc6e5edaa</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://bscscan.com/address/0x12b7ec933f4ad3f85d9ba0e29e64cc2ccd81d0f6</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0xf2f78e289e5f64692b8e0de1e122f73488006d44</p><p style=\"margin:0cm;background:white;\">Multisig wallet on which more than 90% of total supply is stored: https://bscscan.com/address/0xF0C13C7b330145c903cCB98F3ccd54D9C9D44708</p>",
+        "date": "2022-07-15",
+        "fundsLost": "122000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ELR",
+          "addresses": [
+            "0xf17f7827403c166fda782ceb17b29900d1a2ad15"
+          ]
+        }
+      },
+      {
+        "id": 3099,
+        "projectName": "Meta Apes",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">The $Shell token was rugpulled by the token creator. The token creator took away approximately $180k in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">$Shell is the in-game utility token of the NFT-Game Meta Apes.</p><p style=\"margin:0cm;background:white;\">The account with minter privileges minted 150M $SHELL token to scammer address (C) in this transaction: https://bscscan.com/tx/0x2a4bb4fc6300deee3bba4d7a010edfec2d8db87059f9a925c4f0e410ba8f6a4d</p><p style=\"margin:0cm;background:white;\">Scammer address (C) transferred the received 150M token to scammer address (D): https://bscscan.com/tx/0x264bbb37559ce3322156515051905c530363faf4c1fbc17fc2664f7f74069a5b</p><p style=\"margin:0cm;background:white;\">Then scammer address (D) proceeded to dump 60 million $SHELL token on PancakeSwap in a series of transactions for a total profit of $180k.</p><p style=\"margin:0cm;background:white;\">Here is an example of transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x1ea7a6439cd1289e8fad2ea34528e64250c19dd675930119f7fae3efc581c242</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x7ff107c22c3e75213ecb3eef5c1c39e12ed29f5a31a06a24c104cf129734af6f</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x24740d894e4438c8b17c3676c83ec480ba92e01a69c68ee3fed16c747a1b5f81</p><p style=\"margin:0cm;background:white;\">Then all the receive funds were transferred to the Binance Hot Wallet 6 along this chain of transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0xaf9dd345c7621402bcef3b874dc420cb190e009c7cc8d22eab073f6f9f620182</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x75ff71287ae39adb9267e6666e9244faaed8e11f6a6d034e8923564d0eeeca59</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token creator, scammer address (A): https://bscscan.com/address/0x1b9dfc56e38b0f92448659c114e2347bd803911c</p><p style=\"margin:0cm;background:white;\">Token minter, scammer address (B): https://bscscan.com/address/0xd10c833f4305e1053a64bc738c550381f48104ca</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0xd699576b6b97f57bd7513f70bef38cd63556edf7</p><p style=\"margin:0cm;background:white;\">Scammer Address (D): https://bscscan.com/address/0x5ba8c3f55edc13c641d8612cd37ca89dc4e2cfb2</p>",
+        "date": "2022-06-11",
+        "fundsLost": "183151",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT,Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SHELL",
+          "addresses": [
+            "0x208cfec94d2ba8b8537da7a9bb361c6baad77272"
+          ]
+        }
+      },
+      {
+        "id": 3100,
+        "projectName": "ArenaPlayAPC",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">A soft rugpull was noticed in the $APC token. The team took away approximately 1200 $BNB in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The creator of the token deployed the contract to the BSC network, where 100M tokens were minted on the address (B):</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x0fb8c25a81d96ae3cdc6271d674cdc483e7f50dc19405c7aa5cd5c9db284f2b8&nbsp;</p><p style=\"margin:0cm;background:white;\">Address (B) sent 150k $APC to the address (C) in this transaction:&nbsp;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x96510bd23322bf0b51dcb62b1fe17b9238f1aee6fadf91a37152593426397322</p><p style=\"margin:0cm;background:white;\">Then address (C) interacted with address (D) that later transferred 1200 $BNB through Tornado.cash:</p><p style=\"margin:0cm;background:white;\">Interactions transaction: https://bscscan.com/tx/0x10978099e2f17e61cffef19b4353323bdadbf005063cd6557e156c35c1503762</p><p style=\"margin:0cm;background:white;\">Address (E) received 1M $USDT from Binance Hot Wallet and 14 $BNB from Tornado.cash which then distributed funds to the bot addresses:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x94609a43eb6c2967862788fb84014a37faf28ed55f5cad504a98ae994511723a</p><p style=\"margin:0cm;background:white;\">Bots started creating fake trade volume in order to attract investor's attention in this project. When investors deposited funds into the token, part of the money ~1.2M $USDT was sent to address (D) in multiple transactions.</p><p style=\"margin:0cm;background:white;\">Example transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x542f6f8c43eb79bd46aa1f09dbc1502f65c60c4f7dae33ffdd018b0230d2edf3</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x0246a3220120bb7922ce7318799cbbbb1697c78c8c29090f6d56a6a14348f018</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0xb7a52cc614205b1d5795d6e8a1bdcb5d69216c8c77a1a457637f77774c0557e0</p><p style=\"margin:0cm;background:white;\">Then 1200 $BNB was withdrawn via Tornado.cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Token creator (A): https://bscscan.com/address/0x4e6b2534e1c030e2a849c1bd6409de609bdcf81f</p><p style=\"margin:0cm;background:white;\">Address (B): https://bscscan.com/address/0x34242a391f8e2d9c8a4f11bbcadc385cee6b3e32</p><p style=\"margin:0cm;background:white;\">Address (C): https://bscscan.com/address/0xd73fc94a4dfc5f2a31b73d668de816c39cf8d9de</p><p style=\"margin:0cm;background:white;\">Address (D): https://bscscan.com/address/0x0fc7ce891d8403c751555368f3b2e096aee5dcbe</p><p style=\"margin:0cm;background:white;\">Address (E): https://bscscan.com/address/0x17034afd3492E4141270478b59584e4e1D1E08AC</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Example bot addresses:</p><p style=\"margin:0cm;background:white;\">Address (F): https://bscscan.com/address/0xea2d5cacd55051d30b3ad0bdce73047993495777</p><p style=\"margin:0cm;background:white;\">Address (G): https://bscscan.com/address/0x03a018efa37867eb0a00b7e8d308d3cc37bd8a0f</p><p style=\"margin:0cm;background:white;\">Address (H): https://bscscan.com/address/0xcdb2a8d067dcb115c26c4b9f2024ef10bdccd73f</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Token creation: https://bscscan.com/tx/0x0fb8c25a81d96ae3cdc6271d674cdc483e7f50dc19405c7aa5cd5c9db284f2b8</p>",
+        "date": "2022-07-15",
+        "fundsLost": "204259",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse,Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "APC",
+          "addresses": [
+            "0x2aa504586d6cab3c59fa629f74c586d78b93a025"
+          ]
+        }
+      },
+      {
+        "id": 3101,
+        "projectName": "Audius",
+        "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Audius Platform got exploited by an attacker who passed a malicious proposal and voted it through by &nbsp;himself. The attacker gained 18m $AUDIO token worth $6m USD but ultimately dumped the tokens in a single transaction for $1m USD.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"></p><p style=\"margin:0cm;background:white;\">Audius is a decentralized music streaming and sharing platform that aims to empower content creators.The attacker realized an exploitable vulnerability in Audius governance, staking and delegation contracts. Due to an inconsistent storage layout between contracts, the attacker was able to re-initialize the governance contracts and redirect the ownership of the community treasury to his wallet through the malicious proposal #85.</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x4227bca8ed4b8915c7eec0e14ad3748a88c4371d4176e716e8007249b9980dc9</p><p style=\"margin:0cm;background:white;\">The attacker proceeded and dumped the ill-gotten 18,5m $AUDIO token with a massive slippage of approx. 80% on Uniswap for $1m worth of $WETH instead of potentially $6m worth of $WETH that a slower approach might have yielded&nbsp;</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x82fc23992c7433fffad0e28a1b8d11211dc4377de83e88088d79f24f4a3f28b3.</p><p style=\"margin:0cm;background:white;\">The attacker immediately started to launder the ill-gotten funds through Tornado.Cash https://etherscan.io/address/0xa0c7bd318d69424603cbf91e9969870f21b8ab4c.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">The vulnerabilities have been patched by the team and the project has resumed to its operations.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attackers Addresses:</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0xa0c7bd318d69424603cbf91e9969870f21b8ab4c</p><p style=\"margin:0cm;background:white;\">Attacker smart contract used for draining the community treasury</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Audius Community Treasury</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x4deca517d6817b6510798b7328f2314d3003abac</p>",
+        "date": "2022-07-23",
+        "fundsLost": "1086000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "AUDIO",
+          "addresses": [
+            "0x18aaa7115705e8be94bffebde57af9bfc265b998"
+          ]
+        }
+      },
+      {
+        "id": 3102,
+        "projectName": "DeeKay",
+        "description": "<p><strong>Quick Summary</strong><br>The Twitter account of the artist DeeKay was hacked by a phishing attacker. A link with a phishing site was posted on the account. Users have lost a total of $150k due to interactions with the phishing link.<br><strong><br>Details of the Exploit</strong><br>DeeKay is an artist who is engaged in drawing NFT collections.<br>The NFT artist DeeKay's Twitter account has been hacked. In a post on Twitter, a phishing link was posted, with a fake website, for a limited amount of new airdrops. 4 cool cats and 3 azuki were stolen from one of the holders of the collections. While DeeKay was restoring the Twitter account, the attacker address (A) managed to get about 65 NFT from several victims before the post was deleted. The hacker was able to sell the NFT for about $80k, then sent $ETH to the attacker address (B). 50 NFTs are still stored on their accounts.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Attacker address (A): https://etherscan.io/address/0x2100ab6ac2036ca99da90ffd4077f0c98af309ee</p><p style=\"margin:0cm;background:white;\">Attacker address (B): https://etherscan.io/address/0x5f232fed7b3ae710ac4815e1f231e0b97e58ab8e</p>",
+        "date": "2022-07-15",
+        "fundsLost": "150000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3103,
+        "projectName": "ElonMVP",
+        "description": "<p><strong>Quick Summary</strong><br>The $ElonMVP token was rugpulled by its project deployer. The scammer received a profit of 170 $BNB. The scammers decided to launder the ill-gotten funds through tornado.cash's mixing service.&nbsp;</p><p><em>Tornado.cash mixes various ERC-20 Token and ETH into a lockbox. Through \"zero knowledge proof\" a user that deposits funds into a lockbox is provided with a unique key. Once the user decides to withdraw the funds, a proof of possession of the key in a hashed form is required. This process enables the transfer of funds without the disclosure of the users identity.</em><br><strong><br>Details of the Exploit</strong></p><p><em>The $ElonMVP project deployers wallet should have raised alert amongst the community from its inception. Reason was that the project deployer's address was funded from an address which was initially funded through tornado.cash, which can be seen in this transaction: https://bscscan.com/address/0xbf66c21fb8e3fb0796ba519d88daf8a5bd44ee37#internaltx.</em></p><p><em>EOA wallet <strong>0xbf66c</strong> funded a number of wallets and amongst it <strong>0xbf66c</strong> funded the wallet of $ELONMVP's project deployer with $BNB 12 as can be seen &nbsp;in the example transaction: https://bscscan.com/tx/0xad1d3a7869374200408d104999aade47c1b8637eae8cec527d398bf635fbc2f6.</em></p><p>The creator of the token created a liquidity pool between ElonMVP/BNB tokens, where $300 BNB was invested in these transactions:</p><p>1) https://bscscan.com/tx/0x403ee1817a0a8f8852fd53a7faede27b1271c414e7de72d2daead1091cd8b928</p><p>2) https://bscscan.com/tx/0x1973aa35cbe0c5230c479b4aabdf34872bef3576860c066ad7d12cc31b4c7272.</p><p>Again the funds used to bootstrap the liquidity stemmed from Tornado.Cash;</p><p>https://bscscan.com/address/0xdd65cb765accd9c818c5a7ebd508702fd793bdf6#internaltx.</p><p>Once the project gained traction, the project deployer removed the liquidity by taking a profit of ~$170 BNB: https://bscscan.com/tx/0x67f92de2e07c5c94a84c3fb3175f2415ce8cdf9d6ca42ab60a59a9a09a53b128</p><p>All the tokens were transferred to the scammer address (C) in this transaction: https://bscscan.com/tx/0xe1513999f6e37ca14de794574371c9bba59727d22d045100f002aa56916b82bf</p><p>Subsequently, all the funds were laundered via Tornado.Cash.</p><p><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Token creator, scammer address(A): https://bscscan.com/address/0xdd65cb765accd9c818c5a7ebd508702fd793bdf6</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://bscscan.com/address/0xbf66c21fb8e3fb0796ba519d88daf8a5bd44ee37</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0x88795b97c7ca6ad715e5b746557159af8ad3ef38</p>",
+        "date": "2022-07-13",
+        "fundsLost": "44371",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ElonMVP",
+          "addresses": [
+            "https://bscscan.com/address/0x3e597ea168a85aa2ae5e2c4333665bcd875ed10f"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 414,
+        "projectName": "AL PACINU",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PACINU",
+          "addresses": [
+            "0x5551a1db922b90bffb881241ef6c681fc9bdfb2b"
+          ]
+        }
+      },
+      {
+        "id": 415,
+        "projectName": "Zombie Shiba",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ZHIBA",
+          "addresses": [
+            "0x675f6e3a0abe9014d7d1dbe0ae565b9256b45303"
+          ]
+        }
+      },
+      {
+        "id": 416,
+        "projectName": "SHIBASWAP",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SHIBASWAP",
+          "addresses": [
+            "0x2cbf9f57e764741e969df8e596fd10d50f5e800d"
+          ]
+        }
+      },
+      {
+        "id": 417,
+        "projectName": "Yfi.mobi",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YFIM",
+          "addresses": [
+            "0x2e2f3246b6c65ccc4239c9ee556ec143a7e5de2c"
+          ]
+        }
+      },
+      {
+        "id": 418,
+        "projectName": "YUMMYSHIBA",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YS",
+          "addresses": [
+            "0x9dbc04d0c5f7b188880024c106e0c7e50ca5d110"
+          ]
+        }
+      },
+      {
+        "id": 419,
+        "projectName": "Jejudoge V2",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "JEJUDOGEv2",
+          "addresses": [
+            "0xe6a739e8dc3b2f81cae3f76bb7cf6ab62b127a76"
+          ]
+        }
+      },
+      {
+        "id": 420,
+        "projectName": "TravelCake",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TVL",
+          "addresses": [
+            "0x5c58ac3be5ac6c4643bcf8c14c6e4df789ba5672"
+          ]
+        }
+      },
+      {
+        "id": 421,
+        "projectName": "FLUFFYSHIBA",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FS",
+          "addresses": [
+            "0x105885f78b9e5d7943d3fafbe94ed5311ed02c65"
+          ]
+        }
+      },
+      {
+        "id": 422,
+        "projectName": "Tuckoo Finance",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Tuckoo",
+          "addresses": [
+            "0x0371afbe3f2f470949ea65e09e3332810dfc7902"
+          ]
+        }
+      },
+      {
+        "id": 423,
+        "projectName": "AirToken",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "AIR",
+          "addresses": [
+            "0x27dce1ec4d3f72c3e457cc50354f1f975ddef488"
+          ]
+        }
+      },
+      {
+        "id": 424,
+        "projectName": "Moonfarm Finance",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MFO",
+          "addresses": [
+            "0x93393b446f3073eb0ba5f85524ca04030ba5d39a"
+          ]
+        }
+      },
+      {
+        "id": 425,
+        "projectName": "ASG Token",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ASG",
+          "addresses": [
+            "0x8e481946640b04109afad9e0c07925494984bdc9"
+          ]
+        }
+      },
+      {
+        "id": 426,
+        "projectName": "Faraland",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FARA",
+          "addresses": [
+            "0xa9c4a2852eeb43b0a27592e5e86b64db55040d79"
+          ]
+        }
+      },
+      {
+        "id": 427,
+        "projectName": "PiggyBank",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PiggyBank",
+          "addresses": [
+            "0xa3347b000ba59b54d47a2ce92c3528ffb2affc33"
+          ]
+        }
+      },
+      {
+        "id": 428,
+        "projectName": "Gains Farm",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GFARM",
+          "addresses": [
+            "0x544288176bb6d7d198302a2d18fad38442e69b25"
+          ]
+        }
+      },
+      {
+        "id": 429,
+        "projectName": "Truample",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TMPL",
+          "addresses": [
+            "0x52132a43d7cae69b23abe77b226fa1a5bc66b839"
+          ]
+        }
+      },
+      {
+        "id": 432,
+        "projectName": "Dropil",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DROP",
+          "addresses": [
+            "0x4672bad527107471cb5067a887f4656d585a8a31"
+          ]
+        }
+      },
+      {
+        "id": 433,
+        "projectName": "Xfinance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "XFI",
+          "addresses": [
+            "0x5befbb272290dd5b8521d4a938f6c4757742c430"
+          ]
+        }
+      },
+      {
+        "id": 434,
+        "projectName": "IYF.finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "IYF",
+          "addresses": [
+            "0x5d762f76b9e91f71cc4f94391bdfe6333db8519c"
+          ]
+        }
+      },
+      {
+        "id": 435,
+        "projectName": "Shopin",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SHOP",
+          "addresses": [
+            "0x6175f6f85339f1e56affac5a68cbf8297969004d"
+          ]
+        }
+      },
+      {
+        "id": 436,
+        "projectName": "HOTDOGSWAP.ORG",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HOTDOG",
+          "addresses": [
+            "0x5c137d196b08bd164717b935a84e82e32c85c7fc"
+          ]
+        }
+      },
+      {
+        "id": 438,
+        "projectName": "Hisho Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HISHO",
+          "addresses": [
+            "0x64ad2e053c1b0546381bc4fa06ea3e74c791d9d5"
+          ]
+        }
+      },
+      {
+        "id": 439,
+        "projectName": "Paragon",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PRG",
+          "addresses": [
+            "0x7728dfef5abd468669eb7f9b48a7f70a501ed29d"
+          ]
+        }
+      },
+      {
+        "id": 440,
+        "projectName": "CoomRocket",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "COOM",
+          "addresses": [
+            "0x7dddcb8d93438500c42c199b6b02ba3f74c7cb8c"
+          ]
+        }
+      },
+      {
+        "id": 441,
+        "projectName": "EthereumSpacex",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ElonVitalik",
+          "addresses": [
+            "0x7789970d45cee071f4cbf158f9d0555298bf36e5"
+          ]
+        }
+      },
+      {
+        "id": 442,
+        "projectName": "GamerX",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GamerX",
+          "addresses": [
+            "0xef148ec5feed7dc9d23e94191192fa3fadfc0a35"
+          ]
+        }
+      },
+      {
+        "id": 443,
+        "projectName": "Green Swap",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GRNS",
+          "addresses": [
+            "0x96c9fcd45bea05b848e6e8551ad33d4d08194e4b"
+          ]
+        }
+      },
+      {
+        "id": 444,
+        "projectName": "Pluto Rocket Finance",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PLUTO",
+          "addresses": [
+            "0x2081b7aefbf9e26f5733fb809d5443f073df062a"
+          ]
+        }
+      },
+      {
+        "id": 445,
+        "projectName": "ethereum-ultra.com",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "uETH",
+          "addresses": [
+            "0x29f64057d86a1aaa3be039cfd5453157d86de3a0"
+          ]
+        }
+      },
+      {
+        "id": 446,
+        "projectName": "Bat Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Bat Inu",
+          "addresses": [
+            "0x50f269a34cb1267c41717d9e3a93096891483490"
+          ]
+        }
+      },
+      {
+        "id": 447,
+        "projectName": "DragonBite",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BITE",
+          "addresses": [
+            "0x8afbe61b793b327dda8d94b9caadd1974cad411a"
+          ]
+        }
+      },
+      {
+        "id": 449,
+        "projectName": "Hypernova",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HNOVA",
+          "addresses": [
+            "0x527726d63b916fdebcb0b69e0f8c9469f56775c1"
+          ]
+        }
+      },
+      {
+        "id": 450,
+        "projectName": "Gitcoin",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GTC",
+          "addresses": [
+            "0xd62ba48bee2ecfb4955a871c77c755f1c2f48a7c"
+          ]
+        }
+      },
+      {
+        "id": 451,
+        "projectName": "Hoge Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HONU",
+          "addresses": [
+            "0xb67053a31e3b9075859d8d3d807667bc27fe7544"
+          ]
+        }
+      },
+      {
+        "id": 452,
+        "projectName": "Akashi Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "AKASHI",
+          "addresses": [
+            "0xfcb8e535320ab4592b8d9d773a61ee40cd35e434"
+          ]
+        }
+      },
+      {
+        "id": 453,
+        "projectName": "Ethelon Finance",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ETHELON",
+          "addresses": [
+            "0x3db5530ebf062fb0069d80730a0b43920d7b6b1a"
+          ]
+        }
+      },
+      {
+        "id": 454,
+        "projectName": "MoonDate",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MoonDate",
+          "addresses": [
+            "0x9b79b97d2498d1edc32d4f1c6dd81fd35ca53e4b"
+          ]
+        }
+      },
+      {
+        "id": 455,
+        "projectName": "Ethereum Cate",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ECATE",
+          "addresses": [
+            "0x90ec498638afcfd7168e065c8205f4889e5ea580"
+          ]
+        }
+      },
+      {
+        "id": 456,
+        "projectName": "Fisa Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FISA",
+          "addresses": [
+            "0xc9941547630feed27426a00cb513469fecfc5ec9"
+          ]
+        }
+      },
+      {
+        "id": 458,
+        "projectName": "PugDog Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PUGDOG",
+          "addresses": [
+            "0x35485a8182cd2ea9b7007c35d79f5b17d3699a58"
+          ]
+        }
+      },
+      {
+        "id": 459,
+        "projectName": "Wrapped Ultra Sound Money",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "WUSM",
+          "addresses": [
+            "0xd16404d3e5bda0ec647806121e9c73dbbafec105"
+          ]
+        }
+      },
+      {
+        "id": 460,
+        "projectName": "YisusShiba",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YSS",
+          "addresses": [
+            "0x55e86b96e37d41bb10bd145541daf7a46a8c8296"
+          ]
+        }
+      },
+      {
+        "id": 461,
+        "projectName": "Supreme Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SUPRINU",
+          "addresses": [
+            "0x6cc3e5f6f8909d0b45a97c13366321b2029af8f0"
+          ]
+        }
+      },
+      {
+        "id": 462,
+        "projectName": "Neo Shiba",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NIBA",
+          "addresses": [
+            "0x2512b4282fa84445384fe51e75a131477354d1e1"
+          ]
+        }
+      },
+      {
+        "id": 463,
+        "projectName": "Jejudoge V2",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "JEJUDOGEv2",
+          "addresses": [
+            "0xe4e873b8b73b290913ce7f26b55a2e809e1b9013"
+          ]
+        }
+      },
+      {
+        "id": 464,
+        "projectName": "GABECOIN",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GABECOIN",
+          "addresses": [
+            "0x66eede4b1afc245b3366bc71d852f0e77f29e858"
+          ]
+        }
+      },
+      {
+        "id": 465,
+        "projectName": "Dino Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DINO",
+          "addresses": [
+            "0xc1872ad6b6bf2953fdd6e07c3437cbe64eddb030"
+          ]
+        }
+      },
+      {
+        "id": 466,
+        "projectName": "MilitaryDoge",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MilitaryDoge",
+          "addresses": [
+            "0x32ba7c5e4b881ecf282bc5c19f850f4e72c063f3"
+          ]
+        }
+      },
+      {
+        "id": 467,
+        "projectName": "Volcano Money",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VOL",
+          "addresses": [
+            "0x8fa269b6da92482c49849140a415beb279aaf2d2"
+          ]
+        }
+      },
+      {
+        "id": 468,
+        "projectName": "Bitboy Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BITBOYINU",
+          "addresses": [
+            "0x0eb0c3ce050e893ea36ddbd5decb7262b762e5f1"
+          ]
+        }
+      }
+    ]
+  }
+}

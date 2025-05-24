@@ -1,0 +1,989 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 3526,
+        "projectName": "Linda Yaccarino",
+        "description": "<p><strong>Quick Summary</strong></p><p>Linda Yaccarino token project was rugpulled by the deployer, who manipulated the price and created false on-chain activity. The scammer stole 374,723 $USD while only initially adding 10,000 $USD as liquidity.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Linda Yaccarino $LINDA token is a BEP20 token trading on PancakeSwap. The project experienced a significant rugpull in which the deployer manipulated the price and created false on-chain activity. They repeatedly bought and sold tokens for the same amount to give an illusion of trading volume. Additionally, three transactions involving 600,000 $USD were executed to pump up prices further.</p><p>The scammer then withdrew 374,723 $USD by selling all their acquired $LINDA tokens, leaving investors with worthless holdings. The scammer used a smart contract that allows anyone to create scam tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:&nbsp;</p><p>https://bscscan.com/address/0xbcf9b9515251e37626bf0351ecb65dee86048faa</p><p><br></p><p>Malicious Transactions:&nbsp;</p><p>https://bscscan.com/tx/f3f2fc714bc66fca7a50d7a9be36dffc8e55d84c9035f280496a5a12850465fa</p><p>https://bscscan.com/tx/8fe809142909908d6b1716f6367a45cab49a059f04b9927a7c400376fe0026a0</p><p>https://bscscan.com/tx/cf7b6ec7d7f43732475753506745a8db3690f233bb44bbb642afb4acfc5b051d</p><p><br></p><p>Withdrawal Transaction:&nbsp;</p><p>https://bscscan.com/tx/85aff0544fd4b64b5f4917b10c050a1b194634f4dfe5236429c2c0aa1a9b8ff4</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x5f11614A956D320EB7e6dc8Bd3A83689C2ed56Af</p>",
+        "date": "2023-05-14",
+        "fundsLost": "374723",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LINDA",
+          "addresses": [
+            "0x8883fa1d06b1653b08557f90f19c92b86c382cfb",
+            "0x01a4a45ab18aa4a6d24387907c3af67ec9e0b763"
+          ]
+        }
+      },
+      {
+        "id": 3527,
+        "projectName": "Mother",
+        "description": "<p><strong>Quick Summary</strong></p><p>Mother token project was rugpulled by the deployer, who profited for 733,883 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mother is a BEP20 token trading on PancakeSwap. The project experienced an exit scam where the deployer was able to mint 2,000,000,000,000 $MOTHER tokens and drain the pool in multiple transactions. Drained funds were transferred to another EOA address. The total profit from this scam reached 733,883 $USD.</p><p>The token was deployed using a smart contract that allowed the creation of scam tokens easily.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x6f0fc555797a94b64348b4af8addd4185a4f74bd</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xf5a19d8d8333c1cfff2f9153a7a09f5d6fb7b2ae</p><p><br></p><p>Mint Transaction:</p><p>https://bscscan.com/tx/0x23ad2c2581C39e2A123DD64C5Cab6D4578884da6386f2bb94aa4b95bf6888e49</p><p><br></p><p>Draining Transaction Example:</p><p>https://bscscan.com/tx/0xeeCfF02280CDa3482197eb907926Dc89f8CcF78A11daC4d63E4B4191a819d841</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x85aff0544fd4b64b5f4917b10c050a1b194634f4dfe5236429c2c0aa1a9b8ff4</p>",
+        "date": "2023-05-14",
+        "fundsLost": "733883",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MOTHER",
+          "addresses": [
+            "0xc3602d8d7301a69b8e36ac438b911fbe4f8a37b3",
+            "0x43254e3377F7FB105F2C6203ffb844D83EBE5aaa"
+          ]
+        }
+      },
+      {
+        "id": 3528,
+        "projectName": "land",
+        "description": "<p><strong>Quick Summary</strong></p><p>LandNFT project experienced an exitscam. The scammer allowed to create of 200 NFTs that were sold for 145,043 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LandNFT is an NFT project on Binance Smart Chain (BSC). An investigation revealed that some miner addresses had unlimited ability to mint NFTs, including one with the address: 0x2e599883715d2f92468fa5ae3f9aab4e930e3ac7. The attack started by calling the contract owned by this miner's address to mint 200 NTFs without any restrictions or permissions.</p><p>Next, the scammer called another function from another contract using these newly created tokens to swap them for $XQJ tokens at a rate of 200 $XQJ per token. Finally, they exchanged all accumulated $XQJ tokens for 145,043 $USD. The stolen funds currently remain at the scammers original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x96b89c2560bcc43c342c12ba9c33dab7eb571a90</p><p><br></p><p>Mint Transaction:</p><p>https://bscscan.com/tx/0xe4db1550e3aa78a05e93bfd8fbe21b6eba5cce50dc06688949ab479ebed18048</p><p><br></p><p>Swap Transaction Example:</p><p>https://bscscan.com/tx/0x7ab211f9ed4d026a484ac786a59d9b3001939354c27500deda6ec3d248f4d180</p>",
+        "date": "2023-05-14",
+        "fundsLost": "145043",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT",
+        "issueType": "Other",
+        "token": {
+          "name": "land",
+          "addresses": [
+            "0x1a62fe088f46561be92bb5f6e83266289b94c154",
+            "0x2e599883715d2f92468fa5ae3f9aab4e930e3ac7"
+          ]
+        }
+      },
+      {
+        "id": 3529,
+        "projectName": "DerpMan",
+        "description": "<p><strong>Quick Summary</strong></p><p>Derpman token project was rugpulled by the deployer, who drained the UniSwap pool and stole 88,126 $USD worth of funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Derpman is an Ethereum-based ERC20 token trading on UniSwap. The scammer was able to drain all available liquidity from the UniSwap pool and swap them for 48.8 $ETH which was worth approximately 88,126 $USD at that time. The stolen assets were then transferred to another EOA address before being distributed between multiple addresses.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xcf18022d77d67134dbf462b7484eb3788d56561c</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x4d1fd751817C765aD9cF189D5B399e33663C1915</p><p><br></p><p>Draining Transaction:</p><p>https://etherscan.io/tx/0xdfc3a649dc7264095561036c0298f3790794f68ce2f0a5c81700e8262f88ef84</p><p><br></p><p>Stolen Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x935f1585b5a3678003931c3d9a2385d4e8ac65edbcaa48c9316435cae800940d</p>",
+        "date": "2023-05-09",
+        "fundsLost": "88123",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DMAN",
+          "addresses": [
+            "0x9a3fb36bf72a387fcc821a38ee9f50f1a0eb8cbd",
+            "0x090ad37a382580580f4d4e2dbaaab7a3e50b279d"
+          ]
+        }
+      },
+      {
+        "id": 3530,
+        "projectName": "LW",
+        "description": "<p><strong>Quick Summary</strong></p><p>LW token's URoter contract was exploited leading to a loss of 49,300 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LW is a BEP20 token trading on PancakeSwap. The project's URoter contract was exploited which resulted in a loss of 49,300 $USD. The attacker took out a flash loan worth 1,000,000 $USD and used it to exploit logic flaws in the URoter contract by deploying their own malicious smart contract that drained funds. Once they had successfully stolen the funds, they repaid their flash loan and made off with their profits. In total, 150 $BNB was transferred through TornadoCash for anonymity purposes.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x4404de29913e0fd055190e680771a016777973e5</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xb846f3aeb9b3027fe138b23bbf41901c155bd6d4b24f08d6b83bd37a975e4e4a</p><p><br></p><p>Funds transfer example transaction:</p><p>https://bscscan.com/tx/0x4617131298a4ab375448465d0381b6cb217301abd7ca5988b1d239f6332d3a97</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/a4fbc2c95ac4240277313bf3f810c54309dfcd6c</p>",
+        "date": "2023-05-12",
+        "fundsLost": "49298",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "LW",
+          "addresses": [
+            "0xae2f168900d5bb38171b01c2323069e5fd6b57b9"
+          ]
+        }
+      },
+      {
+        "id": 3531,
+        "projectName": "Swaprum",
+        "description": "<p><strong>Quick Summary</strong></p><p>Swaprum, an Arbitrum-based DEX project, experienced a rugpull by the deployer. The total funds lost reached 2,915,567 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Swaprum is a decentralized exchange (DEX) on the Arbitrum network with its token $SAPR. An investigation revealed that Swaprum was subjected to a rugpull by its own deployer who had privileged access to LPs in multiple pools and $SAPR token minting.</p><p><br></p><p>The exitscam consisted of two main parts:&nbsp;</p><p>1) Liquidity removals on various pools such as USDT/WETH ($241k), USDT/USDC ($280k), ARB/WETH ($280k), ARB/USDC($126K), WOM/USDT($49K) and etc.&nbsp;</p><p>2) Liquidity removal related to $SAPR token where initially 800k $SAPR were minted directly into scammer's wallet address followed by direct liquidity draining from SAPR/WETH pool for another 500K $SAPR tokens plus ~$94K USD worth of WETH.</p><p>Later the attacker deployed a malicious upgrade for the SAPR Controller Proxy contract which allowed to create additional 200M new $SAPR tokens out of thin air via two separate transactions.</p><p>Finally, all available liquidity in Swaprum's SAPR/WETH pool was drained using newly created tokens leaving it empty.</p><p><br></p><p>The total funds lost reached 2,915,567 $USD and were transferred to another EOA address in two transactions for 1,617.7 $ETH. Consequently, all the stolen funds were transferred through TornadoCash or bridged via Celer Network and Multichain Bridge.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://arbiscan.io/address/0xf2744e1fe488748e6a550677670265f664d96627</p><p><br></p><p>Funds holder address:<br>https://arbiscan.io/address/0xaaf8b44376f4ef3ed477eeeb3553b7623fef5e1c</p><p><br></p><p>Liquidity removal transaction examples:</p><p>https://arbiscan.io/tx/0x0ebc5f9108974f5518cee002ab7dc4cfed6affb8e5f83ad430bfb00431f0c3be&nbsp;</p><p>https://arbiscan.io/tx/0xcb64a40d652ff8bfac2e08aa6425ace9c19f0eeb4a6e32f0c425f9f9ea747edf</p><p>https://arbiscan.io/tx/0x45b911b9048687e893a3794ef8ef1091469a10a870249b52bc36c9d2dcd081d0</p><p>https://arbiscan.io/tx/0x33020fdf7cc5f0c7e1f1a46243ff1c47da86cb2bfa644c227e7b7a100c74796a</p><p>https://arbiscan.io/tx/0x9d66bda06e8b5135c363f2d9f78f2d51139fa3f423e1646980a2eb11f33662b1&nbsp;</p><p>SAPR mint transactions:<br>https://arbiscan.io/tx/0x972dc40a445d2262a7fce87d390253d35b73255e9d2fa278afad27c2e0c6f541</p><p>https://arbiscan.io/tx/0x821b2e98bb5ab19b6b35e5abaceca3d263a17b07039bc169823d7cf27460168e</p><p><br></p><p>SAPR liquidity drain transaction example:<br>https://arbiscan.io/tx/0x982cc3b27f40ebc4355d29be5eed97bd0be9d0a9fde9c110b25b69b874b33502</p><p><br></p><p>TornadoCash transfer example:</p><p>https://arbiscan.io/tx/0x8424b157b5200ad05a5c18e8aacf0e3087fe619ddee823aba428c6617aeb4eff</p>",
+        "date": "2023-05-18",
+        "fundsLost": "2915567",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SAPR",
+          "addresses": [
+            "0x2ae25460c44d578e6f41ab900a7a5425b6492c16",
+            "0x1342a24347532de79372283b3a29c63c31dd7711"
+          ]
+        }
+      },
+      {
+        "id": 3532,
+        "projectName": "Tornado Cash",
+        "description": "<p><strong>Quick Summary</strong></p><p>Tornado Cash Governance was exploited through a malicious proposal, and the attacker gained control of the governance.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Tornado Cash is a service that provides non-custodial anonymous transactions on EVM chains. The project's Governance was exploited via malicious proposal. On May 20th, 2023 Tornado Cash governance ceased to exist as an attacker granted themselves over 1.2 million fake votes through a malicious proposal. With full control of governance, they could withdraw all locked votes and drain tokens from the contract or brick the router. The attack was sophisticatedly designed by using various tricks like combining CREATE/CREATE2 to create a contract with different bytecode and hiding intent behind emergencyStop() named function while updating proposal logic to grant themselves fake votes. Once gaining control, the attacker drained various contracts and users staking assets as $TRON tokens. The stolen tokens were swapped for $ETH and 360 $ETH was transferred through TornadoCash, while 120.4 $ETH remains at the attacker's address along with 177,340 $USD worth $TORN tokens. Consequently, over 500,000 $TORN tokens were used by the attacker to propose the 21st proposal, which seemingly may return the protocol control back to the users. The total stolen amount reached 1,049,513 $USD, and maybe even more cause of locked $TORN tokens in the next proposal from the attacker.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker's Funds Holder Address:</p><p>https://etherscan.io/address/0x092123663804f8801b9b086b03B98D706f77bD59</p><p><br></p><p>Malicious Proposal Executor Address:</p><p>https://etherscan.io/address/0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9</p><p><br></p><p>Proposal Execution Transaction:</p><p>https://etherscan.io/tx/0x3274b6090685b842aca80b304a4dcee0f61ef8b6afee10b7c7533c32fb75486d</p><p><br></p><p>Selfdestruct Transaction:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/</span>0xd3a570af795405e141988c48527a595434665089117473bc0389e83091391adb</p><p><br></p><p>Vote Gain Transaction:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/</span>0xa7d20ccdbc2365578a106093e82cc9f6ec5d03043bb6a00114c0ad5d03620122</p><p><br></p><p>Malicious Proposal:</p><p>https://etherscan.io/address/0xC503893b3e3c0C6b909222b45f2a3a259a52752D</p><p><br></p><p>21st Proposal:</p><p>https://etherscan.io/address/0x1FAd009aD35689B5a9B91486148F2F32AFE31e23#code</p>",
+        "date": "2023-05-20",
+        "fundsLost": "1049513",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "TORN",
+          "addresses": [
+            "0x77777feddddffc19ff86db637967013e6c6a116c",
+            "0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce"
+          ]
+        }
+      },
+      {
+        "id": 3533,
+        "projectName": "CS",
+        "description": "<p><strong>Quick Summary</strong></p><p>CS token's pool was exploited via a flash loan attack. The attacker used 80,000,000 $USD to manipulate the token price and made a profit of 714,285 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CS is a BEP20 token trading on PancakeSwap. The token's CS/USD pool was drained via a flash loan attack. The attack started from the malicious contract deployment by the exploiter, which took 80,000,000 $USD as a flash loan from the BSC-USD pool. Consequently, multiple swaps with a small amount of 5,000 $USD was continuously repeated to manipulate the pool's price. After reaching some conditions, the attacker could swap the $CS tokens back with an unfairly high price and the total amount gained back went to 80,954,285 $USD. 240,000 $USD were paid back to the BSC-USD pool as a flash loan fee after the base amount was returned. The exploiter's profit reached 714,285 $USD, which was transferred to the initial EOA, and then distributed between several addresses. All the malicious actions were performed in a single transaction.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2cdeee9698ffc9fcabc116b820c24e89184027ba&nbsp;</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x906394b2ee093720955a7d55bff1666f6cf6239e46bea8af99d6352b9687baa4&nbsp;</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x90fa57d23b85cdd52c46b85636f44c47926ee2e3&nbsp;</p>",
+        "date": "2023-05-23",
+        "fundsLost": "714285",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "CS",
+          "addresses": [
+            "0x8bc6ce23e5e2c4f0a96429e3c9d482d74171215e",
+            "0x6BC2823De2c3718D3669C2E7036E1D888C4107a1"
+          ]
+        }
+      },
+      {
+        "id": 3534,
+        "projectName": "Jimbos protocol",
+        "description": "<p><strong>Quick Summary</strong></p><p>Jimbos Protocol, a decentralized finance (DeFi) liquidity protocol on the Arbitrum system, was hacked on May 28, resulting in a loss of 4,000 Ether (ETH) worth approximately $7.5 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on Jimbos Protocol exploited the lack of slippage control on liquidity conversions, allowing the attacker to reverse swap orders and benefit from the price discrepancy. The protocol's mechanism, designed to address liquidity and volatile token prices, had a logical vulnerability that enabled the exploit. As a result, the price of the native token, Jimbo (JIMBO), dropped by 40%. The attackers extracted 4,090 ETH from the Arbitrum network and used the Stargate bridge and the Celer Network to transfer around 4,048 ETH from the Ethereum network.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:&nbsp;</p><p>https://arbiscan.io/tx/0x44a0f5650a038ab522087c02f734b80e6c748afb207995e757ed67ca037a5eda</p><p><br></p><p>Exploiter:</p><p>https://arbiscan.io/address/0x102be4bccc2696c35fd5f5bfe54c1dfba416a741</p><p><br></p><p>Bridged funds:</p><p>https://etherscan.io/address/0x5f3591e2921d5c9291f5b224e909ab978a22ba7e</p>",
+        "date": "2023-05-28",
+        "fundsLost": "7500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "JIMBO",
+          "addresses": [
+            "0xC3813645Ad2Ea0AC9D4d72D77c3755ac3B819e38"
+          ]
+        }
+      },
+      {
+        "id": 3535,
+        "projectName": "POOPEPE token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Meme token $POPE conducted a rug pull on May 26th, resulting in the theft of approximately $100,000 (~54 ETH) from holders.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team behind $POPE swapped 10,000,000,000,000,000,000 tokens for 54.4 Ether and proceeded to sell the ETH, leaving investors with no value. They then distributed the obtained funds to various wallets in an attempt to obfuscate their tracks and avoid accountability.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Tx:</p><p>https://etherscan.io/tx/0xe5c2dac1660e6df7a29bc31cd71ebd8b4259bd7fbdd1afe7d29e57003d879744</p><p><br></p><p>Address:</p><p>https://etherscan.io/address/0xc74d2fe1452a78c2c1312f87c9171c8b7bfc539c</p>",
+        "date": "2023-05-26",
+        "fundsLost": "100000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "POPE",
+          "addresses": [
+            "0x36206debFAF4C686Be01e5e68fdea66d09B4319a"
+          ]
+        }
+      },
+      {
+        "id": 3536,
+        "projectName": "Sui Network",
+        "description": "<p><strong>Quick Summary</strong></p><p>Sui Network, a fake token on Binance Smart Chain, was involved in an exit scam. The deployer sent 1 billion $SUI tokens to the scammer who added initial liquidity and later drained it.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sui Network is not related to the original SUI token. On October 22nd, 2022, the deployer transferred 1 billion $SUI tokens to a scammer's address. The scammer used these tokens along with 20 $BNB to add liquidity to the PancakeSwap pool. On May 22nd, 2023, after waiting for several months without any activity or trading volume on this fake token project; the scammer removed all available LP funds worth around $196k USD by draining them from the PancakeSwap pool and transferred them into another EOA address. Currently, there is only about $300 USD worth of $BNB remaining as liquidity in that pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x333ec34ecd77ba2fdcfc5a4d6ba71aed245e8764</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x54bCf365c27e7CCdC22403fB1A368ACB7541Fe19</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x5e33f620f42770c828904268d70b27d8b5cddc3b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xfb1f1fdc149a63ae3b5cec9f744a5aececeeed632b75a815e5af2b666d3e3850</p><p><br></p><p>Deployer Relation Proof:</p><p>https://bscscan.com/tx/a7632b84d35d4d99133ae0a9b59f8b48af77c92666be4e3fde0b0ece134b6dc3</p>",
+        "date": "2023-05-22",
+        "fundsLost": "196881",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SUI",
+          "addresses": [
+            "0x34caaec040ca95f4e8fb892268f16a2a05dcc40f",
+            "0x521cbcac9daf2a88e947fc8a7a3085e587cb88cf"
+          ]
+        }
+      },
+      {
+        "id": 3537,
+        "projectName": "PSYOP Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>PSYOP's users were affected by a phishing attack, and the exploiters stole 122,549 $USD worth of assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>PSYOP is a BEP20 token trading on UniSwap. The token's creator retweeted another Twitter account that had been compromised. The users were sent to a phishing site and got their funds drained by the exploiter. Various assets including $PSYOP, $BEN, $WETH, and $UNI were transferred to the malicious address and consequently swapped to $ETH. The stolen funds were distributed between multiple EOA addresses. The total stolen amount reached 122,549 $USD. The creator of the PSYOP project promised to compensate the full amount to affected users.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xFB2E132751628025D94a17245288364cd62532D0</p><p><br></p><p>Funds transfer transactions:</p><p>https://etherscan.io/tx/0xd70aa38c4ff877aa37d994c3702a1202b5efcc281454c6248df7f1514a54d7e3<br>https://etherscan.io/tx/0x991004f6db5013843c18e653644dbb0b8e2f6056f092d8200c478f4ac28fec0e<br>https://etherscan.io/tx/0xb67274ff40bbadc5009980705e37ff6153e3eba75a3191954a95a0589cf199ee</p>",
+        "date": "2023-05-26",
+        "fundsLost": "122546",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Phishing",
+        "token": {
+          "name": "PSYOP",
+          "addresses": [
+            "https://etherscan.io/token/0x3007083eaa95497cd6b2b809fb97b6a30bdf53d3"
+          ]
+        }
+      },
+      {
+        "id": 3538,
+        "projectName": "Fintoch",
+        "description": "<p><strong>Quick Summary</strong>&nbsp;</p><p>The Fintoch team performed a rug pull on&nbsp;<span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">May 22, on the Binance Smart Chain resulting in losses of about 31,666,317 USDT.</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The DFintoch project deployed the FintochSTO contract using the deployer address 0x8a0deffb71a5dc17a779ab25fdc17fdeb249aa63. During deployment, 100,000 FTH tokens were minted. These tokens were then sent to address 0xfce4d. However, on the <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">May-22-2023</span>, a transfer of 34,341 FTH tokens was made from 0xfce4d to address 0xec1a.</p><p><br></p><p>Following that, 20,000 FTH tokens were swapped for 31,666,317 USDT using the \"swapForUSDT()\" function on the contract with address 0x19a00e359990ec7daf6e9dd9a2fb7664014bb5f7.&nbsp;</p><p><br></p><p>The funds were subsequently moved to address 0x398dcb3e535f701e93ed2891aaab601c25ebacf4. Multichain and SWFT were utilized for the bridging of funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Transaction deploying FintochSTO contract: https://bscscan.com/tx/0x3ef479ba75e07ad04f02b5a5f4df476bbbc83bb5d15fdcd2acd1955a4e87fce6</p><p>Transaction transferring 34,341 FTH to address 0xec1a: https://bscscan.com/tx/0xee053bf3c429603319d352979e09b207103a08ebf5f42aa0ddd22a9d67f004d6</p><p><strong>SwapTx:</strong></p><p><a href=\"https://bscscan.com/tx/0xa5e64161928ee40f6af02a32fc5c1fb9efa05cca6b91d88326279329b71c7ea2\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Arial;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>https://bscscan.com/tx/0xa5e64161928ee40f6af02a32fc5c1fb9efa05cca6b91d88326279329b71c7ea2</strong></span></a></p>",
+        "date": "2023-05-22",
+        "fundsLost": "31666317",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token,Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FTH",
+          "addresses": [
+            "0x19a00e359990Ec7dAf6e9dD9A2Fb7664014bB5f7"
+          ]
+        }
+      },
+      {
+        "id": 3539,
+        "projectName": "BabyDogeCoin",
+        "description": "<p><strong>Quick Summary</strong></p><p>BabyDogeCoin suffered from flashloan attack, which led to a loss of 135,013 $USD worth of $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BabyDogeCoin is a BEP20 token trading on the project's own DEX BabyDogeSwap. The BabyDogePair pool was affected by a flash loan attack. The attack started after the exploiter deployed a malicious contract and took 80,000 $BNB as a flash loan. Consequently, the price of $BabyDoge was manipulated by the attacker, and then 80,509 $BNB was drained from the pool. The flashloan was repaid and the attacker's profit reached 437 $BNB which is worth 135,013 $USD at the moment. The stolen assets were transferred to a couple of EOA addresses which were then transferred to the FixedFloat crypto exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xcbc0d0c1049eb011d7c7cfc4ff556d281f0afebb</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x098e7394a1733320e0887f0de22b18f5c71ee18d48a0f6d30c76890fb5c85375<br><br>Funds transfer transaction:</p><p>https://bscscan.com/tx/0x2ca8b77b4497498e274869639dbc10bd30e66719bf788d01a180841daa9a0c6f</p><p><br></p><p>FixedFloat transfer:</p><p>https://bscscan.com/tx/0x66e2373dfb5265e8cb724e3295e47fd93d3b6b7c2aed07801d399b49a3344925<br><br>Malicious contract:</p><p>https://bscscan.com/address/0x51873a0b615a51115f2cfbc2e24d9db4bfa2e6e2</p>",
+        "date": "2023-05-28",
+        "fundsLost": "135013",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BabyDoge",
+          "addresses": [
+            "0x0536c8b0c3685b6e3c62a7b5c4e8b83f938f12d1"
+          ]
+        }
+      },
+      {
+        "id": 3540,
+        "projectName": "EDE Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>EDE Finance was hit by an Oracle Manipulation exploit resulting in a loss of $658,370 $USD. The attacker returned $420,170 to the team but kept the rest.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>EDE Finance is a DEX on the Binance Smart Chain and Arbitrum. The project</span> was exploited through oracle manipulation which resulted in a loss of 658,370 $USD. A white hat hacker was able to exploit the project's vault and stole the assets. Consequently, 420,170 $USD were returned by the white hat to the project. An on-chain message was sent by the hacker with the following text: \"All trades that were executed were using prices signed/produced by the devs which allowed anyone to take advantage of these prices and easily empty out the entire ELP pool with just a few transactions. The malicious activity involved intentionally signing incorrect prices to manipulate users' positions and steal their funds while implementing backdoors that allowed them to force liquidate any position they desired. The whole pool was always at risk as there were additional vulnerabilities present too provided you agreed upon certain terms.\"&nbsp;</p><p>&nbsp;</p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://arbiscan.io/address/0x80826E9801420E19a948b8Ef477Fd20f754932DC</p><p><br></p><p>Malicious transaction example:</p><p>https://arbiscan.io/tx/0x3758a4b7338d8c3bd39072221ff3b6b6a59d36f3d885934f1b0081877f35163e</p><p><br></p><p>Attacker's message:<br>https://arbiscan.io/tx/0x76799a5759edbf0bfebe317954369e00026c4a87da98604209dfdaa42ccbcfb0</p>",
+        "date": "2023-05-29",
+        "fundsLost": "658370",
+        "fundsReturned": "420170",
+        "chaindIds": [
+          5
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "EDE",
+          "addresses": [
+            "0xFC36bE177868b05F966E57bfc01617501b1f6926"
+          ]
+        }
+      },
+      {
+        "id": 3541,
+        "projectName": "BlockGPT",
+        "description": "<p><strong>Quick Summary</strong></p><p>BlockGPT token experienced a rugpull, the scammer was able to withdraw 816 $BNB from the presale pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BlockGPT is a BEP20 token trading on PancakeSwap. The project creators deployed a presale contract that had malicious functionality to withdraw liquidity from the contract. The malicious contract had unverified source code. The scammer withdrew 816 $BNB from the contract which is worth 254,592 $USD at the moment. 800 $BNB was transferred through TornadoCash at the end.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:<br>https://bscscan.com/address/0x650c6ba120c1275bf3a9252d8c2aec3a25461954</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0x45da92f71d94e2a2b54c32fab7534540814a5e04</p><p><br></p><p>Draining transaction:</p><p>https://bscscan.com/tx/0x32e5950668b507a95d6ee75ea269a0478dc21abb0e3d37ffdeee17bdc4360fe2</p><p><br></p><p>TornadoCash transfer example:</p><p>https://bscscan.com/tx/0x72829d55bc3d158821832799fea86cd3e9925f5c068005e8e333a45bc4a3c128</p>",
+        "date": "2023-05-30",
+        "fundsLost": "254592",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BGP",
+          "addresses": [
+            "0xE6f12E0fb5366fe34a06845EAfcac4667F210A4E",
+            "0x8819942ad2414b3d6d02791c703af46fcc50bfde"
+          ]
+        }
+      },
+      {
+        "id": 3542,
+        "projectName": "MoveCash",
+        "description": "<p><strong>Quick Summary</strong></p><p>MoveCash token was rugpulled by the token deployer, which removed liquidity worth 133,215 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MoveCash is a BEP20 token trading on PancakeSwap. The token deployer removed all the liquidity from the pool, receiving 427 $BNB. Worth mentioning that initial liquidity was also added by the same deployer's address, which added 784 $BNB along with $MCA tokens. All the stolen funds currently remain at the scammer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x311950516ce533dff8140ec8dc64dae24396f9e6</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x26400c0192ff144673e8fbc7da5fbc6cd005fb5bdddb168666553956c385aaec</p>",
+        "date": "2023-05-30",
+        "fundsLost": "133215",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MCA",
+          "addresses": [
+            "0xf3dbdf718667874e19ef368721a10409345fc218",
+            "0x07da834d8a784f1397ce96eec880ecb50847dbe6"
+          ]
+        }
+      },
+      {
+        "id": 3543,
+        "projectName": "ERC20 Token Bank",
+        "description": "<p><strong>Quick Summary</strong></p><p>ERC20 Token Bank was targeted in a flash loan attack, but the attacker failed due to a frontrunning by an MEV bot. The bot earned 108,964 $USD.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>An unknown attacker attempted to exploit the ERC20TokenBank contract in the Ethereum chain via flash loan. However, their attempt was thwarted by an MEV bot that anticipated and front-run their transaction. As part of this process, the MEV bot paid 1 $ETH as a bribe to gain priority on transaction ordering and earn roughly 60 $ETH profit.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x0e816b0d0a66252c72af822d3e0773a2676f3278</p><p><br></p><p>MEV Bot:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0xc0ffeebabe5d496b2dde509f9fa189c25cf29671</span></p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xcd8fe2efb197bc80b8d42eec21a4b1dbaf3b83ba51f62b36cd3d6b5de0f301e1</p><p><br></p><p>MEV Bot transaction:</p><p>https://etherscan.io/tx/0x578a195e05f04b19fd8af6358dc6407aa1add87c3167f053beb990d6b4735f26</p>",
+        "date": "2023-05-31",
+        "fundsLost": "108967",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x9ab872a34139015da07ee905529a8842a6142971"
+          ]
+        }
+      },
+      {
+        "id": 3544,
+        "projectName": "Local Traders",
+        "description": "<p><strong>Quick Summary</strong></p><p>Local Traders, a P2P exchange on Binance Smart Chain was exploited due to a lack of permission checks in their smart contract. The attacker modified the owner and token price resulting in a loss of 115,595 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On May 23, 2023, the Local Traders platform was exploited on the Binance Smart Chain resulting in a loss of approximately 379.32 BNB worth around $115,595 at that time. The vulnerability was caused by a lack of permission checks in one of their functions which allowed anyone to modify the owner using this function implementation. The attacker then called another function to modify the price of LCT tokens to purchase them at low prices and sold them for profit. All stolen funds are currently held by the attacker's address which has been reported and blacklisted by exchanges making it difficult for the hacker to cash out. The Local Traders team is working on implementing a recovery plan for affected users.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xd771dfa8fa59bd2d1251a0481fca0cf216276dd7</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x49a3038622bf6dc3672b1b7366382a2c513d713e06cb7c91ebb8e256ee300dfb</p><p><br></p><p>Access gain transaction:</p><p>https://bscscan.com/tx/0x57b589f631f8ff20e2a89a649c4ec2e35be72eaecf155fdfde981c0fec2be5ba</p><p><br></p><p>Price change transaction:</p><p>https://bscscan.com/tx/bea605b238c85aabe5edc636219155d8c4879d6b05c48091cf1f7286bd4702ba</p>",
+        "date": "2023-05-23",
+        "fundsLost": "115595",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": "LCT",
+          "addresses": [
+            "0xce3e12bd77dd54e20a18cb1b94667f3e697bea06"
+          ]
+        }
+      },
+      {
+        "id": 3545,
+        "projectName": "DD coin",
+        "description": "<p><strong>Quick Summary</strong></p><p>DD coin's Marketplace contract was exploited. The attacker increased their allowances and profited for 306,597 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DD coin is a BEP20 token trading on PancakeSwap. DD coin's Marketplace smart contract had a vulnerability that allowed an attacker to increase their allowances by simulating multiple buy/sell actions from their newly deployed smart contracts and the main malicious smart contract. This gave them enough access to withdraw 306,597 $USD worth of tokens from the Marketplace contract. Over 80 fake buyer contracts were deployed during this process which resulted in two similar transactions where all these actions occurred. The stolen funds were transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0x0a3fee894eb8fcb6f84460d5828d71be50612762</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0xd92bf51b9bf464420e1261cfcd8b291ee05d5fbffbfbb316ec95131779f80809</p><p>https://bscscan.com/tx/0x9ba6723c2f529f3e5c1d7673da7258f24713330f6f51a6493d64a0f13e7ee75a</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0xa100c4b1962dcdb44201ce123833bf275e5f8847</p><p><br></p><p>Malicious contracts addresses:</p><p>https://bscscan.com/address/0x105e9b0266ae0ae670b7fe9af08cf32049f0dd21</p><p>https://bscscan.com/address/0x2d9cb2b02870c6afcf457c14e38fbf8b74ead8d0</p>",
+        "date": "2023-06-01",
+        "fundsLost": "306597",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "DD",
+          "addresses": [
+            "0xb3a636ac4c271e6cd962cad98eae9cf71f5a49c8"
+          ]
+        }
+      },
+      {
+        "id": 3546,
+        "projectName": "LunaFI",
+        "description": "<p><strong>Quick Summary</strong></p><p>LunaFI, a Polygon-based project, was exploited resulting in the loss of 1,500,000 $LFI tokens worth around 36,362 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LunaFI is a betting platform running on Polygon. LunaFI's vLFI contract rewarding system was exploited. The attacker found an issue with the claimRewards() function that allowed them to repeatedly claim LFI tokens. As a result of this exploit, approximately 1,500,000 $LFI tokens were stolen which is equivalent to around 36,362 $USD at current market value. After stealing these tokens from multiple users' wallets on the Polygon network using this method they swapped them for around 20 $ETH and transferred it to their initial address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://polygonscan.com/address/0x11576cb3d8d6328cf319e85b10e09a228e84a8de</p><p><br></p><p>Malicious Transaction:</p><p>https://polygonscan.com/tx/0xa0480d0f7c8d8bf898cadde954e773ddc3740f1ffa31cdd98fe4c5f5d8266243</p><p><br></p><p>Malicious Contract Address:</p><p>https://polygonscan.com/address/0x43623b96936e854f8d85f893011f22ac91e58164</p>",
+        "date": "2023-05-22",
+        "fundsLost": "36362",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "LFI",
+          "addresses": [
+            "0xe6e5f921c8cd480030efb16166c3f83abc85298d"
+          ]
+        }
+      },
+      {
+        "id": 3547,
+        "projectName": "unshETH",
+        "description": "<p><strong>Quick Summary</strong></p><p>UnshETH suffered an access control exploit resulting in the loss of $375,000 $USD worth of farm rewards and protocol liquidity</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>UnshETH is a staking and yield protocol in Ethereum and Arbitrum chains. One of the deployer keys for auxiliary unshETH contracts (farms and bridge contracts) was compromised. The security teams narrowed down the scope of impact to USH farm rewards and protocol-owned liquidity. Onchain message communication with the malicious actor was established for recovery purposes. Within two hours after being contacted by unshETH team members, the attacker responded with intentions to return control of all compromised contracts which were then transferred back to multisig addresses on each chain securing all impacted assets. The attacker had already recovered some assets and gained approximately 375,000 $USD in proceeds but negotiations are ongoing towards their retrieval in exchange for a 50,000 $DAI as a whitehat bounty. During this incident, unshETH withdrawals were paused for 24 hours.</p><p>&nbsp;</p><p><strong>Block Data Reference</strong></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x2cf0c07dd0b4944bb0b5abbb4ea26e83b7732907fc221fc28c257403be3439d2</p><p><br></p><p>Onchain messages:<br>https://etherscan.io/tx/0x6b7d74b8efe11a9d9ae9e9b10b526ab07c5aae08dc801528bcf0be61068565c3</p><p>https://etherscan.io/tx/0x7faade0b77341e6e1ab4ee4085e287ea2f32ca434972067c75bfd48e6009b37a</p>",
+        "date": "2023-05-31",
+        "fundsLost": "375000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": "unshETH",
+          "addresses": [
+            "0x33890b88f98a9d511678954ad8db0510b6953cfc",
+            "0x35636b85b68c1b4a216110fb3a5fb447a99db14a",
+            "0xd41d27ff3205787a4a617708f6675a44821c53ec"
+          ]
+        }
+      },
+      {
+        "id": 3548,
+        "projectName": "Cellframe Network",
+        "description": "<p><strong>Quick Summary</strong></p><p>Cellframe Network ($CELL) experienced a flash loan exploit on the Binance Smart Chain, resulting in a loss of 76,112 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CELL is a community BEP20 token of the Cellframe Network, trading on PancakeSwap. On June 1st, 2023, Cellframe Network was exploited via a flash loan attack that caused the price to drop -45%. The attacker successfully obtained a profit of 245.52 $BNB and approximately $76,112 USD. The exploit occurred due to an unverified source code deployed by the attacker in a single transaction.</p><p>The exploiter took out a flashloan from the DPP project and drained funds from PancakeV3Pool. All stolen assets were transferred to another EOA address where they currently remain.</p><p>The source of the problem is a smart contract that migrated old liquidity to new without taking into account changing spread between them during migration.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x2525c811ecf22fc5fcde03c67112d34e97da6079</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x8882b31f90f17f94a10e6c2f85dc629a4aaf9e70</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x943c2a5f89bc0c17f3fe1520ec6215ed8c6b897ce7f22f1b207fea3f79ae09a6</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x1e2a251b29e84e1d6d762c78a9db5113f5ce7c48</p>",
+        "date": "2023-06-01",
+        "fundsLost": "76112",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "CELL",
+          "addresses": [
+            "0xa2c1e0237bf4b58bc9808a579715df57522f41b2"
+          ]
+        }
+      },
+      {
+        "id": 3549,
+        "projectName": "wDAO EON",
+        "description": "<p><strong>Quick Summary</strong></p><p>wDAO EON, a DEX project on the Polygon network, was exploited via a flash loan attack resulting in the loss of 29,195 $USD. The initial attacker was front-run by another bot during the exploit.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The wDAO EON project on Polygon suffered an exploit through a flash loan attack that tried to drain their pool. However, this attempt was frontrun by another bot who took out a flash loan from Balancer and used it to manipulate prices on wDAO EON's pool before returning the borrowed funds. As a result, 29,195 $USD was lost in this incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://polygonscan.com/address/0xcb3585f3e09f0238a3f61838502590a23f15bb5b</p><p><br></p><p>Initial Attacker address:</p><p>https://polygonscan.com/address/0xb3d204ee119547faa7be6796a31ca773c24b1fdc</p><p><br></p><p>Malicious transaction:</p><p>https://polygonscan.com/tx/0xa1f2377fc6c24d7cd9ca084cafec29e5d5c8442a10aae4e7e304a4fbf548be6d</p><p><br></p><p>Failed transaction (initial attacker):</p><p>https://polygonscan.com/tx/0x0ef500ef64e6921eb80d69dddbcd662eb9c52a2e0e147943a33e2df989fd294d</p><p><br></p><p>Malicious contract:</p><p>https://polygonscan.com/address/0x3bb7a0f2fe88aba35408c64f588345481490fe93</p>",
+        "date": "2023-06-02",
+        "fundsLost": "29195",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "NST",
+          "addresses": [
+            "0x9d101e71064971165cd801e39c6b07234b65aa88"
+          ]
+        }
+      },
+      {
+        "id": 3550,
+        "projectName": "Atomic Wallet",
+        "description": "<p><strong>Quick Summary</strong></p><p>Atomic Wallet suffered an exploit resulting in the loss of $115,000,000 USD worth of various tokens.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Atomic Wallet is a multichain DeFi wallet. The wallet was breached and approximately $115 million worth of various tokens were stolen from their users via access control. The stolen tokens included Bitcoin (BTC), Ether (ETH), Tether (USDT), Dogecoin (DOGE), Litecoin (LTC), Binance Coin(BNB), and Polygon(MATIC). Tron-based USDT seemed to be the largest stolen stash according to on-chain analytics with the stolen amount of 7,950,000 $USDT. The stolen funds mostly were swapped for native coins as $ETH and held in multiple EOA addresses.</p><p>The impacted users represented less than 1% of their monthly active users, according to AtomicWallet's official tweet, but worth mentioning that only the top five users were lost roughly 17,000,000 $USD in total. Several users reported that their crypto was stolen after a recent software update while others said they were impacted despite not updating to the latest version as per messages from Atomic Wallet’s official Telegram channel. Victims have been asked to submit information through a Google Docs form that Atomic Wallet is using for its investigations.</p><p>With the help of on-chain experts, 1,200,000 $USD worth of funds were rescued from the hackers.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address Example:</p><p>https://etherscan.io/address/0x26208699df4896f09b83993e7c8baad647421b21</p><p>https://tronscan.org/#/address/TV92VkrHpim1MN58GNC5RfUWVUmNTPRwGA</p><p><br></p><p>Affected Address Example:</p><p>https://etherscan.io/address/0x8568ab3AF2E3A1cF3c93dFbCe0D8A3CEE1AcB3dd</p><p><br></p><p>Involved Addresses list:<br>https://www.chainabuse.com/report/b181be45-51a7-446b-83ae-8408c9103bb5</p>",
+        "date": "2023-06-04",
+        "fundsLost": "115000000",
+        "fundsReturned": "1200000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x8568ab3AF2E3A1cF3c93dFbCe0D8A3CEE1AcB3dd"
+          ]
+        }
+      },
+      {
+        "id": 3551,
+        "projectName": "NFDAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>NFDAO project experienced a rugpull exit scam in which the token deployer-related address withdrew liquidity from PancakePool, resulting in a loss of 88,420 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NFDAO is a BEP20 token trading on PancakeSwap. The token's contract was exploited by its deployer-related address to remove all funds available in the liquidity pool. All stolen funds were transferred to another EOA address leaving investors holding worthless tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x91b6854eda8a9b4839e49e42f313afc3e962c6cb</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xA90ab5bEEF079758D02e612df7F54B41A99b6970</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x7E0E658aF47B2EA1E2be9B0b7A476b43C4922eEc</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xb6d28af3473b9473fd38c49724925e0e7cbbd29c59d9bc2eb07e5f0aaa857d5f</p><p><br></p><p>Stolen Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x45317e4cc6d84e1ac687c805bfbd7bc11389fb8a26de5e949b319688f284471a</p>",
+        "date": "2023-06-05",
+        "fundsLost": "88420",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NFD",
+          "addresses": [
+            "0xeff7491b70a70b675e19b1ae1e5c6cbe4b0ce6ef",
+            "0xe1afc0a3c9aa2537deea233ef7dc0952ceedfda3"
+          ]
+        }
+      },
+      {
+        "id": 3552,
+        "projectName": "UN Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>UN Token was exploited via a flash loan attack, the exploiter profited 26,558 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>UN token is a BEP20 token trading on its own pool. The pool with unverified source code was exploited via a flash loan attack. The exploiter took 29,100 $USD to perform malicious actions and was able to drain 55,658 $USD from the pool. The total profit of the attacker reached 26,558 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0xf84efa8a9f7e68855cf17eaac9c2f97a9d131366</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xff5515268d53df41d407036f547b206e288b226989da496fda367bfeb31c5b8b</p>",
+        "date": "2023-06-06",
+        "fundsLost": "26558",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "UN",
+          "addresses": [
+            "0x5f739a4ade4341d4aee049e679095bccbe904ee1"
+          ]
+        }
+      },
+      {
+        "id": 3553,
+        "projectName": "USEA Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>USEA Token project was rugpulled by the deployer who minted 867 million $USEA tokens, transferred them to an EOA address, and sold them for 1,114,468 $USD on PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>USEA Token is a BEP20 token trading on PancakeSwap. The project experienced a significant rugpull in which the token deployer minted 867 million $USEA tokens and transferred them to another EOA address. The scammer then sold off all the tokens for 1,114,468 $USD via PancakeSwapV3. Investigation revealed that all the stolen funds were distributed to other addresses as well.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xc88727cd59f2cB1A079B065c4b60b24e7a99144a</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x11eb8c55603b9720804db178b788f69f7b7a5dc7</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x3c3eAFa892605eCbA7b980cdeE6AFD61Dbe96CfB</p><p><br></p><p>Biggest Draining Transaction:</p><p>https://bscscan.com/tx/0x4cd009dd732ad543a7a4acb4fbdf5f447092aa8a782202b957dbf752dab2eb20</p><p><br></p><p>Mint Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x4e889ed2083f1efbf6bd45723a7e1230a9ac0d7b6ae15c5588d470662e98e417&nbsp;</p><p><br></p><p>Tokens Transfer Transaction:</p><p>https://bscscan.com/tx/0x30a1ceb17e55fd396dc0499b38c63b56537260b684e2a101864236dc3e074d09</p>",
+        "date": "2023-06-06",
+        "fundsLost": "1114468",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "USEA",
+          "addresses": [
+            "0xdf7ff95aa3d855a6fb21399432166a92fdcf1b1a",
+            "0x917bb06Ff553c6a9796BcF57B53d98D56dD54E0a"
+          ]
+        }
+      },
+      {
+        "id": 3554,
+        "projectName": "SCT Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>SCT project was rugpulled by its deployer, who sold the significant token supply resulting in a 90% dump of token price. The funds lost in this incident are 286,123 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SCT is a BEP20 token trading on PancakeSwap. The project experienced an exit scam as its deployer acquired some tokens from the sale but ended up selling all of them. The market sale resulted in a significant dump with over 90% decrease in token price and a loss of approximately 286,123 $USD. Investigation revealed that the attacker moved funds along with those received from Gnosis Safe contract to drain liquidity pool through two transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xbc4bbd9e25f286bd4a69222799241966951233a9</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xB8e1136115dA79a668a98eB41a72954221Ce1546</p><p><br></p><p>Draining Transactions:</p><p>https://bscscan.com/tx/0x619d34f41c91075825efd3aabda3b679a408e4599bc737833a64ab1b9e30a407&nbsp;</p><p>https://bscscan.com/tx/0x8ea073c6e891d6939cc72a4ca8c15da653589aaef549f7e5a14b889b0b552494</p>",
+        "date": "2023-06-06",
+        "fundsLost": "286123",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SCT",
+          "addresses": [
+            "0x4ee98216499b81a9942e7aa77970b68c792ff679",
+            "0x6221f12997a83aaa779aa4a7a70b53423c3c4dc8"
+          ]
+        }
+      },
+      {
+        "id": 3555,
+        "projectName": "SAUDI Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>SAUDI token project was rugpulled by the deployer after removing liquidity worth 79,555 $USD from UniSwap pool. The total funds lost in this exit scam is 35,331 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SAUDI is an ERC20 token trading on UniSwap. The token experienced a significant liquidity removal event when its deployer added 25 $ETH as liquidity to the UniSwap pool and then removed it within a short period. The attacker was able to remove 43 $ETH which equates to roughly 79,555$ USD at current market rates. Consequently, the scammer transferred stolen funds amounting to 35,331$ USD from their original address to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xf7A6BfD9f1aD316Bd0F780991b07d390b2c0F515</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://etherscan.io/tx/0x9df59f8a3daf40d206ee984c14d1b8622fd2579d40e74f6e3cfb30cd6786a559</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x8a33a822c2d0b31115232180f96b79187c1e65f4aeab1bcebc60429f3b901919</p>",
+        "date": "2023-06-07",
+        "fundsLost": "35331",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SAUDI",
+          "addresses": [
+            "0x57f75166d2fdeb9fd1f5378ac75dbb83a0cb7ad7",
+            "0x6512b4bdc34c02668fcf6764bb3d1aeee863fa83"
+          ]
+        }
+      },
+      {
+        "id": 3556,
+        "projectName": "OkayLetsGo",
+        "description": "<p><strong>Quick Summary</strong></p><p>OkayLetsGo token project was rugpulled by the deployer, who drained the UniSwap pool and removed liquidity. The total loss is 94,230 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OkayLetsGo is an ERC20 token trading on UniSwap. The OKLG token experienced a significant liquidity removal. Investigation revealed that the token deployer sold a significant amount of tokens in exchange for 50 $ETH to drain the UniSwap pool. Afterward, two transactions were made from their contract address to remove all remaining liquidity worth 4 $ETH in total. All stolen funds were transferred to another EOA after an incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xBBb0bB7EC7d45d1B22e6eC83ad329621fa468375</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x47C7c921ADf8b09e24EfAc584E2064e34CBb1b6F</p><p><br></p><p>Draining Transaction:</p><p>https://etherscan.io/tx/0x57cee9957eaf584a0a924c9ddee2145da6c44a856036a94e1b57c3e0c1e23993</p><p><br></p><p>Liquidity Removal Transactions:&nbsp;</p><p>https://etherscan.io/tx/0xfb1b1818cca9c739638af5afaaf476de13a4a4e583d14cd4ee0f12302d90c3b5</p><p>https://etherscan.io/tx/0xd1ef2bad5b5dd593e069354ec0f2f3dbb92e218492019e90d7bbe3eaed1e08a5</p>",
+        "date": "2023-06-09",
+        "fundsLost": "94226",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "OKLG",
+          "addresses": [
+            "0x5dbb9f64cd96e2dbbca58d14863d615b67b42f2e",
+            "0xadf5fcca72f5d66c7d89ef496124cffe68973357"
+          ]
+        }
+      },
+      {
+        "id": 3557,
+        "projectName": "SellToken",
+        "description": "<p><strong>Quick Summary</strong></p><p>SellToken, a Binance Smart Chain DEX, was exploited, leading to a loss of 12,000,000 $SELLC worth approximately 105,270 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An exploiter took a flashloan of 620 $BNB and performed malicious actions involving the Miner contract and PancakeSwap pool. They exploited a logic issue in the sendMiner() function of the Miner contract, stealing over 12,000,000 $SELLC tokens. These were then swapped for 446 $BNB, worth around 105,270 $USD. All the stolen funds were transferred to another externally owned account (EOA) and subsequently swapped for $USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x0060129430df7ea188be3d8818404a2d40896089</p><p><br></p><p>Funds Holder Address: https://bscscan.com/address/0x4beb05bf9bd4585ae2f4feb74112f18b423abb84</p><p><br></p><p>Malicious Transaction: https://bscscan.com/tx/0xe968e648b2353cea06fc3da39714fb964b9354a1ee05750a3c5cc118da23444b</p><p><br></p><p>Funds Transfer Transaction: https://bscscan.com/tx/0x1abca50a789804024f1fa78f007e83701ae9ba0968691f8b353ea78d7f2f1a05</p>",
+        "date": "2023-06-11",
+        "fundsLost": "105270",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX),Token",
+        "issueType": "Other",
+        "token": {
+          "name": "SELLC",
+          "addresses": [
+            "0xa645995e9801f2ca6e2361edf4c2a138362bade4"
+          ]
+        }
+      },
+      {
+        "id": 3558,
+        "projectName": "Atlantis Loans",
+        "description": "<p><strong>Quick Summary</strong></p><p>Atlantis Loans, a BSC-based lending protocol, was exploited, leading to a loss of 1,251,622 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Atlantis Loans is a Lending and Borrowing platform running on Binance Smart Chain. On June 10, 2023, Atlantis Loans, a DeFi lending protocol on the BNB chain, fell victim to a governance attack. The attacker exploited a vulnerability that allowed them to become the administrator of the token's proxy contract and manipulate its functions. This was achieved through a malicious governance proposal created in the GovernorBravo contract on June 7, 2023, which set the admin of multiple ABep20Delegator contracts as malicious contracts. After a lockup period of 172,800 seconds, the malicious contract was set as a proxy contract admin for all tokens. This allowed the attacker to modify the ABep20Delegate implementation to include a backdoor, enabling the transfer of users' assets to their control. The attacker currently controls approximately $1,161,848 worth of funds, while the rest stolen funds are at the attacker's initial address. Notably, a similar malicious proposal with ID 49 was submitted by the attacker on April 12, 2023, but it failed to pass the quorum.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0xeade071ff23bcef312dec938ece29f7da62cf45b</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xD8E918824a560CD83A90d8E97CA19a54314D6f9f</p><p><br></p><p>Malicious Contract Address:</p><p>https://bscscan.com/address/0x027383c520c289cb5c4b66f8e0c8ca65d0769094</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x3b0df86f548946d9dda9fb4177ae27bf33f06315c73ea50945ab9e53a041d7e1</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x71656b958dc3add42335d83b1a04e8e2b316f0254d62f6c430d50cb2d44b67bd</p>",
+        "date": "2023-06-10",
+        "fundsLost": "1251622",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Access Control",
+        "token": {
+          "name": "ATL",
+          "addresses": [
+            "0x59123a930E52b52EdB27F91135253331F36cd87c",
+            "0x4e9bF21Ce718Dde4be2E0F5b167181b8AdAd12F6",
+            "0xfEAd9619e88464e5aD1Ea9Df458dcc147F03ea0C"
+          ]
+        }
+      },
+      {
+        "id": 3559,
+        "projectName": "Sturdy Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Sturdy Finance, an Ethereum-based lending platform, fell victim to an oracle manipulation exploit, losing 775,332 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sturdy Finance was exploited through an oracle price manipulation attack. In a read-only reentrancy attack, the perpetrator managed to exploit the SturdyOracle contract and manipulate its pricing. They executed a single withdrawal transaction from the 'Sturdy_eth interest bearing WETH' contract.</p><p><br></p><p>The total funds lost due to the exploit amounted to 880,850 $USD. However, the attacker's profit was 442 $ETH, equating to around 775,332 $USD, while the remaining funds served as the flashloan commission. The illicitly gained profits were later moved through TornadoCash in multiple transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x1E8419E724d51E87f78E222D935fbbdeb631a08B</p><p><br></p><p>Malicious Contract:</p><p>https://etherscan.io/address/0x0B09c86260C12294e3b967f0D523B4b2bcdFbeab</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0xeb87ebc0a18aca7d2a9ffcabf61aa69c9e8d3c6efade9e2303f8857717fb9eb7</p><p><br></p><p>Example of Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x1702e647da897a35b59304bde5e62b4e6ad8d5148905b4627398bd30c42ee1a7</p>",
+        "date": "2023-06-12",
+        "fundsLost": "775332",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": "STRDY",
+          "addresses": [
+            "0xb1ebf8f77ae002d487e7bde22c6180be0af6a3d4",
+            "0xe5d78eb340627b8d5bcff63590ebec1ef9118c89"
+          ]
+        }
+      },
+      {
+        "id": 3560,
+        "projectName": "Goldbank Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Goldbank Finance was exploited in an exit scam, with liquidity and token drain amounting to 75,239 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Goldbank Finance (GB) is a token trading on SushiSwap on the Arbitrum chain. The deployer removed liquidity from the pool, acquiring 27,414 $USD and 884,557 $GB. Another EOA address, suspected to be owned by the same deployer, altered the implementation of the UniTroller contract, sending 49,000,000 $GB tokens to the deployer. Consequently, the deployer drained a substantial amount of liquidity from the SushiSwap pool in a single transaction, receiving 47,825 $USD. The stolen amount was then moved through multiple addresses post-incident, resulting in a total loss of approximately 75,239 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://arbiscan.io/address/0xe5df114758a9beb76050754e35766191c0976a6a</p><p><br></p><p>Unitroller Admin Address:</p><p>https://arbiscan.io/address/0x946c72b432f1d0c35d9b2c9454905cb84cc0d188</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://arbiscan.io/tx/0xdaac092ff1d1d2c89ad97673c8ccab9c8bad16691c59b42df56a56d1369f8694</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://arbiscan.io/tx/0xfbd863d39f85d8a84326b14c00f4fc09302b6ad5e2a0e4cb39b34802dc56b492</p><p><br></p><p>Unitroller Malicious Implementation:</p><p>https://arbiscan.io/address/0xfa8221438b5dC055dA5F7EC9fC87132edd2835ae</p><p><br></p><p>Unitroller Address:</p><p>https://arbiscan.io/address/0x537A09Fd99Fc7eF737d297cDEeAB3b7f9602308c</p><p><br></p><p>Tokens Transfer Transaction:</p><p>https://arbiscan.io/tx/0xdd12c8ef4acb6233eb4a7625f473c0a41c15633712f497cd831952d6c3d623eb</p>",
+        "date": "2023-06-11",
+        "fundsLost": "75239",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GB",
+          "addresses": [
+            "0x537a09fd99fc7ef737d297cdeeab3b7f9602308c",
+            "0xbcad8e85669a3fc9ea9b5d692bd8bdcc2464df31",
+            "0xfa8221438b5dc055da5f7ec9fc87132edd2835ae"
+          ]
+        }
+      },
+      {
+        "id": 3561,
+        "projectName": "Securedverse Copycat",
+        "description": "<p><strong>Quick Summary</strong></p><p>Securedverse copycat project was rugpulled, resulting in a loss of 131,133 $USD due to liquidity removal by a deployer-related EOA.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Securedverse (SVC), a BEP20 token, became a victim of a rugpull executed by a related scammer. Initially, the deployer transferred 500,000,000 $SVC tokens to a distinct address that subsequently added the tokens to the PancakeSwap pool. After a day, this liquidity was removed and the pool was drained entirely by the scammer, allowing them to gain a profit of 131,133 $USD in $BNB. The stolen funds currently reside in the scammer's address. Please note, Securedverse is a clone project and should not be confused with the original.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x525f1fbfe84cd30330ac912bade98743f1b22ae2</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x82e7B460744d66C29B46b184ddf091FA64a9CC1f</p><p><br></p><p>Token Transfer Transaction:</p><p>https://bscscan.com/tx/0xbe9cf5fdf27e6e251c0a8c61609561e432e96a5fd3f8220fadf3e321d5d2f508</p><p><br></p><p>Liquidity Removal Transaction Example:</p><p>https://bscscan.com/tx/0xae5a2ad124a2e132b98b7211742deacc401b1e067abf4ec00547f4834126b3bb</p>",
+        "date": "2023-06-09",
+        "fundsLost": "131133",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SVC",
+          "addresses": [
+            "0xcfb36f50b4a78091283af660f22ba499bb233847"
+          ]
+        }
+      },
+      {
+        "id": 3562,
+        "projectName": "SpaceX Copycat",
+        "description": "<p><strong>Quick Summary</strong></p><p>SpaceX token's deployer rugpulled the project, draining the liquidity pool worth 21,516 $USD and bridged stolen funds to BSC.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SpaceX is an imitation ERC20 token, unrelated to any legitimate projects sharing its name and symbol. The deployer siphoned off the liquidity in UniSwap by selling SpaceX tokens for 13.16 $ETH across two transactions. The drained funds were subsequently bridged over to the Binance Smart Chain through Multichain Bridge.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xeC2D2aE3c9e5D4250C2f8475d148299ACa2D0aA5</p><p><br></p><p>Liquidity Draining Transactions:</p><p>https://etherscan.io/tx/0x39c83e47169320e1c3fe9992b53a0e2a9847e2c7b580b3653e734552422c2680</p><p>https://etherscan.io/tx/0xdea2ea6a1875750830ce46a0e03ed1aa3d16cec7ec23e2ff77a4b8a6be753fe5</p><p><br></p><p>Bridging Transaction:</p><p>https://etherscan.io/tx/0x1d46c086c4d18c9705a176d741bc383bf097c03bfeba14c22f6a202650881014</p>",
+        "date": "2023-06-13",
+        "fundsLost": "21516",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SpaceX",
+          "addresses": [
+            "0x3bb1c03e4ed495acd60476211859729dc579502f"
+          ]
+        }
+      },
+      {
+        "id": 3563,
+        "projectName": "Hashflow",
+        "description": "<p><strong>Quick Summary</strong></p><p>Hashflow, a DEX on Ethereum, was exploited leading to losses of approximately 600,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On June 14, 2023, Hashflow, a crypto trading platform, encountered an approve-related exploit. This exploit led to the loss of around 600,000 $USD worth of digital assets including $USDT, $USDC, and $DAI.</p><p>The attacker who carried out the exploit provided a recovery function contract, suggesting they may be a white hat hacker, preventing further losses. Users were instructed to revoke approvals before recovering funds. Two options were given for fund recovery, one for total funds and the second to donate 10% to the white hat hacker.</p><p>In the aftermath of the incident, Hashflow's native token, HFT, fell by 7% within 12 hours.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xBDf38B7475Ff810325AA39e988fb80E0aA007E84</p><p><br></p><p>Malicious Contracts:<br>https://etherscan.io/address/0xddb19a1bd22c53dac894ee4e2fbfdb0a06769216<br>https://arbiscan.io/address/0x04699818bf27f27262c0b466f91499fbafca249f<br>https://bscscan.com/address/0x91d087186c87e1c269be89c74f61423675727065</p><p>https://polygonscan.com/address/0xbcb8eb2e24dde3af5dc9f69c814896c76c4b8072</p><p>https://snowtrace.io/address/0x91d087186c87e1c269be89c74f61423675727065</p><p><br></p><p>Malicious Transaction Examples:</p><p>https://etherscan.io/tx/0xdedda493272b6b35660b9cc9070d2ea32ee61279b821184ff837e0a5752f4042</p><p>https://etherscan.io/tx/0x08b5f35076beb363a7206b8f9b4a6460f42aa9f998b561582fb4e4cdd6f05dce</p><p><br></p><p>Example of Recovery Transaction:</p><p>https://etherscan.io/tx/0xf6e6a0eeed71afa046f45652d5616829e6a33e5969b0234744556be3dd6ed79a</p>",
+        "date": "2023-06-14",
+        "fundsLost": "640000",
+        "fundsReturned": "600000",
+        "chaindIds": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "HFT",
+          "addresses": [
+            "0xb3999F658C0391d94A37f7FF328F3feC942BcADC"
+          ]
+        }
+      },
+      {
+        "id": 3564,
+        "projectName": "VPANDAO DAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>VPANDA DAO project was rugpulled by team-related EOA, leading to a loss of 869,463 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>VPANDA DAO, a BEP20 token project on Binance Smart Chain, underwent an exit scam by a mysterious exploiter. The scam began when the deployer of the token moved a large number of VPANDA tokens to a special contract named VpandaBank. The owner of this contract was then changed to another EOA, the alleged scammer.</p><p><br></p><p>VpandaBank had a privileged function that allowed the owner to withdraw any number of VPANDA tokens. This function, named 'withdraw', was exploited by the scammer to transfer a significant amount of VPANDA tokens to themselves. They then drained the liquidity from the PancakePool. In the end, the drained funds were transferred to yet another EOA address.</p><p><br></p><p>The total funds lost resulted in 869,463 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xa5307fc87d0d31d9C0be9c89c9E94f5C2B20EE2A</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xea7ba48a2b2690d19e54df12a56ccd73ffe821bf</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x33D2a493CEa00918b02239604b94AD906d6eaF65</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://bscscan.com/tx/0xe0b89f37a4215cce25af24dc23cdccecd84f55698179c59b29e34e2da523a2da</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x839bc7a9132be6a8f369366361d7c9fa43df363fa2bc19dcc0860a955d18539a</p>",
+        "date": "2023-06-16",
+        "fundsLost": "869463",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VPANDA",
+          "addresses": [
+            "0x2a8dba970ba9750fa1c81b1be4c0e19c1aacca9d"
+          ]
+        }
+      },
+      {
+        "id": 3565,
+        "projectName": "Pawnfi",
+        "description": "<p><strong>Quick Summary</strong></p><p>Pawnfi, an Ethereum-based NFT project, was exploited resulting in a loss of 633,411 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Several Pawnfi contracts including ApeStaking were exploited, leading to a total funds loss of 633,441 $USD worth of 366.77 $ETH. The attacker transferred 100 $ETH through TornadoCash and the remaining 266.77 $ETH to another EOA address, which currently holds the stolen funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x8f7370D5d461559f24b83ba675b4C7e2Fdb514cC</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0xcd12d4413a4d0f430580cf24915cdaeb7aff7b2d</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xe855cc3bad87933bf742fd474bd0ae0ec58d45e9c1a0643b9700dafe8faf0864</p><p>https://etherscan.io/tx/0x8d3036371ccf27579d3cb3d4b4b71e99334cae8d7e8088247517ec640c7a59a5</p><p>https://etherscan.io/tx/0x94fbebf08af9e354cd9336e920165bff8b6086b709f4f8cdb4a56ddfd0705602</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0xc62899a98c44b822cee2da61935e3494dec9da57bab0f4ab61662d0a46056e7b</p><p><br></p><p>Funds Transfer to TornadoCash Transaction:</p><p>https://etherscan.io/tx/0xf83afda6819542d03f7c3fd0dc1f68786f6df5db01723136649038ac14a05118</p>",
+        "date": "2023-06-17",
+        "fundsLost": "633441",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x3b2da9304bd1308dc0d1b2f9c3c14f4cf016a955",
+            "0x5954ab967bc958940b7eb73ee84797dc8a2afbb9"
+          ]
+        }
+      },
+      {
+        "id": 3566,
+        "projectName": "Midas Capital",
+        "description": "<p><strong>Quick Summary</strong></p><p>Midas Capital, a lending platform, was exploited resulting in a loss of over 600,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Midas Capital, a borrowing and lending platform on the Binance Smart Chain, was exploited by a logic flaw in one of its contracts with unverified source code. As a result, the attacker was able to drain over 600,000 $USD worth of various tokens in stablecoins and $BNB. Part of the stolen amount was swapped for 510 $BNB and then transferred through TornadoCash. The contract misused the redeem counter which, when provided with different amounts of HAY/BUSD AMM tokens, gave back multiple times the token value, behaving much like a free ATM.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0x4b92cC3452Ef1E37528470495B86d3F976470734</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x66654f116cd26ddf72b25ac9a2be5bdf2bed99201bba8e5bddac375eebec2537</p><p><br></p><p>Funds Transfer Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x4ab18c57051449ec34a873128b870ee761ff698980c972f2e8af8a2784735383</p><p><br></p><p>Funds Transfer to TornadoCash Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x50d2ac94e239db4faf5f9c53e6ca6c5f99aa5b51a859d2038adf5daa5d97edf1</p>",
+        "date": "2023-06-17",
+        "fundsLost": "600000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xf8527dc5611b589cbb365acacaac0d1dc70b25cb",
+            "0xf3c870b7c201515e2552d018ec2a15910fd35909"
+          ]
+        }
+      },
+      {
+        "id": 3567,
+        "projectName": "Vip Panda Community",
+        "description": "<p><strong>Quick Summary</strong></p><p>Vip Panda Community ($VPC) was rugpulled by the initial holder, resulting in a loss of 265,865 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$VPC, a token for the VPANDA project trading on the Binance Smart Chain, experienced a significant drain of funds from its PancakePool. The initial token holder carried out this action through multiple transactions, resulting in a loss of approximately 265,865 $USD. The drained funds were subsequently transferred to another EOA address, which was previously implicated in the VPANDA rugpull incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xA9f2c4d5529807c5d3B8D9d678558ACbbB7eb5d6</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x33D2a493CEa00918b02239604b94AD906d6eaF65</p><p><br></p><p>Example Liquidity Drain Transaction:</p><p>https://bscscan.com/tx/0xa48da7a6b82ead33f06c3ec51756735d15b79190351d42a509bae85902ef19f6</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x85d7b2fbe576e5497eb276f1dcd06c357d3d46624e56c060102c7568c7d84926</p>",
+        "date": "2023-06-19",
+        "fundsLost": "265865",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VPC",
+          "addresses": [
+            "0x42269ac712372ac89a158ad5a32806c6b6782d66"
+          ]
+        }
+      },
+      {
+        "id": 3568,
+        "projectName": "Ara Blocks",
+        "description": "<p><strong>Quick Summary</strong></p><p>Ara Blocks, an NFT project, was exploited via flashloan attack, causing a loss of 124,915 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Ara Blocks, an NFT project on the Binance Smart Chain, fell victim to a flashloan attack. The attacker exploited the project, resulting in a loss of 124,915 $USD. The stolen funds were then transferred to another externally owned account (EOA) which currently holds all the assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0xF84efA8a9F7E68855CF17EAaC9c2f97A9d131366</p><p><br></p><p>Funds Holder Address:&nbsp;</p><p>https://bscscan.com/address/0xC8B5ecfA4eFBAE96A3Ac90B0D0De316abE6Ca0D1</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0x98e241BD3BE918e0D927Af81B430be00D86B04F9</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0xd87cdecd5320301bf9a985cc17f6944e7e7c1fbb471c80076ef2d031cc3023b2</p>",
+        "date": "2023-06-18",
+        "fundsLost": "124915",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT,Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "ARA",
+          "addresses": [
+            "0x5542958fa9bd89c96cb86d1a6cb7a3e644a3d46e"
+          ]
+        }
+      },
+      {
+        "id": 3569,
+        "projectName": "Baby Doge Coin",
+        "description": "<p><strong>Quick Summary</strong></p><p>On <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Jun-21-2023</span> Baby Doge token was attacked using flashloan from UniV3 protocol with gains worth of&nbsp;</p><p>lost 442 BNB or $100K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Baby Doge Coin, a meme token, fell victim to a flashloan attack, resulting in the exploitation of the token. The attacker managed to acquire a loan of 18.5 million USDT and 11.9 million BUSD from UNI V2. The malicious contract employed in the attack yielded a profit of 442 BNB, equivalent to $100K USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0xee6764ac7aa45ed52482e4320906fd75615ba1d1</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0x9a6b926281b0c7bc4f775e81f42b13eda9c1c98e</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0xbaf3e4841614eca5480c63662b41cd058ee5c85dc69198b29e7ab63b84bc866c</p>",
+        "date": "2023-06-21",
+        "fundsLost": "100000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BabyDoge",
+          "addresses": [
+            "0xc748673057861a797275cd8a068abb95a902e8de"
+          ]
+        }
+      },
+      {
+        "id": 3570,
+        "projectName": "IPO",
+        "description": "<p><strong>Quick Summary</strong></p><p>IPO project was rugpulled through custom pools by scammers who drained assets worth 585,153 $USD in two transactions</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>IPO is a BEP20 token trading on custom liquidity pools on Binance Smart Chain. The deployer created these pools with unverified source code, which allowed certain addresses to use privileged functions and drain the pool. On June 20, 2023, the pool was drained for 102,164 $USDT, part of a total loss amounting to 585,153 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x32e4152e2467a076151cb7150e77d1877318d079</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x7861f82209f8f6f82fb8b6ffbb0b3059c1227682</p><p>https://bscscan.com/address/0x35fef3c5642797a4383a07afe3ce7113cc7bfc7b</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xc18fbb466b6bd76ac8111028693792e1e60fef27</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x4b50a547b73739e9aa936ea90d2f15eaa967a20c</p><p><br></p><p>Draining Transactions:</p><p>https://bscscan.com/tx/0x6f678313d97bb7884f546f3a82fd80108eb76073fecad35ef1d76b6b47c65264</p><p>https://bscscan.com/tx/0xadfb6755e8966a8e7073a9b2bb2fb95e84b5605bca79746932c55554487fd161</p>",
+        "date": "2023-06-20",
+        "fundsLost": "585153",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "IPO",
+          "addresses": [
+            "0xb524a9a21702813f8ea7a79c16afcb5fb4660544",
+            "0x89b0a11cf540f9cea55165748097d8104c88e4ae",
+            "0x11c9279da13a3224e8821757434e25554a2f07d7"
+          ]
+        }
+      },
+      {
+        "id": 3571,
+        "projectName": "GUIDO The Mechanics",
+        "description": "<p><strong>Quick Summary</strong></p><p>GUIDO The Mechanics ($GUIDO) suffered a rugpull by deployer-related EOA, losing 62,695 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$GUIDO, an ERC20 token, experienced a significant liquidity drain from the UniSwap pool by an EOA address related to the token's deployer. The scammer was able to steal approximately 36 $ETH, which at the time was worth around 62,695 $USD. The stolen funds were subsequently moved across multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x5A39b896e3e9007704c70c242c53d88052BB64fe</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xF6B87e61d9963F535c0Ac54E982d3FbF34Bff8BA</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://etherscan.io/tx/0x8c444527950700eb60bda7b803c777869c1875395beece14f0e9b3a3151946e5</p><p><br></p><p>Funds Moving Transaction:</p><p>https://etherscan.io/tx/0x08a9c31d186a1da5d9e13898c094b8b7ff2fec46b63db723a9a975d9472f8ee5</p>",
+        "date": "2023-06-17",
+        "fundsLost": "62695",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GUIDO",
+          "addresses": [
+            "0x7907c5172ed24eb569f0c45141ce4e27851b9146",
+            "0xcc38b01ebbdd8fd5a0edfb01d4aa4f2f73a4758d"
+          ]
+        }
+      },
+      {
+        "id": 3572,
+        "projectName": "Midgets Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Midgets ($MIDGETS) project was rugpulled by its deployer, losing 40,842 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The $MIDGETS token, trading on the Ethereum blockchain, experienced a liquidity removal from its token contract by its deployer. The deployer exploited a privileged function to remove 24.52 $ETH, which was valued at approximately 40,842 $USD at the time. The stolen funds were then transferred to another EOA before eventually being sent to Binance Exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x82954D4CdF73333ad35FAbFf845daB5Bd84DA54b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x099925648f199793a7328382ba3ec1bf2158150bdffe494c74aec5e872683cbb</p><p><br></p><p>Funds Moving Transactions:</p><p>https://etherscan.io/tx/0x276d1df995403fe2f3d4705f3c6ff3471789de54164abd984fb2db0679438739</p><p>https://etherscan.io/tx/0x44c5389ffd1162c00f55cc7e5a08620b816f95ce02a51e7a676270196795f91f</p>",
+        "date": "2023-06-14",
+        "fundsLost": "40842",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MIDGETS",
+          "addresses": [
+            "0x917216459430b99034767416c21f54f82abb5db6"
+          ]
+        }
+      },
+      {
+        "id": 3573,
+        "projectName": "BAT Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Copycat BAT project was rugpulled by the initial token holder, draining 49,001 $USD from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A copycat $BAT token trading on the PancakeSwap experienced a significant drain of funds from its PancakeSwap liquidity pool. The initial token holder was able to remove approximately 49,001 $USD. Note: this incident involves a fake $BAT token, not related to any other projects with the same token symbol or name.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x0ca870faa7864fb3572897f49c221c6e6c7f28d2</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x732B60976A636fCE4C47dE4D6fffA2eb3Ee32D86</p><p><br></p><p>Liquidity Drain Transaction Example:</p><p>https://bscscan.com/tx/0x3a2ce503fbc0debf61d1127db4c6011cb09f3e56b77858a85fd4fc0ef5ee601b</p><p><br></p><p>Funds Moving Transaction Example:</p><p>https://bscscan.com/tx/0xd99c7175db812a2c8faa825be5ae6b3ab930a75b59ac5a5a86501d66d375d6f7</p>",
+        "date": "2023-06-16",
+        "fundsLost": "49001",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BAT",
+          "addresses": [
+            "0xbd2f6b7a19f2449675f7432d29d1dc1150ccd08f",
+            "0x4aeaae8554078235d1a5ff04f86ca0bdcd594319"
+          ]
+        }
+      },
+      {
+        "id": 3574,
+        "projectName": "EthBread Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>EthBread project was rugpulled by multiple addresses, who drained 786,574 $USD from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$ETB, a token on Binance Smart Chain, experienced a significant liquidity drain from PancakeSwap. After initially distributing $ETB tokens to multiple addresses on February 16, 2023, large-scale removal of liquidity took place on June 25, 2023. Multiple addresses, linked to the deployer, collectively removed approximately 786,574 $USD from the ETB/USDT pool. One of the directly associated addresses removed liquidity amounting to 135,291 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x9f73c549987bd122f21273c990c11ebba1903070</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x77f5a5c24fbf94510e80ecfc7b0958df2db28a93</p><p>https://bscscan.com/address/0xe4ce32ead1bf70c809e60466052832ad14478d5a</p><p>https://bscscan.com/address/0xba9ca72faba425caaa17e092b561c48531936c41</p><p>https://bscscan.com/address/0x28dd1a9c93bc6567e0108ef9c9e063219dada196</p><p><br></p><p>Funds Holder Addresses:</p><p>https://bscscan.com/address/0x92c58163912546204947dB0803A556214B0e8E08</p><p>https://bscscan.com/address/0x7772ffa03836a1d91d78a95a7fb71d6bc62999a4</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xdeef572dda06671eca9479176261bbc6bf2c0dd77f4dfd54feb88c0ae2d40da8</p><p>https://bscscan.com/tx/0x4a2612b8a47e534151aec1109c59555504ebfdc2c98de065db0145752dfc336e</p><p>https://bscscan.com/tx/0xe6974fc08dc30103cb1f9e765e8afd92463b503d702b6b98527dc4ab6d9c06f0</p>",
+        "date": "2023-06-25",
+        "fundsLost": "786574",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ETB",
+          "addresses": [
+            "0xc84e1748376781c09703c1292d9dd659ebfc0c8b",
+            "0x21bf72f4b7bb8f3b229f8a2169c908db859db366"
+          ]
+        }
+      },
+      {
+        "id": 3575,
+        "projectName": "Shido Global",
+        "description": "<p><strong>Quick Summary</strong></p><p>Shido Global was exploited due to a smart contract configuration error, resulting in a loss of 235,458 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Shido Global, a Cosmos-based blockchain with EVM compatibility, was exploited due to a configuration error in the lock and claim mechanism, as well as the price difference between their old and new token pools in PancakeSwap. The attacker initially took a flash loan of 40 $BNB and swapped it to obtain a large amount of Shido tokens. Then, the attacker exploited a flaw in the ShidoLock contract that allowed them to convert v1 tokens to v2 tokens at a large scale. Finally, the exploiter swapped these tokens for 1,016 WBNB, repaid the flash loan, and made away with a profit of roughly 977 $BNB which is worth $235,458 USD. The stolen funds were transferred through Celer Bridge.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0x69810917928b80636178b1bb011c746efe61770d</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0xcdb3d057ca0cfdf630baf3f90e9045ddeb9ea4cc</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x72f8dd2bcfe2c9fbf0d933678170417802ac8a0d8995ff9a56bfbabe3aa712d6</p><p><br></p><p>Bridging Transactions:</p><p>https://bscscan.com/tx/0x2de117d308f7f001bf3dad70cce6347c8cf26f254d7ee68cbf14370bc8c8c99f</p><p>https://bscscan.com/tx/0x2a1b7601f4a5960cca232e3d1abdca89a34b02948b79b59ac07f18edaacc69bb</p>",
+        "date": "2023-06-23",
+        "fundsLost": "235462",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "SHIDO",
+          "addresses": [
+            "0xaf0ca21363219c8f3d8050e7b61bb5f04e02f8d4"
+          ]
+        }
+      }
+    ]
+  }
+}

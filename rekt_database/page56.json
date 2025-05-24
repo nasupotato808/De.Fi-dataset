@@ -1,0 +1,776 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2877,
+        "projectName": "Electrum",
+        "description": "<p><strong>Quick Summary</strong></p><p>Electrum Wallet Phishing Attack Leads to Loss of 243.6 BTC</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A malicious actor created a fake version of the Electrum wallet, tricking users into providing their password information. The attacker managed to steal nearly 250 bitcoins (243.6 BTC, approximately $1 million). Electrum confirmed the phishing attack and reminded users to only download Electrum from the official website.</p><p><br></p>",
+        "date": "2020-01-19",
+        "fundsLost": "17700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2878,
+        "projectName": "PlusToken",
+        "description": "<p><strong>Quick Summary</strong></p><p>The perpetrators of one of the largest digital currency frauds have been sentenced to up to 11 years in prison. In addition, the PlusToken operators were penalized up to $900,000 by a Chinese court for their participation in the $2.25 billion Ponzi scam.<br><strong><br>Details of the Exploit</strong><br>Chen Bo established PlusToken in early 2018, posing as a South Korean wallet and exchange. It enticed investors by promising speedy and guaranteed returns. In the two years afterwards, Bo has recruited numerous others and spread the fraud to other Southeast Asian nations such as China, Cambodia, Malaysia, Vanuatu, and Vietnam.<br><br>PlusToken operators had devised a pyramid scheme that managed to lure over 2.6 million investors, authorities said. The scam was organized into at least 3,200 investor levels, with more referrals and bigger investments bumping an investor up the chain. The operators also lied to investors that they were making money through digital currency investing, according to investors.</p>",
+        "date": "2019-12-16",
+        "fundsLost": "2900000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2879,
+        "projectName": "Ronin",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Ronin bridge has been exploited for 173,600 Ethereum and 25.5M USDC.</p><p><br></p><p><strong>Details of the Exploit &nbsp;</strong></p><p>The Ronin Network, an Ethereum-based sidechain hosts the prominent play-to-earn game Axie Infinity.</p><p>The project team discovered that on March 23rd that Sky Mavis’s Ronin validator nodes and Axie DAO validator nodes were compromised resulting in 173,600 Ethereum and 25.5M USDC drained from the Ronin bridge in two transactions:<br>https://etherscan.io/tx/0xc28fad5e8d5e0ce6a2eaf67b6687be5d58113e16be590824d6cfa1a94467d0b7<br>https://etherscan.io/tx/0xed2c72ef1a552ddaec6dd1f5cddf0b59a8f37f82bdda5257d9c7c37db7bb9b08<br><br>The attacker used hacked private keys in order to forge fake withdrawals. The validator key scheme is set up to be decentralized so that it limits an attack vector, but the attacker found a backdoor through a gas-free RPC node, which they abused to get the signature for the Axie DAO validator. Binance managed to identify and recover $5,8 million in funds spread across 86 accounts that had been moved to their exchange. In the aftermath of the Ronin bridge hack a Binance led funding round raised $150 million in order to partially repay users and ensure that operations will be sustained</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The hacker's address on Ethereum:<br>https://etherscan.io/address/0x098b716b8aaf21512996dc57eb0615e2383e2f96</p>",
+        "date": "2022-03-29",
+        "fundsLost": "625000000",
+        "fundsReturned": "155800000",
+        "chaindIds": [],
+        "category": "Bridge",
+        "issueType": "Access Control",
+        "token": {
+          "name": "RON",
+          "addresses": [
+            "0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2"
+          ]
+        }
+      },
+      {
+        "id": 2880,
+        "projectName": "Upbit",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 27, 2019, 342,000 ETH was transferred from the Upbit Ethereum hot wallet to an unknown wallet.</p><p><br></p><p><strong>Block Data Reference</strong><br style=\"color: rgb(102, 102, 102); font-family: &quot;Noto Sans KR&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">The address of the unknown wallet:<br>https://etherscan.io/address/0xa09871aeadf4994ca12f5c0b6056bbd1d343c029</p>",
+        "date": "2019-11-27",
+        "fundsLost": "51200000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2881,
+        "projectName": "VinDAX",
+        "description": "<p>VinDAX, a little-known cryptocurrency exchange in Vietnam, has been hacked, resulting in the loss of \"half a million USD\" in cryptocurrencies.<br><br>VinDAX has lost funds via 23 cryptocurrencies. The admin declined to share further information but said: \"We have made a full recovery from this attack,\" without providing details.</p>",
+        "date": "2019-11-08",
+        "fundsLost": "500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2882,
+        "projectName": "CoinTiger",
+        "description": "<p>In July 2019, Singapore-based CoinTiger exchange admitted that cybercriminals had stolen a cold wallet, that contained over 400 million Proton Tokens (PTT). It was subsequently able to lock the wallet that contained the stolen PTT. &nbsp;Unfortunately, by the time it located the wallet, 120 million PTT had already been traded out.</p>",
+        "date": "2019-08-17",
+        "fundsLost": "1800000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2883,
+        "projectName": "Ola.finance",
+        "description": "<p>The attacker's address:<br>https://explorer.fuse.io/address/0x371D7C9e4464576D45f11b27Cf88578983D63d75/transactions<br><br>The example transaction behind the exploit:<br>https://explorer.fuse.io/tx/0x1b3e06b6b310886dfd90a5df8ddbaf515750eda7126cf5f69874e92761b1dc90/token-transfers<br><br>The hack is made possible by the incompatibility between the Compound fork and ERC677/ERC777-based tokens, which have the built-in callback functions exploited to allow for reentry in <u>doTransferOut</u>() function and draining of the loan pool.<br><br>The attacker was initially funded by Tornado in Ethereum:<br>https://etherscan.io/tx/0x98c46fc95b196ca35b2acb2e02bb9b6901df6a9a2e356629e9cbb42017a24efb<br><br>After the exploit execution, funds were delivered back into Ethereum and transferred to the following wallet:<br>https://etherscan.io/address/0xbcdb800d77ccaac6597830b026d6af78a1118f42</p>",
+        "date": "2022-03-31",
+        "fundsLost": "3600000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2884,
+        "projectName": "Bitpoint",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bitpoint, a Tokyo-based cryptocurrency exchange, lost approximately 3.5 billion yen ($32 million) due to a security breach involving unauthorized access to the private keys of its hot wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The security breach occurred when unauthorized individuals gained access to the private keys of Bitpoint's hot wallet. The exchange noticed an error in the outgoing funds transfer system and promptly suspended its services. The total loss from this breach amounted to approximately 3.5 billion yen, which is roughly equivalent to $32 million.</p><p><br></p><p><br></p>",
+        "date": "2019-07-12",
+        "fundsLost": "32000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2885,
+        "projectName": "Bitmarket",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bitmarket, a Polish cryptocurrency exchange, abruptly ceased operations due to a loss of liquidity.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>In the days leading up to the cessation of operations, Bitmarket enforced mandatory changes to user passwords and API keys. Additionally, all withdrawals were halted under the pretext of additional KYC requirements. The abrupt closure of the exchange left users in the dark, with many speculating about the possible reasons behind the sudden loss of liquidity.</p><p><br></p>",
+        "date": "2019-07-08",
+        "fundsLost": "27100000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2886,
+        "projectName": "Bitcoin Norway",
+        "description": "<p>A small Norwegian cryptocurrency exchange has refunded its users after falling victim to a SIM swap and phishing hack, reportedly losing $1m worth of digital assets.<br><br>A judge at a Sør-Rogaland District Court hearing ruled that Bitcoins Norway CEO Ole-André Torjussen distributed an appropriate refund amount.</p>",
+        "date": "2019-07-04",
+        "fundsLost": "1000000",
+        "fundsReturned": "1000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2887,
+        "projectName": "Soxex",
+        "description": "<p>According to PeckShield digital asset escort system (AML) data, the Soxex exchange was suspected of running away. The exchange website has been unable to open, swept away hundreds of millions of investors' funds, involving BTC, ETH, HT, OKB, and many other mainstream currencies.<br><br>According to some addresses submitted by victims (incomplete statistics), PeckShield security personnel locked the flow of target assets (USDT part) and found that the target addresses starting with 1G8cEC and 1GLsou aggregated over 1 million USDT. After one or two transfers, a total of 1 million USDT was transferred to the Huobi exchange starting with 1HckjU.</p>",
+        "date": "2019-07-04",
+        "fundsLost": "1000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2888,
+        "projectName": "Bitrue",
+        "description": "<p>Singapore-based crypto exchange Bitrue has suffered a major hack, losing 9.3 million XRP and 2.5 million cardano (ADA) from its hot wallet.<br><br>At the time of the breach — 1 a.m. GMT+8 June 27 — the stolen funds would have been worth over $4.5 million in XRP (valued at $0.488) and $237,500 in ADA (valued at $0.095), according to CoinMarketCap data.<br><br>The exchange states that a purportedly single hacker first “exploited a vulnerability in our Risk Control team's 2nd review process to access the personal funds of about 90 Bitrue users,” subsequently using this first experience to access the exchange’s hot wallet and steal the cryptocurrency.<br><br>Any user accounts that were affected by the breach have had their assets replaced</p>",
+        "date": "2019-06-26",
+        "fundsLost": "5000000",
+        "fundsReturned": "5000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2889,
+        "projectName": "Bitsane",
+        "description": "<p>Bitsane, an Irish cryptocurrency exchange, has apparently vanished in a multimillion-euro fraud. Over 100 people have lost between €5,000 (~$5,700) and €132,000 (~$150,000).<br><br>Bitsane reportedly went offline on June 17 and its Twitter and Facebook accounts have also been deleted. On June 19, one Twitter user posted that he can’t withdraw XRP from Bitsane:<br><br>One user named Shane Johnson, who claims to be “a US Army veteran,” tweeted that he is missing over $7000 worth of crypto in Bitsane:<br>https://twitter.com/MrShaneson/status/1143943208398983168<br><br>Another user from India, named Vikas Tak, tweeted that Bitsane closed their exchange “without any notice” and that he is unable to recover his 6,400 XRP tokens:<br>https://twitter.com/VikasTa96623196/status/1143760208222494720</p>",
+        "date": "2019-06-17",
+        "fundsLost": "570000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2890,
+        "projectName": "Token.Store",
+        "description": "<p><strong>Quick Summary</strong></p><p>The team working on the Token.Store wallet decided to close and leave with the users' funds, taking $160 million.<strong><br></strong></p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>Token.Store is a decentralized cryptocurrency exchange launched in July 2017.</p><p>Token.Store meant itself as a centralized exchanger like Binance, FX, with a good development team, user data protection and conscientious owners. In practice, it turned out to be a scam project that at some point \"ran away\" from its users, investors, while taking a billion $CNY including $BTC, $XRP, $ETH and other currencies.</p>",
+        "date": "2019-06-11",
+        "fundsLost": "160000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2891,
+        "projectName": "GateHub",
+        "description": "<p><strong>Quick Summary</strong></p><p>GateHub's XRP Ledger wallets were compromised, resulting in a loss of approximately 23,200,000 XRP (nearly $9.5 million).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GateHub was alerted by its customers and community members about the theft of funds from their wallets. The company initiated an investigation and discovered increased API calls from a few IP addresses, which could be the method the hacker used to access encrypted secret keys. The hack was first noticed when a theft of 201,000 XRP was reported. The offending account had stolen substantial amounts from several other XRP accounts, likely managed through GateHub. As of June 5, approximately 23,200,000 XRP was stolen from 80–90 victims, of which around 13,100,000 XRP had already been laundered through exchanges and mixer services.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The offending account's address:</p><p>https://xrpscan.com/account/r9do2Ar8k64NxgLD6oJoywaxQhUS57Ck8k</p>",
+        "date": "2019-06-06",
+        "fundsLost": "10000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2892,
+        "projectName": "Coinroom",
+        "description": "<p>Polish cryptocurrency exchange Coinroom has reportedly shut down its operations and disappeared with customer funds.<br><br>Money.pl, a local business news outlet, received an email from one of its readers, who stated that Coinroom — &nbsp;which was registered in 2016 — ceased operations overnight and disappeared with customers’ money in April. Some users say they had up to 60,000 zloty (around $15,790) in their accounts.<br><br>Before ceasing its operations, Coinroom reportedly sent emails to its customers, containing information about contract terminations. Coiroom customers had only one day to withdraw their money, which was in accordance with Coinroom regulations signed by users. However, customers reportedly claim that some of them got only part of the money, while most of them did not receive their funds back at all.</p>",
+        "date": "2019-06-03",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2893,
+        "projectName": "Kraken",
+        "description": "<p><strong>Quick Summary</strong></p><p>A hacker exploited the illiquid BTC/CAD pair on Kraken, causing a 99% drop in the Bitcoin-to-Canadian Dollar (CAD) pair.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker gained access to a compromised account with 1200BTC but was unable to withdraw. The attacker then placed his own limit of $100 buy orders on the illiquid BTC/CAD pair. Returning to the compromised account, the attacker dumped the 1200BTC on the BTC/CAD pair to himself, effectively becoming the legitimate owner of 1200BTC.</p><p><br></p>",
+        "date": "2019-06-02",
+        "fundsLost": "10500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2894,
+        "projectName": "Coinbase",
+        "description": "<p>A Coinbase client lost all funds from their account through a SIM port hack.<br><br>The attacker ported the victim's SIM card to a phone that they control. The attacker then initiated the password reset flow on the victim's email account. A verification code was sent from the email provider to the victim's phone number — which was intercepted by the attacker. The attacker received all access and drained the Coinbase wallet.</p>",
+        "date": "2019-05-22",
+        "fundsLost": "100000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2895,
+        "projectName": "Binance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Binance's hot wallet was hacked, leading to a loss of 7,074 bitcoins (BTC) worth nearly $42.8 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The breach resulted in about 7,074 bitcoins (BTC) — worth nearly $42.8 million — being stolen from the exchange’s hot wallet. The transaction had 44 outputs, 21 of which were native Segregated Witness addresses, and those addresses received 99.97% of the funds. The funds from those 44 addresses have since been moved to seven addresses, six of which hold 1,060.6 BTC, while one holds 707.1 BTC.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The transaction behind the attack:</p><p>https://www.blockchain.com/btc/tx/e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea</p><p><br></p><p>Further movements of the stolen funds:</p><p>https://twitter.com/Coinfirm_io/status/1126116760732749824</p>",
+        "date": "2019-05-07",
+        "fundsLost": "41700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2896,
+        "projectName": "BitoPro",
+        "description": "<p>An unknown user of the Taiwanese exchange BitoPro falsified a deposit in the XRP cryptocurrency and withdrew 7 million coins ($2.17 million) from the exchange. The mechanism of this exploit was described in detail by the Bitrue exchange:<br>https://twitter.com/BitrueOfficial/status/1123992201015509002<br><br>The attacker claimed to have sent 330,000 XRP, but actually transferred only 0.003255 XRP marked as a partial payment \"tfPartialPayment\".<br><br>According to XRPScan, the attacker sent a lot of payments to the BitoPro wallet address, the value of which did not exceed 0.003255 XRP on average. Also, the registry displays two transactions of 3 million XRP, which were successfully credited to the account by the exchange:<br>https://xrpscan.com/account/rERfHy4YmDbKxsuFmzPBhMQCGyFrAGvbra</p>",
+        "date": "2019-05-02",
+        "fundsLost": "2170000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2897,
+        "projectName": "Bithumb",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bithumb suffered an insider attack leading to abnormal withdrawals but managed to recover approximately $14m.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bithumb detected unusual withdrawals through their monitoring system. The incident was an \"accident involving insiders.\" The exchange's EOS hot wallet began sending EOS to the attacker's address. The company realized the attack was ongoing and started to move the funds to the cold storage wallet, which was not compromised. Bithumb admitted that it had only focused on protection from outside attacks and did not verify its staff.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://bloks.io/account/ifguz3chmamg</p><p><br></p><p>The exchange hot wallet:</p><p>https://bloks.io/account/g4ydomrxhege</p><p><br></p><p>Bithumb's claim about $14m recovery:</p><p>https://www.econotimes.com/Bithumb-claims-recovery-of-14M-in-hacked-cryptocurrencies-1396613</p>",
+        "date": "2019-03-29",
+        "fundsLost": "19200000",
+        "fundsReturned": "14000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2898,
+        "projectName": "CoinBene",
+        "description": "<p><strong>Quick Summary</strong></p><p>CoinBene exchange was targeted by hackers, with an estimated loss of $45 million in Coinbene Coin and Maximine Coin.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CoinBene, a cryptocurrency exchange, admitted to being targeted by hackers. Despite the platform's assurance that all funds are \"100% secure\", industry experts have contested this claim. According to cryptocurrency expert Nick Schteringard, the hacker appears to have stolen roughly $6 million in Coinbene Coin and $39 million in Maximine Coin, which were later dumped on the market.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's addresses:</p><p>- https://etherscan.io/address/0x6585329751de1140d68bd6cad1b46ebec1131f75</p><p>- https://etherscan.io/address/0xb3df999c5dc026dea265aeb02b8519844c9b6d5e</p><p><br></p><p>Stolen funds:</p><p>- Coinbene Coin ($6M)</p><p>- Maximine Coin ($39M)</p><p>The platform has promised to fully compensate any users who lost funds due to this incident.</p><p><br></p>",
+        "date": "2019-03-26",
+        "fundsLost": "45000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2899,
+        "projectName": "Biki",
+        "description": "<p>Biki.com, a crypto asset exchange established in Singapore, stated in the announcement that the exchange underwent a Verification code attack between midnight and 7:30 on the 25th, and some user accounts and passwords were tampered with. The company has closed all withdrawals and OTC transactions.<br><br>Biki said they would offer a reasonable compensation plan as soon as the damage situation was confirmed.</p>",
+        "date": "2019-03-25",
+        "fundsLost": "123000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": "BIKI",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2900,
+        "projectName": "DragonEx",
+        "description": "<p>DragonEx announced on their official Telegram channel, stating that, on Sunday, March 24, it had suffered a cyberattack that saw cryptocurrency funds owned by users and the exchange \"transferred and stolen.\"<br><br>20 cryptocurrencies in total were stolen. The list included the top-five coins by market capitalization: Bitcoin (BTC), Ether (ETH), XRP, Litecoin (LTC), and EOS, as well as the Tether (USDT).</p>",
+        "date": "2019-03-24",
+        "fundsLost": "6030000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2901,
+        "projectName": "Netbox",
+        "description": "<p>The Etbox platform wallet was hacked, causing the platform’s digital assets to be stolen.</p>",
+        "date": "2019-03-24",
+        "fundsLost": "132000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2902,
+        "projectName": "Coinbin",
+        "description": "<p><strong>Quick Summary</strong></p><p>Coinbin employees<strong>&nbsp;</strong>exploited access to private keys, leading to bankruptcy and shutdown of the project.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An employee of Coinbin allegedly had access to the private keys of multiple accounts. The employee was able to exploit this access to siphon off funds from these accounts. As a result of this exploit, Coinbin was forced to file for bankruptcy and shut down operations, leaving users without access to their funds.</p><p><br></p>",
+        "date": "2019-02-20",
+        "fundsLost": "26000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2903,
+        "projectName": "QuadrigaCX",
+        "description": "<p><strong>Quick Summary</strong></p><p>QuadrigaCS owes its customers approximately 190,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>According to a court petition, the troubled Canadian crypto exchange QuadrigaCX owes its clients $190 million and is unable to access the majority of the assets.<br><br>Jennifer Robertson, the widow of QuadrigaCX founder Gerald Cotten, stated in a signed document filed Jan. 31 with the Nova Scotia Supreme Court that the exchange owes its clients around $250 million CAD ($190 million) in both bitcoin and cash. The firm previously declared on its website that it had filed for creditor protection, but the document itself reveals further information about its plight.<br><br>According to the petition, there were around 115,000 individuals with balances signed up on the exchange as of January 31, 2019, with $70 million CAD in fiat and $180 million CAD in crypto owing altogether.<br><br>Cotten reportedly died of Crohn’s disease in Jaipur, India in early December 2018. The exchange announced his death earlier this month. A death certificate was included in the list of exhibits. The founder seemingly had sole control or knowledge of Quadriga’s cold storage solution. Robertson wrote that after his death, “Quadriga’s inventory of cryptocurrency has become unavailable and some of it may be lost.”</p>",
+        "date": "2019-02-04",
+        "fundsLost": "147000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2904,
+        "projectName": "LocalBitcoins",
+        "description": "<p>A security vulnerability occurred at the prominent over-the-counter Bitcoin exchange LocalBitcoins. Attackers were able to replace the official URL to the exchange's forum with a false link that took visitors to a phony website that looked like the discussion board but gathered information from users who tried to join in.<br><br>The attackers utilized the information they gathered to steal 7.9 Bitcoin (about $27,000 at the time) from at least six user accounts.</p>",
+        "date": "2019-01-26",
+        "fundsLost": "27000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2905,
+        "projectName": "Electrum",
+        "description": "<p>The hacker setup a whole bunch of malicious servers.<br><br>The hacker's wallet:<br>https://www.blockchain.com/btc/address/1MkM9Q6xo5AHZkLv2sTGLYb3zVreE6wBkj</p><p><br></p><p>If someone's Electrum Wallet connected to one of those servers and tried to send a BTC transaction, they would see an official-looking message telling them to update their Electrum Wallet, along with a scam URL:<br>https://user-images.githubusercontent.com/29142493/50359293-8780b500-055c-11e9-8cfd-83b342edeffb.png<br><br>\"There is an ongoing phishing attack against Electrum users. Our official website is https://electrum.org Do not download Electrum from any other source.\" - Electrum stated.</p>",
+        "date": "2018-12-27",
+        "fundsLost": "949000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2906,
+        "projectName": "MapleChange",
+        "description": "<p>Maplechange announced the hack, which took place one day after it had conducted “maintenance” to revamp its website. It claimed that “due to a bug, some people have managed to withdraw all the funds” it had been holding. The exchange said it had launched a “thorough investigation” and insisted that it couldn’t offer refunds to customers until it had concluded its probe. “We are extremely sorry that it has to come to end like this,” it added.</p>",
+        "date": "2018-10-28",
+        "fundsLost": "5880000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2907,
+        "projectName": "Trade.io",
+        "description": "<p><strong>Quick Summary</strong></p><p>Trade.io experienced a security breach resulting in the loss of over 50 million Trade tokens (TIO) from its cold storage wallets.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>An unknown party managed to withdraw 50 million TIO tokens from Trade.io's cold storage wallets. These tokens were meant to be allocated for the Liquidity Pool. The stolen funds were the company's backup cryptocurrency, held in reserve for peak trading activity. An estimated 1.3 million of the stolen tokens were transferred to both Bancor and Kucoin.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The Etherscan records of the stolen funds:</p><p>https://etherscan.io/token/0x80bc5512561c7f85a3a9508c7df7901b370fa1df</p><p>The transactions to Bancor and Kucoin:</p><p>https://etherscan.io/tx/0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37991</p><p>https://etherscan.io/tx/0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37992</p>",
+        "date": "2018-10-20",
+        "fundsLost": "9000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2908,
+        "projectName": "Zaif",
+        "description": "<p><strong>Quick Summary</strong></p><p>Licensed Japanese crypto exchange Zaif was hacked, and 59,000,000 $USD worth of assets was stolen in $BTC, $BCH and MonaCoin</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The licensed exchange, called Zaif, is operated by the Tech Bureau. It said on Thursday that the exchange first noticed an unusual outflow of funds on the platform around 17:00 Japan time on September 14, after which the company suspended asset deposit and withdrawal services.<br><br>Tech Bureau explained that after further investigation, it discovered that hackers with unauthorized access to the exchange's hot wallets had stolen roughly $60 million in Bitcoin, Bitcoin Cash, and MonaCoin. That being said, the exact amount of bitcoin cash stolen remains unknown.<br><br>Tech Bureau said given the nature of the unauthorized fund access, it has filed the incident as a criminal case to local authorities for further investigation.</p>",
+        "date": "2018-09-14",
+        "fundsLost": "59000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2910,
+        "projectName": "Bithumb",
+        "description": "<p><strong>Quick Summary</strong></p><p>Bithumb, South Korea's leading virtual currency exchange, suffered a hack resulting in a loss of cryptocurrencies worth $30 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bithumb noticed abnormal access and as a result, moved a large amount of Ethereum to its cold wallet. Despite this, hackers managed to steal cryptocurrencies valued at about $30,000,000. Bithumb has assured that the stolen cryptocurrencies will be covered by them and all remaining assets are being transferred to a cold wallet for safety.</p><p><br></p><p>Stolen funds:</p><p>- Cryptocurrencies worth $30M</p><p><br></p><p><br></p><p><br></p>",
+        "date": "2018-06-19",
+        "fundsLost": "30000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2911,
+        "projectName": "Coinrail",
+        "description": "<p><strong>Quick Summary</strong></p><p>Coinrail, a South Korean cryptocurrency exchange, was hacked resulting in a loss of up to $40 million in various ERC-20-based tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Coinrail experienced a \"cyber intrusion\" which led to the theft of a variety of ERC-20-based tokens from the platform. The exchange has suspended operations following the incident. The exact amount lost is not specified but reports suggest it could be up to $40 million.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The hacker's address:</p><p>https://etherscan.io/address/0xf6884686a999f5ae6c1af03db92bab9c6d7dc8de</p>",
+        "date": "2018-06-10",
+        "fundsLost": "40000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2912,
+        "projectName": "Taylor",
+        "description": "<p>Taylor has been hacked for 2,578 ETH (about $1.5 million) as well as some of its TAY tokens.<br><br>The hacker's address:<br>https://etherscan.io/address/0xf243209d0623207fc9f2e9068084f6884a5f1053<br><br>According to a Medium blog post the company published, what truly happened isn’t yet clear, although several indicators point them towards a group of hackers that hacked another project dubbed CypheriumChain for more than 17,000 ETH (about $9.8 million).</p><p><br></p><p>The hacker(s), according to Taylor, collected its funds from multiple sources in a single wallet, before transferring them to a larger one:<br>https://etherscan.io/tx/0x878b3b29aa0e3a216373fd72662b213beaa0921a7ecaff0314fbcd453f4c83e8</p><p><br></p><p>After the theft, the organization’s team managed to identify an attempt to dump its TAY tokens on the decentralized cryptocurrency exchange IDEX:<br>https://etherscan.io/address/0xf243209d0623207fc9f2e9068084f6884a5f1053#tokentxns</p>",
+        "date": "2018-05-21",
+        "fundsLost": "1580000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": "TAY",
+          "addresses": [
+            "0xC4d557d795ce16c49624E48045b380f169e4113f"
+          ]
+        }
+      },
+      {
+        "id": 2913,
+        "projectName": "MyEtherWallet",
+        "description": "<p>Hackers diverted visitors of MyEtherWallet.com, accessing user accounts and stealing approximately 215 ether.<br><br>MyEtherWallet warned users on Reddit and Twitter as soon as the hack was identified. But, this left a couple of hours where users of the wallet attempting to visit the MyEtherWallet.com website were redirected to a “spoof” or phishing site controlled by the hackers.</p><p><br></p><p>The hack employed the “decade-old” technique of redirecting Domain Name Servers (DNS) rather than a hack, or weakness in, MyEtherWallet.<br><br>It was quickly identified that over 150k worth of ETH had been stolen in the DNS hack with 179 transactions totaling 216.06 ETH sent to:<br>https://etherscan.io/address/0x1d50588c0aa11959a5c28831ce3dc5f1d3120d29</p>",
+        "date": "2018-04-24",
+        "fundsLost": "150000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2914,
+        "projectName": "Coinsecure",
+        "description": "<p>Coinsecure announced the heist, valued at $3.3 million. The CEO of the bitcoin exchange, Mohit Kalra, has accused his Chief Strategy Officer (CSO) of stealing 438 Bitcoin from the operator’s main wallet.<br><br>The issue was reported by the exchange after consumers complained about difficulty withdrawing funds from the platform. The exchange notified users through email and issued an official statement clarifying the incident: “We regret to inform you that our bitcoin funds have been exposed and seem to have been siphoned out to an address that is outside our control”.<br><br>Coinsecure added a scanned copy of a police complaint CEO Mohit Kalra filed with the New Delhi police. Kalra filed an FIR (First Information Report) with the Cyber Cell of Delhi. According to the exchange, Chief Strategy Officer Amitabh Saxena is at the center of the incident. The company claims the funds were lost while he was extracting Bitcoin Gold to distribute to their customers.</p>",
+        "date": "2018-04-12",
+        "fundsLost": "3200000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2915,
+        "projectName": "Blockchain.com",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The Ukrainian hacker group Coinhoarder stole more than $50 million worth of cryptocurrency from the well-known cryptocurrency wallet Blockchain.info, according to a report by Cisco’s information security subsidiary Talos.</span></p><p><br></p><p><strong>Details of the Exploit</strong><br>The report describes how hackers used a \"very simple\" but very dangerous technique to deceive victims. Hackers buy cryptocurrency-related keyword ads on Google’s search engine, “poison” users’ search results, and then steal assets from cryptocurrency wallets. This means that when people search for keywords such as \"blockchain\" or \"bitcoin wallet\" on Google, they will see links to malicious websites masquerading as legitimate websites.<br><br>These malicious links may be \"blockchien.ino/wallet\" or \"block-clain.info\". After clicking on these links, the user is taken to a landing page that mimics the real website. According to Cisco's report, genuine websites rank lower than malicious links in Google's search engine rankings.</p>",
+        "date": "2018-02-19",
+        "fundsLost": "50000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2916,
+        "projectName": "BlackWallet",
+        "description": "<p>A DNS hijack has led to hackers withdrawing $400,000 worth of Stellar Lumen (XLM) coins from wallets hosted by Blackwallet.co without users’ permission.<br><br>As multiple sources reported, attackers took control of BlackWallet’s hosting server, changing settings to allow code to run which automatically sent customer balances over 20XLM to an address under the hackers’ control.<br><br>The hacker's wallet:<br>https://stellarchain.io/address/GBH4TZYZ4IRCPO44CBOLFUHULU2WGALXTAVESQA6432MBJMABBB4GIYI</p>",
+        "date": "2018-01-13",
+        "fundsLost": "400000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2917,
+        "projectName": "EtherDelta",
+        "description": "<p>The DNS server of decentralized cryptocurrency exchange EtherDelta was successfully breached by an attacker, enabling the hacker to redirect users to a malicious website.<br><br>Consequently, the hacker was able to steal funds from users who unknowingly imported their private keys into the impostor's website.<br><br>According to data obtained from the Ethereum blockchain, it appears that the hacker stole approximately 308 ether — worth approximately $250,000.<br><br>The hacker's address:<br>https://etherscan.io/address/0x3f8a37bde9b15b65c82f9cdd00192e0ba36cc5fc</p>",
+        "date": "2017-12-20",
+        "fundsLost": "251000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2918,
+        "projectName": "Youbit",
+        "description": "<p><strong>Quick Summary</strong></p><p>DB Insurance denies Yapian's claim of 3 billion won (~USD$2.65 million) following a cyber attack.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DB Insurance, one of South Korea’s largest property-and-casualty insurers, denied the claim of 3 billion won (~USD$2.65 million) by Yapian, a South Korean exchange. The insurer claimed that Yapian violated the 'advance notice obligation', which requires the company to disclose important information prior to obtaining insurance. This information is used to calculate premiums. Yapian filed bankruptcy after allegedly losing 17% of its assets in December of last year due to a cyber attack. The company suffered damage of 17.2 billion won (~$15.2 million) last year.</p>",
+        "date": "2017-12-19",
+        "fundsLost": "10000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2919,
+        "projectName": "NiceHash",
+        "description": "<p><strong>Quick Summary</strong></p><p>Crypto-mining marketplace NiceHash reported about a hack on their website. 64,000,000 worth $BTC was stolen.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NiceHash is a Slovenia-based cryptocurrency-mining marketplace. The project confirmed that its website was breached and the payment system compromised, with the contents stored in its Bitcoin wallet stolen. The losses reportedly amount to nearly 4,700 $BTC or 64,000,000 $USD.<br><br>NiceHash posted a statement on its website addressing the incident. “Unfortunately, there has been a security breach involving the NiceHash website. We are currently investigating the nature of the incident and, as a result, we are stopping all operations for the next 24 hours.”</p><p><br></p><p><strong>Block Data Reference</strong><br>The hacker's address:<br>https://www.blockchain.com/btc/address/1EnJHhq8Jq8vDuZA5ahVh6H4t6jh1mB4rq</p>",
+        "date": "2017-12-06",
+        "fundsLost": "64000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2920,
+        "projectName": "Tether",
+        "description": "<p><strong>Quick Summary</strong></p><p>Tether's systems were exploited by an external hacker, resulting in a loss of $30,950,010 USDT tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Tether, a dollar-pegged cryptocurrency, was targeted by an external hacker who managed to steal $30,950,010 USDT from the Tether Treasury wallet. The stolen tokens were sent to an unauthorized Bitcoin address. Tether has stated that it will not redeem any of the stolen tokens and is in the process of attempting token recovery to prevent them from entering the broader cryptocurrency ecosystem</p>",
+        "date": "2017-11-19",
+        "fundsLost": "30950010",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Stablecoin",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2921,
+        "projectName": "Parity",
+        "description": "<p><strong>Quick Summary</strong></p><p>513,000 $ETH has been locked and maintained unreachable on Parity contracts after the user accidentally killed it.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On November 6th, 2017, Github user devops199 posted the following statement under the Github issues section of the Parity Multi-Sig Library: “I accidentally killed it”:<br>https://github.com/openethereum/parity-ethereum/issues/6995<br><br>Just moments earlier, devops199 exploited a vulnerability within the smart-contract library code, blocking funds in 587 wallets holding a total of 513,774.16 Ether as well as various other tokens.<br><br>On November 6th, the transaction was sent to WalletLibrary, which called the <u>initWallet</u> method:<br>https://etherscan.io/tx/0x05f71e1b2cb4f03e547739db15d080fd30c989eda04d37ce6264c5686e0722c9<br><br>This transaction ended up making the 0xae7168deb525862f4fee37d987a971b385b96952 the sole owner. The transaction, which called the <u>kill</u> method of <u>WalletLibrary</u> with 0xae7168deb525862f4fee37d987a971b385b96952 as the beneficiary address:<br>https://etherscan.io/tx/0x47f7cff7a5e671884629c93b368cb18f58a993f4b19c2a53a8662e3f1482f690<br><br>Approximately 30 minutes later, Devops199 created Parity issue #6995 to document what had just occurred:<br>https://github.com/openethereum/parity-ethereum/issues/6995<br><br>Devops199 posted a link to the issue in the Parity gitter channel, asking “Is this serious issue?” He then followed up by asking “Will I get arrested for this?”. It seemed as though Devops199 failed to understand the consequences of what he had done, by stating “I’m eth newbie..just learning”.</p><p><br>About three hours later, Parity released a warning on Twitter:<br>https://twitter.com/ParityTech/status/927850992145719296</p>",
+        "date": "2017-11-08",
+        "fundsLost": "155000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2922,
+        "projectName": "OKEx",
+        "description": "<p>On Aug. 28, a user reported that his OKEx account was logged in by a German IP and participated in BTC-ETC trading. The hacker sold all the Bitcoins and canceled all the pending orders within one hour.<br><br>Such behavior has resulted in a loss of 200 Bitcoins, which are worth more than five mln yuan.<br><br>At the same time, a few other users reported similar attacks. All victims have lost about six hundred Bitcoins in total, worth over 20 mln yuan (about three mln dollars).<br><br>Based on the current situation, OKEx has made an announcement.<br><br>OKEx claimed that the theft was performed by hackers, and it has nothing to do with the platform. The victims were directed to call the police by themselves.</p>",
+        "date": "2017-10-02",
+        "fundsLost": "3000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2923,
+        "projectName": "Coinis",
+        "description": "<p>In September 2017, there was an accident where coins stored in the hot wallet of the Coinis service were withdrawn by external hacking. After recognizing the situation, an emergency convened all employees to additionally prevent withdrawals due to external hacking, and security measures such as changing the system access password were implemented.<br><br>The total amount of damage due to this hack is about 2.1 billion won as of the closing price of September 22, about 508 BTC were withdrawn in total.</p>",
+        "date": "2017-09-21",
+        "fundsLost": "1930000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2924,
+        "projectName": "Control Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>A massive Ponzi scheme was revealed on the Bitcoin chain. Control Finance was fraudulently promoted as a cryptocurrency investment company.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The regulator filed an enforcement action complaint against the United Kingdom-based company and its director for “fraudulently obtaining and misappropriating” at least 22,858.822 &nbsp;Bitcoin, then worth $147 million. Per the complaint, the scam has victimized over 1,000 customers.<br><br>The allegedly fraudulent entity claimed that the investors would receive daily trading profits of 1.5 percent and up to 45 percent in monthly profits. It also claimed to have used risk diversification methods to protect customers’ Bitcoin deposits.<br><br>However, the US regulator found out that the company did not make a single trade with the collected funds. To deceive the victims, it projected fake balances on their accounts and also published reports with false data.</p>",
+        "date": "2017-09-10",
+        "fundsLost": "147000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2925,
+        "projectName": "Enigma",
+        "description": "<p>Enigma, a decentralized platform that was preparing to raise money via a crypto token sale, had its website and a number of social accounts compromised with the perpetrators netting nearly $500,000 by sending out spam.<br><br>Enigma, which was started by a group of MIT graduates, did not lose any money from the attack. Whoever orchestrated it grabbed money from the Enigma community, people who joined the company’s mailing list, or a Slack group of over 9,000 users to learn more about its ICO in September.<br><br>The hacker posted Slack messages, altered the website, and spoofed emails to a community list that were made to look official and urged money to be sent to their crypto wallet.<br><br>That’s netted the hacker 1,492 in Ether (worth $494,170.68), according to Etherscan:<br>https://etherscan.io/address/0x29d7d1dd5b6f9c864d9db560d72a247c178ae86b<br><br>Users on Reddit found that Enigma CEO Guy Zyskind’s email was accessed by the hacker. His email had been part of hacking of different services in the past and had been dumped on the internet, but seemingly Zyskind had not taken the time to change the password:<br>https://www.reddit.com/r/ethtrader/comments/6v0vei/warning_enigma_website_and_slack_probably_hacked/</p>",
+        "date": "2017-08-21",
+        "fundsLost": "500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2926,
+        "projectName": "BTC-e",
+        "description": "<p><strong>Quick Summary</strong></p><p>The popular Russian bitcoin exchange BTC-e suddenly stopped working. On Twitter, it was written that the exchange is under \"server maintenance\".</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BTC-E is now a closed online trading platform for fiat currencies and cryptocurrencies in real time, focused primarily on Russian—speaking users.</p><p>Compliance-as-a-service company Coinfirm discussed the BTC-e situation and the 66,000 Bitcoins moved.<br>According to Pawel Kuskowski, CEO &amp; Co-Founder at Coinfirm, right after the arrest of Alexander Vinnik, broadly referred to as the mastermind behind BTC-e, over 66,000 BTC were moved from 18f1yugoAJuXcHAbsuRVLQC9TezJ6iVRLp across the Bitcoin ecosystem.<br>Founded in 2011, BTC-e was one of the world's largest and most widely used digital currency exchanges. Cybercriminals around the world used it to launder and liquidate illegally obtained digital currencies, according to the U.S. indictment.<br>The exchange had no anti-money laundering controls or policies and was found to have received criminal proceeds of ransomware attacks, identity theft schemes, computer breaches and other hacking incidents, as well as corrupt public officials and narcotics distribution rings, according to the indictment. Between 2011 and December 2016, bitcoin addresses and digital wallets associated with BTC-e received over 9.4 million bitcoins, according to the federal indictment.</p>",
+        "date": "2017-07-26",
+        "fundsLost": "181000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": [
+            "18f1yugoAJuXcHAbsuRVLQC9TezJ6iVRLp"
+          ]
+        }
+      },
+      {
+        "id": 2927,
+        "projectName": "Parity",
+        "description": "<p><strong>Quick Summary</strong></p><p>Parity multisig wallet has been attacked by a hacker in two transactions, taking profit of $34M.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker had drained 153,037 ETH from three high-profile multi-signature contracts used to store funds from past token sales. The attacker's address:<br>https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32<br><br>The attacker sent two transactions to each of the affected contracts: the first to obtain exclusive ownership of the MultiSig, and the second to move all of its funds.<br><br>1st transaction (call to <u>initWallet</u>):<br>https://etherscan.io/tx/0x9dbf0326a03a2a3719c27be4fa69aacc9857fd231a8d9dcaede4bb083def75ec<br><br>2nd transaction:<br>https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c<br><br>This function was probably created as a way to extract the wallet’s constructor logic into a separate library. The wallet contract forwards all unmatched function calls to the library using <u>delegatecall</u><br><br>This causes all public functions from the library to be callable by anyone, including <u>initWallet</u>, which can change the contract’s owners. Unfortunately, <u>initWallet</u> has no checks to prevent an attacker from calling it after the contract was initialized. The attacker exploited this and simply changed the contract’s <u>m_owners</u> state variable to a list containing only their address, and requiring just one confirmation to execute any transaction:<br>https://etherscan.io/tx/0x9dbf0326a03a2a3719c27be4fa69aacc9857fd231a8d9dcaede4bb083def75ec<br><br>After that, the attacker executed the function to send all funds to an account controlled by the attacker:<br>https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32</p><p><br></p>",
+        "date": "2017-07-19",
+        "fundsLost": "34000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xb3764761e297d6f121e79c32a65829cd1ddb4d32"
+          ]
+        }
+      }
+    ]
+  }
+}

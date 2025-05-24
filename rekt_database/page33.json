@@ -1,0 +1,956 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 1691,
+        "projectName": "MirrorFinance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MIRROR",
+          "addresses": [
+            "0xc4ed3a941401499357e57c1e2198be6c26af0f4a"
+          ]
+        }
+      },
+      {
+        "id": 1692,
+        "projectName": "SafeComet",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SAFECOMET",
+          "addresses": [
+            "0x3f9c961e53bbf55750e2c689bbfdf338ea9a7382"
+          ]
+        }
+      },
+      {
+        "id": 1693,
+        "projectName": "Gundam Finance BSC",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GUNDAM",
+          "addresses": [
+            "0x6a80bfd03edee874e25c6744508c4afab83a70c3"
+          ]
+        }
+      },
+      {
+        "id": 1694,
+        "projectName": "unimex",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "unimex",
+          "addresses": [
+            "0x8835fa96a5f7bf02b183ecb089ba75da70c5327e"
+          ]
+        }
+      },
+      {
+        "id": 1695,
+        "projectName": "Rage.fan",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-28",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RAGE",
+          "addresses": [
+            "0x034f9e67af90233805c88ab3a8bd84880b4b0c42"
+          ]
+        }
+      },
+      {
+        "id": 1696,
+        "projectName": "Worn.Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "WORN",
+          "addresses": [
+            "0xe9e86d0f04638f9da86e974c1062f2bc64fbd2f5"
+          ]
+        }
+      },
+      {
+        "id": 1697,
+        "projectName": "BubbaGump",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BubbaG",
+          "addresses": [
+            "0x44bffe6232418449c3a091ff6cd7878d3bde8f7a"
+          ]
+        }
+      },
+      {
+        "id": 1698,
+        "projectName": "SafeMcDc",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "Safe McDonalds Coin",
+          "addresses": [
+            "0xa2283a716c116a6e7db118e05b5aa99b1feca365"
+          ]
+        }
+      },
+      {
+        "id": 1699,
+        "projectName": "HARDOX PROTOCOL",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "HARDOX",
+          "addresses": [
+            "0x635e00e54554afae4d692335965f115e767ba9d3"
+          ]
+        }
+      },
+      {
+        "id": 1700,
+        "projectName": "unidog bsc",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "unidog",
+          "addresses": [
+            "0x36232abc55cb9430d5b95e06669cfc2cdb64a737"
+          ]
+        }
+      },
+      {
+        "id": 1701,
+        "projectName": "Polkamon.com",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PMON",
+          "addresses": [
+            "0x3f56c726b2323e59fe792723d11a4afc1f922cdd"
+          ]
+        }
+      },
+      {
+        "id": 1702,
+        "projectName": "HedgeDog BSC Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "HDOG",
+          "addresses": [
+            "0x82001043eae6b5aea437dbb7e64526f270c88a98"
+          ]
+        }
+      },
+      {
+        "id": 1703,
+        "projectName": "SafeAndromeda",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SAFEANDROMEDA",
+          "addresses": [
+            "0x07ee0f12ed9e04d07fd4d35a7411e5da285ff342"
+          ]
+        }
+      },
+      {
+        "id": 1704,
+        "projectName": "sushibox",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "sushibox",
+          "addresses": [
+            "0xa102c6ce62b04f5e2d7e97b05386cc1eb30f993b"
+          ]
+        }
+      },
+      {
+        "id": 1705,
+        "projectName": "SecureTheBag",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "STB",
+          "addresses": [
+            "0x04338b543dd185db558bb7b469f5c334a897b9be"
+          ]
+        }
+      },
+      {
+        "id": 1706,
+        "projectName": "SpaceShip",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "WARP",
+          "addresses": [
+            "0x2c471ab5c7ab73f06176c785b97ac78b59ffc489"
+          ]
+        }
+      },
+      {
+        "id": 1707,
+        "projectName": "DeversiFi Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-03-26",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "DVF",
+          "addresses": [
+            "0xfb19ddcda9a7005b168c7e84911fc5f88066dfc9"
+          ]
+        }
+      },
+      {
+        "id": 1708,
+        "projectName": "Lemond Protocol",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "LEMD",
+          "addresses": [
+            "0xf86e9cb1c01910a76098019bb87f35a047544529"
+          ]
+        }
+      },
+      {
+        "id": 1709,
+        "projectName": "unibox",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "unibox",
+          "addresses": [
+            "0x65432700e891adaae50d5dc606fa110c1b059bf4"
+          ]
+        }
+      },
+      {
+        "id": 1710,
+        "projectName": "Redshift",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RED",
+          "addresses": [
+            "0x125df9d51556b3e5619ddaa0734084f31fc4faba"
+          ]
+        }
+      },
+      {
+        "id": 1712,
+        "projectName": "Safe Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SAFEINU",
+          "addresses": [
+            "0x6357865d91ebc7d772c53d90c3c3ae750197acbc"
+          ]
+        }
+      },
+      {
+        "id": 1713,
+        "projectName": "KISHU INU",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "KishuINU",
+          "addresses": [
+            "0x588f22fa5335a3b062945ee2c7246e94b5663e53"
+          ]
+        }
+      },
+      {
+        "id": 1714,
+        "projectName": "Singularity",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SIN",
+          "addresses": [
+            "0xea7b97bac4486aef08b76ac976c67fa2e3222f26"
+          ]
+        }
+      },
+      {
+        "id": 1715,
+        "projectName": "Blowfish Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BFSH",
+          "addresses": [
+            "0x2a6d46fe4a0f9ee5ba350e77cf621ed0a74451b4"
+          ]
+        }
+      },
+      {
+        "id": 1716,
+        "projectName": "Australian Safe Shepherd",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ASS",
+          "addresses": [
+            "0x3b394fe0cb5dad0a2eecd439dc108d769b1b2b72"
+          ]
+        }
+      },
+      {
+        "id": 1717,
+        "projectName": "Payship.Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PSHP",
+          "addresses": [
+            "0x2a044644475256bde3cc33282fb37efd676ac22f"
+          ]
+        }
+      },
+      {
+        "id": 1718,
+        "projectName": "Bulldog Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BULL",
+          "addresses": [
+            "0x00b10982010c28e093209fbc2c09582c780c4504"
+          ]
+        }
+      },
+      {
+        "id": 1719,
+        "projectName": "ChowChow Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CHOW",
+          "addresses": [
+            "0x471b9597efd741a3d50eb9958af61b6aab484b07"
+          ]
+        }
+      },
+      {
+        "id": 1720,
+        "projectName": "Ursa Major",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "URSA",
+          "addresses": [
+            "0xb486d4c4de6200fed48b2fb90527dc75a913360b"
+          ]
+        }
+      },
+      {
+        "id": 1721,
+        "projectName": "MarsStop",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-20",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MARSSTOP",
+          "addresses": [
+            "0x2c8ef110073b556992942fdc017a54a38f947e6a"
+          ]
+        }
+      },
+      {
+        "id": 1722,
+        "projectName": "Rocket Dog",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RDOG",
+          "addresses": [
+            "0xece51078af2f09a23a0928bf9e581766d79a6d26"
+          ]
+        }
+      },
+      {
+        "id": 1723,
+        "projectName": "Nova",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NOVA",
+          "addresses": [
+            "0x62dbbb0b727829357fce38bddec79cbeae819f4e"
+          ]
+        }
+      },
+      {
+        "id": 1724,
+        "projectName": "DirtyPig",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PIG",
+          "addresses": [
+            "0x3ab81681b2bf16d8ca065dc549c65882f8fbcd0c"
+          ]
+        }
+      },
+      {
+        "id": 1725,
+        "projectName": "Papillon Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PPL",
+          "addresses": [
+            "0x8e69befc01e0fdc6eb88f350142206b9bf7ca89e"
+          ]
+        }
+      },
+      {
+        "id": 1726,
+        "projectName": "Moon Chow",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MCHOW",
+          "addresses": [
+            "0x770b08a018fa5c152229589e287b79e7daae01c6"
+          ]
+        }
+      },
+      {
+        "id": 1727,
+        "projectName": "UNIDOG",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "UNIDOG",
+          "addresses": [
+            "0x6703bec801f9d2f441093c18e251172837914a1d"
+          ]
+        }
+      },
+      {
+        "id": 1728,
+        "projectName": "Pug Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PUG",
+          "addresses": [
+            "0x0d5be6ed4fddfd6d5c584badf4ee8ecaa50400c5"
+          ]
+        }
+      },
+      {
+        "id": 1729,
+        "projectName": "Starshot",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "STARSHOT",
+          "addresses": [
+            "0x09e3b539128b962133e0ef9e49b24159c424841e"
+          ]
+        }
+      },
+      {
+        "id": 1730,
+        "projectName": "Big Cheese Token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CHEESE",
+          "addresses": [
+            "0xb20b7f6f803e292a3d37aae66a4b67eec4ab636e"
+          ]
+        }
+      },
+      {
+        "id": 1731,
+        "projectName": "Dehive.finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "DHV",
+          "addresses": [
+            "0xac5fb7b1d3ae920d5fe85b30bd3c90ee11d65a3d"
+          ]
+        }
+      },
+      {
+        "id": 1732,
+        "projectName": "Xend.finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-02-17",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "XEND",
+          "addresses": [
+            "0x7b2d6633f56c05f76409ae236a2036f07232bbfa"
+          ]
+        }
+      },
+      {
+        "id": 1733,
+        "projectName": "Coordinape",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-18",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CAPE",
+          "addresses": [
+            "0x5674d4536fcd7a924696078b15865c4fab9f3597"
+          ]
+        }
+      },
+      {
+        "id": 1734,
+        "projectName": "Plethori",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "PLE",
+          "addresses": [
+            "0x4c9d1312a2a518f69556dd59018efbf748e838bb"
+          ]
+        }
+      },
+      {
+        "id": 1735,
+        "projectName": "unifarm.co",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-19",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "UFARM",
+          "addresses": [
+            "0x3cb1d2ae493993f170a88a8ec688c9d6605ddb00"
+          ]
+        }
+      },
+      {
+        "id": 1736,
+        "projectName": "Rocket Cat",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RCAT",
+          "addresses": [
+            "0x0bea926edbb10e921d50a18db509b58f97b49c45"
+          ]
+        }
+      },
+      {
+        "id": 1737,
+        "projectName": "Comet",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-18",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "COMET",
+          "addresses": [
+            "0xfe7a11797fdb677bb093160fa4de90b82f00595e"
+          ]
+        }
+      },
+      {
+        "id": 1738,
+        "projectName": "Magnet Attraction",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-18",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MAGNET",
+          "addresses": [
+            "0x92db92ab5d16305a84f8d1e70a93f88571cd4f6d"
+          ]
+        }
+      },
+      {
+        "id": 1739,
+        "projectName": "Gorillaz Sanctuary",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GRLZ",
+          "addresses": [
+            "0x683ab7b78e1a31d5f2efacdcdcc4da460e203292"
+          ]
+        }
+      },
+      {
+        "id": 1740,
+        "projectName": "Andromeda",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ANDROMEDA",
+          "addresses": [
+            "0x293bda9903d41f5575f72fbdfb108e4b8cc17c0f"
+          ]
+        }
+      },
+      {
+        "id": 1741,
+        "projectName": "Moon Send",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-04-17",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MOONSEND",
+          "addresses": [
+            "0x9a16c819d9b593b549f094a54fccbeaf990555c4"
+          ]
+        }
+      }
+    ]
+  }
+}

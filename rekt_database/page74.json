@@ -1,0 +1,974 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 3837,
+        "projectName": "Orbit Chain",
+        "description": "<p><strong>Quick Summary</strong></p><p>Orbit Chain suffered a private key compromise exploit on Dec 31, 2023, resulting in a loss of 81,540,000 USD worth of various assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Orbit Chain, a South Korean cross-chain project, experienced a private key compromise exploit on its Orbit Bridge. The attacker drained funds from the Bridge Contract, swapping them to ETH and DAI, and distributing the stolen assets among several EOA addresses. The attacker was funded via TornadoCash, and some experts tie the incident to the Lazarus Group, a global hacking syndicate. The Orbit Chain team is working with law enforcement agencies to investigate the incident. Blockchain experts suggests that the root cause is the compromise of 7 out of 10 multisig signers wallets. The team sent an on-chain message to the exploiter, warning that some transactions were detected in 'C' exchange and calling for discussion.</p><p>Losses reached 81,540,000 USD worth assets in total, including:</p><p>&nbsp;- 30,000,000 USDT</p><p>&nbsp;- 9,530 ETH</p><p>&nbsp;- 10,000,000 DAI</p><p>&nbsp;- 10,000,000 USDC</p><p>&nbsp;- 230.879 WBTC</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x9263e7873613ddc598a701709875634819176aff</p><p><br></p><p>Funds Holders as of January 6, 2024:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x009b60aab8e64c8f5fe449bd96fa78b1a7fffcc5</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x5e22cb028865d6a93080d7ab42d2fe9a0e8dc085</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x3a886a63c768665a9830886e608d6f9dc6b4f730</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x157a409c2bfff38209a32e55d3eac1bfc93dd664</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0xf49de491e1c0d84a0e0bd2d57a841825fcf179fd</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x589257E07e11E761f31956d54b2323F63ee36B7D</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x817bb1761B715a08A9142F99fA7d0cCF73F4C0EF</span></span></p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xd8ca42941a0a2c25669267ad8d61f7f9f4118252cb502316602fe16624b80ac8</p><p>https://etherscan.io/tx/0x64a6f486c20671e1389b3c7948d46733325c407245a86bf510cb69ef401a3f0e</p><p>https://etherscan.io/tx/0x639d27e564214411ad8eb06cf00d85cd90f83503a53ab5bf35dd5c6e1148ae0a</p><p>https://etherscan.io/tx/0xe0bada18fdc56dec125c31b1636490f85ba66016318060a066ed7050ff7271f9</p><p>https://etherscan.io/tx/0xafdc36278fcef8d54824b09ec019147cfe2afd995abf6754e52d273a2c1b07ca</p><p>https://etherscan.io/tx/0x958aeec58ea2f0f9700adda24e43fb76f9e052e4c20773f180c49d7529d95f16</p><p><br></p><p>TornadoCash Funding Transaction:</p><p>https://etherscan.io/tx/0x5e35f4b1886d62543cc027b5c0ef54aac3901a25c37d8ea6b1ab8861c9bd09dd</p>",
+        "date": "2023-12-31",
+        "fundsLost": "81551234",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x1Bf68A9d1EaEe7826b3593C20a0ca93293cb489a"
+          ]
+        }
+      },
+      {
+        "id": 3838,
+        "projectName": "xKingdom.tech Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>XKING token was rugpulled on Arbitrum resulted in a loss of 1,247,503 USD, with funds laundered through Tornado Cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>XKING is an ERC20 token operating on the Arbitrum network. The deployer removed liquidity from the LP pool, leading to an exit scam in which approximately 1.24 million USD (553.49 ETH) was stolen. The scammer then transferred the stolen funds from the Arbitrum chain to the Ethereum Mainnet and laundered them using Tornado Cash. All associated addresses, websites, and social media accounts have been deleted.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://arbiscan.io/address/0x63686C5F6eDD84fcdbb446987A37fBe7bC4110cB</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0xCA1214fa5236E23b6D20aB8563AcA26be3a474c6</p><p>https://etherscan.io/address/0xeF7DD2264F41107Ba90ec7d3b88444F987d6A13D</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://arbiscan.io/tx/0xa855adf1da7b2a23fde865bbb3e97d9bb80c5a660cf2970d776e5ccd7ae35145</p><p><br></p><p>Tornado Cash Deposits:</p><p>https://etherscan.io/tx/0xe120d8b9fcd9fbfda11112b96eaf42f7a4ceba2500320f337c0cddfa71062a18</p><p>https://etherscan.io/tx/0x2ddefe6a981cea335f3a3eaaf1f7a52d6708f86e55326af3799fa2228a16720d</p><p>https://etherscan.io/tx/0xf881b31d9f792da55074b022d2b78dd26bd85835b8d682b555f7d100bc4c1b1e</p>",
+        "date": "2023-01-06",
+        "fundsLost": "1247503",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "XKING",
+          "addresses": [
+            "0xf05f2fa8f169eed50110f3f80b4aa712a758be96"
+          ]
+        }
+      },
+      {
+        "id": 3839,
+        "projectName": "Narwhal",
+        "description": "<p><strong>Quick Summary</strong></p><p>NRW token on Pancake Swap exploited, resulting in a loss of 1,563,286 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NRW is a BEP-20 token trading on Pancake Swap. On Jan 5-6, 2024, the token's contract was exploited in two transactions. It is suspected that the signer's private key was compromised or the information was forged. The attacker called the withdraw() function and passed in the signer info. The stolen funds were transferred to other EOAs and contracts, and later withdrawn through Stargate Finance.Total loss was 1,563,286 USD.It is suspected,that it was an unintentional exploit.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Addresses:</p><p>https://bscscan.com/address/0x9481b7c8f83A7BB3E8e3648b453d6Eb59dFFcC30</p><p>https://bscscan.com/address/0xEa55BAEF29dc70799fAec4E2896b4D16A750E568</p><p><br></p><p>Malicious Transactions:</p><p>https://bscscan.com/tx/0xdae78f80dc000e44912bf43f04f4df32070c7139c1e7ef416fbe2b9e1911eb2a</p><p>https://bscscan.com/tx/0x3d0cd7be297199f4e48629993e5f90fae7e2a78f6571d27e376f036c0beadd9c</p><p><br></p><p>Token Creator Address:</p><p>https://bscscan.com/address/0x6eAC08858b0e2F4747070c7d80eC1E3b51435bb7</p>",
+        "date": "2024-01-05",
+        "fundsLost": "1563286",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "NRW",
+          "addresses": [
+            "0x8A2DF808CCb0DB866C5C152412D1718929143f53"
+          ]
+        }
+      },
+      {
+        "id": 3840,
+        "projectName": "CoinPanda_ETH",
+        "description": "<p><strong>Quick Summary</strong></p><p>COINPANDA token was rugpulled by scammer, removing liquidity worth 80,554 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>COINPANDA is an ERC20 token trading on UniSwap. On December 3, 2023, the scammer removed liquidity from the LP pool, totaling 33.56 WETH, which was equivalent to 80,554 USD. A large portion of the stolen funds were deposited into Tornado Cash, while the remaining amount was transferred to another EOA. The project's website and Twitter account have been deleted.The deployer of token sent 1.92 ETH to the scammer address after exitscam.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x6923D0dC4cEf24373f5B7024cDa446faaec4c18C</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x4b50156e58fE1bF242DD85881e6337AC626B70ce</p><p><br></p><p>Transaction between Deployer and Scammer:</p><p>https://etherscan.io/tx/0xaaedbd246bca97c1f07deff4daff4ae517a48354d0bc612c1e6e568835afc454</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x5d7101f3decb88d200cef49a20f04b49349bb89d57c00fec70ab2fe8db48c01c</p>",
+        "date": "2023-12-03",
+        "fundsLost": "80554",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "COINPANDA",
+          "addresses": [
+            "0xbbdce1ed0986106e9efca252a1b24aaf6c34876c"
+          ]
+        }
+      },
+      {
+        "id": 3841,
+        "projectName": "Gamma Strategies",
+        "description": "<p><strong>Quick Summary</strong></p><p>Gamma Strategies, a decentralized asset management protocol, suffered a price manipulation attack, resulting in a loss of 6,412,750 $USD worth 2,825 $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On Jan 4, 2024, Gamma Strategies was exploited through a series of attack transactions using flash loans from Uniswap and Balancer to manipulate pool prices. The primary issue was the deposit proxy settings related to the price change threshold (2), which was set too high, allowing for a -50% to +100% price change on certain LST and stablecoin vaults. This enabled the attacker to manipulate the price up to the threshold and generate an unusually high number of LP tokens. The attacker revealed a flaw in the deposit proxy configurations, specifically targeting stable and LST vaults. Although the vaults are equipped with four primary deposit protection measures against flash loans, the exploit highlighted a vulnerability in one of these safeguards. The hackers bridged stolen funds from the Arbitrum chain to the Ethereum network using the Stargate bridge and deposited part of the stolen funds into TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://arbiscan.io/address/0x5351536145610aA448A8bF85BA97C71cAf31909c</p><p><br></p><p>Funds Holder as of Jan 13, 2024:</p><p>https://etherscan.io/address/0xeA723Ce3fE103149873d4bEF21D8544A266cE224</p><p><br></p><p>Malicious Transactions:</p><p>https://arbiscan.io/tx/0x025cf2858723369d606ee3abbc4ec01eab064a97cc9ec578bf91c6908679be75</p><p>https://arbiscan.io/tx/0x1b9911770ef30e51ecec6992c623c79af9871e2898d34f2adaeb8a8ab1a75354</p><p><br></p><p>Malicious Contract Address:</p><p>https://arbiscan.io/address/0x4B57ADC00ac38f74506d29FC4080E3dc65b78A69</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0x7b2d95707d89bafffdbda772364d017aac7ec20412c417818d8b60aad40b80a9</p>",
+        "date": "2024-01-04",
+        "fundsLost": "6412750",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "GAMMA",
+          "addresses": [
+            "0x1F1Ca4e8236CD13032653391dB7e9544a6ad123E"
+          ]
+        }
+      },
+      {
+        "id": 3842,
+        "projectName": "Xai",
+        "description": "<p><strong>Quick Summary</strong></p><p>XAI token was rugpulled on Jan 9, 2024, removing liquidity, total worth 580,959 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>XAI is a BEP20 token trading on PancakeSwap. The deployer carried out an exit scam by removing liquidity from the LP pool in two separate transactions. Following the rugpull, the stolen funds were transferred to another EOA address and still remain in the scammer's address as BUSD as of Jan 13, 2024.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xB3Ff55389a10A115dbe69382e1F5cd77Fb0847DD</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x484fd20d8f1B4c5C6049cde316A4D9d9216C1f6B</p><p><br></p><p>Funds Holder as of Jan 13, 2024:</p><p>https://bscscan.com/address/0x1e33e335063F88D138c4b7F8CF034b85328B9FbA</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x19ba3032a6909454e31873f6692bb2d3778ff70ed21e0a39a22927e0f3a48f22</p><p>https://bscscan.com/tx/0xfa5454fc2e81f8862e152cc14e5ba6f2aed1d5f84d47632de36dedaef36923fc</p>",
+        "date": "2024-01-09",
+        "fundsLost": "580959",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "XAI",
+          "addresses": [
+            "0x1d152e6352493fce07f17a90823cd21c51815c81"
+          ]
+        }
+      },
+      {
+        "id": 3843,
+        "projectName": "Wise Lending",
+        "description": "<p><strong>Quick Summary</strong></p><p>Wise Lending protocol was exploited on Ethereum Mainnet, losing 178.19 ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Wise Lending is a decentralized lending and borrowing protocol. On January 12, 2024, the protocol was exploited on the Ethereum Mainnet due to a smart contract vulnerability, which resulted in a loss of over 178.19 ETH worth approximately $449,413 USD. The root cause of the exploit is due to the precision loss in smart contract operations. The exploiter took advantage of a nearly empty PLP-stETH-Dec2025 market in the protocol, which was deployed just a day prior to the attack incident, in order to inflate the share price. The attacker was funded by Tornado Cash and the stolen funds were transferred to another EOA.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xB90CF1d740B206B6d80854BC525E609Dc42B45Dc</p><p><br></p><p>Funds Holder as of Jan 16, 2024:</p><p>https://etherscan.io/address/0x592856d68B3FEE1D2dAa34CdC9851f3477C52530</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x04e16a79ff928db2fa88619cdd045cdfc7979a61d836c9c9e585b3d6f6d8bc31</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0x91c49Cc7FBfE8f70AceEb075952cD64817f9d82c</p>",
+        "date": "2024-01-12",
+        "fundsLost": "449413",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "WISE",
+          "addresses": [
+            "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6"
+          ]
+        }
+      },
+      {
+        "id": 3844,
+        "projectName": "HyperVerse",
+        "description": "<p><strong>Quick Summary</strong></p><p>HyperVerse crypto hedge fund collapses, resulting in a loss of approximately 1.3 billion USD for investors in an exit scam.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>HyperVerse, formerly known as HyperFund, was a cryptocurrency hedge fund that collapsed, causing significant losses for its investors. The fund was promoted by Australian entrepreneur Sam Lee and his business partner, Ryan Xu. The scheme operated under various names, including HyperFund and HyperVerse, and has been flagged by regulators overseas as a possible \"scam\" and \"suspected pyramid scheme.\" Investors were asked to pay in cryptocurrency for subscription packages, with rewards accumulating in \"hyper units\" at a daily rate of 0.5%. Similar to traditional pyramid schemes, members were also incentivized to recruit new members. While initial investors were able to cash out their hyper units, convert to other cryptocurrencies, or withdraw funds, many later investors lost their money. The total funds lost in this exit scam are estimated to be around 1.3 billion USD.</p>",
+        "date": "2022-01-01",
+        "fundsLost": "1300000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HVT",
+          "addresses": [
+            "0xaafa10755b3b1dbf46e86d973c3f27f3671ed9db"
+          ]
+        }
+      },
+      {
+        "id": 3845,
+        "projectName": "Socket",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Socket Protocol was exploited on January 16, 2024, which resulted in a loss of approximately $3.3 million worth of assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Socket is an interoperability protocol that enables data and asset transfers across chains, with Bungee being a bridge aggregator built on SocketLL by the Socket team. On January 16, 2024, the Socket protocol experienced a security incident affecting wallets with infinite approvals granted to Socket contracts. The exploit's root cause was incomplete validation of user inputs, allowing the attacker to steal funds from users who had approved tokens for the vulnerable contracts. The attack impacted approximately 712 users, with the stolen funds remaining in the attacker's address.</p><p>Losses included 165,356 MATIC, 2.8896 WBTC, 42.4753 WETH, and 13,821 DAI, resulting in a total loss of around 3,300,000 USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x50DF5a2217588772471B84aDBbe4194A2Ed39066</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x591d054a9db63f0976e533f447df482bed5f24d7429646570b2108a67e24ce54</p><p>https://etherscan.io/tx/0xc6c3331fa8c2d30e1ef208424c08c039a89e510df2fb6ae31e5aa40722e28fd6</p><p><br></p><p>Malicious Contract Addresses:</p><p>https://etherscan.io/address/0xa5f1e956d7085998ac65fb87c18dc498481f1c8e</p><p>https://etherscan.io/address/0xf2d5951bb0a4d14bdcc37b66f919f9a1009c05d1</p>",
+        "date": "2024-01-16",
+        "fundsLost": "3300000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x3a23f943181408eac424116af7b7790c94cb97a5"
+          ]
+        }
+      },
+      {
+        "id": 3846,
+        "projectName": "LongNoseDog",
+        "description": "<p><strong>Quick Summary</strong></p><p>LongNoseDog token exit scam occurred on Jan 18, 2024, with the deployer performing a rugpull and removing liquidity worth 309,749 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LongNoseDog is a copycat BEP20 token trading on PancakeSwap. On January 18, 2024, the token's deployer removed liquidity from the LP pool, performing an exit scam. The stolen funds, worth 309,749 USD or 998.71 BNB, were transferred through multiple EOA addresses to cover the attacker's tracks.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.io/address/0x10DD0BECb86830E7fe75B0FBcc6a7ae471083eb5</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.io/address/0xaa398476cebc3952369c00e08002d3731219f276</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.io/tx/0x8566f47b75c6ec7cd282a10e1b8fbe3dc3abddca6c37d6e58c9257215c528964</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.io/tx/0xe1e50f0dd772c4f812f878cf6df436a5a44ab31580b8ea8f5bb49dce2d63efca</p>",
+        "date": "2024-01-18",
+        "fundsLost": "309749",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LONG",
+          "addresses": [
+            "0xfae06de70e34d7390f1826dbfc7253e4328f29a5"
+          ]
+        }
+      },
+      {
+        "id": 3847,
+        "projectName": "Samudai",
+        "description": "<p><strong>Quick Summary</strong></p><p>Samudai DAO wallet compromise led to a loss of assets worth approximately $1,286,349 with funds laundered through Tornado Cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Samudai, a Decentralized Autonomous Organization (DAO), was exploited on November 10, 2023, presumably due to a compromise of their wallet access control. Both the multisignature wallet addresses of the protocol and the wallet of their founder appear to have been compromised, which led to a loss of 521.34 ETH in total. The stolen assets were all converted into ETH and then laundered into Tornado Cash. A part of the stolen funds, worth 21.34 ETH (amounting to $52,680), was deposited at eXch exchange through several addresses. The founder has issued an on-chain message offering a 10% bounty for returning funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x112f27dDCBaEC0958b000a79dB4730A2135761aF</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x7d3f66bdd5890a92383c42e1f94b4050e50e28483b9c440b746f9d11e9fbbedf</p><p>https://etherscan.io/tx/0xbbbc44bbb3f6b18b703c57ce97ef015d9d00d6900c6396846f1d42c52a0593a3</p><p><br></p><p>TornadoCash Deposit Transactions:</p><p>https://etherscan.io/tx/0xb4d6f5b0014fe29e06e529bfdda19d8bac416e068e4c8e31ad9b66c3a6a1c13e</p><p>https://etherscan.io/tx/0x687ecca1c1cb53a6740b6526b43d9176ae1e2d07756395bd9e22608a383fa8e2</p><p>https://etherscan.io/tx/0x1e3f7f586adcf11dbe40587e5f1dc6a416209469666442f0e0c87329a179360a</p><p><br></p><p>Founder's Message:</p><p>https://etherscan.io/tx/0x1199697252b603b95aa8a7bd8fa1012b1bdcd4a17dc9ee0d7347ba6a9424e5dc</p>",
+        "date": "2023-11-10",
+        "fundsLost": "1286349",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x074a70A097e7060A1d4E0424651aF7b26c500A6C",
+            "0x5990c93E10C3b36299A4B7e6306Cc2bC7d818cBe",
+            "0x8afdb350650e659c3d8cb892afbb989b785a172d"
+          ]
+        }
+      },
+      {
+        "id": 3848,
+        "projectName": "Rose Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Rosa Finance suffers $44,670 USD loss in flash loan attack on Arbitrum.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 18th, 2024, Rosa Finance, a decentralized non-custodial liquidity market protocol on Arbitrum, fell victim to a flash loan attack. The attacker exploited the project, stealing various cryptocurrencies including 12,601 DAI, 2,749 USDC, 0.2317 WBTC, 97.12 GMX, 3,873 ARB, and 3,396 PENDLE, amounting to a total loss of $44,670 USD. At the time of this report, the stolen funds remain in the attacker's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://arbiscan.io/address/0x54949211ca6cE328757D4138A474150D7BE4d1c8</p><p><br></p><p>Malicious Transaction:</p><p>https://arbiscan.io/tx/0xd54088b8a6a3345ea008991c1475f42b3ce67b49f41fa946bfb6072d48a02bf8</p><p><br></p><p>Malicious Contract:</p><p>https://arbiscan.io/address/0x6858f645D1f1031133203bd193d6A0e1D2B946e6</p>",
+        "date": "2024-01-18",
+        "fundsLost": "44670",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "ROSA",
+          "addresses": [
+            "0x811c8e96913645d14ceb1f472e2b48d0ea1323d0",
+            "0x7011c4b331dda0b6e5a85c61ec96caa4e5d3bb6e",
+            "0x2f9455a93a258d20910699012504db145ca1a714"
+          ]
+        }
+      },
+      {
+        "id": 3849,
+        "projectName": "Concentric Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Concentric Finance, a yield aggregator on Arbitrum, exploited via social engineering attack, losing $1,654,517 worth 715.7 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Concentric Finance is a yield aggregator project running on the Arbitrum chain. On January 22, 2024, the project suffered a severe security breach due to a targeted social engineering attack on one of the team members holding the deployer wallet. The attacker compromised the private key for the protocol's deployer account and used it to upgrade the vaults, mint new LP tokens, and subsequently drain the vaults of their assets, resulting in a loss of approximately $1,654,517 worth 715.7 WETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://arbiscan.io/address/0x105f52fcC329cEF4CBe25BC946f8a3738414E4A1</p><p><br></p><p>Funds Holders as of Jan 23, 2024:</p><p>https://arbiscan.io/address/0x17865c33e40814d691663bC292b2F77000f94c34</p><p>https://arbiscan.io/address/0x1F14E38666cDd8e8975f9acC09e24E9a28fbC42d</p><p>https://arbiscan.io/address/0xFD681A9aA555391Ef772C53144db8404AEC76030</p><p>https://arbiscan.io/address/0x5c0E945Fc1c83D8d10E9c6366E2cBC5241532AEc</p><p><br></p><p>Malicious Transactions:</p><p>https://arbiscan.io/tx/0x00554de194cb38fc13df9de672e7551ec876b921b73c81da185d7231c8e43bcd</p><p>https://arbiscan.io/tx/0xc2c73bafe207f4c141568405895ed79570ff4bbe9118d3d755390d9966cdd982</p><p>https://arbiscan.io/tx/0x146d7af43cc7c649bd9f3dc54160b09ab8343f94708c8cea1fe90926705f5f1f</p><p>https://arbiscan.io/tx/0xd9036566a2614045219e9bead34e490fc24c9d6ca695d5348b694c3280558e3b</p>",
+        "date": "2024-01-22",
+        "fundsLost": "1654517",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": "CONE",
+          "addresses": [
+            "0x39c1bc90ba23d4d95eafa9335ceb83e0826e7ea7"
+          ]
+        }
+      },
+      {
+        "id": 3850,
+        "projectName": "Unknown User",
+        "description": "<p><strong>Quick Summary</strong></p><p>The user lost 4.20 million in a phishing attack on Ethereum, resulting in a loss of 3,725,002 USD worth of aEthWETH and aEthUNI tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 21, 2024, a user fell victim to a phishing attack on the Ethereum network. The attacker exploited multiple ERC20 Permit signatures, using temp addresses pre-computed by CREATE2. The user lost 1576.04 aEthWETH and 39,933.12 aEthUNI tokens, equivalent to 3.72 million USD. The stolen funds were transferred to another EOAs and still remain in these addresses .</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x0000db5c8B030ae20308ac975898E09741e70000</p><p><br></p><p>Funds Holder as of Jan 23, 2024:</p><p>https://etherscan.io/address/0xd9b78d8346fa9b8235A5B1dF0F08F66358d557Bc</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x93a0ce0711edaf7664c26b3654095f1052010bb7da62c135b6ef0c425c0c2f09</p><p>https://etherscan.io/tx/0xbc43a531861422a233a2d4ba884288e752b7ecddb3c47b78e89896153d71b583</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0xed0e416e0fEEA5b484ba5c95d375545AC2b60572</p>",
+        "date": "2024-01-21",
+        "fundsLost": "3725002",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x1749ad951fb612b42dc105944da86c362a783487"
+          ]
+        }
+      },
+      {
+        "id": 3851,
+        "projectName": "JohnLennonC0IN",
+        "description": "<p><strong>Quick Summary</strong></p><p>BEATLES token was rugpulled by scammer, total loss worth more 11,336 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BEATLES is a BEP20 token trading on PancakeSwap.<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>When the token was created, the token creator sent tokens to three addresses, then a large number of tokens were sold,removed from the LP pool, frome these addresses.</span>The scammers used disperse.app to send funds to multiple addresses, then bought and sold tokens <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>from these addresses&nbsp;</span>, affecting the token price. The deployer did not buy or sell tokens, but both the deployer and scammers received funds from the same address, indicating a scam under the guise of an honest project. Stolen funds were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xBAb318f93e264A87eD4aCEA4A6c915d762b11B9F</p><p><br></p><p>Scammer's Addresses:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/</span>0x861091bE06faF1da35d582150549E33Efdaa7c4C</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/</span>0x4639026A19997DD8DF955C744f596374A9833EC8</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/</span>0xefbf0b013914deb5a0c7d49515cb3351c7961bcc</p><p><br></p><p>Liquidity Add Transaction:</p><p>https://bscscan.com/tx/0x22642d3dc3095efe08ff6fd42453aa034badf491f1403503ae78cf83b11ceb35</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xee3bdbc1b02512d3bca0ee0a9a862c7c85ab0a26916f2f4c2fea51983c8c357a</p><p>https://bscscan.com/tx/0x54348d4e1f31549d4fcce461b6acdbb042f4103363bc97c3c0b53807a0bef544</p><p><br></p><p>Transactions where the scammer got the tokens:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/tx/</span>0x83f76891fdd3f6f2594a725e9041b616d296c8b4954f44bc5d992bb75764f472</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/tx/</span>0x6307aca8ca155a50034a02f246291f13072e55eb4627cd013a48e8c16aa95b7c</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/tx/</span>0x2b3bb0258064e6705c1a6fe51d701d361d59dbae8490eca5f221170f1d91d6e6</p>",
+        "date": "2024-01-23",
+        "fundsLost": "11336",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BEATLES",
+          "addresses": [
+            "0x22d871B5A96641b104bCfef0d626a842D109bE4a"
+          ]
+        }
+      },
+      {
+        "id": 3852,
+        "projectName": "BasketDAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>BasketDAO exploited due to smart contract vulnerability, resulting in a loss of approximately $107,000 worth of assets (42.55 ETH).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BasketDAO, a decentralized platform, experienced an exploit on January 17, 2024, on the Ethereum Mainnet. The exploit was caused by a smart contract vulnerability, specifically an arbitrary low-level call in the approval process. This flaw led to a user losing over $107,070 worth of assets, equivalent to 42.55 ETH. The attacker was funded by FixedFloat and subsequently deposited the stolen funds into TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x63136677355840F26c0695dD6DE5C9E4f514f8e8</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x97201900198d0054a2f7a914f5625591feb6a18e7fc6bb4f0c964b967a6c15f6</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0xae5919160A646f5D80d89F7aaE35A2CA74738440</p><p><br></p><p>TornadoCash Deposit Transactions:</p><p>https://etherscan.io/tx/0x1fb689f8481a842d9342cbb78d3395988015bd6b6ff5445c97a74ecf78033057</p><p>https://etherscan.io/tx/0xa95ee3552623fe64915c10b1d4b6f060cd153105ca79fb4c584a8d46b51f4a7d</p>",
+        "date": "2024-01-17",
+        "fundsLost": "107070",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "BMI",
+          "addresses": [
+            "0x07d7685becb1a72a1cf614b4067419334c9f1b4d",
+            "0x4622aFF8E521A444C9301dA0efD05f6b482221b8"
+          ]
+        }
+      },
+      {
+        "id": 3853,
+        "projectName": "GAMEE",
+        "description": "<p><strong>Quick Summary</strong></p><p>Animoca Brands' GAMEE token exploited on Polygon chain, resulting in a loss of 600,000,000 GMEE tokens due to compromised deployer key.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 22,2024, Animoca Brands' GAMEE token was exploited on the Polygon chain due to unauthorized GitLab access and a compromised deployer key. The attacker accessed the GitLab repository containing the private key and exploited a vulnerability in the recoverERC721s() function, transferring 600 million GMEE tokens.The polygonscan explorer showed at the time when tokens were stole they were worth 16,352,814.<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The stolen tokens were swapped for MATIC&nbsp;</span>and a portion was bridged to the Ethereum chain, then deposited into Tornado Cash, and 199.7 million of GMEE tokens are still at the scammers address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://polygonscan.com/address/0x16afA519642C932B073CD21D82162BDc7a471b86</p><p><br></p><p>Funds Holder as of Jan 26, 2024:</p><p>https://polygonscan.com/address/0x44Ac627dF704f3D21afe93A5524f8E1fF393F179</p><p><br></p><p>Malicious Transactions:</p><p>https://polygonscan.com/tx/0x70f7e0376c25dcd0dd9263bdd3a1936e21253d734559411a2457be70c1861458</p><p>https://polygonscan.com/tx/0x9bf7dbf0b12136e257026e66d4c11791ace13ed6f23a8282245d67395b42b365</p><p>https://polygonscan.com/tx/0x2340cfdec11bfb71a5674f6ef7c37907140ec33ee59cc96949cdd9840745b849</p><p><br></p><p>Tornado Cash Deposits:</p><p>https://etherscan.io/tx/0xe8b5babbc9c182498340716acaad038db9b1266b141119d0c836f1837b95f426</p><p>https://etherscan.io/tx/0x7ff28241768fb8476762bc8383abde8f2b33a6fc79653284866e6d1baa1906f4</p>",
+        "date": "2024-01-22",
+        "fundsLost": "16352814",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": "GMEE",
+          "addresses": [
+            "0xcf32822ff397ef82425153a9dcb726e5ff61dca7",
+            "0x566b788de3969d35711f6a0fc543b00ed7260cdc"
+          ]
+        }
+      },
+      {
+        "id": 3854,
+        "projectName": "Nebula Revelation",
+        "description": "<p><strong>Quick Summary</strong></p><p>Nebula Revelation's staking contract suffered a reentrancy attack, resulting in a loss of 180,264 USD worth 81.3 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Nebula Revelation, a Web3 space-themed open-world game on Optimism, experienced a reentrancy attack on its staking contract on January 25, 2024. The root cause of the exploit was a lack of reentrancy protection in the withdrawal function of their contracts.Root cause: the withdrawNFL() did not have re-entry protection. The attacker used a self-destructing contract to complete all operations in one transaction, exploiting the security vulnerability. The stolen funds, amounting to 180,264 USD worth 81.3 WETH, were transferred and bridged to the Ethereum chain.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://optimism.etherscan.io/address/0x1fd0a6a5e232eeba8020a40535ad07013ec4ef12</p><p><br></p><p>Malicious Transaction:</p><p>https://optimism.etherscan.io/tx/0xf4fc3b638f1a377cf22b729199a9aeb27fc62fe2983a65c4d14b99ee5c5b2328</p><p><br></p><p>Malicious Contract Address:</p><p>https://optimism.etherscan.io/address/0xE4D41BDD6459198B33Cc795ff280cEE02d91087b</p><p><br></p><p>Self Destruct Contract Address:</p><p>https://optimism.etherscan.io/address/0xfc3b08555B1C328ECf8b8A0CCD85679bf59bBa4C</p><p><br></p><p>Hop Protocol, Bridged Transaction:</p><p>https://optimism.etherscan.io/tx/0x48beb06d6f1d8518b79985f00ade1646fc450b89be32d0bf9a406e631d6e99cb</p>",
+        "date": "2024-01-25",
+        "fundsLost": "180264",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Gaming / Metaverse",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": "NBL",
+          "addresses": [
+            "0x4b03afc91295ed778320c2824bad5eb5a1d852dd"
+          ]
+        }
+      },
+      {
+        "id": 3855,
+        "projectName": "Goledo Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Goledo Finance suffers a $1.7 million loss in a flash loan attack on the Conflux blockchain.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 29th, 2024, Goledo, a cross-chain lending and borrowing protocol based on Aave, was attacked through a flash loan exploit on the Conflux blockchain. The team identified the issue as a flash loan attack, resulting in a loss of 7.9 million CFX (approximately $1.7 million USD). The attacker left an on-chain message on January 29th, stating, \"I hacked Goledo and want to negotiate.\"</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://evm.confluxscan.net/address/0x0ad18233211303e93831604c62b5e76c6530a305</p><p><br></p><p>On-chain Message from the Attacker:</p><p>https://evm.confluxscan.net/tx/0x9359dbee49fdb2567612908a419a95034df34af86874a0761f1e9111596526d9</p>",
+        "date": "2024-01-29",
+        "fundsLost": "1700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "GOL",
+          "addresses": [
+            "0x19aae9e4269ab47ff291125b5c0c2f7296a635ab"
+          ]
+        }
+      },
+      {
+        "id": 3856,
+        "projectName": "Massive Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>Massive phishing attack on Jan 23, 2024, resulted in a loss of 12,917,552 USD worth of various assets including ETH, SUPER, and aEthWETH from several victims.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A series of phishing attacks occurred in a short period of time, involving four different attackers who targeted and drained users' funds. There were five separate incidents in this massive phishing attack. The attackers created malicious contracts and transactions on both Binance Smart Chain and Ethereum networks, successfully stealing a significant amount of assets from multiple victims.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Binance Smart Chain:</p><p>Attacker Address:</p><p>https://bscscan.com/address/0x0000db5c8B030ae20308ac975898E09741e70000</p><p>Malicious Contract Address: https://bscscan.com/address/0xCdF11c5736E926B0a6C2148590d76979Fe703C65</p><p>Malicious Transaction: https://bscscan.com/tx/0x400b7583b892024db19940e2e74a26b22b188196e3c6cbff4e6663295a50daed</p><p><br></p><p>Ethereum:</p><p>Attacker Addresses:</p><p>https://etherscan.io/address/0x0000db5c8B030ae20308ac975898E09741e70000</p><p>https://etherscan.io/address/0x0000f0D34d51D23B0dd75A6b720c7F4f10430000</p><p>https://etherscan.io/address/0xbA8BA758357D82A2862e1369D51C983A2A05C0e6</p><p><br></p><p>Malicious Contract Addresses:</p><p>https://etherscan.io/address/0xed0e416e0fEEA5b484ba5c95d375545AC2b60572</p><p>https://etherscan.io/address/0xA0BE9b05a5046Df6D56F8E09828A1b1A863BDEa9</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x93a0ce0711edaf7664c26b3654095f1052010bb7da62c135b6ef0c425c0c2f09</p><p>https://etherscan.io/tx/0xb3c617125fd74d73bc420ba3df76737e7ffd7cdf0494286e002a94a3b7e00de2</p><p>https://etherscan.io/tx/0xb5f03259859c10243a85f7a9ca27d8b45e67ce6463800193634d27718ba162a0</p><p>https://etherscan.io/tx/0xa8d0ac9c1f495af05b748749833e2b94012410132ac40c3aa0aa5200a65a6523</p>",
+        "date": "2024-01-24",
+        "fundsLost": "12917550",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          2
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xf8ebfacb4768b4152dd38416c1ea5fd143f5f807",
+            "0x1749ad951fb612b42dc105944da86c362a783487",
+            "0x0c008e6479a83be6a6c49d95c2029a6064136688",
+            "0xc9f304efe0acc225408797d58a53dfd6a29cd83c",
+            "0x01BEF99743A3b7FD9C41E9c9D737DDd97cf83Ec0"
+          ]
+        }
+      },
+      {
+        "id": 3857,
+        "projectName": "DeFi Fake Tokens",
+        "description": "<p><strong>The list of known fake DeFi tokens and their liquidity pools addresses.</strong></p>",
+        "date": "2024-01-17",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "DEFI",
+          "addresses": [
+            "0x01b7ca09d62069301c6a8569ef99d0d1b6aba7b9",
+            "0x8fa8b43438ae49c86cfae700320406a310933385",
+            "0xf69bfc3ed55bd172f8f9cdd810b969e6d81f83d3",
+            "0x76602c26387defefa28645cb4a77535e70a6d418",
+            "0xb197e24db9d02d4f530bbad2096e51146b090980",
+            "0x9251413ab177388e2a63fe68d393bf249efe948d",
+            "0x2eb38502a6d90706facf39ce1a6667b34ae2326d",
+            "0xd3d9de00ebf8c0df1bce332f69dc7d716ffa629c",
+            "0x3eb9a79447998139565724ce55a3b578951a3a4b",
+            "0xc2dcd9cfac107b7689f73c1a0757959c957cd700",
+            "0xca0bc33b77648880424e69705329782382532e91",
+            "0x445b47f16e1b0e0c2c2cb4877ff1e7dda68bdc3c",
+            "0x90b9d53ad5c48509cf399d72462261d5ebebbb28",
+            "0x9342657ce7553d81606bae931f2974bb98ce87c9",
+            "0x4119a860a4e899caeee1813dae0c9c3c5a053607",
+            "0x8fa8b43438ae49c86cfae700320406a310933385",
+            "0x01B7CA09d62069301c6A8569Ef99d0D1B6abA7B9"
+          ]
+        }
+      },
+      {
+        "id": 3858,
+        "projectName": "Abracadabra Money",
+        "description": "<p><strong>Quick Summary</strong></p><p>Abracadabra Money lending platform exploited, resulting in a loss of 6,414,205 USD (2737.48 ETH).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Abracadabra Money, a DeFi crypto lending platform, was exploited on January 30, 2024. The root cause of the exploit was a loss of precision during smart contract operations, specifically a rounding issue. Preliminary findings indicate that the attacker targeted specific Cauldrons V3 &amp; V4, allowing unauthorized MIM borrowing.The attacker was funded by Tornado Cash The stolen funds were transferred to two other EOAs.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x87F585809Ce79aE39A5fa0C7C96d0d159eb678C9</p><p><br></p><p>Funds Holders as of Feb 01, 2024:</p><p>https://etherscan.io/address/0xbD12D6054827ae3fc6D23B1aCf47736691b52Fd3</p><p>https://etherscan.io/address/0x40d5FFA20fC0dF6bE4D9991938dAa54E6919c714</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x26a83db7e28838dd9fee6fb7314ae58dcc6aee9a20bf224c386ff5e80f7e4cf2</p><p>https://etherscan.io/tx/0xdb4616b89ad82062787a4e924d520639791302476484b9a6eca5126f79b6d877</p><p><br></p><p>Malicious Contracts:</p><p>https://etherscan.io/address/0xc8a0324832362eEDdF8373A04DD7D8d382850CB1</p><p>https://etherscan.io/address/0x193E045BeE45C7573Ff89b12601C745AF739CE67</p><p>https://etherscan.io/address/0xE1091D17473b049CcCD65c54f71677Da85b77A45</p><p>https://etherscan.io/address/0x13AF445F81B0DEcA5dCb2Be6A4C691F545c95912</p><p><br></p><p>Funded by TornadoCash:</p><p>https://etherscan.io/tx/0x63e64e7e6ea5c0acfe02f34b086a030af5efad18bf5e10f51b02c5fe8fdccf84</p>",
+        "date": "2024-01-30",
+        "fundsLost": "6414205",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "MIM",
+          "addresses": [
+            "0xd96f48665a1410c0cd669a88898eca36b9fc2cce"
+          ]
+        }
+      },
+      {
+        "id": 3859,
+        "projectName": "Citadel Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Citadel Finance suffers flash loan attack, losing about $97,000 USD worth of 43.34 ETH on Arbitrum chain.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 27th, 2024, Citadel Finance, a Treasury-Backed Protocol on the Arbitrum chain, was exploited through a flash loan attack. The attacker manipulated the price of underlying assets, specifically the WETH/USDC pair on the Camelot Router. By taking a flash loan of approximately 4500 WETH and depositing it with the Camelot LP, the attacker was able to manipulate the WETH/USDC.E pool pair. They then called the redeem function from the CITRedeem contract to get huge amounts of WETH from the treasury with a low amount of CIT. Approximately 30.95 CIT tokens were burned, and the attacker took away assets worth 21.326 WETH. The flash loan was repaid, and the attacker was able to retain the excess funds as profit. The attacker used this scheme a couple times. The stolen funds were transferred to another EOA and then deposited into Fixed Float, resulting in a total loss of $97,000 USD worth 43.34 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://arbiscan.io/address/0xfCf88e5E1314cA3B6be7EEd851568834233F8b49</p><p><br></p><p>Malicious transactions:</p><p>https://arbiscan.io/tx/0xf52a681bc76df1e3a61d9266e3a66c7388ef579d62373feb4fd0991d36006855</p><p>https://arbiscan.io/tx/0x89eafbcd3ce44285c00fae61dc4202dc2d63965ba20bce33ed92e417a23349a2</p><p><br></p><p>Malicious contract:</p><p>https://arbiscan.io/address/0xfCBf411237aC830DC892EdEC054f15ba7f9eA5A6</p><p><br></p><p>Fixed Float Deposit transactions:</p><p>https://arbiscan.io/tx/0x36bc4c82358269ff898208009997eb14bfc7af80f0b089c046f3d74bfb585725</p><p>https://arbiscan.io/tx/0x62a0012a516de7d51eab74f15554f9c441fe7f304eab38ab86366b7c95bf1176</p><p>https://arbiscan.io/tx/0xbc9811fb83ec046b39faadddf527bded8042878052760a153905468d42f3c145</p>",
+        "date": "2024-01-27",
+        "fundsLost": "97000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "CIT",
+          "addresses": [
+            "0x5ed32847e33844155c18944ae84459404e432620"
+          ]
+        }
+      },
+      {
+        "id": 3860,
+        "projectName": "Chris Larsen",
+        "description": "<p><strong>Quick Summary</strong></p><p>Ripple co-founder Chris Larsen's personal account on Ripple chain was hacked, resulting in a loss of 213 million XRP tokens worth approximately $112.5 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 30, 2024, Ripple co-founder and executive chairman Chris Larsen was the victim of a hack of his personal account. This led to the theft of 213 million XRP tokens, worth approximately $112.5 million. The stolen assets were laundered through Kraken, KuCoin, Gate, Binance, MEXC, FixedFloat, and Whitebit, Huobi, EXMO and others. Blockchain detective zachxbt noticed and posted about incident the strange movement of around 213 million XRP, the native token for the Ripple project.Ripple CEO Chris Larsen later went on X (formerly Twitter) to claim that the funds that were stolen had come from his personal wallets and not from wallets belonging to the Ripple project.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://xrpscan.com/account/rJNLz3A1qPKfWCtJLPhmMZAfBkutC2Qojm</p><p><br></p><p>Funded Addresses:</p><p>https://xrpscan.com/account/rGhR13XyM43WdDaSMznHd5rZ4cJatybvEg</p><p>https://xrpscan.com/account/rHQVKntyfkDCPhEBL2ctryuEAkDZgckmmV</p><p>https://xrpscan.com/account/rLsUemhuBZtF44rqqzneb2F9JgyrRYYd4t</p><p>https://xrpscan.com/account/rKPERax7t9iFvT3RHXn5nifyNpzp9a4hBa</p><p>https://xrpscan.com/account/rpjs4HLX1gJoEenH69PsQmXaXY22QhCYAT</p><p>https://xrpscan.com/account/rLRhugR4ysNa2xkt4E6fKN8krs9jatCp6w</p><p>https://xrpscan.com/account/rnCyeUNvfDbtTagGEPjBfTCBz6EqJjf2Uj</p><p>https://xrpscan.com/account/rHVjfYzTaB8MzSoQGqpzH9barZr85QsZW7</p><p><br></p><p>Funds Transfer Transactions:</p><p>https://xrpscan.com/tx/7749F7605D8B9C10CEF8353CC3F976E3444A4B45CA8E03124C6CE4BE73814EC8</p><p>https://xrpscan.com/tx/34322EB8769E9616DD7C0AA4C6FD0E255D1DD6A577C0C9754C343E63123F5B03</p><p>https://xrpscan.com/tx/BB2A66793F3562B5949BB911F744B39A29B41D8D6B61B20AC3A99E672A4839B6</p><p><br></p><p>Chris Larsen's post:</p><p>https://twitter.com/chrislarsensf/status/1752742706462523882</p><p><br></p><p>Zachxbt's post:</p><p>https://twitter.com/zachxbt/status/1752694489905528943</p>",
+        "date": "2024-01-30",
+        "fundsLost": "112500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": "XRP",
+          "addresses": [
+            "rJNLz3A1qPKfWCtJLPhmMZAfBkutC2Qojm"
+          ]
+        }
+      },
+      {
+        "id": 3861,
+        "projectName": "Saga DAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>Saga DAO's founder's wallet was exploited, resulting in 60,000 USD worth of SOL drained from the MultiSig wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Saga DAO, a community-driven project, experienced an access control exploit on January 24, 2024. The attacker allegedly hacked the founder's wallet and drained funds from the MultiSig wallet. Rumors suggest that it might have been an insider attack, as the MultiSig required only one signer out of twelve confirmations. The founder admitted to several security failures, including not using a cold wallet, not checking the threshold of signatures, and not using auto-unlock on Phantom.</p>",
+        "date": "2024-01-24",
+        "fundsLost": "60000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          24
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3862,
+        "projectName": "User",
+        "description": "<p><strong>Quick Summary</strong></p><p>The user on Ethereum chain suffered a phishing scam, losing 73.85 wstETH worth approximately $195,887 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 4, 2024, a user fell victim to a phishing scam. The victim signed an \"Increase Allowance\" transaction, which allowed the attacker to steal 73.85 wstETH (worth around $195,887 USD) from the wallet. The attacker first stole 18.46 wstETH and then, almost immediately, another 55.39 wstETH. Most of the stolen funds were exchanged for ETH and still remain in one of the attacker's addresses as of February 7, 2024.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker's Addresses:</p><p>https://etherscan.io/address/0x63605E53D422C4F1ac0e01390AC59aAf84C44A51</p><p>https://etherscan.io/address/0x9fA7bB759641FCd37fe4aE41f725e0f653f2C726</p><p><br></p><p>Increase Allowance Transaction</p><p>https://etherscan.io/tx/0x31c686527636368c7a6915289298a06d117e3959cd4b5703fbb1f060a270b4ff</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x58793d067e575c1db6ef96846ab768f48e657f5d9820563f5361db94a84c95da</p><p>https://etherscan.io/tx/0x254cfade1981fecb3dbfc18b9f665d38a9f848a9b01f9b19d54bc52db3bf279c</p><p><br></p><p>Funds Holder as of Feb 7, 2024:</p><p>https://etherscan.io/address/0x888A44b12EAe8D9078789eE960f0ce404D3EBa20</p>",
+        "date": "2024-02-04",
+        "fundsLost": "195887",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xF00A02909019AF6462c4286B7D3A14D5389231CA"
+          ]
+        }
+      },
+      {
+        "id": 3863,
+        "projectName": "User",
+        "description": "<p><strong>Quick Summary</strong></p><p>User on Binance Smart Chain fell victim to a phishing scam, resulting in the loss of 85,467 $USD worth 2.009 $BTCB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 5, 2024, a user on the Binance Smart Chain was tricked into signing an IncreaseAllowance scam transaction to a phishing address. The stolen funds were transferred to multiple EOAs and then bridged to the ETH mainnet through LI.FI, Celer Network, and a portion was deposited into Binance. Some of the funds still remain in the scammer's address. The total loss is approximately 85,467 USD worth 2.009 BTCB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Addresses:</p><p>https://bscscan.com/address/0xACE6667b540ccd011377670571853461c83bb35C</p><p>https://bscscan.com/address/0x994794Af23013F5CA7D56397aeEa80d882f34B96</p><p><br></p><p>Funds Holder as of Feb 06, 2024:</p><p>https://bscscan.com/address/0xf7f7525365CF18Fc3663084a64c5495d32C40C39</p><p>https://bscscan.com/address/0x15eBbBCd16f4B4376F44613C109DF2c06C36c2eE</p><p>https://bscscan.com/address/0x75568Cb0A73b489E7C1808a62836A127E210cF23</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0xbf8591a8c0ad9d1faeaa39790a916baf1d267a7a17c2f49ab1a10f6884681dec</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x000b2191F8461a2D1f33B30a16f37Cd30cF60000</p><p><br></p><p>LI.FI Diamond Deposit Transaction:</p><p>https://bscscan.com/tx/0x09dd0f1db6df5933371f47928528226aedd2dd165e424737b05acc0bf946fc38</p><p><br></p><p>Binance Deposit Transactions:</p><p>https://bscscan.com/tx/0x490fc8ad9ed5a66e35b12f64da353e0bf190cd936aee711f35aaac657b76c5e1</p><p>https://bscscan.com/tx/0x9b04e482250200f3de18ef82912787d422477bca1f34b23037287a5b18cc16bf</p>",
+        "date": "2024-02-05",
+        "fundsLost": "85467",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x60cb85664081285f7817299b9aa0e0cb37e30bda"
+          ]
+        }
+      },
+      {
+        "id": 3864,
+        "projectName": "PlayDapp",
+        "description": "<p><strong>Quick Summary</strong></p><p>PlayDapp, an Ethereum-based P2E game, was exploited due to compromised private keys, resulting in a loss of 1.79 billion PLA tokens worth around 32,350,000 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>PlayDapp, a P2E game running on the Ethereum chain, was exploited two times,between Feb 9-12, 2024. The root cause of the exploit was reportedly due to the compromise of private keys. Before the first exploit transactions, a new minter was added to the PlayDapp: PLA Token. The attacker minted a total of 1.79 billion PLA tokens in two separate incidents, worth around 287,775,772 USD at the time. However, the attacker was able to convert only 32 million USD. The stolen funds were transferred to various addresses, with some being deposited on the Polygon chain, Binance exchange, and a significant portion remaining in the scammer's address as of Feb 13, 2024. The attacker was funded by FixedFloat. A reward of 1 million USD was offered to the hacker for the immediate return of all stolen contracts and assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker's Initial Address:</p><p>https://etherscan.io/address/0xD151050d43c28690766f50Ce9ea8686c5D243a40</p><p><br></p><p>Attacker's Additional Addresses:</p><p>https://etherscan.io/address/0x1cae9eAa76E880fe47A26dd838E5Ec056C289155</p><p>https://etherscan.io/address/0xe84d086f2c402d297d05b1bccc06d0e0942ec03c</p><p>https://etherscan.io/address/0x23cAeE3666b553445e430D1635AD64fBF388B07d</p><p><br></p><p>Funds Holders as of Feb 13, 2024:</p><p>https://etherscan.io/address/0xa03400E098F4421b34a3a44A1B4e571419517687</p><p>https://etherscan.io/address/0xA8eF5e00525592d625B8d0AfC007Aa826a06C738</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xe8be05f6a3360f63b9e78a30b4ba16ea4c7d0b530a8abf99390f1c831851fb7e</p><p>https://etherscan.io/tx/0xc41687511e31f5612b73647c4b39e500e45dbfb2ae66789b7b8705d2336002f8</p><p>https://etherscan.io/tx/0x5f73c86a516616e25b3d13188f3289472d22a06cb1029ff174e00596a97e13b9</p><p><br></p><p>Binance Deposit Transaction:</p><p>https://etherscan.io/tx/0x964837f1cffd9d54aae2d8a2083a8927219095ff7857194865b65b1d32669414</p><p><br></p><p>Gate.io Deposit Transaction:</p><p>https://etherscan.io/tx/0x1cb750dfcd6a425eac3013a4b0994eaa719d5e6824196fe3c06dafe4b6fa55a2</p><p><br></p><p>\"Add Minter\" Transaction:</p><p>https://etherscan.io/tx/0xe834f28377b79759ac5495a91975a01e0876af9aae312228c1ac525846406170</p><p><br></p><p>Polygon Chain Bridge Transaction:</p><p>https://etherscan.io/tx/0xfae62c49a680b22bc4f591cff9af57e86d5219f667307e3a06b96c77b417eba4</p><p><br></p><p>On-chain message to the hacker:</p><p>https://etherscan.io/tx/0xb8c379f3ae8ea3ba48cdb7dac79c9b995f0e7a372a8bf9d620a6bfc875a31628</p><p><br></p>",
+        "date": "2024-02-09",
+        "fundsLost": "32350000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": "PLA",
+          "addresses": [
+            "0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430",
+            "0x6f53E6F92E85C084E10AAf35D4A44DEE6a27892d"
+          ]
+        }
+      },
+      {
+        "id": 3865,
+        "projectName": "Not Found",
+        "description": "<p><strong>Quick Summary</strong></p><p>Not Found (404) token rugpull by deployer, liquidity removed from UniSwap pool, resulting in a loss of 199,927 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Not Found, an ERC-20 token trading on UniSwap, experienced an exit scam when its deployer swapped a significantly larger number of tokens, depleting the liquidity. The deployer then called \"TokenURI\" and inflated the amount of 404 tokens. A portion of the stolen funds was transferred to other EOAs and deposited into FixedFloat, while the majority was bridged to the Arbitrum chain through Orbiter Finance. The scammer received funding from OKX. The total loss amounts to 199,927 USD, equivalent to 82.38 WETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x3a6d1143536751965534d8D5beB6D4299330C921</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xe6c3bfdd29713237b6cbc18f2afd859e94cf962aafe63561e62091f3edd3f0cd</p><p>https://etherscan.io/tx/0x99cda6c9a2cb3d73d7d5fa25d4d74a9ed8e45477086ef4b54662103cfa15e127</p><p><br></p><p>FixedFloat Deposit Transactions:</p><p>https://etherscan.io/tx/0x84dad5f810b427dd9a3191dc28a2ebc0f026598ec1cf3c0d39012a9f8ff59dbc</p><p>https://etherscan.io/tx/0xcf7a2853d8a29a0406fe75d103d19c7c6bdb16db19d0e5a17243d388d1db85ca</p><p><br></p><p>Orbiter Finance Bridge Transactions:</p><p>https://etherscan.io/tx/0x3e20376f6ee4d164604e99c63c8442f7af28e5e0df2f88309c5e6bfc51e2a171</p><p>https://etherscan.io/tx/0x679a4b006cb166a7a60d1e35f1024b25e6530a2135212447ef131aed916a397f</p>",
+        "date": "2024-02-08",
+        "fundsLost": "199927",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "404",
+          "addresses": [
+            "0x070669e366727369064633ef5702107d73cee0e5"
+          ]
+        }
+      },
+      {
+        "id": 3866,
+        "projectName": "Duelbits",
+        "description": "<p><strong>Quick Summary</strong></p><p>Duelbits crypto casino was exploited through access control breach, resulting in a loss of 4,643,315 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Duelbits, a crypto casino and sports betting platform, experienced an exploit on February 13, 2024. The attacker gained access to a Duelbits wallet. The root cause of this exploit appears to be a loss of wallet access control. The attacker stole various assets, including ETH, BNB, BUSD, USDT, SHIBA INU, and ApeCoin, totaling a loss of 4,643,315 USD. The stolen funds were bridged, exchanged to ETH, and transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x3933924FAf011aE8d24e44beE450b3d78E46a666</p><p><br></p><p>Funds Holder Address as of Feb 15, 2024:</p><p>https://bscscan.com/address/0x0428eEfB47fB6ffb870C6b9608dA4C72bC7645f5</p><p><br></p><p>Malicious Transactions:</p><p>&nbsp;https://bscscan.com/tx/0x3bf414c5a62704cc917242336394eeeed15a7e1a50e857c15e611dab92999aa4</p><p>&nbsp;https://bscscan.com/tx/0x554d974b9ec9c9181a5055c1a10ea3fac33ce3d149964ded6ee679493255c580</p><p>&nbsp;https://bscscan.com/tx/0xe22ab335dbad59de1e5fe291b1d472d4efac34568870f570ea3f5458cbf3be7e</p>",
+        "date": "2024-02-13",
+        "fundsLost": "4643315",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          2
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x4e80744fa23cec76e1621ce0dfaceb4b1d532e12",
+            "0x4e80744fa23cec76e1621ce0dfaceb4b1d532e12"
+          ]
+        }
+      },
+      {
+        "id": 3867,
+        "projectName": "GAME",
+        "description": "<p><strong>Quick Summary</strong></p><p>GAME experienced a reentrancy attack resulting in a loss of 49,596 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 12, 2024, an attacker exploited a reentrancy vulnerability in a GAME's smart contract by repeatedly calling the makeBid() function. The stolen funds were transferred to another EOAs and then the part was deposited into FixedFloat, while the remainder was sent to an unknown address with over 2 million transactions. The attacker obtained 1.1 ETH from an address to which sent some of the stolen funds after the attack. The attack began approximately 7 hours after the exploited contract was created.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x145766A51ae96E69810fE76f6f68Fd0e95675A0B</p><p><br></p><p>Address which funded the attacker:</p><p>https://etherscan.io/address/0x077D360f11D220E4d5D831430c81C26c9be7C4A4</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xe07fa7cf5f590ea82cf195923549722f924857537111aeb3824359d3e1c2e32f</p><p>https://etherscan.io/tx/0x1624cd342758019872713c31965f983a9154cc22c04430164be506bc1a68f6c7</p><p>https://etherscan.io/tx/0x0eb8f8d148508e752d9643ccf49ac4cb0c21cbad346b5bbcf2d06974d31bd5c4</p><p><br></p><p>Malicious Contracts:</p><p>https://etherscan.io/address/0x8d4dE2Bc1a566b266bD4B387f62C21e15474D12a</p><p>https://etherscan.io/address/0x327aa670AABeAaC9B8F099E4827e04e957B66dCd</p><p><br></p><p>FixedFloat Deposit Transaction:</p><p>https://etherscan.io/tx/0xf19de65bca3fcdd709713529e4728d50de57b03df9cf6d5a3de6a6fcf057464b</p>",
+        "date": "2024-02-12",
+        "fundsLost": "49596",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x52d69c67536f55efefe02941868e5e762538dbd6"
+          ]
+        }
+      },
+      {
+        "id": 3868,
+        "projectName": "MINER",
+        "description": "<p><strong>Quick Summary</strong></p><p>The MINER's <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>smart contract</span> <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>was exploited</span>, resulting in a loss of 466,624 USD worth 168.6 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MINER is a collection of 100,000 avatars tied to the first tokens built on ERC-X, a fully optimized, experimental standard that enables the use of multiple token standards. On Feb 14, 2024, the project was exploited due to a double-transfer vulnerability caused by a lack of input validation in the update function. The attacker performed several malicious transactions, exploiting the vulnerability to get free tokens by sending tokens to themselves. The stolen funds were transferred to another EOA and still remain in this address as of Feb 17, 2024. The MINER team posted on their platform that they have sent an on-chain message to the hacker, offering a bounty of 120,000 USD, approximately equivalent to 25% of the exploited funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xea75AeC151f968b8De3789CA201a2a3a7FaeEFbA</p><p><br></p><p>Funds Holder as of Feb 17, 2024:</p><p>https://etherscan.io/address/0xC181dE2f3B0976C266fD5d5d58e101e365f34a70</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x5cc93e9d5adec2b432ddf8052ed77a052e07671db36954675d6f55df28bdb8c0</p><p>https://etherscan.io/tx/0xddacdc06b84e572754011faa35add7445cd0f547d351aeee36556df89d53e8db</p><p>https://etherscan.io/tx/0xd22b05fffe2fc29fa7e0c9d7d9d4151ed9cde9361bb4f7127d56abd7c8cde1b2</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0xBfF51C9C3D50d6168DFEF72133F5DBda453EbF29</p><p><br></p><p>On-chain message offering a bounty to the attacker:</p><p>https://etherscan.io/tx/0x27a01149b321eaab0b16d488aefaffa04517a5cf73397b1bbcb8192a4db692ae</p>",
+        "date": "2024-02-14",
+        "fundsLost": "466624",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "MINER",
+          "addresses": [
+            "0xe77ec1bf3a5c95bfe3be7bdbacfe3ac1c7e454cd"
+          ]
+        }
+      },
+      {
+        "id": 3869,
+        "projectName": "xPet",
+        "description": "<p><strong>Quick Summary</strong></p><p>xPET, a Social Fi and Game Fi platform on Arbitrum, was exploited due to a smart contract vulnerability, resulting in a loss of 91.5 ETH worth 256,570 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 16, 2024, xPET's on-chain PvP contract was exploited, allowing the attacker to withdraw a large amount of $BPET tokens. The vulnerability was related to the newly launched PvP feature. The attacker dumped over 1 million BPET tokens to obtain 91.5 ETH, which was then transferred to another EOAs and bridged to the Ethereum chain via Across Protocol. The CEO of xPET, @Michaeltalkhere posted on X account that how they got the money back.The attacker returned all part of the stolen funds in two transactions on Feb 17,2024.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://arbiscan.io/address/0x22518a5c1f3e29b01d8b04145953ce20d3c99f31</p><p><br></p><p>Funds Holder as of Feb 17, 2024:</p><p>https://arbiscan.io/address/0x0671E3357655AaCe65fCBe323293A6760579B6e1</p><p><br></p><p>Malicious Transactions:</p><p>https://arbiscan.io/tx/0x058b8808e721f68c01c62ad70687f38f39d749bfc9d0e8f6be839c3af603dec6</p><p>https://arbiscan.io/tx/0x1ad1f7536e2d91cc5aeef6e29f948ee73fa760a482b0455ca78adade83c4ef53</p><p><br></p><p>Funds Returned Transactions:</p><p>https://arbiscan.io/tx/0x825e63fdf68c773f7a9b3a440b1bdce4640e4530af6fc2653982ed29bed541ee</p><p>https://arbiscan.io/tx/0xaeb79241df56b3d1af84815c64ceb145a652e97eb101b572232fb4ca039c2573</p><p><br></p><p>Bridged Transaction via Across Protocol:</p><p>https://arbiscan.io/tx/0x43230132c5e285a084b7ab9454682828fbba9b6c34f3f4c60367a166b09276bf</p><p><br></p><p>CEO's post on X about stolen funds reward:</p><p>https://twitter.com/Michaeltalkhere/status/1758558740461306362</p>",
+        "date": "2024-02-16",
+        "fundsLost": "256570",
+        "fundsReturned": "254826",
+        "chaindIds": [
+          5
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Other",
+        "token": {
+          "name": "BPET",
+          "addresses": [
+            "0xA3d462f44F8C9F1a85e9757D874dB6646D4B7B7b"
+          ]
+        }
+      },
+      {
+        "id": 3870,
+        "projectName": "Fixed Float",
+        "description": "<p><strong>Quick Summary</strong></p><p>FixedFloat cryptocurrency exchange was exploited, resulting in the loss of 409.304 BTC and 1,728.48 ETH worth approximately $26,130,157 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FixedFloat, a cryptocurrency exchange platform, was exploited on February 16, 2024. The attacker stole approximately $26.1 million worth of Bitcoin and Ethereum. Most of the money stolen was on the Bitcoin chain, funds were distributed between multiple addresses. The stolen funds on the Ethereum Mainnet were transferred to the eXch exchange through multiple addresses, with a small portion deposited into HitBTC. Additional clarifications regarding the incident were not disclosed by FixedFloat.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Addresses:</p><p>https://www.blockchain.com/btc/address/bc1q2skp47p9f5mr4n4m27k66v0l68gh3xdd7ad4e5</p><p>https://etherscan.io/address/0x85c4fF99bF0eCb24e02921b0D4b5d336523Fa085</p><p><br></p><p>Funds Holder as of Feb 19, 2024:</p><p>https://etherscan.io/address/0x2c01cAB6ebf147e4d5d4db01582f16EBcfF22d8F</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x1faa4861a2c32ceaa7c483e8dc91c18e3a9247bac7f2588903691a7a1db4ece8</p><p>&nbsp;https://etherscan.io/tx/0x8f0bd0a0b25788a59d979a58ce4edfba8956679d7a10e1e6ce12ce945e6ce740</p><p>&nbsp;https://etherscan.io/tx/0x9822616097948dab2048395c4d887dbb1f99273e5cc40de2d86639013588df41</p><p>&nbsp;https://etherscan.io/tx/0x15f7ac31837c8dba597f46359857205df1c41573c4bb489b5a81fd058be5da6d</p><p>https://blockstream.info/tx/9822616097948dab2048395c4d887dbb1f99273e5cc40de2d86639013588df41</p><p>https://blockstream.info/tx/15f7ac31837c8dba597f46359857205df1c41573c4bb489b5a81fd058be5da6d</p><p><br></p><p>HitBTC Deposit Transaction:</p><p>https://etherscan.io/tx/0xe717258efc288dd7f805163da048c361c6c3377d6f38c184bbf48e0f1e889e69</p>",
+        "date": "2024-02-16",
+        "fundsLost": "26130157",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "bc1qns9f7yfx3ry9lj6yz7c9er0vwa0ye2eklpzqfw",
+            "0x4E5B2e1dc63F6b91cb6Cd759936495434C7e972F"
+          ]
+        }
+      },
+      {
+        "id": 3871,
+        "projectName": "AAX",
+        "description": "<p><strong>Quick Summary</strong></p><p>Alleged May Laundering Involving 24,000 ETH Linked To AAH Exchange Amid Operational Suspension</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The ongoing investigation into the AAX Exchange unveils potential money laundering activities involving over 24,000 Ethereum (ETH) amidst the exchange's suspension of operations. Blockchain analysts at Cyvers Alerts reported anomalous transactions originating from wallets allegedly associated with AAX, a crypto exchange under scrutiny following FTX's bankruptcy. The transactions, totaling over $55.5 million worth of ETH, purportedly aimed at laundering funds through decentralized exchange (DEX) platforms like UmbraCash and 1inch, with some funds being routed to the TRON blockchain via SwftCoin. Analysts noted patterns indicative of attempts to circumvent anti-money laundering measures, including blacklisting by Tether Inc. Meanwhile, AAX's operational suspension, announced on November 14, 2022, for data proofreading and restoration, underscores the exchange's challenges. As investigations continue, the focus remains on factual analysis, highlighting key developments without emotional bias. Stay updated for further insights as the investigation unfolds.</p>",
+        "date": "2022-11-14",
+        "fundsLost": "56000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3872,
+        "projectName": "BEAM",
+        "description": "<p><strong>Quick Summary</strong></p><p>Phishing Scam Results in $5.17 Million Loss of BEAM Tokens</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A victim, identified by the address 0x83664b8a83b9845ac7b177df86d0f5bf3b7739ad, fell prey to a phishing scam resulting in the loss of $5.17 million worth of BEAM tokens. The scam involved the victim signing an 'increaseAllowance' transaction, with the token spender being a GnosisSafe wallet address 0xbaEE148DF4bf81aBf9854c9087F0D3a0fFd93DBB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>BEAM Token transferring:&nbsp;</p><p>https://etherscan.io/tx/0x4f77f93bcee2ee8f85e128e51cf303c01393c243e2227f000fadeb9cef8e29b1</p><p><br></p><p>Scammers' Addresses:</p><p>0x98c6ced9b18d57ee58820e61aa126c0fec30435d</p><p>0xfeb5BCbB85E77F42b9B89d8772d4f6C7C5183Aa4</p><p>0x09e0cA7E92E2B893f07cdAE75C011C3606ecD61a</p><p><br></p>",
+        "date": "2024-02-15",
+        "fundsLost": "5170000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Phishing",
+        "token": {
+          "name": "BEAM",
+          "addresses": [
+            "0xbaee148df4bf81abf9854c9087f0d3a0ffd93dbb"
+          ]
+        }
+      },
+      {
+        "id": 3875,
+        "projectName": "MangoFarmSOL",
+        "description": "<p><strong>Quick Summary</strong></p><p>MangoFarmSOL exit scammed, stealing 1,297,344 USD worth of SOL (13,514 tokens) from users and deleting their website and Twitter account.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MangoFarmSOL, a yield farming protocol on the Solana blockchain, encouraged users to deposit Solana tokens into the protocol to earn airdrops. On January 6, 2024, the project conducted an exit scam, withdrawing a total of 13,514 SOL tokens (worth around 1.29 million USD) deposited by users. The stolen funds primarily consisted of SOL tokens, which were then laundered through various channels, first bridging to the Ethereum network via wormhole and allbridge and then deposited into platforms such as Railgun and eXch. The acquired USDC was bridged from the Solana network to Ethereum via the wormhole bridge. The project subsequently deleted their website and Twitter account.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://explorer.solana.com/address/FLq2GE2x4kv5UbK6Qw2h9FtBPcLeZnNhwSeGvDDokYbH</p><p><br></p><p>Additional Scammer Addresses:</p><p>https://explorer.solana.com/address/8ggviFegLUzsddm9ShyMy42TiDYyH9yDDS3gSGdejND7</p><p>https://explorer.solana.com/address/8FNFfU47C2W4kEZv3kJ7r4S4LrUNoB5tJ4NGm2TwdGW6</p><p><br></p><p>Funds Withdraw Transaction:</p><p>https://explorer.solana.com/tx/2HFZyg21afEgKy9NgM7p4TQFzA33ppNWwsSoLyh61wxRFB2ELkpsKPECwu4PrUtRNF3TvmJZbXmQ4thjw3gFcLK9</p><p>https://explorer.solana.com/tx/nod1VcqpUm9K5sexbJFyZSfQZpY9qJwgyQGRdtqHMEmjQ1RExtqcdsdqQBQeQ3YKqFbd9Z3YUzJ6s9t3FCFoLJK</p><p><br></p><p>eXch, Railgun Deposit Transaction:</p><p>https://etherscan.io/tx/0xe2903d42940795051a2f2ea088a9193742692f95269dbc30d026a688f18f3d17</p><p>https://etherscan.io/tx/0xe21d849682fbed06a906dc4dee18ae9fd8386fbc59c76ce65bad9661518ac5dd</p>",
+        "date": "2024-02-06",
+        "fundsLost": "1297344",
+        "fundsReturned": "0",
+        "chaindIds": [
+          24
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": [
+            "Bfg5SMF4xRqVXqj5i7YErJyW7Vq62TCaCeNpWGR6y4Zs"
+          ]
+        }
+      },
+      {
+        "id": 3876,
+        "projectName": "Blueberry Protocol Foundation",
+        "description": "<p><strong>Quick Summary</strong></p><p>Blueberry DeFi leverage project exploited due to a contract vulnerability, resulting in the loss of 91 $ETH or approximately 266,023 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Blueberry, a decentralized financial lending and leverage protocol, suffered an exploit on February 23, 2024.An attacker attempted to exploit the vulnerability, but was overtaken by c0ffeebabe.eth, a well-known MEV bot and whitehat operator that had previously beaten other exploits and returned funds to projects. Initially 457.7 ETH was withdrawn from the project, but 366.6 ETH was of that was able to be returned.The remaining 91 ETH, worth about $1,350,000, was lost due to validator payments.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Validator Payment Transaction:</p><p>https://etherscan.io/tx/0x6b6231c19ffde66d5a8810f06a61ce79d201c039a8460dba1b802fd76b3d3853</p><p><br></p><p>Funds Return Transaction:</p><p>https://etherscan.io/tx/0xc4d45a5143d04d98f11c56f0944ad60426bfbe70b25b5b43a95f0e61a9386a52</p><p><br></p><p>c0feebabe.eth's Contract Address:</p><p>https://etherscan.io/address/0x3AA228a80F50763045BDfc45012dA124Bd0a6809</p>",
+        "date": "2024-02-23",
+        "fundsLost": "1337128",
+        "fundsReturned": "1071106",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator,Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "bWETH",
+          "addresses": [
+            "0x643d448CEa0D3616F0b32E3718F563b164e7eDd2"
+          ]
+        }
+      },
+      {
+        "id": 3877,
+        "projectName": "Jeffrey Zirlin",
+        "description": "<p><strong>Quick Summary</strong></p><p>Jeffrey Zirlin \"Jihoz\", Axie Infinity co-founder, experienced a private key compromise, resulting in a loss of approximately 9,700,000 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 23, 2024, Jihoz_Axie tweeted on his &nbsp;X (formerly twitter) about compromise of his two personal wallet addresses,. The attacker stole assets from these wallets, swapped them to Ronin WETH, and bridged them to the Ethereum mainnet using Axie Infinity:Ronin Bridge. The stolen funds were then transferred to other EOA addresses and eventually deposited into TornadoCash through several addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://ronin.bloks.io/address/0x39f817976c51a91b60145febad81067e69713105</p><p><br></p><p>Additional Attacker's Addresses:</p><p>https://etherscan.io/address/0xA4017DE6460bD63a77404dd2C2344D6135eD13b2</p><p>https://etherscan.io/address/0x73f428e1037a310d472A24100dA37fB1d8dEC8B8</p><p><br></p><p>Malicious Transactions:</p><p>https://ronin.bloks.io/transaction/0xe5fcb3ea3993811a23eb919a2c78806a9af7ea907f0c5abf4d85394aba937003</p><p>https://ronin.bloks.io/transaction/0x002e0c2213ea72c5ea749f6fa00f74c7bfab792189255fe9046c3aa865a68d1f</p><p>https://ronin.bloks.io/transaction/0x87841c81acde4828c10e7ce51f033c1bca613a0eaee2000a1ee6df3c3827830e</p><p><br></p><p>TornadoCash Deposit Transactions:</p><p>https://etherscan.io/tx/0xeb112a223824994c1990067a9f2ba078edee8854ecc862e6c3f996faed669ab9</p><p>https://etherscan.io/tx/0x24055d9abad17c1ee2c374171291faaaa3fceec5ffb8ebed32a709f1f3a1a5c7</p>",
+        "date": "2024-02-22",
+        "fundsLost": "9700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x121ad060686848b196df8ca5c5e24722efe57115",
+            "0xa09a9b6f90ab23fcdcd6c3d087c1dfb65dddfb05"
+          ]
+        }
+      },
+      {
+        "id": 3878,
+        "projectName": "DeezNutz_404",
+        "description": "<p><strong>Quick Summary</strong></p><p>Deez Nutz Protocol exploited via flash loan attack, resulting in a loss of $174,086 USD worth 58.65 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 21, 2024, Deez Nutz, a protocol focused on NFTs, Tokenization, and DeFi, experienced an exploit due to a contract vulnerability and a flash loan attack. The attacker, identified as bigbrainchad.eth, targeted the erc404 series of tokens from DeezNutz_404 on Ethereum, causing an estimated total loss of around $170,000. The exploit involved a bug in the code that allowed the attacker to mint infinite tokens and steal approximately 58.65 ETH. The root cause was an incorrect calculation when transferring tokens to self, which enabled the attacker to mint infinite tokens and sell them.The stolen funds still remaining attacker's address as of Feb 24,2024.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xd215FFaf0F85fB6f93F11E49Bd6175ad58af0Dfd</p><p><br></p><p>Funds Holder as of Feb 24, 2024:</p><p>https://etherscan.io/address/0xed65b99E31628B2Ea26D2129647508a8f1164c9A</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xbeefd8faba2aa82704afe821fd41b670319203dd9090f7af8affdf6bcfec2d61</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0xd129D8C12f0e7aA51157D9e6cc3F7Ece2dc84ecD</p>",
+        "date": "2024-02-21",
+        "fundsLost": "174086",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "DN",
+          "addresses": [
+            "0xb57e874082417b66877429481473cf9fcd8e0b8a",
+            "0x1fb4904b26de8c043959201a63b4b23c414251e2"
+          ]
+        }
+      },
+      {
+        "id": 3879,
+        "projectName": "Particle Trade",
+        "description": "<p><strong>Quick Summary</strong></p><p>Particle trade, a decentralized leverage trading protocol, was exploited, resulting in the loss of 141,684 USD worth 50.12 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Particle trade is a permissionless decentralized leverage trading protocol for any digital asset. On February 15, 2024, the project was exploited due to a contract vulnerability in its previously deprecated NFT contract. The contract does not check the user input data for onERC721Received() function which make the order 'legit' and manipulated the accountBalance. The current protocol of Particle trade was not impacted by this security incident, confirmed by @wukong_particle in a post on the X. The attacker deposited the stolen funds into TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x2c903F97Ea69B393Ea03E7FAb8D64D722b3f5559</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x2cc3c3cfbdf04441f3349e49768c909ac252ace6f78b24a25d4700a47883514a</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0xE55607B2967DDbE5FA9A6A921991545b8277Ef8F</p><p><br></p><p>TornadoCash Deposit Transactions:</p><p>https://etherscan.io/tx/0x4bb78bbf3305ab38464fd6a210e64cb3d5f6b672eeb10ed5953ec07db447bcc4</p><p>https://etherscan.io/tx/0x32fe57bd3bf9554d1e4d93c09207027c84886179884c6668b05883c0f5220894</p>",
+        "date": "2024-02-15",
+        "fundsLost": "141684",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x7c5C9AfEcf4013c43217Fb6A626A4687381f080D"
+          ]
+        }
+      },
+      {
+        "id": 3880,
+        "projectName": "DualPools",
+        "description": "<p><strong>Quick Summary</strong></p><p>DualPools DeFi project was exploited via a smart contract vulnerability, resulting in a loss of 41,286 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DualPools, a DeFi project offering Swap, Lend, and Borrow services, was exploited on February 15, 2024. The attacker manipulated the price of dLINK by exploiting insufficient liquidity in a new DualPools pool and depleted targeted assets (WBNB, BTC, ETH, ADA, BUSD) from other pools through the borrow function. Additionally, the attacker exploited a precision truncation issue in the smart contract division, reclaiming all previously invested LINK. The stolen funds were swapped to BNB, transferred to another EOA, and then after a week deposited into the TornadoCash .</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x4645863205b47a0A3344684489e8c446a437D66C</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Additional Attacker</span>'s Address:</p><p>https://bscscan.com/address/0x7F27C9ed8CEb95Ae69E8361221fe17100f826616</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x90f374ca33fbd5aaa0d01f5fcf5dee4c7af49a98dc56b47459d8b7ad52ef1e93</p><p><br></p><p>Malicious Contract Address:</p><p>https://bscscan.com/address/0x38721b0d67DFdba1411BB277d95AF3D53FA7200E</p><p><br></p><p>TornadoCash Deposit Transactions:</p><p>https://bscscan.com/tx/0xcedff18c5478037f057072a9dc2eb808398c47e8c2023f4848430a73e5b741c2</p><p>https://bscscan.com/tx/0x7de2a931257c5a2aef16a410402729fb238e7c35f6f40e6304d62c95a2aa24ec</p>",
+        "date": "2024-02-15",
+        "fundsLost": "41286",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "dLINK",
+          "addresses": [
+            "0x8fbcc81e5983d8347495468122c65e2dc274eed9"
+          ]
+        }
+      },
+      {
+        "id": 3881,
+        "projectName": "User",
+        "description": "<p><strong>Quick Summary</strong></p><p>User falls victim to phishing scam, mistakenly sending 17 ETH (approx. 48,030 USD) to attacker's address.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 15, 2024, a user fell victim to a phishing scam. The attacker made two transactions that appeared identical to the victim's last transaction at the time. The victim mistakenly sent 17 ETH to the scammer's address. The attacker address's first five and last five characters are the same as an address that previously sent 15.09 ETH to the victim's address. The stolen funds were then distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xC6e563F6eF051C002aa89363cd35f7b29E599d77</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x71fba2a15cbb503a9f8d093877e5be045d6c86c1470a9ec30a321e5cd178ffc9</p><p><br></p><p>Funds Holder as of Feb 24, 2024:</p><p>https://etherscan.io/address/0xC6e563F6eF051C002aa89363cd35f7b29E599d77</p><p><br></p><p>Attackers Imitated Transactions:</p><p>https://etherscan.io/tx/0x0aa57d6961b19cec26d85e52159b3ec0a284e8fb88ba9fb4654b3e1c9501bdc4</p><p>https://etherscan.io/tx/0x0b1981513ecee0541b5e11a295dd2fbea609b37b2898d879b5a9e9cb34ab2c4e</p>",
+        "date": "2024-02-15",
+        "fundsLost": "48030",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x13f820a36a5be2ab5016827a6f2cff16338f2200"
+          ]
+        }
+      },
+      {
+        "id": 3882,
+        "projectName": "RiskOnBlast",
+        "description": "<p><strong>Quick Summary</strong></p><p>RiskOnBlast rugpulled 1,259,575 USD (420.50 ETH) from over 750 users, transferring funds to multiple exchanges and services.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RiskOnBlast, a gambling and trading platform on the Blast layer-2 ecosystem, performed a rugpull, misappropriating 420.50 ETH worth approximately 1,259,575 USD from more than 750 users. The exploiter withdrew all funds held in the ROB contract, swapping them to DAI. The scammer transferred stolen funds through Change Now, MEXC, ByBit Exchange and others. The project's social media profiles have been deleted.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x1EeB963133f657Ed3228d04b8CD9a13280EFC558</p><p><br></p><p>Malicious Contract Address:</p><p>https://etherscan.io/address/0x25f8C342E430C85829Ef5021C0720f0c60969840</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x68e96762a8a62ff54fb8107b107cd7fc26e6defc921cefed6e69a5dab136a36b</p><p><br></p><p>Bybit Deposit Transaction:</p><p>https://etherscan.io/tx/0xd912de8351d03f1be42dd2151a28b4c82d28517483fa0078be78a66ed98609a4</p><p><br></p><p>ChangeNow Deposit Transaction:</p><p>https://etherscan.io/tx/0x8ecb4f7666b8c85e7b8be2eb6c885dd89fc76f163a7a666ee600e2920554848b</p><p><br></p><p>MEXC Deposit Transaction:</p><p>https://etherscan.io/tx/0x9ddd6a35470fa765f514c4edddabac9b25b73a9e44eedd7f5df4e6e57ea92e3c</p>",
+        "date": "2024-02-24",
+        "fundsLost": "1259575",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Exchange (DEX),Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x25f8C342E430C85829Ef5021C0720f0c60969840"
+          ]
+        }
+      },
+      {
+        "id": 3883,
+        "projectName": "Ore",
+        "description": "<p><strong>Quick Summary</strong></p><p>ORE token rugpulled by deployer, removing liquidity worth 243,489 USD and creating potential rugpull token CHAT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ORE is an ERC20 token trading on UniSwap. On Feb 26, 2024, the deployer removed 80.03 WETH worth approximately 243,489 USD from the liquidity pool. Stolen funds were distributed between multiple addresses using Disperse.app. A smaller portion of the stolen funds was transferred to another scammer's address, which created a new token named CHAT and deposited it into the liquidity pool, it appears potentially preparing for another rugpull.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xAD13D88da898Bb8f53A5038fd2537598FaC25b5C</p><p><br></p><p>Scammer's Address:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/</span>0x3c714dcc89641Bd18A07Ec7F8824eFc2ca575c56</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xb8f05ade5a50a7e9d37cbb8409279c2f5c0560b94768fb894e15179815b184ec</p><p><br></p><p>Disperse.app Distribute Transaction:</p><p>https://etherscan.io/tx/0xdc860e7e917764a504ff7bc885870ad041c756521a59973fc6e259eb4517e6c2</p><p><br></p><p>CHAT Token Address:</p><p>https://etherscan.io/token/0x068e8C05edCD392Ac997A15B9135EEd8a6eA0c46</p>",
+        "date": "2024-02-26",
+        "fundsLost": "243489",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ORE",
+          "addresses": [
+            "0x7b6ff2312c22177458b24a441a0b2bf9528dac57"
+          ]
+        }
+      },
+      {
+        "id": 3884,
+        "projectName": "BitForex",
+        "description": "<p><strong>Quick Summary</strong></p><p>BitForex exchange exit scammed with suspicious outflows of approximately 56,500,000 USD across multiple blockchains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BitForex, a cryptocurrency exchange, shut down access to its platform after a suspicious outflow of approximately 56,500,000 USD across several blockchains. Users attempting to log in are blocked by CloudFlare's DDoS protection service. The exchange stopped processing withdrawals and has not been responding to customer support inquiries. The outflows appear to be an exit scam rather than an external attack. The funds were received from multiple addresses in BitForex's hot wallets, most of the funds were on the Ethereum chain, in the TRB tokens, and remain in wallets as of Feb 29,2024.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Funds Holder as of Feb 29, 2024:</p><p>- Ethereum: https://etherscan.io/address/0xdCaCd7EB6692b816b6957f8898c1C4B63D1fC01F</p><p>- Bitcoin: https://blockstream.info/address/3DbbF7yxCR7ni94ANrRkfV12rJoxrmo1o2</p><p>- TRON: https://tronscan.org/#/address/TQcnqaU4NDTR86eA4FZneeKfJMiQi7i76o</p><p><br></p><p>Malicious Transactions:</p><p>&nbsp;Ethereum: https://etherscan.io/tx/0x1c81e61dcf61d63a28ca0a2591f89de6aa6a66ca477d00c3553d9f1f23c08a99</p><p>https://etherscan.io/tx/0xb1ef6176112c8b019192b5e627732afee8930810801961ded081720e74544753</p><p>&nbsp;Bitcoin: https://blockstream.info/tx/47fcf20f582d6d8529be7e781940ecb8faf6357a897c4ec0b770cfa5df77d100</p><p>&nbsp;TRON: https://tronscan.org/#/transaction/5544ba78bf21106b0e740dadb4fa0269aa56d80668124513decef26d28280930</p>",
+        "date": "2024-02-23",
+        "fundsLost": "56000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          2,
+          3
+        ],
+        "category": "CeFi,Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BF",
+          "addresses": [
+            "0x50cbc6faeee68fb63e0a3c8ac8cda8a8505c960b",
+            "TLAiQcyKs5tuyztiy1syh7ykA6ked56Lkp"
+          ]
+        }
+      },
+      {
+        "id": 3885,
+        "projectName": "Seneca",
+        "description": "<p><strong>Quick Summary</strong></p><p>Exploitation of Seneca Protocol Leads to $6.5 Million Asset Loss</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 28, 2024, Seneca Protocol experienced exploitation on both the Ethereum Mainnet and Arbitrum Chain due to a smart contract vulnerability. The vulnerability, rooted in an arbitrary external call vulnerability within the protocol's contracts, enabled attackers to drain assets. Specifically, the vulnerable contracts contained a _call function that lacked sufficient restrictions on the types of calls allowed and failed to adequately validate callee addresses. Exploiting this, attackers manipulated the performOperations function to craft calldata triggering arbitrary calls, facilitating unauthorized token transfers to their addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter Addresses:</p><p>0x98c6ced9b18d57ee58820e61aa126c0fec30435d</p><p>0xfeb5BCbB85E77F42b9B89d8772d4f6C7C5183Aa4</p><p><br></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0x0eb8f8d148508e752d9643ccf49ac4cb0c21cbad346b5bbcf2d06974d31bd5c4</p><p>https://etherscan.io/tx/0x9f3712672be7a120757d42fbe15ceefe9578914946bacbd0f3531e7fb7305576</p><p><br></p><p>Malicious contract:&nbsp;</p><p>https://etherscan.io/address/0x8d4de2bc1a566b266bd4b387f62c21e15474d12a#code</p>",
+        "date": "2024-02-28",
+        "fundsLost": "6500000",
+        "fundsReturned": "5300000",
+        "chaindIds": [
+          1,
+          5
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": "SEN",
+          "addresses": [
+            "0xbc83f2711d0749d7454e4a9d53d8594df0377c05",
+            "0x8d4de2bc1a566b266bd4b387f62c21e15474d12a"
+          ]
+        }
+      },
+      {
+        "id": 3886,
+        "projectName": "Shido",
+        "description": "<p><strong>Quick Summary</strong></p><p>Access control issue leads to $4M Loss at ShidoGlobal</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ShidoGlobal recently encountered a transfer of ownership, resulting in a significant loss amounting to approximately $4 million. The exploit occurred when the new owner swiftly upgraded the StakingV4Proxy contract by introducing a concealed withdrawToken() function. This function enabled the attacker to execute withdrawals of the entire balance of 4,353,473,223.864904 $SHIDO tokens from the contract. Subsequently, the attacker swapped a portion of the acquired $SHIDO tokens for $ETH and transferred 692.8 $ETH, equivalent to $2.4 million, to address 0x4621e0cd8c91ecf1b0efcbf07f0838a5ee25c5dd. The remaining $SHIDO tokens, valued at $1.6 million, are still retained in the attacker's address 0x1982358c84da9d0b4b96fc9e8564d132f7d0041f.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Ownership Transfer Transaction:&nbsp;</p><p>https://etherscan.io/tx/0xaa76ea503fadddf775b1ef7f195676440fdc3ac46ab642798ab6fa7ae3aafcbe</p><p>Attacker's ETH Address:&nbsp;</p><p>0x4621e0cd8c91ecf1b0efcbf07f0838a5ee25c5dd</p>",
+        "date": "2024-02-29",
+        "fundsLost": "2400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xcda954a0c574d8c408f0b8c89a2b367d6a2d3354"
+          ]
+        }
+      },
+      {
+        "id": 3887,
+        "projectName": "$ALI, $PUSH Tokens Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>Massive Loss: $4.39M of $ALI and $PUSH Tokens Lost to Crypto Phishing</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A staggering $4.39 million worth of $ALI and $PUSH tokens were recently lost to a crypto phishing scam. The victim, identified by the address 0x7653c9364bb800e1136aa0634c4629ebe76a744e, fell prey to the scam orchestrated by scammers with addresses 0x84672cc56b6dad30cfa5f9751d9ccae6c39e29cd and 0x2ee9a1751b6c8034961cb192bf3a8b9110621edb. The victim inadvertently signed a malicious Uniswap Permit2's Permit Batch message, facilitating the unauthorized transfer of tokens. Notably, the token spender involved is a Safe wallet address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Victim's Address: 0x7653c9364bb800e1136aa0634c4629ebe76a744e</p><p>Scammer 1 Address: 0x84672cc56b6dad30cfa5f9751d9ccae6c39e29cd</p><p>Scammer 2 Address: 0x2ee9a1751b6c8034961cb192bf3a8b9110621edb</p><p><br></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xc943ea893065cc7deac1a42d1670da1a9ebeb9fc1807bf3d835224dd499417cc</p>",
+        "date": "2024-03-01",
+        "fundsLost": "4390000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3889,
+        "projectName": "WOOFi",
+        "description": "<p><strong>Quick Summary</strong></p><p>WOOFi Swap on Arbitrum experienced an exploit resulting in a loss of approximately $8.5 million. The exploit involved flash loans and price manipulation, prompting the team to pause the contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On March 5th, at 15:49 UTC, the sPMM algorithm controlling pricing on WOOFi Swaps was exploited on Arbitrum. The attacker utilized flash loans to manipulate prices by performing frequent token swaps. Specifically, the hacker exploited a flaw in the price calculation within the WooPPV2 contract, enabling them to manipulate prices during swaps. Despite the swift containment of the threat within 13 minutes, the exploit led to significant financial losses.</p><p><br></p><p><br></p>",
+        "date": "2024-03-05",
+        "fundsLost": "8500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Other",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      }
+    ]
+  }
+}

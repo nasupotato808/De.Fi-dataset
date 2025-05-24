@@ -1,0 +1,889 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2775,
+        "projectName": "DEFI100",
+        "description": "<p><strong>Quick Summary</strong></p><p>DeFi 100 website was hacked with a profane message claiming a scam, causing panic among investors.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On May 22, a message appeared on the DeFi 100 website homepage claiming that the project had scammed its investors and they couldn't do anything about it. The message was signed by \"DEVISIN\" and was later deleted. On May 23, the DeFi100 Twitter account confirmed that their website had been hacked and the profane message was posted by the hacker.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>The DeFi100 Twitter post about the incident:</p><p>https://twitter.com/DEFI100/status/1396361647149633537</p>",
+        "date": "2021-05-23",
+        "fundsLost": "32000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Stablecoin",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "D100",
+          "addresses": [
+            "0x9d8aac497a4b8fe697dd63101d793f0c6a6eebb6"
+          ]
+        }
+      },
+      {
+        "id": 2776,
+        "projectName": "JulSwap",
+        "description": "<p>The JulSwap on the BSC chain was attacked by flash loans, and $JULB fell more than 95% in a short time.<br><br>The transactions behind the attack:<br>https://bscscan.com/tx/0x9af2d732eae43e06c8559ed58bf082c56ad2c3a0688e30987a49a44fa2e16979<br>https://bscscan.com/tx/0xc7ae52ae2728948a05a64e1a7cddec878c3256c413696cb7ada43084ccf70af9<br>https://bscscan.com/tx/0xb0b74d6a2319d4e5917f7d4aa680af86bff3b1d7c2e948496649854b65ad3273</p>",
+        "date": "2021-05-28",
+        "fundsLost": "1500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "JULb",
+          "addresses": [
+            "0x32dffc3fe8e3ef3571bf8a72c0d0015c5373f41d"
+          ]
+        }
+      },
+      {
+        "id": 2777,
+        "projectName": "SharedStake",
+        "description": "<p>Some members of the SharedStake core team claimed that a SharedStake insider, who was given access to the bug report of critical timelock vulnerability by the SharedStake team, appears to have used the vulnerability to exploit the SharedStake contracts four times for approximately $500,000 on June 19 and June 23.<br><br>SharedStake rogue insider tests exploit on mainnet:<br>https://etherscan.io/tx/0x9400daa8711b4326e7b3bb7a4874099e5c7fe801c8b1488ff91bd6e5de332c9f<br><br>SharedStake rogue insider exploits more timelocks on mainnet:<br>https://etherscan.io/tx/0x68dcf70e021684c414ec7512fd58b84098a020d62459b23f690f76a6ca6f38c5<br>https://etherscan.io/tx/0x466bca01f2648ea855a018edce701d8bb9ca1b53853b076dfe15da7ea379cf39<br>https://etherscan.io/tx/0x2dff7aa6b1f1f128b60504a5f195589597590765baf8d7607540fe3712328313</p><p><br>Some of the resulting funds have been swapped to a mix of USDC and vETH2.</p>",
+        "date": "2021-06-24",
+        "fundsLost": "500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": "SGT",
+          "addresses": [
+            "0x84810bcF08744d5862B8181f12d17bfd57d3b078"
+          ]
+        }
+      },
+      {
+        "id": 2778,
+        "projectName": "Crypto.com",
+        "description": "<p><strong>Quick Summary</strong></p><p>Crypto.com's user accounts were breached, bypassing the 2FA authentication control, and leading to the theft of ETH, BTC, and other currencies.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On 17 January 2022, unauthorized activity was detected on a few user accounts on Crypto.com. Transactions were being approved without the 2FA authentication control being inputted by the user. This led to an immediate investigation, during which all withdrawals on the platform were suspended. The impacted accounts were fully restored, and all customer 2FA tokens were revoked. Additional security measures were put in place, requiring all customers to re-login and set up their 2FA token. The withdrawal infrastructure was down for approximately 14 hours.</p><p><br></p><p>Stolen funds:</p><p>- 4,836.26 ETH</p><p>- 443.93 BTC</p><p>- $66,200 in other currencies</p><p><br></p><p>The stolen funds were deposited into a Tornado Cash mixer.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x6e1218c55f1acb588fc5e55b721f1183d7d29d3d</p><p>The transaction behind the attack:</p><p>https://bloxy.info/txs/calls_from/0x6e1218c55f1acb588fc5e55b721f1183d7d29d3d?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967</p>",
+        "date": "2022-01-17",
+        "fundsLost": "34358003",
+        "fundsReturned": "34358003",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2779,
+        "projectName": "XDX Swap",
+        "description": "<p>The XDX Swap (DDEX) on the Heco chain’s cross-chain decentralized exchange DDEX was attacked on July 2. The attacker received 85.17 ETH (about $176,000) and transferred it to the Ethereum network. There appeared to be a backdoor in the DDEX code. With the help and collaboration from DDEX, Star Labs, and the HECO White Hat Security Alliance, XDX Swap has recovered the majority of the funds involved in this incident, totaling more than $5M.</p>",
+        "date": "2021-07-02",
+        "fundsLost": "5000000",
+        "fundsReturned": "5000000",
+        "chaindIds": [
+          11
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2780,
+        "projectName": "Haven Protocol",
+        "description": "<p><strong>Quick Summary</strong></p><p>Haven Protocol (XHV) suffered three serious attacks in late June, leading to the minting of 203,000 xUSD, 13.5 xBTC, an unknown amount of XHV, and 9 million xUSD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Haven Protocol, a privacy-centric DeFi protocol based on Monero, was subjected to three major attacks in late June. The first two attacks on June 24 resulted in the minting of 203,000 xUSD and 13.5 xBTC. On June 27, a vulnerability in the conversion verification of xAsset allowed an unknown amount of XHV to be minted. The final attack on June 29 exploited a vulnerability that enabled the minting of 9 million xUSD. In response to these attacks, the chain initiated a rollback and implemented a hard fork to fix the known vulnerabilities in protocol minting.</p><p><br></p>",
+        "date": "2021-07-03",
+        "fundsLost": "8186549",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Stablecoin",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2781,
+        "projectName": "RAI Finance",
+        "description": "<p>To connect the liquidity between ERC20 and BSC, RAI Finance has been using Chainswap to ensure the liquidity between both blockchains.<br><br>RAI Finance reserved 2.9M RAIs to an address 0x9D4D377cFd6466Fe03e3cCbB266DC0ac235CcDe3, and this address automatically approves the spent access to the Chainswap’s bridge contract.<br><br>The Chainswap smart contract for RAI spend access has been exploited on Jul-03–2021 12:39:18 AM +UTC, from the contract address 0x0e128fb9f266f0cfedeb3b789f6fd4af50d51b84 which has access up to 2.9M RAIs in total at the account.</p>",
+        "date": "2021-07-04",
+        "fundsLost": "414013",
+        "fundsReturned": "414013",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "RAI",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2782,
+        "projectName": "DAFI Protocol",
+        "description": "<p>The ChainSwap bridge hack resulted in the sale of about $200,000 in DAFI tokens.<br><br>In response to the hack, DAFI Protocol asked its community members to immediately withdraw their liquidity from Uniswap and the LP program. </p>",
+        "date": "2021-07-11",
+        "fundsLost": "200000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "DAFI",
+          "addresses": [
+            "0xfc979087305a826c2b2a0056cfaba50aad3e6439"
+          ]
+        }
+      },
+      {
+        "id": 2783,
+        "projectName": "DAO ventures",
+        "description": "<p>DAOventures has been using ChainSwap to move $DVG between Ethereum and Binance Smart Chain.<br><br>ChainSwap was exploited and a number of projects that partnered with them got affected. On DAOventures’ side, the hacker removed 300k $DVG worth $40k from ChainSwap and sold them on Uniswap.<br><br>The transactions the hackers have made:<br>https://etherscan.io/tx/0x348cfdb0817c0a7a6d3b17d0250ef2b72f24b2b7375e76a26f220910f3a1086c</p>",
+        "date": "2021-07-11",
+        "fundsLost": "39443",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "DVD",
+          "addresses": [
+            "0x77dcE26c03a9B833fc2D7C31C22Da4f42e9d9582"
+          ]
+        }
+      },
+      {
+        "id": 2784,
+        "projectName": "Umbrella Network",
+        "description": "<p>The hackers attacked Chainswap’s contracts and stole a little over 3 million $UMB tokens on ETH from the Chainswap vault, which was the entirety of the UMB tokens available there. The hackers also managed to mint an additional 20 million in UMB tokens on the BSC side but did not manage to sell them before all UMB tokens there were frozen.<br><br>The transactions the hackers have made:<br>https://docs.google.com/spreadsheets/d/1KxLpMvhypikrcNph7NAimeFdyPbRK1rrw-6yAcREqa4/edit?usp=sharing</p>",
+        "date": "2021-07-11",
+        "fundsLost": "505060",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "UMB",
+          "addresses": [
+            "0x6fc13eace26590b80cccab1ba5d51890577d83b2"
+          ]
+        }
+      },
+      {
+        "id": 2785,
+        "projectName": "DoraFactory",
+        "description": "<p>ChainSwap was cracked by the hacker. DORA tokens on ChainSwap bridges were affected. 7872 DORA tokens were stolen from the ChainSwap bridge smart contract and they were immediately sold on Uniswap.<br><br>Most of the tokens were assets owned by the Foundation, and they were used to create cross-chain liquidities.</p>",
+        "date": "2021-07-11",
+        "fundsLost": "42373",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "DORA",
+          "addresses": [
+            "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d"
+          ]
+        }
+      },
+      {
+        "id": 2786,
+        "projectName": "OptionRoom",
+        "description": "<p>OptionRoom has been affected due to the ChainSwap hack.<br><br>\"As such, we had no other way to withdraw and secure the community liquidity other than by selling into the pool. This enabled us to mitigate the financial damages of the hack, reducing a potential $800,000 loss into a $38,000 loss. All the funds recovered from the emergency actions we took were added back as liquidity on PancakeSwap, and all liquidity providers were recompensed directly to their wallets.\"</p>",
+        "date": "2021-07-11",
+        "fundsLost": "800000",
+        "fundsReturned": "762003",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "ROOM",
+          "addresses": [
+            "0x3c45a24d36ab6fc1925533c1f57bc7e1b6fba8a4"
+          ]
+        }
+      },
+      {
+        "id": 2787,
+        "projectName": "Fetch.ai",
+        "description": "<p>Artificial intelligence research lab Fetch.ai has been granted a request to have major cryptocurrency exchange Binance identify individuals behind a $2.6 million hack.<br><br>According to a Friday Reuters report, the Royal Courts of Justice in London has ordered Binance to identify the hackers and seize the stolen assets. Fetch.ai reportedly claimed that hackers stole $2.6 million worth of cryptocurrency from its Binance account on June 6 and resold the tokens for a significantly reduced price.</p>",
+        "date": "2021-08-14",
+        "fundsLost": "2600000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": "FET",
+          "addresses": [
+            "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85"
+          ]
+        }
+      },
+      {
+        "id": 2788,
+        "projectName": "Sentinel DVPN",
+        "description": "<p>Sentinel, a Cosmos ecological dVPN project, stated on Twitter that the $40 million DVPN tokens were stolen due to the leak of the mnemonic phrase on the HitBTC exchange. Sentinel stated that the user's own DVPN was safe, and HitBTC had the problem. They reported the hacking incident to Sentinel one hour after the incident. So Sentinel hopes that HitBTC will take action to return DVPN to users. HitBTC responded that Sentinel was trying to shirk responsibility for its technical defects and deceive everyone. HitBTC believes that Sentinel’s technology has vulnerabilities that can easily cause user mnemonics to be publicly disclosed. Such vulnerabilities are common in the Sentinel network, and the blockchain and software have not been thoroughly tested, and the company has not invested enough time and resources to protect users. Therefore, HitBTC recommended that Sentinel fix the security vulnerabilities in the software, conduct more tests, and restart the current centralized system.</p>",
+        "date": "2021-08-21",
+        "fundsLost": "1000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": "DVPN",
+          "addresses": [
+            "IBC/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84"
+          ]
+        }
+      },
+      {
+        "id": 2789,
+        "projectName": "Cryptopia Exchange",
+        "description": "<p>The Cryptopia exchange has reportedly been hacked again, even as it is being liquidated following a previous breach that stole NZ$24 million (US$15.5 million).</p><p><br></p><p>According to a Stuff report Thursday, a creditor, U.S. firm Stakenet, has been told that about NZ$62,000 (US$45,000) in the XSN cryptocurrency had been transferred out of its cold wallet on Feb. 1.</p>",
+        "date": "2021-02-20",
+        "fundsLost": "45000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2790,
+        "projectName": "Fireblocks",
+        "description": "<p><strong>Quick Summary</strong></p><p>Fireblocks company lost 75,000,000 $USD due to the negligence of the security engineer</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FireBlocks is an Israeli company that offers traditional financial institutes a seamless plug into the decentralized finance ecosystem and its customers. Cryptocurrency company StakeHound has filed a lawsuit against &nbsp;Fireblocks, claiming that it lost NIS 245.5 million (approximately $75 million) worth of cryptocurrencies it was entrusted with. StakeHound claims that Fireblocks, a developer of secure cross-enterprise asset transfer infrastructure, was negligent and as a result, the funds have been lost and can not be recovered. Fireblocks has denied any wrongdoing, claiming that: \"The keys were generated by the client and stored outside the Fireblocks platform,\" and that \"the customer did not store the backup with a third-party service provider per our guidelines.\"</p>",
+        "date": "2021-06-22",
+        "fundsLost": "75000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2791,
+        "projectName": "Circle",
+        "description": "<p>Circle Internet Financial, the issuer of the US dollar stable currency USDC, reported in a regulatory filing with the US Securities and Exchange Commission (SEC) that Circle Internet Financial lost US$2 million in email fraud. Circle stated that the email fraud incident did not affect customer funds and accounts, Circle's information system is still safe, and the US$2 million is the company's own funds.</p>",
+        "date": "2021-07-09",
+        "fundsLost": "2000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2792,
+        "projectName": "Finiko",
+        "description": "<p><strong>Quick Summary</strong></p><p>Finiko company which offers Bitcoin investment opportunities and huge return fees turns out to be a Ponzi scheme. The founders of the company were arrested. Finiko accumulated funds close to 1,500,000,000 $USD due to an investigation from Chainalysis.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The company, named Finiko, offered lucrative investment options using a network of promoters who pulled in new users for referral fees. Investors were supposed to put in bitcoin and get the native token of Finiko in return.</p><p>About 100 people reported Finiko to the police, officials said, and the amount of claims totaled around 70 million Russian rubles, or slightly less than $1 million. The project<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;accumulated 59,645 $BTC which is valued at more than 1,500,000,000 $USD due to an investigation from Chainalysis.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://www.blockchain.com/btc/address/328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk</p><p>https://www.blockchain.com/btc/address/1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5</p><p><br></p><p>Full list of the involved addresses:</p><p>https://archive.ph/8m2yG</p>",
+        "date": "2021-07-05",
+        "fundsLost": "1500000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": [
+            "328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk",
+            "1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5"
+          ]
+        }
+      },
+      {
+        "id": 2793,
+        "projectName": "Liquid",
+        "description": "<p><strong>Quick Summary</strong></p><p>Liquid exchange platform announced it suffered a hack and lost over 90,000,000 $USD worth funds in $BTC, $TRX, $XRP, $ETH, and some ERC-20 tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Liquid is a Japanese crypto-fiat exchange platform. According to the announcement on platform's Twitter, the exchange’s hot wallets were compromised and the Liquid team proceeded to move funds to cold storage:<br>https://twitter.com/Liquid_Global/status/1428176357515612165<br><br>The first batch of addresses initially reported by Liquid included the following 4 crypto addresses:<br><br>BTC: 1Fx1bhbCwp5LU2gHxfRNiSHi1QSHwZLf7q (received 107 BTC);<br>ETH: 0x5578840aae68682a9779623fa9e8714802b59946 (received around $60 million in ETH and ERC-20);<br>XRP: rfapBqj7rUkGju7oHTwBwhEyXgwkEM4yby (received more than 11 million XRP)<br>TRX: TSpcue3bDfZNTP1CutrRrDxRPeEvWhuXbp<br><br>The hacker deposited the stolen XRP to centralized exchanges such as Huobi or Poloniex and then changed it to BTC sent on 2 identified addresses:<br><br>12PKkwoFkXp6JtN7roWRA2gSitE6nVDds4 (92 BTC)<br>1JW1tcBXp1vZ6KGEirFNSXb5RgZSaL63Av (100 BTC)<br><br>The hacker is also using a mixing service and sent more than 9,000 ETH from the address 0x5578840aae68682a9779623fa9e8714802b59946 to Tornado Cash mixer.</p><p><br></p><p>Besides, the other address reported by Liquid (0xff0f573bdf4c23e41ea3ecd82efa66828706b711), the hacker is using decentralized exchanges (DEXs) such as Uniswap to swap tokens to ETH as shown below.</p>",
+        "date": "2021-08-19",
+        "fundsLost": "97000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2794,
+        "projectName": "Multichain",
+        "description": "<p>On Jan 18, Multichain urged users to remove approvals for six cross-chain tokens (WETH, PERI, OMT, WBNB, MATIC, AVAX), while the users haven’t revoked WETH approval were exploited (WETH 602.69 total affected).<br><br>The whitehat hacker returned 259 ETH at:<br>https://etherscan.io/tx/0x2bbd6a6a0d4d56db0b231465f56c5fca9d11e874109277a576b69f2acf1ee7a9</p>",
+        "date": "2022-01-18",
+        "fundsLost": "2726413",
+        "fundsReturned": "2522800",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2796,
+        "projectName": "Metaland DAO",
+        "description": "<p>According to the PeckShield alerts, they have detected that Metaland DAO stole more than 640 WBNB</p>",
+        "date": "2022-01-07",
+        "fundsLost": "286585",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "META",
+          "addresses": [
+            "0x9d52414c4cc1fb8e7864a9b59495f430f8e5de44"
+          ]
+        }
+      },
+      {
+        "id": 2797,
+        "projectName": "CityDAO",
+        "description": "<p>CityDAO, an Ethereum-based community blockchain city project, has posted that the CityDAO Discord administrator account has been hacked. 29.67 ETH ($95,000) funds were stolen by hackers using stolen admin accounts to post fake land airdrop messages. The attacked administrator, \"Lyons800,\" tweeted that the attack was a \"ridiculous security breach from Discord.\"<br>https://twitter.com/Lyons_800/status/1480909318832721924</p>",
+        "date": "2022-01-10",
+        "fundsLost": "95000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2798,
+        "projectName": "Solfire",
+        "description": "<p>Solfire executed rug pull by withdrawing assets from the Solfire hot wallet.<br><br>Addresses behind the rug pull:<br>https://solscan.io/account/D6RBPLyUYhUE98rWZrewSkpmSDLypGRoGV4EqvGKkvym<br>https://solscan.io/account/8XnyGsVNGFWQ2UYAzwj8gqJsCETMzmbY6ZFTqHpRWfy<br><br>Funds were stolen from Solfire hot wallet:<br>https://solscan.io/account/4QSQiBquEZXhLJNHNR6CjKEFWkgmtfcbTjdqHZgZErLn<br><br>The list of stolen funds:<br>- 6.3848 BTC<br>https://solscan.io/tx/4cdwKrEqcv1EB8oXhJw2Udmww8ySkPh7m3RMLFciWSbSE84oDZmRxeDBCR32XeVYWmF8zodpw4sNxrmJbkCwPTc2<br><br>- 104.86 soETH<br>https://solscan.io/tx/26AnPkNQ6VQaPJ4qyf1AwumEiSnQkXJpM3dhJe5cSqdcPFTkJjMgfojGXxME8QG6CkwAbFCMWLQMscbcDnNHSs4D<br><br>- 4,414.47 SOL<br>https://solscan.io/tx/2vEBhU4F5zZjL65JWkc7CFUZamU9rqpEBbPjugEoSLJ8WJGKBWvYWYUUtRapUtS5kFaF6YR3amCqPJhDBB7VaCrt<br><br>- 1,537,822.99 USDT<br>https://solscan.io/tx/2wcJUbWc4XiCcwrX3sm92XVCxmNEJH27Jo1idJ8N59313BXfqzT8QJj6szeRTekmns9JXjQzbpTKmeR6UFCCky4r<br><br>- 299,702.9 USDC<br>https://solscan.io/tx/5Q2xciZggPc9Ycmrs7XM33AbtAvTEiCHfBDS2MeSgV3ihYKKAc9nXhJ9r5NX3xnmb7pV8Y6hy6xkgx1SPCipa6bp<br><br>- 4,030.4 mSOL<br>https://solscan.io/tx/48r9KhG6N7jbK1wjPR2DnSAGjrKkEfXLRwtX5Q7af3jyQ5BKq7K5Y4BaHLMCtWQTwKgi65V9wx3AMZY2fYhkL9Ln<br><br>- 1,457.89 LUNA<br>https://solscan.io/tx/2roQu6zjy6wCuJK72eQeDHw1ojaA5WwtreYMcSq4okjfsrebXtngsxd5ub3ZZphEy5XFMg8SPjMsGrqU3hJSvSJv<br><br>- 26,347.69 RAY<br>https://solscan.io/tx/QauQooTafdiW2TqoWA4an7owW3fzCDTzWfuDXxDNz2t5eQAVtf2R1QKxBJ1fwB4SFwSme4zNakNzoaRpmSgc5e9<br><br>- 46,110.45 SRM<br>https://solscan.io/tx/zLHjtcwZnGRZfUYqsXF55npe6ebpju2hYfZyPejT8j1dFMuJBu5Q39BPfRgb74z1xtu7wbx6m4EMwZFGLShS8fm<br><br>- 830,270.48 SBR<br>https://solscan.io/tx/3dVq6Z5kddj51LhPesBz8Un4KD6i7e7MVDDvbLqbnnw93mNwzU1Uh34kS8v38g5MCp9MqmaU33yMyXwKD1Er6D2g<br><br>Initial gas funding was performed through the following wallet and then funds were bridged to Solana:<br>https://etherscan.io/address/0xe8032c0270164819bbee809324e09d899cc97f18<br><br>Stolen funds have arrived in the next wallets:<br>https://etherscan.io/address/0xc5afc6c1d4002dc9bc765542a17bb0fc49044ec5<br>https://etherscan.io/address/0x1e669254badd2866b217983d6a2fcbbf07d66ff7<br><br>Part of stolen funds was deposited into Curve pool:<br>https://etherscan.io/tx/0x6719f05a0c62fa06f513b56fb9276b7b7ac38253960ac5d692c3476bfcadf292<br><br>FIRE tokens circulation supply was sent to this address:<br>https://solscan.io/account/3SfihoLDctTc7fna3akRMkVuSFrhBkCzVv6scBJnjQSF#splTransfers<br><br>The liquidity from the pair was removed at:<br>https://solscan.io/tx/5X8BeUDax4s2k4YywMrp8Dj2EJCiH3RcBw99X51kqfw2yJL3ECqGveuvCyDzaR6a9xGBdShKMaUXdSJKVQgpz57i<br>https://solscan.io/tx/5QeajKs6shGXXPqUB5xxGXhjEXaK9pUvpvwzBBda48bMPzDcdW1UD8a1hhTSkMkQht71Go7hKGP521egKCSMvLo9<br>https://solscan.io/tx/36GYywPbYSxZcMigk9Ysdoz32kXqUywfJMP8qHgkDt271qhUSkdZWQPr7jWKUpDwwh3jEfH8MARdY7JAARHp7iNf<br>https://solscan.io/tx/39TKL9PyJ7A9FBrgeJZjbYtNGth85vWYpEuNPJ7BLuoNzDMz2aMjSbVHVf8SKcXQe24EyzithHPwKU38DV27951x<br>https://solscan.io/tx/3ugpapQE7JT8U7yrKpidTFW4YhqZ2f9Gpr7QvRFeXmvWC9MLasdy1K7mU8x86VE7LNtx7ZU4daA1NdHXgxjtGczn</p>",
+        "date": "2022-01-23",
+        "fundsLost": "4055803",
+        "fundsReturned": "0",
+        "chaindIds": [
+          24
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FIRE",
+          "addresses": [
+            "AfXLBfMZd32pN6QauazHCd7diEWoBgw1GNUALDw3suVZ"
+          ]
+        }
+      },
+      {
+        "id": 2799,
+        "projectName": "OpenSea",
+        "description": "<p>A bug has been exploited to purchase NFTs from users of OpenSea, at well below market value.<br><br>Was identified at least five attackers who have exploited this loophole to purchase at least twelve NFTs for much less than their market value. These include Bored Ape Yacht Club, Mutant Ape Yacht Club, Cool Cats, and Cyberkongz NFTs.<br><br>The exploit:<br>- when you list an item for sale (or bid) you are signing data that validate that you are willing to sell your NFT at this price<br><br>- the signature is saved in OpenSea's DB off-chain and when someone wants to buy your NFT, they will send to their smart contract your previously signed data where the signature and sale information (such as expiration &amp; price) are validated on-chain before making the transfer<br><br>- when you cancel a listing, you are required to perform a transaction. The reason is that someone might save your signed listing (which are public - i.e https://orders.rarible.com or even their API) and use it later, even if the listing got removed from the UI<br><br>- the transaction on-chain will save the fact that you canceled this sale on their smart contract and even if someone will try to use your signed data from before, the on-chain validation will reject the sale<br><br>- the bug stems from the fact that previously you could re-list an NFT without canceling it and all the previous listings are not canceled on-chain, this is why re-listing will not work<br><br>For example, at around 7 am on January 24, a Bored Ape Yacht Club NFT #9991 was purchased for 0.77 ETH ($1,800). This family of NFTs currently sells for at least $198,000. Twenty minutes later the hacker sold the NFT for 84.2 ETH ($196,000) – realizing a profit of $194,000.<br><br>One attacker, going by the pseudonym \"jpegdegenlove\" paid a total of $133,000 for seven NFTs – before quickly selling them on for $934,000 in ether. Five hours later this ether was sent through Tornado Cash, a \"mixing\" service that is used to prevent blockchain tracing of funds:<br>https://etherscan.io/address/0xb1a22cc48f6784f629a994917cd6474923630c48<br><br>Victims were partially compensated:<br>https://etherscan.io/tx/0xa4712e1f9aed57a26db689cabd47cc22a23e8638bb8c7be051cdeff27fd66bef<br>https://etherscan.io/tx/0x8c7327bf6d2bdb3e8f3db70fd87f160ff9f2b0940d4f0cdf6b9380d32295bf9c</p>",
+        "date": "2022-01-24",
+        "fundsLost": "1019300",
+        "fundsReturned": "75000",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2800,
+        "projectName": "BNB HEROES",
+        "description": "<p>The contract owner removed liquidity from the main token pair at:<br>https://bscscan.com/tx/0xe7d7f444aeeecf20b4b6fbb06652fff1573921232118360e91655c97ae923576<br><br>The rest of the tokens were dumped at:<br>https://bscscan.com/tx/0xae461edfb539b822bf750b27843a857bf900af742ef4325b0474213c2ee8fb5a<br>https://bscscan.com/tx/0x1dd4b70f388ebefe3499bf9a668ef7a2351e509cda26f7ec4c7ba9c3b6cb9e59<br>https://bscscan.com/tx/0x2aaef863c2c6d18b751da391588a4a1160a3aff4ebc12c7c28d1969263adabe6<br>https://bscscan.com/tx/0x91f03917a2875cc2b6c689dc0ad26a8d73608d657126067c72437b545be828f4<br>https://bscscan.com/tx/0x2545685fe84d331d486e040b770241bd970ebe2db2ea8aa1a73d5cba395e8993<br>https://bscscan.com/tx/0x552166f9348f37254fdd3cd0e08800d72c412a5a204121c7fc7e17acf65a123e</p>",
+        "date": "2022-01-17",
+        "fundsLost": "561284",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BNBH",
+          "addresses": [
+            "0xd25631648e3ad4863332319e8e0d6f2a8ec6f267"
+          ]
+        }
+      },
+      {
+        "id": 2801,
+        "projectName": "Crypto Burgers",
+        "description": "<p>Crypto Burgers suffered a flash loan attack.<br><br>The attack was caused by a smart contract vulnerability that allows the token to burn in any account.<br><br>According to the official announcement, whitehat hacker did a front-run the hacker's transaction and recovered part of the stolen funds:<br>https://medium.com/@cryptoburgernft/it-has-been-6-days-since-the-attack-17fc253a57b5<br><br>Stolen funds were transferred to the contract deployer:<br>https://bscscan.com/tx/0xeaad36bd24617b92dbb15c3eaba3ac9b75f9e0d1266b7f71a46903b590a46fce</p>",
+        "date": "2022-01-17",
+        "fundsLost": "770000",
+        "fundsReturned": "450251",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "0xf40d33de6737367a1ccb0ce6a056698d993a17e1",
+          "addresses": [
+            "BURG"
+          ]
+        }
+      },
+      {
+        "id": 2802,
+        "projectName": "Crosswise",
+        "description": "<p>The transaction behind the attack:<br>https://bscscan.com/tx/0xd02e444d0ef7ff063e3c2cecceba67eae832acf3f9cf817733af9139145f479b<br><br>The attacker's address:<br>https://bscscan.com/address/0x748346113b6d61870aa0961c6d3fb38742fc5089<br><br>The attack was made possible by the public disclosure of a privileged function, which is subsequently used to set the <u>trustedForwarder</u> and further hijack the Crosswise MasterChef owner permission.<br><br>The attacker:<br>- called <u>setTrustedForwarder</u>() function to change <u>trustedForwarder</u><br>- transferred the ownership<br>- swapped 0.01 WBNB to 3.71 CRSS through CrosswiseRouter<br>- deposited 1 CROSS to Crosswise MasterChef<br>- set strategy to the new one under the hacker's control<br>- withdrew 692K CRSS from the MasterChef<br>- swapped 692K CRSS to 547 WBNB<br><br>Stolen funds were deposited into the Tornado Cash proxy:<br>https://explorer.bitquery.io/bsc/txs/calls?caller=0x748346113b6d61870aa0961c6d3fb38742fc5089&amp;contract=0x0d5550d52428e7e3175bfc9550207e4ad3859b17</p>",
+        "date": "2022-01-18",
+        "fundsLost": "257868",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "CRSS",
+          "addresses": [
+            "0x99fefbc5ca74cc740395d65d384edd52cb3088bb"
+          ]
+        }
+      },
+      {
+        "id": 2803,
+        "projectName": "Mercenary",
+        "description": "<p>The contract deployer removed liquidity at:<br>https://bscscan.com/tx/0x53deb909bc12ca29ff132caf8ad50a81e794f8618d8a4fd3116977fef04234c7<br><br>The contract deployer started to mint tokens several times, the example transactions:<br>https://bscscan.com/tx/0xbdd7c46caa1f9fdbd22bc9716f014179b51d5ea59af8f6b332122600dea1318a<br>https://bscscan.com/tx/0xabc092e8f8da2ae389487a0f348a856ec3479e9651557cc99634641d283e2626<br><br>The contract deployer sold tokens several times, the example transactions:<br>https://bscscan.com/tx/0xd219f3e072bb94a49c00736c32ea66cf7dd9cd078f1194572502566e9a9513c1<br>https://bscscan.com/tx/0x9b27635b300c6722acf91208f78b900b413841efedd7d48e3b39a38e145cd918<br>https://bscscan.com/tx/0x80ffb26c95ee3cc68566321aa87224cd0cf355c962461b89dcf60bdebfb2ba91</p>",
+        "date": "2022-01-26",
+        "fundsLost": "760000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MGOLD",
+          "addresses": [
+            "0xe0e279ee10e3bdc9b7577f5548dd46fca2e7e111"
+          ]
+        }
+      },
+      {
+        "id": 2804,
+        "projectName": "IDO rug pulls",
+        "description": "<p>The address behind several rug pulls:<br>https://bscscan.com/address/0x4edcf70d3ac8cacb658d43017fc114a0e5875d9a<br><br>Stolen funds were transferred to the other external address:<br>https://bscscan.com/tx/0xc9940a062d9b767fa84a03836b779cd83cf79bf225f0a1dbeac8cece7b88c2f2<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bscscan.com/txs?a=0xc43b1f4e7e47be5d5663c3b26e4fb3fe7e217f90&amp;p=1</p>",
+        "date": "2022-01-12",
+        "fundsLost": "2661699",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GOTEM, ONEP, HBARP, MPLAY, PEE, QDrop,",
+          "addresses": [
+            "0xa5fbc3520dd4bb85fcd175e1e3b994546a2c1ee8, 0xa5fbc3520dd4bb85fcd175e1e3b994546a2c1ee8, 0x926cc5b32c1e88d7532deff023ececdd66f37bfe, 0x9e3ad692084737daf3f8e92bdfb4030965d2d5e6, 0xdb787f0cc920446c93ee7a35a674185ac27606f2, 0x80dd860289d6dafa733c85a58d9f11707838687d"
+          ]
+        }
+      },
+      {
+        "id": 2805,
+        "projectName": "Qubit Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Qubit Finance lending protocol was hacked due to smart contract vulnerability. The hacker minted $xETH tokens to steal 80,000,000 worth of $BNB</p><p><br></p><p><strong>Details of the Exploit</strong>&nbsp;</p><p>Qubit Finance is DeFi protocol for lending and borrowing on both Ethereum and Binance SmartChain. The protocol confirmed a hack on Twitter, 206,809 $BNB was stolen which was worth 80,000,000 $USD up to that time. The attack flow is below:<br>The attacker:<br>- funded his wallet with 0.8887725 ETH from Tornado Cash</p><p>- sent 16 deposit transactions to QBridge of Ethereum</p><p>- sent 16 <u>voteProposal</u> transactions to QBridge contract of BSC by Qubit Relayer</p><p>&nbsp;- a number of $xETH tokens were minted by 16 <u>voteProposal</u> transactions, and liquidity in Qubit was withdrawn using this as collateral.<br><br>The attacker called the QBridge deposit function on the Ethereum network, which calls the deposit function QBridgeHandler. QBridgeHandler should receive the $WETH token, which is the original <u>tokenAddress</u>, and if the person who performed the tx does not have a $WETH token, the transfer should not occur.<br><br><u>tokenAddress.safeTransferFrom</u>(depositer, address(this), amount);<br><br>In the deposit function above, <u>tokenAddress</u> is 0, so <u>safeTransferFrom</u> didn’t fail and the deposit function ended normally regardless of the amount value. Additionally, <u>tokenAddress</u> was the $WETH address before <u>depositETH</u> was added, but as <u>depositETH</u> is added, it is replaced with the zero address that is the <u>tokenAddress</u> of ETH.<br><br>In summary, the deposit function was a function that should not be used after <u>depositETH</u> was newly developed, but it remained in the contract, which allows the attacker to use this to steal the funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xD01Ae1A708614948B2B5e0B7AB5be6AFA01325c7</p>",
+        "date": "2022-01-27",
+        "fundsLost": "80000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2806,
+        "projectName": "DataDAO Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>A backdoor is created in the supportsInterfaceCall() function that allowed to do calls to token contracts and transfer Part tokens of those who did approvals to the malicious &nbsp;Part contract.</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>By 13.09.2022, supportsInterfaceCall() is being continuously called. For now, the last function execution was done on the 10th of Aug 2022. The tokens draining started on the 31th of Jan 2022.</p><p>As a result, the following losses take place:&nbsp;</p><p>558348 USDC</p><p>214749 &nbsp;DAI</p><p>8540 MIM</p><p><br></p><p>Still, any approved tokens left are endangered and can be drained anytime. This again demonstrates the importance of monitoring approved contracts and checking them for vulnerabilities and backdoors.&nbsp;</p><p><br></p><p><strong>F</strong><strong>unds lost</strong>: 781 637</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Backdoor function (supportinterfaceCall())</p><p>https://ftmscan.com/address/0x689e0205d21337cfebbe0beabf33e1bae2a1ae06#code#L1007</p><p>Example transactions&nbsp;</p><p>https://ftmscan.com/tx/0x754b5ab0d6aaec00e4a7f173caccce3fc3e999d2a1a58192ae7a11527b9189d5</p><p>https://ftmscan.com/tx/0x5d1242f7e07f5f803005039f490d5d0c84d73679bb1a239df6cac342f54d088b</p><p>Recipient of tokens</p><p>https://ftmscan.com/address/0xfc2fb8fd8c98b6a16a0da7638e1c0b8085f8ed69</p>",
+        "date": "2022-01-30",
+        "fundsLost": "781637",
+        "fundsReturned": "0",
+        "chaindIds": [
+          4
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Part",
+          "addresses": [
+            "https://ftmscan.com/token/0x689e0205d21337cfebbe0beabf33e1bae2a1ae06"
+          ]
+        }
+      },
+      {
+        "id": 2807,
+        "projectName": "Mt. Gox",
+        "description": "<p><strong>Quick Summary</strong></p><p>Mt. Gox Bitcoin exchange suffered a massive breach resulting in the theft of 25,000 BTC (US$400,000 at the time) from 478 accounts, affecting accounts with the equivalent of more than $8,750,000.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The incident began on 13 June 2011, when Mt. Gox reported the theft of 25,000 BTC from 478 accounts. On 17 June, Mt. Gox's user database was leaked for sale to pastebin, signed by ~cRazIeStinGeR~ and tied to auto36299386@hushmail.com. The theft continued throughout that day. On 19 June, a hacker allegedly used credentials from a Mt. Gox auditor's compromised computer to transfer a large number of bitcoins illegally to himself, causing the nominal price of a bitcoin to fraudulently drop to one cent on the Mt. Gox exchange. The hacker used the exchange's software to sell all the bitcoins nominally, creating a massive \"ask\" order at any price. The price corrected to its correct user-traded value within minutes.</p><p><br></p>",
+        "date": "2011-06-13",
+        "fundsLost": "8750000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2808,
+        "projectName": "Mt. Gox",
+        "description": "<p><strong>Quick Summary</strong></p><p>One of the world's largest exchanges, Mt. Gox, declared bankruptcy in 2014 after being hacked, while losing most of its assets. At the time of bankruptcy, the exchange held 200k $BTC.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mt. Gox was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in 2010, it processed more than 70% of all Bitcoin (BTC) transactions worldwide by the beginning of 2014.</p><p>At the beginning of 2014, Mt Gox, a bitcoin exchange based in Japan, was the largest bitcoin exchange in the world, handling over 70% of all bitcoin transactions worldwide. By the end of February of that year, it was bankrupt.<br>Anyone who was using Mt. Gox lost access to their assets, and it has been a cautionary tale for crypto investors. While the assets weren’t all lost, anything that was left has been frozen for years.<br>The victim of a massive hack, Mt. Gox lost about 740,000 bitcoins (6% of all bitcoin in existence at the time), valued at the equivalent of €473 million at the time and over $3 billion at October 2017 prices. An additional $27 million was missing from the company’s bank accounts.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://www.blockchain.com/btc/address/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF</p>",
+        "date": "2014-02-24",
+        "fundsLost": "473000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF"
+          ]
+        }
+      },
+      {
+        "id": 2809,
+        "projectName": "Bitfinex",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Bitfinex crypto exchange was hacked for more than 94,000 $BTC. Accident was the second-largest breach of crypto exchange up to that time</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A private key from the BitGo multisignature wallet was leaked (Multi-signature wallets: needs 2 of 3 signatures. Bitfinex held two of the keys (including one offline) and BitGo used the third to co-sign transactions.)<br><br></p><p>BitGo founders mentioned that it was not an issue with their multisig product. So, the most likely scenario was a compromised secret key.<br><br></p><p>After the attack, Bitfinex managed to track some funds and also issued refunds to its customers in the form of equity. All losses from the attack were equally distributed among the users.<br><br>UPDATE<br><br>The Justice Department announced it seized more than $3.6 billion in allegedly stolen cryptocurrency linked to the 2016 hack of Bitfinex. As part of the operation, authorities detained a New York couple on allegations they planned to launder the digital goods:<br>https://www.justice.gov/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency<br><br>Officials said they arrested Ilya Lichtenstein, 34, and his wife, Heather Morgan, 31. Officials said they were able to seize more than 94,000 $BTC, which were valued at around $3.6 billion at the time of seizure.</p>",
+        "date": "2016-08-02",
+        "fundsLost": "65000000",
+        "fundsReturned": "65000000",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2810,
+        "projectName": "MintPal",
+        "description": "<p>Mintpal faced a major hack on the 13th of July, causing 8,000,000 Vericoin to be stolen (value $2,000,000), which was about 30% of the circulating supply at the time. The exchange had kept their Vericoin on a “hot” wallet (an online, internet-connected wallet), which is much more vulnerable.</p><p>Interestingly enough, the Bitcoin and Litecoin wallets were also targeted for the Mintpal hack. This turned out unsuccessful. The exchange had wisely decided to move these to a “cold” wallet (an offline wallet).</p>",
+        "date": "2014-07-13",
+        "fundsLost": "2000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2811,
+        "projectName": "MintPal",
+        "description": "<p>In October, well over 3,700 Bitcoins went missing. Unlike the previous hack, the reason for this loss seems to come from having entrusted a malicious individual – Moolah’s CEO Alex Green is accused of having stolen almost $1,500,000 from Mintpal clients.</p>",
+        "date": "2014-10-19",
+        "fundsLost": "1500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2812,
+        "projectName": "Bitstamp",
+        "description": "<p>The attacked contacted with Bitstamp team and sent a number of attachments via email. One of these, UPE_application_form.doc, contained obfuscated malicious VBA script. When opened, this script ran automatically and pulled down a malicious file from IP address 185.31.209.145, thereby compromising the machine. Ultimately, the attackers were able to access two servers containing the wallet.dat file for Bitstamp’s hot wallet and the passphrase for that file.<br><br>On 4th January, the attacker drained the Bitstamp wallet.<br><br>Bitstamp lost 18,866 BTC from its hot wallet, worth approximately $5,263,614 at a time when the price of bitcoin averaged $279.</p>",
+        "date": "2015-01-04",
+        "fundsLost": "5263614",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2813,
+        "projectName": "Flexcoin",
+        "description": "<p>Official statement:<br><br>\"On March 2nd, 2014 Flexcoin was attacked and robbed of all coins in the hot wallet. The attacker made off with 896 BTC, dividing them into these two addresses:<br><br>1NDkevapt4SWYFEmquCDBSF7DLMTNVggdu<br><br>19FcC5jitGwpFKORDd9QNH3eGN56d0Ngy6<br><br>As Flexcoin does not have the resources, assets, or otherwise to come back from this loss, we are closing our doors immediately.<br><br>Users who put their coins into cold storage will be contacted by Flexcoin and asked to verify their identity. Once identified, cold storage coins will be transferred out free of charge, Cold storage coins were held offline and not within reach of the attacker. All other users will be directed to Flexcoin's Terms of service located at \"Flexcoin.com/118.html\" a document which was agreed on, upon signing up with Flexcoin,<br><br>Flexcoin will attempt to work with law enforcement to trace the source of the hack<br><br>Updates will be posted on twitter as soon as they become available.\"</p>",
+        "date": "2014-03-02",
+        "fundsLost": "614298",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2814,
+        "projectName": "Wormhole",
+        "description": "<p><strong>Quick Summary</strong></p><p>The Wormhole bridge was compromised by an attacker that bypassed the verification process and made away with 120,000 $WETH.</p><p><strong><br>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p>1. The attacker minted 120,000 wETH on Solana:<br>https://solscan.io/tx/2zCz2GgSoSS68eNJENWrYB48dMM1zmH8SZkgYneVDv2G4gRsVfwu5rNXtK5BKFxn7fSqX9BvrBc1rdPAeBEcD6Es<br><br>2. The attacker redeemed 93,750 wETH for ETH worth $254 million onto the Ethereum:<br>https://etherscan.io/tx/0x24c7d855a0a931561e412d809e2596c3fd861cc7385566fd1cb528f9e93e5f14<br>3. The hacker used some funds to buy SportX ($SX), Meta Capital ($MCAP), Finally Usable Crypto Karma ($FUCK), and Bored Ape Yacht Club Token ($APE), the example transactions:<br>https://etherscan.io/tx/0x8ab3c4adab6d1a21ec1fcd7dc96523e7dada92d1373ee6919aa6b10b51ebe8d1<br>https://etherscan.io/tx/0x697869218add15e019f7a1904b7c3b435f9048ec3bcb9c84cf23e64916a41add<br>https://etherscan.io/tx/0x6f17f122dca10e9c894af3766d93e97c08f8925eb3a20b894b810edb3d029ed0<br>https://etherscan.io/tx/0x57a48345888cbfb2d442f272c6fd9d38f57f6f5608c00c4978860eea7dc927c<br><br>4. The remaining wETH was swapped for SOL and USDC on Solana. The hacker’s Solana wallet currently holds 432,662 SOL ($44 million):<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka#splTransfers<br><br>Probably the issue was in the signature verification process. So it lead to an unverified call by the attacker.</p><p>Investors were made whole by Jump Trading the mother company behind the wormhole bridge that replenished the stolen ETH.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p>The attacker's addresses:<br>https://etherscan.io/address/0x629e7da20197a5429d30da36e77d06cdf796b71a<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka</p>",
+        "date": "2022-02-02",
+        "fundsLost": "326000000",
+        "fundsReturned": "326000000",
+        "chaindIds": [
+          24
+        ],
+        "category": "Bridge",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "2SDN4vEJdCdW3pGyhx2km9gB3LeHzMGLrG2j4uVNZfrx"
+          ]
+        }
+      },
+      {
+        "id": 2815,
+        "projectName": "CryptoBatz",
+        "description": "<p>The discord server was breached by hackers who used a sophisticated webhook exploit to circumvent security, allowing them to post a fake minting link on the announcement channel.</p>",
+        "date": "2022-01-29",
+        "fundsLost": "90170",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2816,
+        "projectName": "Big Daddy Ape Club",
+        "description": "<p>On January 11, scammers staged one of the largest NFT scams in the history of the Solana blockchain. The scammers made off with 9,136 SOL, or about $1.3 mln, in funds sent by would-be collectors to mint the Big Daddy Ape Club NFT. The owners of the Big Daddy Ape Club project were able to abscond with funds despite the fact that the NFT drop was \"verified\" by decentralized identity verification company Civic. Civic now says it's working with law enforcement to find those responsible for the scam.<br><br>The Big Daddy Ape Club was introduced as a collection of 2,222 monkey-themed NFTs to be minted on the Solana blockchain and listed on the Solanart NFT marketplace.<br><br>Mert, a software engineer at Coinbase and a Solana researcher said he traced the Solana scammer's wallet, and that some of the funds were transferred to accounts on the Binance crypto exchange. The exchange said it has suspended the accounts and will also be working with law enforcement to investigate.<br><br>The address behind the case:<br>https://solscan.io/account/C2JoNvhfh4WYLUzDDE4YFeqsMQT3UrexJKfARA1JYYmw</p>",
+        "date": "2022-01-11",
+        "fundsLost": "1237622",
+        "fundsReturned": "0",
+        "chaindIds": [
+          24
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 2817,
+        "projectName": "DePo",
+        "description": "<p>The exploiter:<br>https://etherscan.io/address/0x6ffe6e183571139636b9479ca65cf99edc6be215<br><br>The exploiter was a public team member and the deployer of this MasterChef contract:<br>https://etherscan.io/address/0x1ca1a5937d73f74f89764c3835d6796e4e1c8314#code<br><br>He was able to invoke emergencyRewardWithdraw() to steal DEPO tokens, the example transactions:<br>https://etherscan.io/tx/0xd47dfe0b9df5d7f7796d54ac7dd4e118a236074b3d512ef5fd05a27a4957a6b7<br>https://etherscan.io/tx/0x8ac9a06a8de7b5167cf94388d761797955b1081726bf3d612ed977ce1a4495a5<br>https://etherscan.io/tx/0x287a7c336ba148c5f562a5852e1dba0820a65e7a6074c085df2d02eeb8b4e29b<br><br>Tokens were sold on Uniswap, the example transactions:<br>https://etherscan.io/tx/0x05996fc320cc79431b498f4a3a1132de4094de593e70c0737c0a93de1bff6a4e<br>https://etherscan.io/tx/0x82252439eb9cbd5658c28b516e1c46b325f64a60e0acc40043eefeccf8a7940f<br>https://etherscan.io/tx/0x2d26cf1f182b5283c245a2f1c40dc08f42d9b7b3b3673f51f541fbef93507bbf<br><br>Stolen funds were transferred to the external wallet:<br>https://etherscan.io/tx/0xe7e8cb72ed5a11063f0a2e14fa2db7c42ed8241300b81bd9cfe568691aca5bde<br><br>The funds' recipient deposited them into Tornado Cash mixer:<br>https://bloxy.info/txs/transfers_from/0x10da75631d05fcdf5451cfd70eaff6bf343307e9?currency_id=1</p>",
+        "date": "2022-02-04",
+        "fundsLost": "1723632",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": "DEPO",
+          "addresses": [
+            "0xa5def515cfd373d17830e7c1de1639cb3530a112"
+          ]
+        }
+      },
+      {
+        "id": 2818,
+        "projectName": "Meter.io",
+        "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x8d3d13cac607B7297Ff61A5E1E71072758AF4D01<br><br>The attacker minted a substantial amount of BNB and WETH tokens, draining the bridge reserve of its BNB and wETH before all bridge transactions could be halted by Meter. This case also impacted the Hundred Finance on Moonriver.<br><br>Meter_io Passport is a fork of ChainSafe's ChainBridge, but with one change introduced to the deposit method of the ERC20 Handler.<br><br>The extended code had a wrong trust assumption which allowed the hacker to call the underlying ERC20 deposit function to fake a BNB or ETH transfer.<br><br></p><p>Exploit scenario:</p><p>- the Meter Bridge Contract provided by ChainSafe Systems has a vulnerability in <u>deposit</u>() function</p><p>- <u>deposit</u>() function doesn't check <u>calldata</u> \"data\" parameter to be matched with the message value in the function call</p><p>- this vulnerability allows anybody to call this function with fake deposit data and not be reverted</p><p>the attacker exploited this vulnerability and make a few deposits from the Ethereum network:</p><p>https://etherscan.io/tx/0xdfea6413c7eb3068093dcbbe65bcc9ba635e227c35e57fe482bb5923c89e31f7</p><p>https://etherscan.io/tx/0x2d3987963b77159cfe4f820532d729b0364c7f05511f23547765c75b110b629c</p><p>- the attacker exploited this vulnerability and made a few deposits from the BSC network:</p><p>https://bscscan.com/tx/0xc4d7e160c7652f2db22681aa2777c5b37937bf30375c5b2c6b2bd172ae984950</p><p>https://bscscan.com/tx/0x63f37aff7e40b85b0a6b3fd414389f6011cc09b276dc8e13b6afa19061f7ed8e</p><p>https://bscscan.com/tx/0xc7eb98e00d21ec2025fd97b8a84af141325531c0b54aacc37633514f2fd8ffdc</p><p>- the attacker called <u>swapOut()</u> to withdraw a fake deposited amount from another chain:</p><p>https://moonriver.moonscan.io/tx/0xb3298f62504423a97db6a6fc4132e6bf1f4225b1e7deb33260495254280d7050</p><p>- the attacker used AnySwap and cBridge to collect all funds in the Ethereum address<br><br>Stolen funds were deposited into Tornado Cash mixer on Ethereum:<br>https://bloxy.info/txs/transfers_from/0x8d3d13cac607b7297ff61a5e1e71072758af4d01?currency_id=1</p>",
+        "date": "2022-02-06",
+        "fundsLost": "4400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "MTRG",
+          "addresses": [
+            "0xbd2949f67dcdc549c6ebe98696449fa79d988a9f"
+          ]
+        }
+      },
+      {
+        "id": 2819,
+        "projectName": "FileSystemVideo",
+        "description": "<p>The contract deployer of FSV token invoked addMinter() to grant the external address with the privileged function to mint new tokens:<br>https://bscscan.com/tx/0x974c0eb764b7764d1e808a90ec8aab2ce61f1375d2e2ff6c590c980daa79cdc6<br><br>0x6a6296c4853fF09c591AC2FE7568246630cf2E43 minted tokens to the 0x746cE48320e14b366D9Ca4b02611Af728A7C12b3 address.<br><br>The stolen funds' recipient was the following address:<br>https://bscscan.com/address/0x4c64068fefe2660c83fc0e1ecca99c024fe4b15f#tokentxns<br><br>Funds were deposited into Tornado Cash mixer:<br>https://bscscan.com/tx/0x3fdc3cfc05ac52ec09f56454bf6ccc2ccbaf87c3cbf7566f7d1cc25e3f8c4c9d<br>https://bscscan.com/tx/0xf5af061f39d95f8be111c5fdd4014c2d593802980fc0ce04d30f79f279efb7eb<br>https://bscscan.com/tx/0x815b2fef900de3ee2a89dbfdb01e0901304639b189b801804050422096081e40<br>https://bscscan.com/tx/0x7534b2385895a4bb7d5d008d7adbb950251c4092e31ee25103f5c6552479677b<br>https://bscscan.com/tx/0x6b84ff0b2478368f4a5d143e8f51f58436f7117eb89a92790f6558974cfa15dd<br>https://bscscan.com/tx/0x14302cf6d8c6ae69606c436a04db69369b85a901c907f1e8e6e5e11f20c787b8<br>https://bscscan.com/tx/0x41156139a1a8b038b410520ae29211147c29cd29f1508c703bb81abd579fb17e</p>",
+        "date": "2022-02-07",
+        "fundsLost": "303625",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "0xe9c7a827a4ba133b338b844c19241c864e95d75f",
+          "addresses": [
+            "FSV"
+          ]
+        }
+      },
+      {
+        "id": 2820,
+        "projectName": "EarnHub",
+        "description": "<p>The exploiter's address:<br>https://bscscan.com/address/0x3d98aee279c82d8178b87d9d4dc442d65224dacc<br><br>Attacker contract A:<br>https://bscscan.com/address/0x89011932e486fc3548f82c279eb502ba7b4ad55f<br><br>Attacker contract B:<br>https://bscscan.com/address/0xf7acfa1ce0e235e7072fa76bd0dc3c3e519bdfe5<br><br>The root of the issue:<br>The <u>makeHop()</u> function allowed shareholders to shift their funds through different staking pools in a gas-efficient manner. This feature was intended to be implemented on the next dApp update, however, it’s been around for about 1 month on the contract side.<br><br>The issue is in the line below, which assumes that there can not be a malicious smart contract on the pool that is called on <u>receiveHop</u>(_pool):<br><br>tokenPool.stakingToken.approve(address(_newPool),<br>tokenPool.stakingToken.totalSupply());<br><br>By approving the totalSupply to the new pool, Contract B was able to have allowance to spend the staking contract tokens. This basically means they were able to withdraw them from the staking contract at a whim once that initial setup was made.<br><br>The attacker:<br>- created contract A</p><p>- created contract B</p><p>- the attacker contract then proceeded to buy some EarnHub, stake it, and make it hop to contract B (makeHop(contractBaddress))</p><p>- after receiving the hop, the contract was able to drain the funds from the staking contract by just using the <u>transferFrom</u>() function repeated times.<br><br>The example transaction:<br>https://bscscan.com/tx/0x40e69064c70d7db8b2dcbad441da9a06a507f8f90959da3c2583242f89e01d3c<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://explorer.bitquery.io/bsc/address/0x3d98aee279c82d8178b87d9d4dc442d65224dacc/outflow</p>",
+        "date": "2022-02-07",
+        "fundsLost": "244938",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "EHB",
+          "addresses": [
+            "0x80cba4031f7a75b650f4146e5ceba9d7562df939"
+          ]
+        }
+      },
+      {
+        "id": 2821,
+        "projectName": "Hundred Finance",
+        "description": "<p>Hundred Finance lending protocol was affected due to the Meter bridge exploit.<br><br>The exploiter of Meter.io dumped BNB.bsc assets several times at:<br>https://moonriver.moonscan.io/tx/0x14dc9ed2bd8f2e6e2aef00d82001eccdc07037373adb6de7f14e5e45469be504<br>https://moonriver.moonscan.io/tx/0x4afa30ee32b139918b02aa0932b89ca3d27d71e08bcb243cd508c48848ab63bf<br>https://moonriver.moonscan.io/tx/0x5a87c24d0665c8f67958099d1ad22e39a03aa08d47d00b7276b8d42294ee0591<br>https://moonriver.moonscan.io/tx/0x9d6623969cf711a8327c7e966568870b583c0b9b900173e5f6a5746196cf966d<br>https://moonriver.moonscan.io/tx/0x4e2a54f3b3035573ffdafecdf7cd7837b6672d498bf3a560a4f8dd57322a2156<br>https://moonriver.moonscan.io/tx/0xbe0610f89e1b1a705d2524016f3b577293f51911d08a56a0149a37fb57f601ad<br><br>That resulted in the local depreciation in the price of BNB.bsc. Different external addresses were able to purchase BNB.bsc at a reduced price and use these tokens as collateral at the global Chainlink price to borrow uncompromised assets on Hundred Finance. As a result, MIM and FRAX tokens were impacted.</p>",
+        "date": "2022-02-06",
+        "fundsLost": "3300000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          9
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": "HND",
+          "addresses": []
+        }
+      },
+      {
+        "id": 2822,
+        "projectName": "TECRA",
+        "description": "<p>The exploiter's address:<br>https://etherscan.io/address/0xb19b7f59c08ea447f82b587c058ecbf5fde9c299<br><br>The transaction behind the exploit:<br>https://etherscan.io/tx/0x81e9918e248d14d78ff7b697355fd9f456c6d7881486ed14fdfb69db16631154<br><br>The attacker:<br>- approved a big number of tokens to the Uniswap pool<br>- bought 101 TCR from the pool<br>- used the loophole to burn the TCR owned by the pool, increasing the TCR price<br>- used the bought TCR to take away a lot of USDT<br><br>Wrong implementation:<br>&nbsp; &nbsp; function burnFrom(address from, uint256 amount) external {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; require(_allowances[msg.sender][from] &gt;= amount, ERROR_ATL);<br><br>Correct one:<br>require(_allowances[from][msg.sender] &gt;= amount, ERROR_ATL);<br><br>The actual token implementation allows any account A to burn tokens from any other account B if account A approves that number of tokens to B.<br><br>The part of the stolen funds was deposited into Tornado Cash mixer, and the rest holds on the exploiter's address:<br>https://bloxy.info/txs/transfers_from/0xb19b7f59c08ea447f82b587c058ecbf5fde9c299?currency_id=1</p>",
+        "date": "2022-02-04",
+        "fundsLost": "642756",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "TCR",
+          "addresses": [
+            "0xe38b72d6595fd3885d1d2f770aa23e94757f91a1"
+          ]
+        }
+      },
+      {
+        "id": 2823,
+        "projectName": "Dego Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Hacker compromised contract deployer's key, withdrew all funds, removed liquidity, and transferred assets to external wallets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The hacker managed to compromise the contract deployer's key. This gave them access to all funds which they promptly withdrew. They then proceeded to remove liquidity from the contract. The funds were then transferred to the hacker's external wallet. A part of the stolen funds was also transferred to another external wallet. The DEGO team has attempted to contact the hacker but it is unclear if they have been successful. The exploit affected multiple chains including BSC, Cronos, and Ethereum.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Hacker's Address:</p><p>https://bscscan.com/address/0x118203b0f2a3ef9e749d871c8fef5e5e55ef5c91</p><p><br></p><p>BSC Transfers:</p><p>https://bscscan.com/tx/0x37c471f849f66d2001a045da41bf2465995c1553e056fcaf420bc05abfe7fa3e</p><p>https://bscscan.com/tx/0x586dcc853a9f467bfbfb0179bc8199c4a01c4dd8f196501fae10b9e74e178ae6</p><p>https://bscscan.com/tx/0x62dc9b35dba773de6574442c3f4a214f8e4f9de52b4dc927a210882ed08ab4b6</p><p>https://bscscan.com/tx/0xe5dfcbc6b9be40a1588495d199e2268edda0fee3e2c658d9dbefcfbbcb069e67</p><p><br></p><p>BSC Liquidity Removals:</p><p>https://bscscan.com/tx/0x8c1747c97ed1cc5134da0dde2afe7d562d975aed31eae13170216cafdcad84d6</p><p>https://bscscan.com/tx/0xc7f88c860f1cf2452957e665842d195caecebf51452c4a0b3678a495acd8e288</p><p><br></p><p>BSC Withdrawals:</p><p>https://bscscan.com/tx/0xa4fc71b3acc513f709ece8c0511beb1754dd18ba9f597cbdebdf6de11a43245f</p><p>https://bscscan.com/tx/0xfe67e929a208305b75507c742276738b8c02db7b0c0664a0fe3cf7717ac8e7f8</p><p>https://bscscan.com/tx/0xfa8ed0fefa5917485855873f9d1cf0b7129a4864253861347d2ee1203ea1442f</p><p>https://bscscan.com/tx/0x4ba4809cfb1d3c3845602c38fc019e90fbff77e7f3aa6a00ac7386aa5c93290d</p><p><br></p><p>Transfer to External Wallet:</p><p>https://bscscan.com/tx/0xdf5762c24d3cded5070f344b380a87786f69d62e2db6b40e7c83afbc5db4ec67</p><p><br></p><p>Cronos Address:</p><p>https://cronoscan.com/address/0x118203b0f2a3ef9e749d871c8fef5e5e55ef5c91#tokentxns</p><p><br></p><p>Ethereum Transfers:</p><p>https://etherscan.io/tx/0x3beef4cc3b3ab8a51638e1853d27ee1dea798b9014a98aa568791f2d1e1a08cc</p><p>https://etherscan.io/tx/0x73529e7f15d7fd56c1906db2de09dc5707fe069f8b2a9b6812d102f02bb50995</p><p>https://etherscan.io/tx/0x0e9dde956f8b1685e2ffd4478651d1c10d0ec1ceca140875fe768a909b2d671f</p><p>https://etherscan.io/tx/0x62e10626f4b1477a9ae2e90266acf60dda228b597b1bbaf823f5d87ec3ae7272</p><p><br></p><p>Ethereum Withdrawals:</p><p>https://etherscan.io/tx/0x0092b3573778522cffc117cc46352f54574ff5450c9fcd44718951fbcf326233</p><p>https://etherscan.io/tx/0x5855a0c1205cb765c20c5b2f1639c7ec7475e65d9dea83a0ca22dc1de902cf63</p><p>https://etherscan.io/tx/0xbabb03a9129739da5d5c020bec191f21cfd80ea5a2532cdc730696ec81385fa7</p><p><br></p><p>Ethereum Tornado Deposits:</p><p>https://etherscan.io/tx/0x152f91e24332bc47dcd1e50a034664a040e10b6055b35f86b430b51e62fa5a2f</p><p>https://etherscan.io/tx/0x0c84d2c6c4fdfc61ca08f1c49f89fc982362f6a41a981986abadac3568a771dd</p><p>https://etherscan.io/tx/0x59dc8303669025a4918bc55f46acd7d9eaea6ea9a9fb115c54ffff8fedbc8e3a</p><p>https://etherscan.io/tx/0x59871d498700923d6a7df582b4d3d0402e50c13fd9ccfa9f668c726dc453fb73</p><p><br></p><p>Transfer to External Wallet:</p><p>https://etherscan.io/tx/0xf837e753f0842efee8dac6f225458de453b0a7b7bd3aa2455c166a0a293be350</p><p><br></p><p>DEGO Team's Attempt to Contact Hacker:</p><p>https://bscscan.com/tx/0x065fa8782312e9786a458fc2345f4c7ef49267630c7f90a900999ce45ae4ced5</p>",
+        "date": "2022-02-09",
+        "fundsLost": "15444277",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "NFT,Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": "DEGO",
+          "addresses": [
+            "0x3fda9383a84c05ec8f7630fe10adf1fac13241cc"
+          ]
+        }
+      },
+      {
+        "id": 2824,
+        "projectName": "BabyMUSK",
+        "description": "<p>The contract deployer dumped tokens on PancakeSwap:<br>https://bscscan.com/address/0xf316e82c0eda97d740fa79152c99260a9733034d#internaltx<br><br>Stolen funds were transferred to the external wallet:<br>https://bscscan.com/tx/0xb06625759acf1f27b4085c3f9535b4af29a47ffca6f4fec3552d1805215d58fd<br><br>The funds' recipient deposited them into Tornado Cash mixer:<br>https://bscscan.com/address/0x1c1ccdaa684b56ce1b47c93d6a5a95f6fc754835</p>",
+        "date": "2022-02-09",
+        "fundsLost": "664910",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BabyMUSK",
+          "addresses": [
+            "0xaf507f297b5eff8339315c4226977972734438b0"
+          ]
+        }
+      },
+      {
+        "id": 2825,
+        "projectName": "Superfluid",
+        "description": "<p><strong>Quick Summary</strong></p><p>Superfluid protocol was exploited which lead to a loss of project funds for roughly 20,000,000 $USD.</p><p><br><strong>Details of the Exploit</strong><br>Superfluid is a streaming protocol for real-time crypto transfers. On February 8, 2022, an attacker exploited Superfluid’s host contract by passing in faulty calldata, which allowed them to create distribution indexes spoofing several different accounts that held Super-tokens. This vulnerability enabled the attacker to move funds from Superfluid user wallets to exchanges on Polygon and swap them to ETH. The funds currently sit in the attacker’s wallet.</p><p>In total, 11,008 MATIC, 1,507,931 MOCA, 28 ETH, 39,357 sdam3CRV, 19,387,874 QI, 44,581 SDT, 23,653 STACK, and 562,834 USDC were stolen by the attacker. At the time of writing, over 2,700 ETH is sitting in the attacker’s wallet, as well as 500,000 MOCA.<br><br><u>callAgreement</u>() function was exploited by replacing the bytes memory callData parameter. This parameter contains ctx value which can be decoded to get such properties: timestamp, msgSender, agreementSelector, userData, appAllowanceGranted, appAllowanceWanted, appAllowanceUsed, appAddress, appAllowanceToken. Ctx was replaced with the fake one, so the attacker was able to drain all SuperToken contract funds.</p><p><br></p><p><strong>Block Data Reference</strong><br>Attacker address:<br>https://polygonscan.com/address/0x1574f7f4c9d3aca2ebce918e5d19d18ae853c090</p><p><br></p><p>Malicious transaction:<br>https://polygonscan.com/tx/0x396b6ee91216cf6e7c89f0c6044dfc97e84647f5007a658ca899040471ab4d67</p><p><br></p><p>Malicious contract:</p><p>https://polygonscan.com/address/0x32d47ba0affc9569298d4598f7bf8348ce8da6d4<br><br>Claim transaction:<br>https://polygonscan.com/tx/0xdee86cae2e1bab16496a49b2ec61aae0472a7ccf06f79744d42473e96edd6af6</p>",
+        "date": "2022-02-08",
+        "fundsLost": "20000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": "SuperQI",
+          "addresses": [
+            "0xe1ca10e6a10c0f72b74df6b7339912babfb1f8b5"
+          ]
+        }
+      }
+    ]
+  }
+}

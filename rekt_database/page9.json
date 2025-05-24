@@ -1,0 +1,956 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 469,
+        "projectName": "Crytocurency.Ai",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CTAI",
+          "addresses": [
+            "0x96f4c9e40af2fe5d78f3f41d06208146573ffb8f"
+          ]
+        }
+      },
+      {
+        "id": 470,
+        "projectName": "Goose Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DGOSE",
+          "addresses": [
+            "0x2c9539d6eaf866ecd0ce3f41172da3c59baf3037"
+          ]
+        }
+      },
+      {
+        "id": 471,
+        "projectName": "Bonu Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BONU",
+          "addresses": [
+            "0xd192e5d224faa6209936b572e3c6d60f89eecb23"
+          ]
+        }
+      },
+      {
+        "id": 472,
+        "projectName": "KingAkita",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "KGK",
+          "addresses": [
+            "0x6decce02d7ee2b611be82a55a354236d3535f3a7"
+          ]
+        }
+      },
+      {
+        "id": 473,
+        "projectName": "DiamondHands",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DiamondHands",
+          "addresses": [
+            "0x062f22c95d95b151fdbb8b7ea786aa40d8d56f28"
+          ]
+        }
+      },
+      {
+        "id": 474,
+        "projectName": "EthereumMoon",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EMOON",
+          "addresses": [
+            "0x8b7d11bd5640ee5c3503b38b5fcd3f50f7a6e08c"
+          ]
+        }
+      },
+      {
+        "id": 475,
+        "projectName": "Anonymus Inu",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ANU",
+          "addresses": [
+            "0x38facb2a78e0956146450d7a727495820f29782b"
+          ]
+        }
+      },
+      {
+        "id": 476,
+        "projectName": "DRAGON SWAP",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DRGS",
+          "addresses": [
+            "0x3d3f91165b6fa85f83d2fdfbd8c6d7cff0349277"
+          ]
+        }
+      },
+      {
+        "id": 477,
+        "projectName": "Starlink Token",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Starlink",
+          "addresses": [
+            "0xa7d4fc034ee660016695d2a31c5cb257785d60eb"
+          ]
+        }
+      },
+      {
+        "id": 478,
+        "projectName": "RocketInu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "RKI",
+          "addresses": [
+            "0xd6771fdf125c6dafcb2d9a4fcff0b97cc1d6ba31"
+          ]
+        }
+      },
+      {
+        "id": 479,
+        "projectName": "Bonny Network",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Bonny",
+          "addresses": [
+            "0xc26fc49745855e435d08eb87e6674b4231bc684d"
+          ]
+        }
+      },
+      {
+        "id": 480,
+        "projectName": "Stratos Network",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "STOS",
+          "addresses": [
+            "0x541e88059a4eff35edc8c38bb5a1e7495472288c"
+          ]
+        }
+      },
+      {
+        "id": 481,
+        "projectName": "uglyinu.io",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "UGLY",
+          "addresses": [
+            "0x6dbf52ac6351a1caf941b39ca6cac6841d382cff"
+          ]
+        }
+      },
+      {
+        "id": 482,
+        "projectName": "Onlygreen",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Onlygreen",
+          "addresses": [
+            "0xad9757c37832e8c03ab707f361aba41067e3cb32"
+          ]
+        }
+      },
+      {
+        "id": 483,
+        "projectName": "FormationFi",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FFI",
+          "addresses": [
+            "0xe83be3ea0b2553ca127951880b9bf9164d64bcb5"
+          ]
+        }
+      },
+      {
+        "id": 484,
+        "projectName": "Croco Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-09",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CROC",
+          "addresses": [
+            "0x3c5c0994ff6c1c5a81f60eb166b8dbfd1138e2d4"
+          ]
+        }
+      },
+      {
+        "id": 485,
+        "projectName": "Kenshi Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.&nbsp;</p>",
+        "date": "2021-06-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "KINU",
+          "addresses": [
+            "0xafd37a8299cbbe48192a5836f77aa28256b19e34"
+          ]
+        }
+      },
+      {
+        "id": 486,
+        "projectName": "Shiba Diamond",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-06",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SHIBA",
+          "addresses": [
+            "0xbc3570d8a78e03a58ea88cc0887786ea3212f482"
+          ]
+        }
+      },
+      {
+        "id": 487,
+        "projectName": "ANONYMOUS",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "ANONYMOUS",
+          "addresses": [
+            "0xb5ae8d1b755bb161d2487fc48053ca82c5cb0fca"
+          ]
+        }
+      },
+      {
+        "id": 488,
+        "projectName": "Sansho Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SANSHO",
+          "addresses": [
+            "0xaeded88b4faabc32cfdc9bf13566d52fc38b57a4"
+          ]
+        }
+      },
+      {
+        "id": 489,
+        "projectName": "ghostshiba.xyz",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "GHOST SHIBA",
+          "addresses": [
+            "0x0b32d99e542cd6928620845528f0b84d797c6b93"
+          ]
+        }
+      },
+      {
+        "id": 490,
+        "projectName": "Sether",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SETH",
+          "addresses": [
+            "0x78b039921e84e726eb72e7b1212bb35504c645ca"
+          ]
+        }
+      },
+      {
+        "id": 491,
+        "projectName": "padthai.finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PADTHAI",
+          "addresses": [
+            "0x6f450f117114075d1d1c91dd64a61c0ba72ca68f"
+          ]
+        }
+      },
+      {
+        "id": 492,
+        "projectName": "Hatch DAO",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x485f0a4706998b614210d7a56d75f915be5b0390d6a460eb68a8511de2931dce<br><br>The contract deployer minted new tokens onto his wallet at:<br>https://etherscan.io/tx/0x33c247cafa8a64659926a625b1b8b84774746203af745023cd3cf8d654d3fa1d<br><br>Minted tokens were sold by the contract deployer:<br>https://etherscan.io/tx/0xa67b70923abd8d75473569f0a26afcf765c7605a84ece7abbe1f161819249d15<br><br>The difference between the initial liquidity and the one that was removed is not large, losses cannot be calculated correctly.</p>",
+        "date": "2020-10-11",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HATCH",
+          "addresses": [
+            "0x6f3009663470475f0749a6b76195375f95495fcb"
+          ]
+        }
+      },
+      {
+        "id": 493,
+        "projectName": "Bezop",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BEZ",
+          "addresses": [
+            "0x8a1e3930fde1f151471c368fdbb39f3f63a65b55"
+          ]
+        }
+      },
+      {
+        "id": 494,
+        "projectName": "Gladius Token",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GLA",
+          "addresses": [
+            "0x71d01db8d6a2fbea7f8d434599c237980c234e4c"
+          ]
+        }
+      },
+      {
+        "id": 495,
+        "projectName": "Kore",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KORE",
+          "addresses": [
+            "0xa866f0198208eb07c83081d5136be7f775c2399e"
+          ]
+        }
+      },
+      {
+        "id": 496,
+        "projectName": "Veritaseum",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VERI",
+          "addresses": [
+            "0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374"
+          ]
+        }
+      },
+      {
+        "id": 497,
+        "projectName": "Centra",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CTR",
+          "addresses": [
+            "0x96a65609a7b84e8842732deb08f56c3e21ac6f8a"
+          ]
+        }
+      },
+      {
+        "id": 498,
+        "projectName": "XSwap",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "XSP",
+          "addresses": [
+            "0x9b06d48e0529ecf05905ff52dd426ebec0ea3011"
+          ]
+        }
+      },
+      {
+        "id": 499,
+        "projectName": "sXRP",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SXRP",
+          "addresses": [
+            "0xa2b0fde6d710e201d0d608e924a484d1a5fed57c"
+          ]
+        }
+      },
+      {
+        "id": 500,
+        "projectName": "Mosaic",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YMO",
+          "addresses": [
+            "0xae3576a18c99a1d5dd6e62fc7dc9b561bfb01951"
+          ]
+        }
+      },
+      {
+        "id": 501,
+        "projectName": "Eristica token",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ERT",
+          "addresses": [
+            "0x92a5b04d0ed5d94d7a193d1d334d3d16996f4e13"
+          ]
+        }
+      },
+      {
+        "id": 502,
+        "projectName": "Ethereum Metamask",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ETHK",
+          "addresses": [
+            "0xc2fbab8de59f2671d55137dfd837f68e9a040867"
+          ]
+        }
+      },
+      {
+        "id": 503,
+        "projectName": "Shivers",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SHVR",
+          "addresses": [
+            "0xd5f788ca0de8f17cbde1d1e35aa8f005a87fa00b"
+          ]
+        }
+      },
+      {
+        "id": 505,
+        "projectName": "PlexCoin",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PLX",
+          "addresses": [
+            "0xb3203db25a01fa7950a860b42b899ad7da52ddd6"
+          ]
+        }
+      },
+      {
+        "id": 506,
+        "projectName": "Enigma",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ENG",
+          "addresses": [
+            "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4"
+          ]
+        }
+      },
+      {
+        "id": 507,
+        "projectName": "Titanium BAR",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TBAR",
+          "addresses": [
+            "0xee8bd1502c3e9f6c543781467c01592ac51cfbb8"
+          ]
+        }
+      },
+      {
+        "id": 508,
+        "projectName": "ShipChain",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SHIP",
+          "addresses": [
+            "0xe25b0bba01dc5630312b6a21927e578061a13f55"
+          ]
+        }
+      },
+      {
+        "id": 509,
+        "projectName": "Yieldby.finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YBFI",
+          "addresses": [
+            "0xf80b96baff90115fffa4fa312a5e8d8969948dbd"
+          ]
+        }
+      },
+      {
+        "id": 510,
+        "projectName": "bitqy",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BQ",
+          "addresses": [
+            "0xf0f8b0b8dbb1124261fc8d778e2287e3fd2cf4f5"
+          ]
+        }
+      },
+      {
+        "id": 511,
+        "projectName": "Mooswap",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MOO",
+          "addresses": [
+            "0xda5f5e63084f2ba6eef845cea653913b46c7fe95"
+          ]
+        }
+      },
+      {
+        "id": 512,
+        "projectName": "Dogeta Inu",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "DETA",
+          "addresses": [
+            "0x03ef3753ebb3829bd417df77a624e029cba5eede"
+          ]
+        }
+      },
+      {
+        "id": 513,
+        "projectName": "ALPHA WOLF",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "AWOLF",
+          "addresses": [
+            "0xc51f34c34bee5bd8396c75c43d27954a4f0f6b58"
+          ]
+        }
+      },
+      {
+        "id": 514,
+        "projectName": "MS",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MoonStar",
+          "addresses": [
+            "0xdbfb154d1283731820298eb2e8f9330bfe68accc"
+          ]
+        }
+      },
+      {
+        "id": 515,
+        "projectName": "NFTDragonBall",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-05",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NFTDB",
+          "addresses": [
+            "0x3b23e73bdafe46b535667e9623fef475c62524cd"
+          ]
+        }
+      },
+      {
+        "id": 516,
+        "projectName": "SHINYSHIBA",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": "2021-06-08",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "SHYS",
+          "addresses": [
+            "0x5a8ddd8b33238020c2df60e39e4bdf8e09be747c"
+          ]
+        }
+      },
+      {
+        "id": 517,
+        "projectName": "Bob`s repair",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BOB",
+          "addresses": [
+            "0xdf347911910b6c9a4286ba8e2ee5ea4a39eb2134"
+          ]
+        }
+      },
+      {
+        "id": 518,
+        "projectName": "Pizza finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PIZZA",
+          "addresses": [
+            "0x1d8dce63d49252dd8eca38b1abfe4d3f160e0647"
+          ]
+        }
+      },
+      {
+        "id": 519,
+        "projectName": "Matcha",
+        "description": "<p><span style=\"color: rgb(29, 28, 29); font-family: Slack-Lato, appleLogo, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: common-ligatures; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</span> </p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MATCHA",
+          "addresses": [
+            "0x0cc77e575ba11af68743fe5b24d733c2aad9defb"
+          ]
+        }
+      }
+    ]
+  }
+}

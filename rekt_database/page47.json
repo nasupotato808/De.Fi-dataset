@@ -1,0 +1,952 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 2398,
+        "projectName": "Hammy Finance",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HAMMY",
+          "addresses": [
+            "0x07E903A1AcB9F1D186f284fD4E769C6426791443"
+          ]
+        }
+      },
+      {
+        "id": 2399,
+        "projectName": "Hamster Swap",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HAM",
+          "addresses": [
+            "0xA278564df0295Bf9CBd0c64F65B8dEcf916372A1"
+          ]
+        }
+      },
+      {
+        "id": 2400,
+        "projectName": "PolyMiner",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "POLYMER",
+          "addresses": [
+            "0x7079B0b0619EEE670bc27B56733e44BCF9deF789"
+          ]
+        }
+      },
+      {
+        "id": 2401,
+        "projectName": "PolyMinecraft",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MNC",
+          "addresses": [
+            "0x4b10b781D7A60c3308359C1F95f12B4d1913892F"
+          ]
+        }
+      },
+      {
+        "id": 2402,
+        "projectName": "NoMoreDogs",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NMD",
+          "addresses": [
+            "0x65ff69c76f8be20Ea4DedE0455e89Ec456694483"
+          ]
+        }
+      },
+      {
+        "id": 2403,
+        "projectName": "JoeBiden Finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "JoeBiden Finance",
+          "addresses": [
+            "0x17add518126b67552f1d7a9bae5db0509d284d89"
+          ]
+        }
+      },
+      {
+        "id": 2404,
+        "projectName": "DonutDeFi",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DONUT",
+          "addresses": [
+            "0x9C994bD7dF0FBDa6f3fe3178783fAce2B18E4DBe"
+          ]
+        }
+      },
+      {
+        "id": 2405,
+        "projectName": "KuCat Finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KuCat Finance",
+          "addresses": [
+            "0xb1cba8209590cf334beecfa2fceebbef6ea18656"
+          ]
+        }
+      },
+      {
+        "id": 2406,
+        "projectName": "Predator Swap",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PRED",
+          "addresses": [
+            "0x3583C4B76b02e953f0D07bFF6603c5f09F439443"
+          ]
+        }
+      },
+      {
+        "id": 2407,
+        "projectName": "Ailuropodinae",
+        "description": null,
+        "date": "2021-08-31",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "AIL",
+          "addresses": [
+            "0xcFe7127212fF9B45C0BEd4AED32Aaf30e34E6aCA"
+          ]
+        }
+      },
+      {
+        "id": 2408,
+        "projectName": "UNIRON Finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          4
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "UNIRON Finance",
+          "addresses": [
+            "0xfC20DF587485748B6F1F764de50D5cE92908D271"
+          ]
+        }
+      },
+      {
+        "id": 2409,
+        "projectName": "PolyCloud",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DROP",
+          "addresses": [
+            "0x90d7219Bfe2dEdcA9ef5bDf599141F2C6eb36248"
+          ]
+        }
+      },
+      {
+        "id": 2410,
+        "projectName": "PolyGorilla",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "JUNGLE",
+          "addresses": [
+            "0xf0168d40aAFaa078DeB86B321941CE35AE5661E9"
+          ]
+        }
+      },
+      {
+        "id": 2411,
+        "projectName": "PolyGarden",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "APPLE",
+          "addresses": [
+            "0x0fAbd04f68Ff13a72eb1542201a211eE70feBA5F"
+          ]
+        }
+      },
+      {
+        "id": 2412,
+        "projectName": "Night Wolf",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NIGHTWOLF",
+          "addresses": [
+            "0xc07Afe7D2e7689adA0d0DE668B6Fc3C981967Bde"
+          ]
+        }
+      },
+      {
+        "id": 2413,
+        "projectName": "BEESwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BEE",
+          "addresses": [
+            "0xc5a10bfADc3c4EFb317F4Cf01A4AF9FC83DB755F"
+          ]
+        }
+      },
+      {
+        "id": 2414,
+        "projectName": "Polywater",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "WTR",
+          "addresses": [
+            "0x8D2fAD82AA2962c6a4CD4d172Ac74e0F2B64Ec8D"
+          ]
+        }
+      },
+      {
+        "id": 2415,
+        "projectName": "Astro Bunny Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ABPUMP",
+          "addresses": [
+            "0xd8204b91e4504b132557a055317294b39d96275A"
+          ]
+        }
+      },
+      {
+        "id": 2416,
+        "projectName": "Helios.Cash",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HELIOS",
+          "addresses": [
+            "0x702638277cf7464fD815d73322BC6b4d7C6CF3B1"
+          ]
+        }
+      },
+      {
+        "id": 2417,
+        "projectName": "Panda Matic",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MATIC",
+          "addresses": [
+            "0xdFF5Ae6213B65ad7355c72d19C3C1a3D8c2C78Fd"
+          ]
+        }
+      },
+      {
+        "id": 2418,
+        "projectName": "Jester DeFi",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "JEST",
+          "addresses": [
+            "0x9B7Cf9EC7C92a57858A517824eb57775105DbB9E"
+          ]
+        }
+      },
+      {
+        "id": 2419,
+        "projectName": "RabbitSwap Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RBBT",
+          "addresses": [
+            "0xEdaf4a8e3Ca36035094223B37Ca9da7F7dDe6b1b"
+          ]
+        }
+      },
+      {
+        "id": 2420,
+        "projectName": "LavaSwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LAVA",
+          "addresses": [
+            "0xC8e763d7D1FB08E1249A046bbc9E1cA45ff7b9F2"
+          ]
+        }
+      },
+      {
+        "id": 2421,
+        "projectName": "Popsicle Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>Popsicle Finance suffered an exploit due to a bug in the collectFees() function, allowing the attacker to withdraw rewards without holding PLP tokens. The attacker stole a total of 2.56K WETH, 96.2 WBTC, 160K DAI, 5.39M USDC, 4.98M USDT, and 10.5K UNI.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker created three contracts, one of which was used to launch the attack, while the other two were used to invoke the collectFees() function to fetch the rewards. The attacker utilized a Flash Loan from AAVE and launched the Deposit-Withdraw-CollectFees cycle to perform the attack. There were 8 cycles in total, and a significant amount of liquidity was withdrawn from multiple vaults of Popsicle Finance. After the attack, the stolen funds were deposited into the Tornado Cash mixer.</p><p><br></p><p>Stolen funds:<br>- 2.56K WETH<br>- 96.2 WBTC<br>- 160K DAI<br>- 5.39M USDC<br>- 4.98M USDT<br>- 10.5K UNI</p><p><br></p><hr><p><br></p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xf9e3d08196f76f5078882d98941b71c0884bea52</p><p><br></p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0xcd7dae143a4c0223349c16237ce4cd7696b1638d116a72755231ede872ab70fc</p><p><br></p><p>The transaction list of the stolen funds:</p><p>https://bloxy.info/txs/transfers_from/0xf9e3d08196f76f5078882d98941b71c0884bea52?currency_id=1</p>",
+        "date": "2021-08-03",
+        "fundsLost": "20500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": "ICE",
+          "addresses": [
+            "0xf16e81dce15b08f326220742020379b855b87df9"
+          ]
+        }
+      },
+      {
+        "id": 2422,
+        "projectName": "OVNI Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Ovni",
+          "addresses": [
+            "0x9E3571fbf2c4199c7E4e4167Fa897891C56576E0"
+          ]
+        }
+      },
+      {
+        "id": 2423,
+        "projectName": "Hippolygon",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HIPPO",
+          "addresses": [
+            "0xA6226c90B58c64611fCC8551228B20557E34F1a9"
+          ]
+        }
+      },
+      {
+        "id": 2424,
+        "projectName": "Hotdog Cart Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HOTDOGC",
+          "addresses": [
+            "0xF573f6CFa6BA5100776A334c24C644B2785794F0"
+          ]
+        }
+      },
+      {
+        "id": 2425,
+        "projectName": "Frog Farm",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Frog Farm",
+          "addresses": [
+            "0xCEB54b80Ac921D0De3133D0047B8f75dd1742a9a"
+          ]
+        }
+      },
+      {
+        "id": 2426,
+        "projectName": "BreadSwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BREAD",
+          "addresses": [
+            "0xB3Aec2a1737A94B8458A1b6940412Fb9Cc41F2B9"
+          ]
+        }
+      },
+      {
+        "id": 2427,
+        "projectName": "NekoCat",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NCT",
+          "addresses": [
+            "0x77F7518e4dA5240EcCC7e5a673e5FF3759eaD795"
+          ]
+        }
+      },
+      {
+        "id": 2428,
+        "projectName": "The Apollo Project",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "APC",
+          "addresses": [
+            "0x7706ea9D7C59316436660eFeBB06A428d0C8954d"
+          ]
+        }
+      },
+      {
+        "id": 2429,
+        "projectName": "Lamp Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LAMP",
+          "addresses": [
+            "0x205C23bd79d134F0F76f0b8b58d618C4B9449E84"
+          ]
+        }
+      },
+      {
+        "id": 2430,
+        "projectName": "Hydra Blazar",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Hydra Blazar",
+          "addresses": [
+            "0x0D2cdfdb3fFd1c866Cd4453b985f57f207eE8238"
+          ]
+        }
+      },
+      {
+        "id": 2431,
+        "projectName": "Royalflush Farm",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Royalflush",
+          "addresses": [
+            "0xaC8071A2d6B2347751dB4B380DEb798af95860bC"
+          ]
+        }
+      },
+      {
+        "id": 2432,
+        "projectName": "PolyYield",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YELD",
+          "addresses": [
+            "0x9EAAcD7d41fddE61314EEeB61326C06402b9Bfe3"
+          ]
+        }
+      },
+      {
+        "id": 2433,
+        "projectName": "Poohswap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PoohSwap",
+          "addresses": [
+            "0x7b9023dbd1A5345bb13b781A726E2ba718803cA8"
+          ]
+        }
+      },
+      {
+        "id": 2434,
+        "projectName": "CarolinaReaper Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Reaper",
+          "addresses": [
+            "0xdf4A607e1F402f4ecd29c45D1347DDfA003B76Ac"
+          ]
+        }
+      },
+      {
+        "id": 2435,
+        "projectName": "CatgeSwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CATGES",
+          "addresses": [
+            "0xf9eF4932c713c30345fCC6467A0D855Ec8090E0A"
+          ]
+        }
+      },
+      {
+        "id": 2436,
+        "projectName": "BBQ Swap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BBQ",
+          "addresses": [
+            "0x7801542a76B116B2d358aDa1f5B094bc052f1cB4"
+          ]
+        }
+      },
+      {
+        "id": 2437,
+        "projectName": "PolyHype",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PolyHype",
+          "addresses": [
+            "0x0257fFa79592ebfFd8Fab13eF50F83c2ae7050f0"
+          ]
+        }
+      },
+      {
+        "id": 2438,
+        "projectName": "Carousel Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Carousel Finance",
+          "addresses": [
+            "0xFa00505AC5ef3b2bb37e421D9146c167d4c3C741"
+          ]
+        }
+      },
+      {
+        "id": 2439,
+        "projectName": "HermitSwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HERMIT",
+          "addresses": [
+            "0xb63bf77619133eDC879e75326C867dC6926b7d2A"
+          ]
+        }
+      },
+      {
+        "id": 2440,
+        "projectName": "TamagochiSwap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TAMA",
+          "addresses": [
+            "0x4912b5Fee159a2073DF3566be41610Ed0969E7DF"
+          ]
+        }
+      },
+      {
+        "id": 2441,
+        "projectName": "Cardboard Finance",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CARDBOARD",
+          "addresses": [
+            "0x731812990C96e96060d782A9F1fD1f68650EF1Eb"
+          ]
+        }
+      },
+      {
+        "id": 2442,
+        "projectName": "Polyninja.finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Polyninja.finance",
+          "addresses": [
+            "0x7A07c67A3b9B6aB30A2Ac5cF3a0DbFF284613a32"
+          ]
+        }
+      },
+      {
+        "id": 2443,
+        "projectName": "DragonBallSwap",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "DragonBallSwap",
+          "addresses": [
+            "0xC08Db636dd6Bab586E16b02c8b866511548Aa814"
+          ]
+        }
+      },
+      {
+        "id": 2444,
+        "projectName": "Bengal Swap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BENGAL-LP",
+          "addresses": [
+            "0x740676Fef9f13D499Ef890028B065D6282e472e3"
+          ]
+        }
+      },
+      {
+        "id": 2445,
+        "projectName": "KoalaDefi",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          3
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KOALA",
+          "addresses": [
+            "0x67749e090Fc7258982fC00d27A2ad708d6F97F44"
+          ]
+        }
+      },
+      {
+        "id": 2446,
+        "projectName": "Cheeseballs Finance",
+        "description": null,
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Cheeseballs Finance",
+          "addresses": [
+            "0x393eEeD02fAbCA105E74DbaBA61b31423e213723"
+          ]
+        }
+      },
+      {
+        "id": 2447,
+        "projectName": "PoliEx Swap",
+        "description": null,
+        "date": "2021-08-30",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Polex",
+          "addresses": [
+            "0xC6Cc722b0fCF11fF55B4C329B76D5124B24E18Fb"
+          ]
+        }
+      }
+    ]
+  }
+}

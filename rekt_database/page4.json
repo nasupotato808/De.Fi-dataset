@@ -1,0 +1,956 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 196,
+        "projectName": "NanoCore",
+        "description": "<p>Custom ERC20 Standard with malicious logic which allows blocking token transferring.<br><br>ETH for the initial liquidity was received from <u>addLiquidity</u>() function in the token contract, which probably was running from the front-end interface. <br><br>Initial liquidity 60ETH ($22,924.06) was added at:<br>https://etherscan.io/tx/0x731ae8f63a694f8c9ca698eb96d18bdc4f0ad0c21cb75a5e74ffc9c39bbd97c8<br><br>62.48 ETH is still in the Uniswap pair:<br>https://etherscan.io/address/0x0f347b63747a0842abd5e74810311fd3b093bc51<br><br>Project abandoned. LP tokens can&amp;#39;t be used for removing liquidity by users.</p>",
+        "date": "2020-10-30",
+        "fundsLost": "22924",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "NANOCORE",
+          "addresses": [
+            "0x12B28e6fffA7ff813B15b597d894d5eF5b0b7428"
+          ]
+        }
+      },
+      {
+        "id": 197,
+        "projectName": "Kper Network",
+        "description": "<p>The contract deployer invoked <u>setGovernance</u>() function at:<br>https://etherscan.io/tx/0xecaf79cfe196e1567f21ed00e86c6917580c152d36aa77a132de0eaf3b5ede79<br><br>The value in the transaction was the external address, which was privileged to use such functions as <u>mint</u>():<br>https://etherscan.io/tx/0x138d8e6a870788a3680279d401371cee73acefec9ddf7cc2579bb4c7f494b3e1<br>https://etherscan.io/tx/0x47f53a6aa3461a788ffd9168aeac8eb3135f92f8fa3572264589b9d96348b29c<br><br>The minted tokens were sold by the external wallet at:<br>https://etherscan.io/tx/0xb4a01b32a11c11438f4110ca93e5f18cba7962d50ea73ea1bf2a6b0245a042d6<br>https://etherscan.io/tx/0xa4bd2c5b8f58b99b0a7a966d8fea78848893431830952d10617342c97dce57e1</p>",
+        "date": "2020-10-31",
+        "fundsLost": "541755",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "KPER",
+          "addresses": [
+            "0xc89B4a8a121Dd3E726fE7515e703936cF83e3350"
+          ]
+        }
+      },
+      {
+        "id": 198,
+        "projectName": "Liquid Core",
+        "description": "<p>The project was holding a fundraising event using LcoreSale smart contract:<br>https://etherscan.io/address/0x6da39a2b145aea0c66fecb15f19b14930fba1a0c<br><br>Funds, gathered from the event were transferred to the contract deployer's address:<br>https://etherscan.io/tx/0xf5e6477b385f234c124bcabf9cfc3b1e1a93ae2f0e223265627c2af4c7460847<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x83a09929acaebcd0614598d563e34ba5efbc6e35d3ff9d1524d0401310de095c<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0x0261b0e10dd6f25ede287e8ca89c4cdf105dc55687273e640887f1e79dcbfc08</p>",
+        "date": "2020-10-29",
+        "fundsLost": "42099",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "LCORE",
+          "addresses": [
+            "0x9085738D9a4d9aC5DADFD630AC9090A49d98B72F"
+          ]
+        }
+      },
+      {
+        "id": 199,
+        "projectName": "Nemo Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xda2135fc0ef6e4155ee8d530adef4da575669b5a14644b49567a4b939c7fc09a<br><br>The contract deployer used hidden minting functionality under the <u>addWork</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xfb01497702289fb12f0c3439683380962f57b918a65620bcf42ee8cc919bacba<br><br>The minted tokens were sold by the contract deployer:<br>https://etherscan.io/tx/0x74f351d33e676312cfe7724e21d75e6f4ed1020363ea4ae24c9e4ffb5e690dd0<br>https://etherscan.io/tx/0x579aacf1b5acc4aeaf61dc78a1ab3a0954ba6523b6d46ec6b573525f37e533ea<br>https://etherscan.io/tx/0x230f8d19f82d377c410ee747f9f10b2fe38ecfdb29a944a36b1aa0c47ce12178<br>https://etherscan.io/tx/0x95fb7e014729bcc34de6941ad45761a371ee3ef140a078b3f5f45139f45df5bc<br><br>The stolen funds were transferred to the external wallet:<br>https://etherscan.io/tx/0x6989211cdd75fd794a12cc7349626ee956b10ea6fbee3737dc5227d2cd862122</p>",
+        "date": "2020-10-26",
+        "fundsLost": "31797",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "NEMO",
+          "addresses": [
+            "0x2f37B7F2A3b7F1d2Ac6272fbCAAAF2743c05d02a"
+          ]
+        }
+      },
+      {
+        "id": 200,
+        "projectName": "ShabuVault",
+        "description": "<p>At first, the contract deployer removed himself from the list of minters, at this transaction:<br>https://etherscan.io/tx/0x497aa751563746ef288e18efad5a0c8ec5ecc04f8e7508d5ece3976d65ab7016<br><br>However, he left an opportunity in the token smart contract that would have allowed him to reinstate himself as a minter. He invoked <u>addMinter</u> function in the following transaction:<br>https://etherscan.io/tx/0x58bcb174d2442878adad1bdaddb6ac98e7ce346b5cd9e9b8ed80c1cd06676b14</p><p><br></p><p>After doing this, the owner generated an additional 4K SHABU tokens and placed them in his wallet. The owner could increase the tax rate to 100% and put himself on the whitelist. The project exit scammed after the token contract owner drained liquidity, stealing 10 ETH. ShabuVault's website and social media are inaccessible.</p>",
+        "date": "2020-11-04",
+        "fundsLost": "4357",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SHABU",
+          "addresses": [
+            "0xe2bd4670da28e7c0d90f0c7ec41b79515893a4e3"
+          ]
+        }
+      },
+      {
+        "id": 202,
+        "projectName": "Yearnspace",
+        "description": "<p>The contract deployer had permission to mint tokens as he added himself to the list of minters by invoking <u>addMinter</u> function:<br>https://etherscan.io/tx/0xb3b881552cbf8c89e7b04bf3aea30a6a6cb1f1af284e11aab57c8e7ec8e4583f</p><p><br>The owner called the mint function twice at the following transactions:<br>https://etherscan.io/tx/0xaa5b1712a1ac562b0f240caf744f4c04909de295e40c8affca108a1079d29eeb<br>https://etherscan.io/tx/0x95aac0cc7bf28a33dcdc9cd4cbbbe761e946cbff3fb241ab2aedcd5fe8b34183<br><br>The total supply was increased by 15,000 YFS tokens. The owner obtained the YFS tokens and started exchanging them for ETH, having conducted a total of 38 transactions. The contract deployer stole 58 ETH and split this amount among some external wallets. The website is down and the Twitter account is deleted.</p>",
+        "date": "2020-12-01",
+        "fundsLost": "33988",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YFS",
+          "addresses": [
+            "0x93a8b61c4707efe76a88cae8dc226d9bf77e9405"
+          ]
+        }
+      },
+      {
+        "id": 203,
+        "projectName": "BOMBHEAD token",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x70e567dd9c66aa3699ea34fb170979efd9ead33d0ac8c7b0597a873e37578373<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xfb81b150a910c81648828a8f020ae0a39f8b4ba1c92cb9e994703e400e0c4594</p>",
+        "date": "2020-10-24",
+        "fundsLost": "342",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "BOMBHEAD",
+          "addresses": [
+            "0x99e0439920a80006d2b5a258e30df66e22467c6d"
+          ]
+        }
+      },
+      {
+        "id": 204,
+        "projectName": "Trump Swap",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xa6352c883336fc259bd93356de6e15f44ccc9ac7710f8a05cb24fcdfb94dc044<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xcff98fc457772672c34226383cb7c48ca5820e3d0cf886202fa75f1083dda048</p>",
+        "date": "2020-10-24",
+        "fundsLost": "795",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "TrumpSwap",
+          "addresses": [
+            "0xd305b0221da982c011fad8adf2ece0bdf790a427"
+          ]
+        }
+      },
+      {
+        "id": 205,
+        "projectName": "Mocha Set Dollar",
+        "description": "<p>The contract deployer increased liquidity by utilizing funds from his Binance wallet. When the liquidity of the protocol grew after two days, the owner removed liquidity and transferred funds to his regular wallet. The website is unavailable, and the contract deployer took away 8.9 ETH.<br><br>https://etherscan.io/tx/0x70514480e3ac84d07a0f8b0868fe35aff13fe7ee0f96f80fe13abdfc8f9e8049</p>",
+        "date": "2021-01-03",
+        "fundsLost": "8780",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Stablecoin",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MSD",
+          "addresses": [
+            "0xf457ea19f2bbfb5f7c7c647c04edb05bdfe7177e"
+          ]
+        }
+      },
+      {
+        "id": 206,
+        "projectName": "Dasis Cash",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+        "date": "2021-01-10",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "DAIC",
+          "addresses": [
+            "0xa6441b199e7c83d46aa3489cde5f79859209b8bf"
+          ]
+        }
+      },
+      {
+        "id": 207,
+        "projectName": "Lootx Finance",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xa6f4cc42def945c35e8662783fe933006d421790d7ea1c727704b17651cb2cf3<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x5c976ea30b5915d7fcb4a9d6f2f0d8c056ed53dd38f02a972a4600b8aeba7b73</p>",
+        "date": "2020-10-25",
+        "fundsLost": "2845",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "LOOT",
+          "addresses": [
+            "0xC901d1E050dBf1af1523d12e8665917Fa8a2Dceb"
+          ]
+        }
+      },
+      {
+        "id": 208,
+        "projectName": "Xdef finance",
+        "description": "<p>Many users noticed that the project token's rebasing function was always negative. As a result, they were losing tokens in which they had invested. The project also made use of the mint function, which was managed via an EOA wallet:<br>https://etherscan.io/tx/0x365a45f816c396f704938c77260968013e5ff38dc474a10a88f11459df33e100<br><br>Another warning flag is a proxy contract. The owner sold a large number of tokens at this transaction:<br>https://etherscan.io/tx/0x16a0abbe9e32f668a2ee254c786da7878a0958aff9669fb6e69e8ffa166e0e9f<br><br>After that, the team began to justify themselves on the project's Twitter account.<br><br></p>",
+        "date": "2021-01-05",
+        "fundsLost": "449690",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Xdef",
+          "addresses": [
+            "0x1b0e620ffe9d4880b934925bcaa0b13306658bed"
+          ]
+        }
+      },
+      {
+        "id": 209,
+        "projectName": "Xdef finance",
+        "description": "<p>Following the previous exit scam case, the project announced a relaunch with a new token $xDEF2 and a new approach. The new smart contracts have a pause mechanism that allows owner to whitelist specific addresses. Furthermore, there is a ban option that allows limiting specific addresses as well. An EOA wallet owns both of these functionalities, which can be accessed at any moment. There is no traditional rebase function. Instead, there's the mint function, which can be invoked at any time by the contract owner.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "xDEF2",
+          "addresses": [
+            "0x5166d4ce79b9bf7df477da110c560ce3045aa889"
+          ]
+        }
+      },
+      {
+        "id": 210,
+        "projectName": "CYBER SOLIDITY",
+        "description": "<p>An external address added 20.5 ETH to the CYI-ETH liquidity pair on the Uniswap:<br>https://etherscan.io/tx/0x9fe148dcf5be457be8b032f109c99f3234689e5e3ce800fa8b7dc0d2985ce2ce</p><p><br></p><p>When the liquidity raised up, this address removed his LP token at this transaction:<br>https://etherscan.io/tx/0x35f1cdac500102b376e938594c7198f434facb5c63d1b2edb4e39612a6c0ebbc<br><br>The difference between the initial and final liquidity is 19.9 ETH. Funds were moved to another address and deposited into the Binance exchange.</p>",
+        "date": "2020-11-14",
+        "fundsLost": "7823",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CYI",
+          "addresses": [
+            "0x14f8d4ff4348fd42a976a67a017c86b434a63853"
+          ]
+        }
+      },
+      {
+        "id": 211,
+        "projectName": "Foxi.finance",
+        "description": "<p><span data-sheets-userformat='{\"2\":15165,\"3\":{\"1\":0},\"5\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"6\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"7\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"8\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"11\":4,\"12\":0,\"14\":{\"1\":2,\"2\":0},\"15\":\"Arial\",\"16\":11}' data-sheets-value='{\"1\":2,\"2\":\"- The contract owner (an EOA) could call the addPhase function, designed to mint tokens, without any limitations\\n- The owner minted 500Q tokens to his address and swapped 500B of them for 32.1 ETH on Uniswap\"}' style=\"font-size:11pt;font-family:Arial;font-style:normal;color:#000000;\">The contract owner (an EOA) was endowed with unlimited minting. He called the <u>addPhase</u> function, which has generated 500 quintillions FOXI tokens and sent them to the contract owner wallet:</span><br><span data-sheets-userformat='{\"2\":15165,\"3\":{\"1\":0},\"5\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"6\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"7\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"8\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"11\":4,\"12\":0,\"14\":{\"1\":2,\"2\":0},\"15\":\"Arial\",\"16\":11}' data-sheets-value='{\"1\":2,\"2\":\"- The contract owner (an EOA) could call the addPhase function, designed to mint tokens, without any limitations\\n- The owner minted 500Q tokens to his address and swapped 500B of them for 32.1 ETH on Uniswap\"}' style=\"font-size:11pt;font-family:Arial;font-style:normal;color:#000000;\">https://etherscan.io/tx/0x1218cd9a53c9e5f75f395c4ffbc0a0e3a521f74b733ad17f531ee7e7db19209d</span><br><br><span data-sheets-userformat='{\"2\":15165,\"3\":{\"1\":0},\"5\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"6\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"7\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"8\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"11\":4,\"12\":0,\"14\":{\"1\":2,\"2\":0},\"15\":\"Arial\",\"16\":11}' data-sheets-value='{\"1\":2,\"2\":\"- The contract owner (an EOA) could call the addPhase function, designed to mint tokens, without any limitations\\n- The owner minted 500Q tokens to his address and swapped 500B of them for 32.1 ETH on Uniswap\"}' style=\"font-size:11pt;font-family:Arial;font-style:normal;color:#000000;\">500 billion tokens were exchanged for ETH at this transaction:</span><br><span data-sheets-userformat='{\"2\":15165,\"3\":{\"1\":0},\"5\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"6\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"7\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"8\":{\"1\":[{\"1\":2,\"2\":0,\"5\":{\"1\":2,\"2\":0}},{\"1\":0,\"2\":0,\"3\":3},{\"1\":1,\"2\":0,\"4\":1}]},\"11\":4,\"12\":0,\"14\":{\"1\":2,\"2\":0},\"15\":\"Arial\",\"16\":11}' data-sheets-value='{\"1\":2,\"2\":\"- The contract owner (an EOA) could call the addPhase function, designed to mint tokens, without any limitations\\n- The owner minted 500Q tokens to his address and swapped 500B of them for 32.1 ETH on Uniswap\"}' style=\"font-size:11pt;font-family:Arial;font-style:normal;color:#000000;\">https://etherscan.io/tx/0x82f7533ac653b894a9918b4825a05d95761ae6ae5256446d7a753e64360335c2</span></p>",
+        "date": "2020-11-17",
+        "fundsLost": "15513",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "FOXI",
+          "addresses": [
+            "0x24673e71c9be517d3fa2ff6eef421f7bc0e23b38"
+          ]
+        }
+      },
+      {
+        "id": 212,
+        "projectName": "Monster Chain",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x7ecc57f57b7fa56179a7461a415b8b3945a75db18c4f8a21fcf0eb0db364d508<br><br>The contract deployer sold tokens at:<br>https://etherscan.io/tx/0xb130a570450d55b49e21fe12b72c3faf7a5b944a204fd298cd824c1f67b1019d<br>https://etherscan.io/tx/0x960f8b8d4118407c309e2bcb1ee43ed6350aa2505f5f25c065a1ee493cd9833c<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x402e4c0cccd533d193ae455bb53e3faa4e118e5a3f08ba00975cb4f461307abd<br><br>The stolen ETH was transferred to the external wallet at:<br>https://etherscan.io/tx/0xbca7f22adeb65eca028e1c20c37b1a66436f5827258808a6daeb4209413e7dd2</p>",
+        "date": "2020-10-22",
+        "fundsLost": "4012",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "MONSC",
+          "addresses": [
+            "0x8AAd244F0B3837D8bF9cC66a7682d26292F26ed6"
+          ]
+        }
+      },
+      {
+        "id": 213,
+        "projectName": "x20 finance",
+        "description": "<p>The contract deployer invoked mint transaction and generated 50 thousand X20 tokens onto his wallet:<br>https://etherscan.io/tx/0xe622293195c11ee0c68f05c148a6b0e315f1698084ca5a7dc3cb794b64d1d855<br><br>Most of them were added into liquidity at:<br>https://etherscan.io/tx/0xff2d791a394e0f566b8a5baa815437b42954e50f88db2e798a8fd868c193a0a6<br><br>Part of them was sold in the following transactions:<br>https://etherscan.io/tx/0x7917b57c87b102efc7a7eea2f1bb52ab1add03097a81cb05cd794ab0110a6682<br>https://etherscan.io/tx/0x91ea88c9f52d03b18328bea9e04b4135c2a3d2a09d0d136aca24aa9ee1f02075<br>https://etherscan.io/tx/0xae127f553f5b2dcd0e67a182169b3442dff95ae859dd4fd786d155b1d919984a<br>https://etherscan.io/tx/0xc260eb01a766042a9071c6a07353b1701280f7fb1d037b1a5b0335f17563a18a<br><br>1 day after, the liquidity was deleted:<br>https://etherscan.io/tx/0xe558685b303030bbd21c22276ab0b67483d5ea093a67b272f9fefe66014c92b6</p>",
+        "date": "2020-11-17",
+        "fundsLost": "2501",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "X20",
+          "addresses": [
+            "0xd24c65a2307266de4f7eeda5c5124e18ed7b13ec"
+          ]
+        }
+      },
+      {
+        "id": 214,
+        "projectName": "Exvault Finance",
+        "description": "<p>The project team disappeared according to the pinned message in the Telegram group:<br>https://archive.is/OdohK<br><br>The project was holding a public sale event on the Bounce Finance platform:<br>https://v1.app.bounce.finance/fixed-swap/3859<br><br>180.21 ETH were gathered in total. The liquidity wasn't added. The website is down.</p>",
+        "date": "2020-10-25",
+        "fundsLost": "73167",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EXCORE",
+          "addresses": [
+            "0x87D3646B101977de0D2D58dfC5A70e84767A1909"
+          ]
+        }
+      },
+      {
+        "id": 215,
+        "projectName": "Beer Garden",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+        "date": "2020-10-21",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "Beer",
+          "addresses": [
+            "0xbb8db5e17bbe9c90da8e3445e335b82d7cc53575"
+          ]
+        }
+      },
+      {
+        "id": 216,
+        "projectName": "Vice.Uno",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://www.bscscan.com/tx/0x8cf96acdf349e0b9472078d11b03f301b6187f8853cfda6e77cd4fff36664327<br><br>The contract deployer used <u>withdrawFromContract</u>() function to transfer tokens from the staking smart contract onto his own address:<br>https://www.bscscan.com/tx/0x514b2d1a3e66af5e93593dfb5c0d07671bc6e9e4ac7798cf94a8d88ee9aaadee<br>https://www.bscscan.com/tx/0x5287dc6507c31f2af3d9353fa8ce7b915918f7700a746b69153dafe29dbfa95b<br>https://www.bscscan.com/tx/0x51f5e087ac1d276bb9d4b30d1100729122ae3b716624c7a85472141a00ba7193<br>https://www.bscscan.com/tx/0x61f06484ecdbcad27f773e93d59353c00ce2911fe790f26c575434e12e3b9ed9<br>https://www.bscscan.com/tx/0xe879e0dd2b877068cb39cac7992cffaa2b2e5f2deb8569a08be2799fa6aab079<br>https://www.bscscan.com/tx/0x7d1e308f3af866f0eec0fa655a21a64da7cc263ed1c6c191820b78d7ef18a424<br>https://www.bscscan.com/tx/0x3b8c19835f4c7218da50b07c95225b7d7eaeacd64a1db0c73f5ee7bfb3241fd1<br><br>The liquidity was removed by the contract deployer at:<br>https://www.bscscan.com/tx/0x522b8076f86c24d0114f7d00b51751e82410de743635df64ecfecd33f5fb91d9<br><br>The project's native tokens were sold multiple times as well, the example transaction:<br>https://www.bscscan.com/tx/0x6fce03dfa5d677c26a914d283eff3c12dd22b2021f6ae943e1afeb7fc5e93cd1<br><br>The stolen BNB tokens were exchanged on Binance BTC tokens at:<br>https://www.bscscan.com/tx/0x2b18112062b2aaf39014a8c8487b982b3b3f0da6e42d6fa54e01b2f0bcde653a<br><br>The BTCB tokens were distributed between different external addresses and deposited into the Binance exchange, the example:<br>https://www.bscscan.com/address/0x734dfb2131e6277bdaba867e1e827a1a6bf25967#tokentxns</p>",
+        "date": "2020-10-27",
+        "fundsLost": "111467",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "VICE",
+          "addresses": [
+            "0x56b52f384ffd3cea09730b04d9342d23b3212ef3"
+          ]
+        }
+      },
+      {
+        "id": 217,
+        "projectName": "Chessfarm.Tech",
+        "description": "<p><strong>Quick Summary</strong></p><p>Investors of the Chessfarm.Tech project were betrayed due to the project deployers privileged withdrawal access, which enabled the deployer to extract approx. $167k from the project.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Chessfarm.Tech project was a DEX, deployed on the Binance Smart Chain. The project promised to have tackled problems such as hyperinflation and price dumping through its new fair chess distribution. Only 5% of the staking rewards were supposed to go towards the team in order to fund further developments.</p><p>The contract deployer added initial liquidity at:<br>https://www.bscscan.com/tx/0xe2fd4137ef507c034c665f3fea4d6f77d873c5374ad27d3a21f8926bcb426f0b<br>and made the $CHESS token tradable on pancake swap.<br>Merely 5 days later the contract deployer used a hidden migration functionality under the <u>reduceReward</u>() function, by invoking it, the deployer received all deposited tokens from the staking smart contract, as can be seen in the following example transactions:<br>https://www.bscscan.com/tx/0xeefee4f7828e16a84062b0c3cf429d0cd4cc231a1ca6bc4950296490b98d430d<br>https://www.bscscan.com/tx/0x4abde5e6cdd45b0c6eeb46fd324988a2a65baa188f0876342006088cf0267ee3</p><p>The received tokens were then sold by the contract deployer as can be seen in the example transaction:<br>https://www.bscscan.com/tx/0x777cb33644a763aa7e846495dc654e30f64e02f18313f537c3e722d8fceb50b1<br>The deployer managed to gain around $BNB 4000 and decided the funds for Binance BTC tokens at:<br>https://www.bscscan.com/tx/0xd68620c0681c5fe6281ebde24c7d573734ae4c90f6b9d4f02f585f3e8262f4e8<br>The received $BTCB were distributed between different external addresses and deposited into Binance exchange, here an example:<br>https://www.bscscan.com/address/0x4bf9af802d9804c2e4e3308c5658123eeac89947#tokentxns<br><br>The deployer also made sure to remove the liquidity in order to maximize his profit:<br>https://www.bscscan.com/tx/0x52f89a249f4bbe6f3c029def0765a4ad6897fc98931f786725bc486fd07229a2</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Example Transactions (Reduce Rewards)</p><p>https://www.bscscan.com/tx/0x50b1a1594d9980e2bfca18dc80c7e5fa99c0170602936bbe37a7d527c322f447<br>https://www.bscscan.com/tx/0xfff49ffe24c3105b134e264748dfac4f4bcb3928d3207cde0f5d1f9c84edcd40<br>https://www.bscscan.com/tx/0x84ddf423ecb1448466f3079a20004dda9619a75f4a4d5c6c5b671f5ebb1f93d5<br>https://www.bscscan.com/tx/0x80611a1a729b0d49557aff9b2b9e83e8701ca264b640eacb924e9bb5e424b18f<br>https://www.bscscan.com/tx/0x2b1818c93db9c64be6865b034fafafc52bb228c703b544802b1a72430ee366f1</p><p><br></p><p>Example Transaction (Deployer Dumping)</p><p>https://www.bscscan.com/tx/0x353ce25e0d03838cb5255688a2a59f3428c117592aba570e98d73b39bde4e569<br>https://www.bscscan.com/tx/0xaaf8648a4b2fa3577e83220a8923570a45fc8c858a51a138b48dbf0913f391d4<br>https://www.bscscan.com/tx/0x604533dde572b549b0f247c0f68555977353ed429a4e8112de334bd8ce49b698<br>https://www.bscscan.com/tx/0xebbf66a68dabb526bf673cda2a93ac947017963fb642327136a9a1047a4c79b3</p>",
+        "date": "2020-11-11",
+        "fundsLost": "167772",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Chess",
+          "addresses": [
+            "https://www.bscscan.com/token/0x02f92a9c381bdea49bde29a8277666c73e60c88d"
+          ]
+        }
+      },
+      {
+        "id": 218,
+        "projectName": "GoldenFarm",
+        "description": "<p>The contract deployer added initial liquidity multiple times, the example transactions:<br>https://www.bscscan.com/tx/0x6f07974c41628829951980839cbff463a539ab8b18c6ff72b0543097c133536c https://www.bscscan.com/tx/0xf179f346185bb8f659c53406a2d1abd8043f5f8165eee7e2964922016bd6400a https://www.bscscan.com/tx/0xef73a1d940419e2511e0ca7fb0cf96fb83bad84a510f45bec67e2fb62e294b5b<br><br>Tokens were sold multiple times by the contract deployer:<br>https://www.bscscan.com/address/0xac6f6ca3f431e42472d6e0e483c5f35e0be1b83e<br><br>The liquidity was removed multiple times as well, the example transaction:<br>https://www.bscscan.com/tx/0xe0d3a678621df8d75e381c1d39393fc6129e547ee5ff699e2816e23df200ddf1 https://www.bscscan.com/tx/0xf06b9d42e8f03af524ddcd7f5d9eab35e85db460496bc67713d8783fdadfc57e<br><br>The stolen funds were bridged to the Binance Chain via BSC: Token Hub by the contract deployer at:<br>https://www.bscscan.com/tx/0xd3be69e42d1b8710ead66167a6bbb6c219554fa879055d41650636eadf716b72<br>https://www.bscscan.com/tx/0xd37703dcccfe242476770aeaf9f05222c593a34ac8260cc1c41cde285d6e9561<br>https://www.bscscan.com/tx/0xaa159255355cd32fdd86a6b2b93520ca26d608b0062c345ea95f9485e3022fc4</p>",
+        "date": "2020-12-07",
+        "fundsLost": "396",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GOLD",
+          "addresses": [
+            "0x1d5fab22d056428cae676aa11c0d5f31647b69e6"
+          ]
+        }
+      },
+      {
+        "id": 219,
+        "projectName": "Potatos Finance",
+        "description": "<p>The contract deployer added liquidity multiple times:<br>https://www.bscscan.com/tx/0xc6bf5b30f6dd23691fe7f7f38467c02a62546b8a1e9d90502fd47f47e4202fa1<br>https://www.bscscan.com/tx/0xa7ec7b90d7c7894789edea66657ea331e3666cc17c339d330a160119a30a9dcd<br>https://www.bscscan.com/tx/0x67a2b842cc693ffc5d2300b8abdeda42dc0d4d9ba14b033002fcbfbd0eca8ced<br>https://www.bscscan.com/tx/0x16b4703203073313f10402150d350b0d3ad4eee05777efe0fc44b989845b58a0<br>https://www.bscscan.com/tx/0x55dcb0733a8ea743aecbb2bc80e4b65d11163d63e4417ccca68c43b23e150cdd<br>https://www.bscscan.com/tx/0x659368cbe75f6d8ea327e48bcec0d5affafff1ffd2d0046af82fb2d96d5cfc1c<br>https://www.bscscan.com/tx/0x5a1418087f361e367cdc9f508f8048c40d9ab0624138edfd7693b1432ef502bb<br>https://www.bscscan.com/tx/0x79b9b0a1a89a037152969dbbbed0b985b166337d3f5829dc98483414f7e0525c<br><br>The liquidity was removed by the contract deployer at:<br>https://www.bscscan.com/tx/0xd2926281f370b4b9332a2407a3425afef161d62265589680b035ea5170858117<br>https://www.bscscan.com/tx/0x49278de1d7f04860ba3bd82d27d35367cef447b9ae6f4036455b08815a70fa80<br>https://www.bscscan.com/tx/0xbe5a19368fac05bde87c176dc81f2063d5b342559cdc1f51e4267a2beec3716a<br>https://www.bscscan.com/tx/0xef2c259ca345f082a8c90033e21efd03ee7532dec7abd60be94c2a4435df45c0<br><br>The contract deployer sold tokens multiple times, the example transactions:<br>https://www.bscscan.com/tx/0xa51c11f0f7be8c13c3f4b670306761bbe0b9b29cb5f91b883f5f964c07cb8967<br>https://www.bscscan.com/tx/0xc1e2a5d2e95aca0735dbc4218ea085651b77238357c9dcd3381919b773362bc0</p>",
+        "date": "2020-12-17",
+        "fundsLost": "569",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "POT",
+          "addresses": [
+            "0xeb0035f39525319c5cdd814de3459e185243dd94"
+          ]
+        }
+      },
+      {
+        "id": 220,
+        "projectName": "MinterPro",
+        "description": "<p>The contract deployer added initial liquidity multiple times, the example transactions:<br>https://www.bscscan.com/tx/0x54a8d82b0eb00460a3117a866c08eb222d18e84ee393f7c20a8e9204bf16bc8c<br>https://www.bscscan.com/tx/0xc80a76fae45c00c6f25a436ed7a215a8268e12447d3e6e5b4b72394b2d9aa0fe<br><br>The contract deployer invoked <u>mint</u>() function to generate new tokens onto his wallet multiple times, the example transactions:<br>https://www.bscscan.com/tx/0xc6e84deda1ae852a952d9405bacb2cf4fe5a4eccb4b8c5c19af82cbf559f1685<br>https://www.bscscan.com/tx/0xf893cc5bfa4680b3e4732ede4146ad77e56df1db7138f1096ff3551322ff93df<br>https://www.bscscan.com/tx/0x5468bd8ccb0176b812d8654091333475def3607379182f3b32d0b619599af91f<br><br>The minted tokens were sold multiple times by the contract deployer:<br>https://www.bscscan.com/tokentxns?a=0x7f659509897bb7b3cefada050bbe6ffb50a3c981&amp;p=2<br><br>The liquidity was removed multiple times as well, the example transaction:<br>https://www.bscscan.com/tx/0x35ce29dc40d89b64a005f7fd1f97af24de52faeaeb67920ad8488d32e24ba660<br><br>The stolen funds were bridged to the Binance Chain via BSC: Token Hub by the contract deployer at:<br>https://www.bscscan.com/tx/0x65b0f544716da8772f0afba7675d462c46fd3384ca40dbee96ec22319f71ecf4<br>https://www.bscscan.com/tx/0x1dc038a8f26e653b402530da31b46cbd34a4bda7a23164cd36d2131be04c86e3<br>https://www.bscscan.com/tx/0x0d6dbde0f5a682de2fda82da66767a81bc52f8fcdafb8adba18f3df0a30a370a<br>https://www.bscscan.com/tx/0xd88dcf0cc50544929090044e11d62019a7b61cba4e09e2a45a1bec8c41071d97<br>https://www.bscscan.com/tx/0x4b9e5893c5745ecfcf83bcd87953f13b00adaa97479e77570503e58d59f0c76c<br>https://www.bscscan.com/tx/0x83d2edfb13019db7f7b9088cea30ff26fed38023e3209e67a65d6566ce092d06<br>https://www.bscscan.com/tx/0xf2e467f2823d1432c76129a873835a0f50f6173709ae8e903d08f56ad578e955<br>https://www.bscscan.com/tx/0x7e25ad9dbf1bdc3a5972faf440300a28e4a20a8e9aa4d9bed87a64c3eaa10de0<br>https://www.bscscan.com/tx/0xb3676b600415aa90977197e3f61a7a8343e0a87e8315064188646d73d5f552fd<br>https://www.bscscan.com/tx/0x2c578e1060d07ca72226216682289a7b75c8ab1fbe4b762d988ebff4d2bf3eca<br>https://www.bscscan.com/tx/0x2255b828daaf83b4c0d7b786cea2c44137966a9bca676184927e6d2178a1f800</p>",
+        "date": "2021-01-09",
+        "fundsLost": "33821",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MINT",
+          "addresses": [
+            "0x0da9d027012afed5fa981eca54523113e0938ac4"
+          ]
+        }
+      },
+      {
+        "id": 221,
+        "projectName": "Tin Finance",
+        "description": "<p>The project was holding a presale event using a separate smart contract:<br>https://www.bscscan.com/address/0xe9e3864fd7f49a0b62ac68e99ed5da67ed7ab7f6#code<br><br>The final recipient was the token contract deployer, he received funds at:<br>https://www.bscscan.com/address/0x75b84a45fd046c01e3cd9ac725e991a8d28fe5f7#internaltx<br><br>3,064 BNB, gathered from the presale, were transferred to the external wallet at:<br>https://www.bscscan.com/tx/0xc5899580b98933a1b3aae98216ed43c19da8589e3715ef113ac4392c2a55f99d<br><br>The BNB recipient deposited funds into the Binance exchange:<br>https://www.bscscan.com/tx/0x229c02f45594fdb1809285da6aa668a9ba42ab8c14a7591662f091d517250e67</p>",
+        "date": "2021-01-30",
+        "fundsLost": "137342",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "TIN",
+          "addresses": [
+            "0xd248537d601f8e062dd36c8e7d26302d51cc653a"
+          ]
+        }
+      },
+      {
+        "id": 222,
+        "projectName": "Rubick Finance",
+        "description": "<p>The token contract owner minted 1 million RBK tokens to his EOA wallet and exchanged them for 40.57 ETH on the Uniswap. The contract owner gained 10.57 ETH since he earlier added 30 ETH liquidity to the RBK-ETH pair on the Uniswap. Users, who remained with RBK tokens were unable to sell their tokens since all liquidity has been depleted.<br><br>Swap transaction:<br>https://etherscan.io/tx/0x620e0b9bf77dc062d106465180f9b5d18a2a879a69eed582c9844f1d2cb8869d</p>",
+        "date": "2020-11-20",
+        "fundsLost": "20685",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RBK",
+          "addresses": [
+            "0x960a223f27b474de35f05b27210cc62cf7bdb1eb"
+          ]
+        }
+      },
+      {
+        "id": 223,
+        "projectName": "Rotex",
+        "description": "<p>The contract deployer invoked the hidden minting function under <u>renounceRole()</u> at:<br>https://etherscan.io/tx/0x23481a28e4091d8b189f71abcc3a2e72c0362e26c72947ba3590973159f03789<br><br>Tokens were sold at the following transactions:<br>https://etherscan.io/tx/0xf8b2ebe34ac9203be2572143d7a426aead6c6f62293dcdfcf23f78b2017e0da6<br>https://etherscan.io/tx/0x70bcce36bc91b0bd121b6a9c54c779804146a76592479a0f88ebeb8efeb92f84<br>https://etherscan.io/tx/0xe970d6716362be70499013423d431652ca7e9889b3a799225e2d599d49e56546<br>https://etherscan.io/tx/0x759ae1661f766171b55a534b93b559a1c697c8acc1322cc8a3ea3ef1cb646c32<br>https://etherscan.io/tx/0xe5a998566f50c66957771ef1fc6e7446ce981cd884e36d1e90edd759c91c0452</p>",
+        "date": "2020-11-21",
+        "fundsLost": "4804",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RTX",
+          "addresses": [
+            "0x079de196d5e8babca45f7d621fe0127f4dc753d9"
+          ]
+        }
+      },
+      {
+        "id": 224,
+        "projectName": "Bio Farm",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xb3796704bae8992ce88484d4bcf083197d6b13b0501cd1082b78e6a18f200ff0<br><br>The contract deployer sent minted tokens to the external address at:<br>https://etherscan.io/tx/0xbdae09f00f78e3cc3520c5cb473e95c7d0b95201450c932b794965c48bd7d3c9<br><br>The external address added liquidity using received tokens at:<br>https://etherscan.io/tx/0x507d8fcceddedb8a8b6152a780f03680b283231dd6f03ba5ed71666fdf52aef6<br><br>The liquidity was removed by the external address at:<br>https://etherscan.io/tx/0x53141b88d9be5229ff7e0efd9019ac3f26405073af31515e7a2c10fd1d080f7c<br><br>The contract deployer removed the liquidity as well at:<br>https://etherscan.io/tx/0x279a1fbbb12e84b2b2d933cb84467d1e2f5022325cb51bcf40187a5323df2912</p>",
+        "date": "2021-01-13",
+        "fundsLost": "73244",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "BIO",
+          "addresses": [
+            "0xae8f1356ec073accdd4bf5914d37a44dfd954a0d"
+          ]
+        }
+      },
+      {
+        "id": 225,
+        "projectName": "INFI Governance and Utility Token",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x9bd709d9bbe44ed118ed0286c9d957fcc3c6a11fc517b2d9476afc9b79a62c5f<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x9a99e14363f03d4bebce99a2e8ba7ba04d0faad5377fa3f3d428207a4af9aed0</p>",
+        "date": "2021-01-26",
+        "fundsLost": "109878",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "INFI",
+          "addresses": [
+            "0x790b5c38da815f0f47ac8acd148eb24a24c262a2"
+          ]
+        }
+      },
+      {
+        "id": 226,
+        "projectName": "Cubic Finance",
+        "description": "<p>The project was holding a presale event at:<br>https://app.bounce.finance/fixed-swap/5048<br><br>304 ETH were raised in total.<br><br>1. The contract deployer transferred tokens to the external wallet at:<br>https://etherscan.io/tx/0x08779ce4a35d90939861e08fc470cdaf7bf946fb9fe2bddb4025f364fda805ec<br><br>2. The token recipient added initial and further liquidity at:<br>https://etherscan.io/tx/0xcff977ee5e3184b1eb6d5a9b8710a28638a245b54fdf968c3c22d26ffa816858<br>https://etherscan.io/tx/0xb97cfbb3d5554cb05a92c43aa2f365add857ca90290a9f56aebf6ad41d1074bf<br><br>3. Only 18.23 / 304 ETH was used to add liquidity. In addition, the token was listed on the Hotbit exchange:<br>https://hotbit.zendesk.com/hc/en-us/articles/360060184974-Hotbit-will-launch-CUBIC-Cubic-Finance-on-January-15th-2021<br><br>4. The token recipient from step 2 transferred part of tokens to the other external wallet at:<br>https://etherscan.io/tx/0x84c16aa10d55e3b1522be74bc13dc2d81fabd78d08a8a3411fb429d1d04ac41c<br><br>5. This external wallet deposited received tokens directly to the Hotbit exchange so further actions can't be tracked. Stolen funds were calculated based on the raised funds from the presale event minus added liquidity amount.</p>",
+        "date": "2021-01-15",
+        "fundsLost": "216694",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CUBIC",
+          "addresses": [
+            "0x88bb0ad86db019e5ccc17809206dad9cb38daff4"
+          ]
+        }
+      },
+      {
+        "id": 227,
+        "projectName": "Slicer Finance",
+        "description": "<p>A fair launch without adding initial liquidity from the contract deployer side.<br><br>However, the contract deployer invoked the <u>mint</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xcb78fcc59303212b3b7e285aa5eab7b240694b134d8ab249667a6dfabee02cf6<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0xc43131391acbf68e40252ddc3b1e92b85ed4b6daa95d6f64a9b7d9480a800185</p>",
+        "date": "2021-01-01",
+        "fundsLost": "14346",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "NFT",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SLS",
+          "addresses": [
+            "0x1dAfac57c2F74CBC2736486309a009880CE4cbfc"
+          ]
+        }
+      },
+      {
+        "id": 228,
+        "projectName": "Aphrodite Protocol",
+        "description": "<p>The project was holding a fundraising event, it was stated in their Telegram announcement:<br>https://archive.is/lrWVR<br><br>Funds were deposited directly to the contract deployer's address:<br>https://bloxy.info/txs/transfers_to/0x0217f93565ede01fa65450281631a67808d2eedc?currency_id=1<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xf0cc8a577b231694f919513a850c1ee252992ab59ad04f5ec84616753b077bdb<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x932454372a960201ea6a452d090c354df892d60d2b8fbcda082f7e1b426d2f8d</p>",
+        "date": "2021-01-29",
+        "fundsLost": "97147",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "APHR",
+          "addresses": [
+            "0xe25da3cbec06652d31b376c18b68a16dbfe081f4"
+          ]
+        }
+      },
+      {
+        "id": 229,
+        "projectName": "Pacific Protocol",
+        "description": "<p>The project was holding a fundraising event using Presale smart contract. Funds were gathered and transferred directly to the contract deployer's address:<br>https://bloxy.info/txs/transfers_from/0x25c00eeb754a5f1b9f8e85a0e2deebd0a64cc489?currency_id=1<br><br>The contract deployer added initial liquidity using presale funds at:<br>https://etherscan.io/tx/0x37b163636d3cf047f525963847b886837c31b0a0f084e64d6a2642a522f38e2a<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x5569f1c64637b29432a1ac394350e76a77e0863ce2f41d484e23e07d5dc2473e<br><br>The difference between the initial liquidity and the final liquidity is negative. The contract deployer stole part of the funds raised on the presale event.</p>",
+        "date": "2021-01-01",
+        "fundsLost": "23531",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PCF",
+          "addresses": [
+            "0x8a46eb6c42d206d129d7a9a3e0ed4198345c70ed"
+          ]
+        }
+      },
+      {
+        "id": 230,
+        "projectName": "Gh1z.finance",
+        "description": "<p>The contract deployer added initial liquidity to the pair using funds from KuCoin exchange. Funds from KuCoin received at:<br>https://etherscan.io/tx/0xb021a6e5ed11bcc2c85a8fb6ff742aebf2417b3b6d7614434ada7da94aa5828f<br><br>Initial liquidity added at:<br>https://etherscan.io/tx/0x61c5730942710e6417eb5dad3fb381a9785535c9c25c5d0227cd8959f90d197b<br><br>The contract deployer invoked hidden minting under setFeeDistributor() function at:<br>https://etherscan.io/tx/0x6552ac529bd11a4a8d889e59752cfd3b0f28ce761368068d90d7763b24401162<br><br>The contract deployer has sold tokens at:<br>https://etherscan.io/tx/0x52cb39ceeac782b46215c7ca84ce5a929cc67a94cd0e3b3e1932eb8a1a58dd39</p>",
+        "date": "2020-11-24",
+        "fundsLost": "2137",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "GHZ",
+          "addresses": [
+            "0xdba87d3b55fb2ed762d3b43b663ebbe21a8167a6"
+          ]
+        }
+      },
+      {
+        "id": 231,
+        "projectName": "Link Based",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+        "date": "2021-01-16",
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Abandoned",
+        "token": {
+          "name": "LBD",
+          "addresses": [
+            "0xb15ae165000c8d7b69d2a82e425e110668c73ad5"
+          ]
+        }
+      },
+      {
+        "id": 232,
+        "projectName": "Holy Trinity",
+        "description": "<p>The project was holding a presale event using a separate smart contract.The gathered funds were transferred to the contract deployer's address:<br>https://etherscan.io/tx/0x7ca1d8080d93e2edd1dd1babe0adcdd89dd1e0d32d569c6c4721e6a8aa86d9cf<br><br>The contract deployer added initial liquidity using funds from the presale at:<br>https://etherscan.io/tx/0xafffdf48bf3fb1a5df7907af0c4a2e76adb235fe813e7f2f1b7c5f5e986c28a8<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x9678b04e36388e9937f2145dc78e8431aeebdf9d72f9b56b41d3fc319e0d1e5b<br>https://etherscan.io/tx/0x6803017709a7e38b215deffd9e60d09707b7275a080324b5313b23a5daad4bcc</p>",
+        "date": "2021-01-18",
+        "fundsLost": "34122",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "HOLY",
+          "addresses": [
+            "0xc606b9ac3dc335aba427011547a4211c298ca5e4"
+          ]
+        }
+      },
+      {
+        "id": 233,
+        "projectName": "Rfyield Finance",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x9ecec12043a2d6e083e329c575a47b6f2965b4cb998197a9c0fdb6f45726428f<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xce29086ae06a7ba048277b2802667ad7111de061a1045c74f0333ed2c74bd76d</p>",
+        "date": "2021-02-02",
+        "fundsLost": "7193",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RFY",
+          "addresses": [
+            "0x3f5be50e4651ee184109a0b1b71d344d12e8b603"
+          ]
+        }
+      },
+      {
+        "id": 234,
+        "projectName": "Mother of All Ponzis",
+        "description": "<p>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0x1eacfa0f78a04e9e7f9b302def998f589e447f8b6c0ac71d76796d0a7ed2a246<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xbb5e794211e5e4201c1a805403bb476d39fb443b77c5eff32cfdf2d620f60e09</p>",
+        "date": "2020-12-23",
+        "fundsLost": "1336",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MOAP",
+          "addresses": [
+            "0xe5fb5febbef64588dcba54aeb643d05a8ed02b91"
+          ]
+        }
+      },
+      {
+        "id": 235,
+        "projectName": "UniTarget",
+        "description": "<p>The project was holding a presale event. The fund's recipient was the contract deployer:<br>https://etherscan.io/txs?a=0xbf6b0f0da31d1bc420d43ebb05b4f05498111136&amp;p=2<br><br>After the presale, the contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x03c2358854cd0b99ca73575d6ff1d99f5d22d2eb607fc2d51b9f7f656370d0e8<br><br>The LP tokens were locked by the contract deployer:<br>https://etherscan.io/tx/0x77d8139a47e551b67b7bd681cff450574ca816b0f60e2b00cfa11dfc049e57a5<br><br>The rest of the funds were deposited into the Tornado Cash mixer:<br>https://etherscan.io/tx/0xcd09235d8c7d90d3e2a5ea10ae6b40e93b37d054dcc0626adc02fe857f3b1873<br>https://etherscan.io/tx/0x52fd5e603ecd32151b9185f676c2e8ba44ff1932480819eddd131bae942f660d<br><br>After the LP tokens were unlocked, the liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xbcde68e59713609d857d80498d036bd0d75496d69e37f3e0254eb37bd0650cf5</p>",
+        "date": "2020-12-25",
+        "fundsLost": "70732",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "UNIT",
+          "addresses": [
+            "0x752cf2795899dc97f414ae9016b53e9f7074afe1"
+          ]
+        }
+      },
+      {
+        "id": 236,
+        "projectName": "Exbase Finance",
+        "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EXBASE",
+          "addresses": [
+            "0x15c5339954a1016c77732ea626cc714b0d37dd6a"
+          ]
+        }
+      },
+      {
+        "id": 237,
+        "projectName": "Elastic Staking",
+        "description": "<p>The contract deployer minted tokens onto his wallet:<br>https://etherscan.io/tx/0x5f767b81526aa89a6cf2e777fad52253335f94439183bddaa2da5a027c783b15<br><br>The contract deployer airdropped tokens to the community members at:<br>https://etherscan.io/tx/0xe1faff1ce74c541bba1d2376603d028bc380dd88692e6a0f5fe6176c132631e3<br>https://etherscan.io/tx/0x563523b43b273418f6c0f0cf8e40b5c94b2a1722009d16e214c2226d2492fd64<br>https://etherscan.io/tx/0xc9c4771bc5c6915e4f2c045b2c57b25bc4b6a4965cda7d6bee94a0251140ed6c<br><br>When the liquidity was raised enough, the contract deployer invoked bytecode smart contract through the <u>0x8a4995ae</u> method 3 times to mint additional tokens onto his wallet:<br>https://etherscan.io/tx/0xd08a5d8aadee2a84301aa2d60a5e234faeecc04733960e40d314cf7e676b491e<br>https://etherscan.io/tx/0xdd255f83ec83bfa966f0b039f5bafb4ed70a81f076a3bd668efcba9d3ad6a85d<br>https://etherscan.io/tx/0xb0f8eedc4aa050a12d6bf29994e466a77d801de03e3e5a6f8cd69918c50cd4c5<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0xb5a83eed35a89523149d4767647fdeb008af166b5c4e1cb7be8642499c9aa32e<br>https://etherscan.io/tx/0x5e315deeb0886c2c29807d0cbc630b358fa08264b5246ff8c3b396477c2cb124<br>https://etherscan.io/tx/0xb0f7e4d528444c28f32fe2923e7f52ab838cc5ad3a18b7e5b31b50dc1cc8e77f<br>https://etherscan.io/tx/0xc8e7050c61055f490c0167152b74209c18f13ef54c9b649b5b24b2e5da78e8ca</p>",
+        "date": "2021-01-26",
+        "fundsLost": "208514",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "EStake",
+          "addresses": [
+            "0x88f639186aee2fc903da4fe5742df35b760225e8"
+          ]
+        }
+      },
+      {
+        "id": 239,
+        "projectName": "Yearn Machine Learning",
+        "description": "<p>The project was holding a presale event using proxy:<br>shorturl.at/nrtwT<br><br>The liquidity wasn't added.<br><br>The stolen Ether (90.30 ETH) was deposited into the Binance exchange:<br>https://bloxy.info/txs/transfers_from/0x432cab608c3f72814e303692da5310b21e887c69?currency_id=1</p>",
+        "date": "2021-01-21",
+        "fundsLost": "100367",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "YML",
+          "addresses": [
+            "0xd7e48d68dce805c97bb66b2affadcdfcd47e1f95"
+          ]
+        }
+      },
+      {
+        "id": 240,
+        "projectName": "Maxliq.ml",
+        "description": "<p>Tokens were sold by the contract deployer in multiple transactions:<br>https://etherscan.io/tokentxns?a=0xdde258c5834250cf17da9522c1ab88cf818d7b16</p>",
+        "date": "2020-11-25",
+        "fundsLost": "898",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "MLQ",
+          "addresses": [
+            "0x06ee5730c9ff0c76f86fffe958a1ce435ce2cc62"
+          ]
+        }
+      },
+      {
+        "id": 242,
+        "projectName": "Pump Farm",
+        "description": "<p>The contract deployer interacted with the 3rd party malicious unverified smart contract that received infinite approval for spending the user's approved tokens. He invoked the <u>setMigrator</u>() function at the following transaction:<br>https://etherscan.io/tx/0xcacef01fb0b75344864a2666dcd94ffacb0e70ec241811af962f85328ab30864<br><br>This contract called <u>migrate</u>() function multiple times. Example transaction:<br>https://etherscan.io/tx/0x88e788afd3e0efb5d4cc7e49c977075b6c25fed6ad270e8c664d26404142c164<br><br>Migrated LP tokens were removed from the liquidity pool at:<br>https://etherscan.io/tx/0xeb99cfe73e3d61d9e8e07cb74d4efa87db4a695f03760de7c9c992be3a5d3bfe<br><br></p><p>In addition, the contract deployer has minted 10q PPF tokens onto his wallet:<br>https://etherscan.Io/tx/0xa7ca31dbb91f19d57e5797c6ab6970be3414c63563d3e16c1e8fcc8304699d77<br><br>After, 1 billion PPF tokens were exchanged for 220.60 WETH:<br>https://etherscan.io/tx/0x6d455a00f300c75152b0d6ecc1b2825c4be3b71df50f613adbb3ba6e1802c483</p><p><br>Stolen funds were deposited to the Tornado Cash at these 8 transactions to cover up the tracks:<br>https://etherscan.io/address/0x0ef1a03cfdbcfbe0ddcff99bc663c9842efe1eaa</p>",
+        "date": "2020-11-12",
+        "fundsLost": "477544",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "PPF",
+          "addresses": [
+            "0x6B4b3B0B0130C9b4dDa7c6FB4602BEefBBF10672"
+          ]
+        }
+      },
+      {
+        "id": 243,
+        "projectName": "Hypechill fund",
+        "description": "<p>The contract deployer minted tokens onto his wallet:<br>https://etherscan.io/tx/0x6a1a0926701bf72f268e23e7735ad088cce5bf05851da9f286476ba87b58bf57<br><br>The initial liquidity was added at:<br>https://etherscan.io/tx/0xcb4070e43b592671a8b0b33208af7543fcd81be07a4e57f226101044ee8f189e<br><br>The contract deployer removed liquidity at:<br>https://etherscan.io/tx/0x6dcf0a6fc7d2b3180bd2f176ededda084505ad6e42c912e9505dca117e9e1067</p>",
+        "date": "2020-11-27",
+        "fundsLost": "12910",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "CHILL",
+          "addresses": [
+            "0x0FE5FDF01B48008DC68FC32E8fB7E0d93CA99BC5"
+          ]
+        }
+      },
+      {
+        "id": 244,
+        "projectName": "RUL3R Token",
+        "description": "<p>The contract deployer generated new tokens by invoking <u>mint</u>() function in the following transactions:<br>https://etherscan.io/tx/0xaca0d6b40fc0f70174ed25589f5bfc011db5dc960ed85db9ce0243ac49c4bcfb<br>https://etherscan.io/tx/0x8907c650920f6ca26d1d8fb91cd1e01dbe638508afde0c8d9e2e726c495f81c9<br><br>After, tokens were dumped by the contract deployer on the Uniswap exchange:<br>https://etherscan.io/tx/0xda5a1f59685df4fd9f433952e1a3ea739ae703644ceec59aef5c3aba05b0ddd0<br>https://etherscan.io/tx/0x33ee696d5ec48f8bb271d49e045cfb45476ed5d8d3529fa93672af063bb948ff</p>",
+        "date": "2020-11-27",
+        "fundsLost": "24792",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "RUL3R",
+          "addresses": [
+            "0x5bE1e6469703a2D7302B8dfD09865A0b25f3efa0"
+          ]
+        }
+      },
+      {
+        "id": 245,
+        "projectName": "Asteroid Pump",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+        "date": null,
+        "fundsLost": null,
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "AsteroidPump",
+          "addresses": [
+            "0x512177aDf1BfE67ce9e504877Bf2D47Cd5BDB994"
+          ]
+        }
+      },
+      {
+        "id": 246,
+        "projectName": "CHERRY",
+        "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xf68147ee944826d5d50323691004f59000e8f862a6fef28b3708eace3be2f7dd<br><br>The contract deployer removed liquidity at:<br>https://etherscan.io/tx/0x520e274156f39b04c96703b2f032bf2d2edf1cbbf3e39f572d17de46707fc80a<br>https://etherscan.io/tx/0x405a900a8d0551c58f24fa81dfba9a82ba86250440c6ee07ae3feee643955bb1</p>",
+        "date": "2020-11-28",
+        "fundsLost": "6593",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Honeypot",
+        "token": {
+          "name": "CHERRY",
+          "addresses": [
+            "0x553712Fd6ec9dEf698E060e008bB28503Bd9f6A8"
+          ]
+        }
+      },
+      {
+        "id": 247,
+        "projectName": "Enjo",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x4d304bdbd16bee08ffe4765048e58553618761c54627428d3e82f0eb7c9fe6b8<br><br>Liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x9136e01bec806ed7d69261a82ce7b88edc411ca13da1725d33a1280219469f70</p>",
+        "date": "2020-11-28",
+        "fundsLost": "762",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "ENJO",
+          "addresses": [
+            "0x116d52abf976e6c9f70c79988d79e0938f4304a2"
+          ]
+        }
+      },
+      {
+        "id": 248,
+        "projectName": "Hype Bet",
+        "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x0010c4e051c9f0d29e4cb9a3da608c26c02cd0cc7a2084910675f407ab2124bf<br><br>Liquidity was removed at:<br>https://etherscan.io/tx/0xd2492fe524213eb095b91c89d7230a448e3a7dc2ff1722b24105a1ad2b08a76d</p>",
+        "date": "2020-11-29",
+        "fundsLost": "34703",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "Hype.Bet",
+          "addresses": [
+            "0xf6bcf98ebe20ab7b68b3d703652e0029115b4a7a"
+          ]
+        }
+      }
+    ]
+  }
+}

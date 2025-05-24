@@ -1,0 +1,888 @@
+{
+  "data": {
+    "rekts": [
+      {
+        "id": 3941,
+        "projectName": "Galaxy Fox",
+        "description": "<p><strong>Quick Summary</strong></p><p>On May 10th, Galaxy Fox (GFOX) Token contract was exploited with a hacker's profit of about 330k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On May 10th, the address <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>0xFcE19F</span> exploited the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>GFOX</span> token via the unverified exploiter contract <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>0x86C68d exploited unverified token treasury <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>0x11A4a57</span> and was able to withdraw and sell <br><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>1,255,219,434</span> GFOX tokens for about <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>108.7</span> ETH</span>.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://etherscan.io/address/0xfce19f8f823759b5867ef9a5055a376f20c5e454</p><p>Attacker contract:</p><p>https://etherscan.io/address/0x86c68d9e13d8d6a70b6423ceb2aedb19b59f2aa5</p><p>Example of exploit tx:</p><p>https://etherscan.io/tx/0x12fe79f1de8aed0ba947cec4dce5d33368d649903cb45a5d3e915cc459e751fc</p>",
+        "date": "2024-05-10",
+        "fundsLost": "330000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "GFOX",
+          "addresses": [
+            "0x8f1cece048cade6b8a05dfa2f90ee4025f4f2662",
+            "0x92ee0df7f6b0674cabc9bfc64873786fa7be82d0"
+          ]
+        }
+      },
+      {
+        "id": 3942,
+        "projectName": "Orion",
+        "description": "<p><strong>Quick Summary</strong></p><p>On <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>May-28-2024</span>, Orion protocol was exploited with a losses about of 994k USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The root cause was improper updating of user liabilities during the removeLiability operation. The attacker manipulated the liabilities array of a controlled account through a series of preparation transactions, doubling the value of the user's collateral assets. This manipulation allowed the attacker to bypass the health check when borrowing assets. Specifically, due to the manipulated liabilities for account 0xf7a8c2, the exploiter borrowed more assets than allowed. The technical failures included inadequate handling logic in the removeLiability function and the failure to update user liabilities when releasing assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://bscscan.com/address/0x51177db1ff3b450007958447946a2eee388288d2</p><p>Exploit tx:</p><p>https://bscscan.com/tx/0x660837a1640dd9cc0561ab7ff6c85325edebfa17d8b11a3bb94457ba6dcae18c</p>",
+        "date": "2024-05-28",
+        "fundsLost": "994000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": "ORN",
+          "addresses": [
+            "0xe9d1d2a27458378dd6c6f0b2c390807aed2217ca"
+          ]
+        }
+      },
+      {
+        "id": 3943,
+        "projectName": "WINR",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>May-31-2024</span> a $WINR token on Arbitrum was attacked, and the attacker managed to grab ~$15k worth of $WINR tokens</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://arbiscan.io/address/0xfeef112831cc8f790abe71b4b196c220ee26ecf3</p><p>Attacker contract:</p><p>Exploit tx:</p><p>https://arbiscan.io/tx/0xf57f041cb6d8a10e11edab50b84e49b59ff834c7d114d1e049cedd654c36194d</p>",
+        "date": "2024-05-31",
+        "fundsLost": "15000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "WINR",
+          "addresses": [
+            "0xd77b108d4f6cefaa0cae9506a934e825becca46e"
+          ]
+        }
+      },
+      {
+        "id": 3944,
+        "projectName": "MetaDragonDao",
+        "description": "<p><strong>Quick Summary</strong></p><p>MetaDragonDao was exploited on May 29, 2024. The exploiter grabbed ~$180k worth of $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The recent hacking incident resulted in over 4000 NFTs being compromised. Community members incurred losses of approximately 2400 NFTs after accounting for the META fund and marketing allocations. Additionally, some investors and liquidity providers experienced losses. The NFT contract remains insecure, so refrain from minting NFTs.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://bscscan.com/address/0xc468d9a3a5557bff457586438c130e3afbec2ff9</p><p>Tornado deposit:</p><p>https://bscscan.com/address/0x0d5550d52428e7e3175bfc9550207e4ad3859b17</p>",
+        "date": "2024-05-29",
+        "fundsLost": "180000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3945,
+        "projectName": "Lykke",
+        "description": "<p><strong>Quick Summary</strong></p><p>On June 4 Lykke CEX was exploited and lost $22 million worth of crypto assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Lykke, a centralized cryptocurrency exchange based in Switzerland, halted withdrawals following a security breach on June 4, which resulted in the loss of over $22 million in crypto assets. The incident was publicly acknowledged by the Lykke team in a social media post on June 10. They assured users that their funds were safe and would be recovered, although both Lykke UK and Lykke Corp AG were affected by the attack.</p><p><br></p>",
+        "date": "2024-06-04",
+        "fundsLost": "22000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3946,
+        "projectName": "Velocore",
+        "description": "<p><strong>Quick Summary</strong></p><p>On June 2 Velocore was exploited and loss worth $6.8 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On June 2, 2024, Velocore experienced a security breach that resulted in the loss of approximately $6.8 million in ETH. The breach was due to vulnerabilities within the Balancer-style CPMM pool contract, particularly faulty logic in the velocore__execute() function and issues with the fee rate calculation logic that allowed effectiveFee1e9 to exceed 100%. Additionally, there was a potential underflow issue during single-token withdrawals and a lack of caller verification in the velocore__execute() function. The attacker used funds from Tornado Cash, executed the exploit, bridged the funds through Across Bridge, and redeposited them back into Tornado Cash. While all volatile pools in Linea and zkSyncEra Velocore were affected, stable pools and the Telos Velocore pools were not impacted as the issue was mitigated beforehand. The Blade fork of Velocore, which uses a different pool structure, was also unaffected. The team acknowledged the critical assistance from Hexagate, Hypernative, and Ironblock in identifying and addressing the exploit. Further updates and a detailed post-mortem are forthcoming.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Final Fund Destination Address:&nbsp;</p><p>0xe4062fcade7ac0ed47ad794028967a2314ee02b3</p><p>Exploiter EOAs:</p><p>0x8cdc37ed79c5ef116b9dc2a53cb86acaca3716bf</p><p>0xd8c465ecd8c6f1a0c114890f1ef553f82e59d274</p><p>Exploiter Contracts:</p><p>0xed4e130f6f9e68918996f7e1e46a3306b3e12cec</p><p>0xb7f6354b2cfd3018b3261fbc63248a56a24ae91a</p><p>0xc030fba4b741b770f03e715c3a27d02c41fc9dae</p><p>0xf7f76b30a301524fe76508546B1e3762eF2B9267</p><p>Attack txs:</p><p>https://lineascan.build/tx/0xed11d5b013bf3296b1507da38b7bcb97845dd037d33d3d1b0c5e763889cdbed1</p><p>https://lineascan.build/tx/0x37434e674efc4e7cfeed7746095301ace5636028906fe548b786ead286e35eb0</p><p>https://explorer.zksync.io/tx/0x4156d73cadc18419220f5bcf10deb4d97a3d3f7533d63ba90daeabc5fd11ba17</p><p><br></p>",
+        "date": "2024-06-02",
+        "fundsLost": "6800000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          47
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3947,
+        "projectName": "DMM Bitcoin",
+        "description": "<p><strong>Quick Summary</strong></p><p>In May 2024, DMM Bitcoin, a centralized cryptocurrency exchange, suffered a $305 million loss in the largest blockchain hack in over a year.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>In May 2024, DMM Bitcoin, a centralized cryptocurrency exchange in Japan, experienced a significant hack resulting in an estimated $305 million loss, marking the largest blockchain theft since December 2022 and the third-largest in history. Initially, the incident was identified through a large transfer of 4502.9 BTC, but the theft was confirmed when the stolen Bitcoin was dispersed to multiple addresses. DMM Bitcoin acknowledged the hack and took steps to secure deposits and investigate the breach, though it did not disclose the cause. Potential causes include exposed private keys, compromised signing processes, or address poisoning, though the exact method remains undetermined.</p><p><br></p>",
+        "date": "2024-05-31",
+        "fundsLost": "300000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3948,
+        "projectName": "YYS",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jun-08-2024 YYS Token was exploited with a loss of about 29k USD.</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On June 8, 2024, YYS token 0xE814Cc was exploited using the vulnerability in the sell function. Pancake V3 pool was used for borrowing <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>4,750,000</span>&nbsp; USDT for the Flashloan attack. Then funds were bridged to the Arbitrum network and mixed via Railgun mixer.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://bscscan.com/address/0x101723def8695f5bb8d5d4aa70869c10b5ff6340</p><p>Exploit tx:</p><p>https://bscscan.com/tx/0x397a09af6494c0bfcd89e010f5dd65d90f3ee1cf1ff813ce5b0c1d42a1c8dec9</p>",
+        "date": "2024-06-08",
+        "fundsLost": "29000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "YYS",
+          "addresses": [
+            "0xe814cc2b4dbfe652c04f2e008ced18875c76f510"
+          ]
+        }
+      },
+      {
+        "id": 3949,
+        "projectName": "Fake SCROLL",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>May-28-2024</span> fake<span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;SCROLL Token was rugged with a loss of about 290k USD</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On May 28th, 2024, a fake<span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;SCROLL Token&nbsp;</span>was rugged via the backdoor ability of infinite minting on sale tx. Minted an extremely large amount of tokens and swapped for <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>76</span> ETH on Uniswap V2 dex on the Ethereum network. After that Ether was mixed by a Tornado mixer.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://etherscan.io/address/0x55db954f0121e09ec838a20c216eabf35ca32cdd</p><p>RugPull tx:</p><p>https://etherscan.io/tx/0x661505c39efe1174da44e0548158db95e8e71ce867d5b7190b9eabc9f314fe91</p>",
+        "date": "2024-05-28",
+        "fundsLost": "290000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "SCROLL",
+          "addresses": [
+            "0xe51d3de9b81916d383ef97855c271250852ec7b7"
+          ]
+        }
+      },
+      {
+        "id": 3950,
+        "projectName": "Holograph",
+        "description": "<p><strong>Quick Summary</strong></p><p>In June 2024, Holograph, an NFT protocol, suffered a $14.4 million hack. A former developer exploited a vulnerability in the smart contracts to mint 1 billion HLG tokens, leading to a significant drop in token value.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>In June 2024, Holograph, an NFT protocol based on Omnichain, suffered a $14.4 million hack when a former developer exploited an infinite mint vulnerability in the protocol’s smart contracts to mint 1 billion HLG tokens. The attacker’s address was approved to call the mint function, allowing them to bypass access controls by deploying a malicious smart contract on Mantle. After minting the tokens, they bridged them to the Ethereum network and began dumping them, causing the HLG token value to drop by 80% within nine hours, despite exchanges freezing approximately 200 million of the minted tokens.</p><p><br></p>",
+        "date": "2024-06-13",
+        "fundsLost": "14400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3951,
+        "projectName": "CoinStats",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jun-22-2024 CoinStats portfolio tracker was hacked and after using a phishing link users have lost about 2M USD.</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Cryptocurrency portfolio manager CoinStats was hacked on Friday, resulting in the theft of over $2 million from 1,590 wallets. The platform shut down its application to mitigate the attack. Wallets created within CoinStats were affected, while connected wallets and CEXes remained secure. Some impacted users received phishing messages that directed them to a malicious website. CoinStats CEO Narek Gevorgyan confirmed $800,000 was stolen from two wallets that imported their seed phrases to CoinStats Wallet. Evidence suggests the North Korean Lazarus Group was behind the attack. CoinStats resumed operations on Monday with limited functionalities. Users with affected wallets were advised to move their funds immediately. The platform emphasized that only read-only access is required for connected wallets, ensuring their funds are not at risk.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Example of tx:</p><p>https://etherscan.io/tx/0x8d0360632bc385171e20c12aa3152933bb041402bb3e06ab29136985a4745e57</p>",
+        "date": "2024-06-22",
+        "fundsLost": "2000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3952,
+        "projectName": "Sportsbet.io",
+        "description": "<p><strong>Quick Summary</strong></p><p>On June 21, 2024, Sportsbet.io was breached, resulting in a loss of $3.5 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The online crypto sports betting platform Sportsbet.io was likely hacked, losing approximately $3.5 million in USDT and TRX tokens. Crypto investigator zachxbt linked this theft to the same attacker who recently stole at least $55 million from the BtcTurk exchange. Sportsbet.io has yet to confirm the incident.</p>",
+        "date": "2024-06-21",
+        "fundsLost": "3500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3953,
+        "projectName": "Pendle",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jun-19-2024</span> Pendle user lost $1.4 million being a victim of a phishing scam.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x0000db5c8b030ae20308ac975898e09741e70000</p><p>Victim:</p><p>https://etherscan.io/token/0xa9355a5d306c67027c54de0e5a72df76befa5694?a=0x62df98d3189cff1f9f1498991e9555c4275802ee</p><p>Funds withdrawal:</p><p>https://etherscan.io/tx/0x54a5fb32f243f5aa6d27c93c9f264e135f42205b07e0aa40fdaa858922240b24</p>",
+        "date": "2024-06-19",
+        "fundsLost": "1400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3954,
+        "projectName": "Farcana",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jun-19-2024</span> Farcana<span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;Token was exploited with a loss of about 440k USD</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On June 19th, 2024, a Farcana<span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;</span><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;Token was exploited by a private key leaking and draining one of the Farcana treasuries which was a basic EOA.&nbsp;</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://polygonscan.com/address/0x968115c2d84a555911906d266cdd81814ca1a464</p><p>Initial transfer tx:</p><p>https://polygonscan.com/tx/0xddba98579036fbc4ba961af2f84d98909fdff4cea819c7abd25dfba6046edd9a</p>",
+        "date": "2024-06-19",
+        "fundsLost": "440000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": "FAR",
+          "addresses": [
+            "0x5f32abeebd3c2fac1e7459a27e1ae9f1c16cccca"
+          ]
+        }
+      },
+      {
+        "id": 3955,
+        "projectName": "LI.FI",
+        "description": "<p><strong>Quick Summary</strong></p><p>Jul 16, 2024, DeFi Protocol LI.FI Hit by $8M Exploit</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On July 16th, 2024, Li.Fi, a cross-chain DeFi protocol, suffered a significant exploit due to an arbitrary call vulnerability, resulting in a loss of approximately $8 million. The vulnerability resided in the depositToGasZipERC20 function within the GasZipFacet.sol contract. This function allowed the _swapData parameter to be passed directly to LibSwap.swap, which included a low-level call that could execute arbitrary functions. Since the attacker had control over _swap.callTo and _swap.callData, they were able to craft malicious calldata with transferFrom() calls. With sufficient token spending approval, the attacker executed unauthorized transferFrom() calls to siphon funds from the protocol. Li.Fi has advised users to revoke approvals for specific addresses and has disabled the affected smart contract facet to contain the exploit. This incident is particularly notable as it echoes a similar $600,000 loss in 2022 due to the same bug in the protocol’s swapping feature.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker</p><p>https://etherscan.io/address/0x7742ed59e9ecf1712bc4c6bdd0c526e903a7f2c8</p><p><br></p><p>Vulnerable contact</p><p>https://etherscan.io/address/0xf28a352377663ca134bd27b582b1a9a4dad7e534#code</p><p><br></p><p>Attack tx:</p><p>https://etherscan.io/tx/0xd82fe84e63b1aa52e1ce540582ee0895ba4a71ec5e7a632a3faa1aff3e763873</p><p>https://etherscan.io/tx/0x65a92b189e4ae0b8a8a02cd59c5e9f6832586bd5167d41a24eb4f4d2ac692755</p>",
+        "date": "2024-07-16",
+        "fundsLost": "8000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          47,
+          51
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+            "0x341e94069f53234fE6DabeF707aD424830525715"
+          ]
+        }
+      },
+      {
+        "id": 3956,
+        "projectName": "WazirX",
+        "description": "<p><strong>Quick Summary</strong></p><p>WazirXIndia Exchange Multisig got compromised and lost $230M worth of assets on $ETH</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On July 19, 2024, the WazirX Multisig was exploited, resulting in the theft of $<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>230M</span>. The attacker managed to drain the funds by first compromising the signers' Externally Owned Accounts (EOAs) and subsequently changing the implementation of the Multisig. The attack began with a specific transaction (Etherscan link), where the attacker executed a delegate call from the compromised multisig to a proprietary contract deployed eight days earlier. The delegate call data was 0x804e1f0a000000000000000000000000ef279c2ab14960aa319008cbea384b9f8ac35fc6, which modified the slot 0 of the multisig proxy to point to the new proprietary contract. Tools like evm.storage confirmed that before the attack, slot 0 contained the standard safe implementation, and afterward, it pointed to the attacker's contract. Further analysis showed that after the implementation modification, all transactions to the Safe Multisig redirected delegate calls to the new address, which simply transferred assets to the attacker.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker</p><p>https://etherscan.io/address/0xd967113224c354600b3151e27aaba53e3034f372</p><p><br></p><p>Attack tx:</p><p>https://etherscan.io/tx/0x48164d3adbab78c2cb9876f6e17f88e321097fcd14cadd57556866e4ef3e185d</p>",
+        "date": "2024-07-18",
+        "fundsLost": "230000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3957,
+        "projectName": "Dough Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>On July 12, 2024, Dough Finance, a DeFi protocol, lost $1.8 million in digital assets due to a flash loan attack</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On July 12, 2024, Dough Finance, a DeFi protocol, lost $1.8 million in digital assets due to a flash loan attack. Web3 security firm Cyvers flagged suspicious transactions and confirmed that Aave's pools were safe, though Dough Finance was heavily impacted. The attacker used the ZK protocol Railgun to fund the attack and swapped stolen USD Coin for 608 ETH, worth about $1.8 million. Web3 security provider Olympix identified the cause of the exploit as unvalidated call data within the “ConnectorDeleverageParaswap” contract, allowing the attacker to manipulate data during flash loan calls. After the exploit funds were mixed with a Tornado mixer.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker</p><p>https://etherscan.io/address/0x6998584be49162cb1a718a3bf954dccb24028ff9</p><p>https://etherscan.io/address/0x2913d90d94c9833b11a3e77f136da03075c04a0f</p><p>https://etherscan.io/address/0x34611f6bbb0a5f6f8eb48146f4474bff842ae893</p><p><br></p><p>Example Attack tx:</p><p>https://etherscan.io/tx/0x3192b5c7a0650c459226bdb1de69e07fe84dad93d335e99ac5182a4c832a608f</p><p><br></p><p>Tornado deposit example:&nbsp;</p><p>https://etherscan.io/tx/0xd5c9256919d6dc870c1799aafc678de04c14cfb66edcb280d8d59f554c3170e2</p>",
+        "date": "2024-07-12",
+        "fundsLost": "1800000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3958,
+        "projectName": "Minterest",
+        "description": "<p><strong>Quick Summary</strong></p><p>On July 15, 2024, Minterest experienced a malicious entry resulting in the theft of approximately $1,460,000 worth of mETH and ETH.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>In July 2024, Minterest fell victim to a hack where an attacker stole approximately $1.4 million in cryptocurrency from the protocol by exploiting a reentrancy vulnerability through a flashloan attack on the Mantle Network. The attacker initiated the attack by taking a flashloan and borrowing USDY tokens from Minterest's flashLoan function, which triggered their fallback function, allowing them to manipulate the market’s exchange rates. This manipulation resulted in a lower cash balance for the market. When Minterest's contract called the attacker's fallback function, the attacker converted USDY tokens to mUSD and reentered the Minterest contract via the lendRUSDY function, exploiting the modified exchange rate to receive excess mTokens. The attacker then withdrew the underlying tokens, causing Minterest to burn some mTokens but retain the excess. Repeating this process multiple times, the attacker accumulated an estimated $1.7 million in mTokens in the mUSDY market, which they used to borrow WETH and mETH, ultimately draining $1.4 million from the protocol. This exploit also led to the liquidation of many user positions within the mUSDY market.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker</p><p>https://etherscan.io/address/0x618f768af6291705eb13e0b2e96600b3851911d1</p><p>Funding by Tornado:</p><p>https://etherscan.io/tx/0x99fa85d1549205f63aedc14a6878fc0357b26c7c6c0b69813ce86ff4b315eaee</p><p>Example of the Tornado deposit:</p><p>https://etherscan.io/tx/0xe14c67b2f107e352aca8a796dc2e07b9d32777cd37d913ba9762eed3364d2710</p>",
+        "date": "2024-07-15",
+        "fundsLost": "1460000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3959,
+        "projectName": "NEVER",
+        "description": "<p><strong>Quick Summary</strong></p><p>NEVER token on the BSC chain was rug-pulled by the team with a loss of about &nbsp;240K USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>NEVER&nbsp;</span>token was exit scammed via an insider job. The smart contract backdoor allowed the scammer to sell a significant amount of tokens without having it on his balance. EOA which performed an exit scam via token dumping on the DEX (Pancake Swap) earned <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>428</span> BNB or approx 240K USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0xd7c358b8337d3116f5765060f48c1c71b9908b84</p><p>Sell tx:</p><p>https://bscscan.com/tx/0x90254b3b0c28da99f48f23db54c86e5fcae890bf939e31dcd4a59d29045e77e4</p>",
+        "date": "2024-07-16",
+        "fundsLost": "240000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Rugpull",
+        "token": {
+          "name": "NEVER",
+          "addresses": [
+            "0xeaC7250cf7Ef47abDCCb26dF77b81BdaC3Da4cfb"
+          ]
+        }
+      },
+      {
+        "id": 3960,
+        "projectName": "Smart Bank Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>Smart Bank Token on the BSC chain was exploited via Flashloan attack with a loss of about &nbsp;56KUSD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Smart Bank Token&nbsp;</span>was exploited. The attacker has used <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>1,950,000</span> USDT flashloan &nbsp;from &nbsp;PancakeV3Pool on the vulnerable Smart Bank Token contract, thus it created an opportunity to earn additional profit worth 56K USD.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:</p><p>https://bscscan.com/address/0x3026c464d3bd6ef0ced0d49e80f171b58176ce32</p><p>Attack tx:</p><p>https://bscscan.com/tx/0x9a8c4c4edb7a76ecfa935780124c409f83a08d15c560bb67302182f8969be20d</p>",
+        "date": "2024-07-11",
+        "fundsLost": "56000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "SBT",
+          "addresses": [
+            "0x94441698165fb7e132e207800b3ea57e34c93a72"
+          ]
+        }
+      },
+      {
+        "id": 3961,
+        "projectName": "ETHTrustFund",
+        "description": "<p><strong>Quick Summary</strong></p><p>ETHTrustFund Rug Pull on July 16th, 2024: Over $2 Million Stolen</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On July 16th, 2024, the crypto project ETHTrustFund was exposed as a rug pull when the developer, known as \"Peng,\" transferred over $2 million from the project's treasury to a new wallet. ETHTrustFund, a fork of the $OHM project, had been leveraging the hype surrounding the Base, the ETF, and meme culture to gather funds. After months of inactivity and ignoring communications, \"Peng\" finally moved all the treasury assets, signaling an exit scam. The project's website has been taken down, though its documentation is still available online. The funds from the treasury have been observed moving through the RAILGUN privacy project, suggesting an effort to launder the money and hide the transaction trail.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Treasury (multi-sig):</p><p>https://basescan.org/address/0xbfdb66a6783a6dc757f539139c68bed75eb491c8</p><p>Funds moved here:</p><p>https://basescan.org/address/0x374f4bd39ad211e67e0f8cb8ebf1b4f6ac3059ad</p><p>Railgun and Torando deposits:</p><p>https://etherscan.io/tx/0x77fd5bba5ab71c7d79d5eb852a44c37213d6684d37f249efd4719aab6b5944c0</p><p>https://etherscan.io/tx/0xfabb100940c9dc35f0393c895e068904fb6ed0f5955e04380f6edcc44f0fd0c2</p>",
+        "date": "2024-07-16",
+        "fundsLost": "2200000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Rugpull",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3962,
+        "projectName": "Terra",
+        "description": "<p><strong>Quick Summary</strong></p><p>On July 31, 2024 Terra Blockchain was Exploited: $6.5 Million in Tokens Stolen</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A significant security breach occurred on the Terra blockchain, where an attacker exploited a vulnerability in a third-party module known as IBC hooks. This module, used for cross-chain contract interactions and token transfers, had previously been patched in April 2024. However, a subsequent Terra upgrade in June failed to include this patch, leaving the system exposed. The attacker exploited this oversight to drain assets, including USDC stablecoin and ASTRO tokens, totaling around $4 million. In response, Terra implemented emergency measures, including halting the blockchain and coordinating with validators to apply a necessary patch. The incident led to a sharp decline in the price of ASTRO tokens and highlighted the critical need for robust security practices in blockchain maintenance. The Terra community is now working to understand the full scope of the exploit and prevent future occurrences.</p>",
+        "date": "2024-07-31",
+        "fundsLost": "6500000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3963,
+        "projectName": "Karastar",
+        "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jul-26-2024 Abandoned Karastar project was drained for about $69k USD.</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Jul-26-2024 K</span>arastar GameFi contracts were drained with losses of about 120BNB. &nbsp;Exploiter upgraded a few implementations and used a backdoor function for token stealing: transfer(address token, address fromUser, uint256 value).</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Proxy upgrade tx:</p><p>https://bscscan.com/tx/0x289a3107e3a5213d265bcec5919764d1802d19137395f73d9ec866e73c909b61</p><p>Drain TX:</p><p>https://bscscan.com/tx/0x50cc6e73d7e7f215dd2c6e9947e15f7ffbb2f033bbe6555d3fc73e3cca922373</p><p>Funds held by:</p><p>https://bscscan.com/address/0x2b8D9E635ff003339ee309b34A10BFEbb0F05a6A</p>",
+        "date": "2024-07-26",
+        "fundsLost": "69000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": "KARA",
+          "addresses": [
+            "0x1e155e26085be757780b45a5420d9f16a938f76b"
+          ]
+        }
+      },
+      {
+        "id": 3964,
+        "projectName": "Convergence",
+        "description": "<p><strong>Quick Summary</strong></p><p>Convergence Finance Exploited on August 1st, 2024: $210K in CVG Tokens Stolen</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On August 1st, 2024, Convergence Finance, a yield-enhancing protocol based on Curve, was compromised due to inadequate input validation, resulting in the loss of 58 million CVG tokens, equivalent to approximately $210,000. The vulnerability was traced to the claimMultipleStaking function in the CvxRewardDistributor.sol contract, specifically the cvxRewardCount parameter. This function failed to validate the staking contracts listed in the claimContracts array, allowing the attacker to manipulate the reward distribution process. The attacker deployed a malicious contract with a function signature matching claimCvgCvxMultiple, used to process reward claims. By including their malicious contract in the claimContracts array, the attacker tricked the claimMultipleStaking function into calling it as if it were a legitimate staking contract. This exploit enabled the attacker to mint 58 million CVG tokens intended for staking emissions. The stolen tokens have since been moved through Tornado Cash Routers.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x03560a9d7a2c391fb1a087c33650037ae30de3aa</p><p>Victim:&nbsp;</p><p>https://etherscan.io/address/0x2b083beaaC310CC5E190B1d2507038CcB03E7606</p><p>Exploit tx:</p><p>https://etherscan.io/tx/0x636be30e58acce0629b2bf975b5c3133840cd7d41ffc3b903720c528f01c65d9</p>",
+        "date": "2024-08-01",
+        "fundsLost": "210000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x2b083beaaC310CC5E190B1d2507038CcB03E7606"
+          ]
+        }
+      },
+      {
+        "id": 3965,
+        "projectName": "Ronin",
+        "description": "<p><strong>Quick Summary</strong></p><p>On August 6, 2024, the Ronin Network Bridge suffered an exploit resulting in the loss of $12 million, comprising $2 million in USDC and 4,000 ETH, due to a vulnerability introduced during a recent contract upgrade and exploited by an MEV-bot.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability stemmed from an uninitialized variable in the upgraded bridge manager contract. The Ronin team transitioned from version 2 to version 4 and introduced a new implementation, MainchainGatewayV3. However, they neglected to call the initializeV3 function, which was necessary to initialize the _totalOperatorWeight variable in the contract’s storage. This oversight caused the minimumVoteWeight parameter, a crucial security check for cross-chain verification, to be disabled. The MEV bot exploited this by executing a withdrawal transaction, seizing 4,000 ETH and $2 million in USDC.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>WH exploit tx:</p><p>https://etherscan.io/tx/0x2619570088683e6cc3a38d93c3d98899e5783864e15525d5f5810c11189ba6cb</p>",
+        "date": "2024-08-06",
+        "fundsLost": "12000000",
+        "fundsReturned": "12000000",
+        "chaindIds": [
+          1
+        ],
+        "category": "Bridge",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3966,
+        "projectName": "Vow",
+        "description": "<p><strong>Quick Summary</strong></p><p>On August 13, 2024, Vow, a decentralized discount voucher issuer, suffered an exploit leading to a potential collapse of its native token VOW, with losses amounting to $1.2 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability occurred during the testing of a rate setter function, which altered the amount of vUSD received per VOW token from 1 to 100. The testing period lasted only 15 to 30 seconds, but within that time, a bot managed to acquire 20 million VOW tokens valued at $6.6 million. The bot then swapped these tokens on Uniswap V2 for 452 ETH, equivalent to $1.23 million. In response, Vow increased the token's burn rate to 50% to reduce the circulating supply back to normal levels.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x48de6bf9e301946b0a32b053804c61dc5f00c0c3</p><p>Example of exploit tx:</p><p>https://etherscan.io/tx/0x4b439b82c8878644cd809cfafa6e5c056518a54ea4df098eb1fed9d1cce5ca5f</p>",
+        "date": "2024-08-13",
+        "fundsLost": "1200000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "VOW",
+          "addresses": [
+            "0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb"
+          ]
+        }
+      },
+      {
+        "id": 3967,
+        "projectName": "Nexera",
+        "description": "<p><strong>Quick Summary</strong></p><p>On August 7, 2024, Nexera Fundrs experienced an exploit that led to the unauthorized transfer of 47.24 million NXRA tokens from its smart contracts, with approximately 14.75 million tokens sold, valued at around $449,000.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The incident occurred when an external actor gained unauthorized access to the credentials for managing Nexera Fundrs’ smart contracts. Utilizing this access, the attacker transferred NXRA tokens from the Fundrs staking contracts on Ethereum and accessed the vesting contract on Avalanche. Despite the breach, the attackers were unable to access NXRA tokens stored in users' wallets. Upon detecting the incident, the Nexera team promptly paused the NXRA token contract, halting all on-chain transactions. They also removed the remaining 32.5 million NXRA tokens from the attacker’s wallet, mitigating further potential losses. The attackers exploited BeaverTail malware, a method consistent with state-backed threat actors, to deploy the attack.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0xe697949817a45446776376db203c04d31b580a10</p><p>Example of swap tx:</p><p>https://etherscan.io/tx/0xb4e6fdf9b0627e822fee131240dc0f73911fc8900cf4ceb2349b02ddfc63721c</p>",
+        "date": "2024-08-07",
+        "fundsLost": "449000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x644192291cc835a93d6330b24ea5f5fedd0eef9e"
+          ]
+        }
+      },
+      {
+        "id": 3968,
+        "projectName": "Aave",
+        "description": "<p><strong>Quick Summary</strong></p><p>On August 28, 2024, Aave’s periphery contract, specifically the Repay With Collateral Adapter V3, was exploited, resulting in a loss of $56,000 USD across multiple chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability was rooted in the _buyOnParaSwap function within the Aave Collateral Repay Adapter V3 contract. The function, which interacted with the Paraswap contract, left a high token allowance unadjusted if a swap failed or was only partially executed. This unadjusted allowance allowed the attacker to withdraw unauthorized tokens. The vulnerability arose because the function did not properly validate or sanitize paraswapData and failed to verify the swap outcome. The attacker crafted malicious paraswapData, manipulating the swap process or avoiding it entirely. By exploiting the unchecked token allowance, the attacker bypassed the intended swap logic, enabling unauthorized fund transfers from the contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x6ea83f23795F55434C38bA67FCc428aec0C296DC</p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xc27c3ec61c61309c9af35af062a834e0d6914f9352113617400577c0f2b0e9de</p>",
+        "date": "2024-08-28",
+        "fundsLost": "56000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x02e7b8511831b1b02d9018215a0f8f500ea5c6b3"
+          ]
+        }
+      },
+      {
+        "id": 3969,
+        "projectName": "Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>On August 21, 2024, a victim lost $55.43 million in DAI after signing a phishing transaction that compromised their DeFi Saver Proxy, allowing the attacker to drain all the funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit began when the victim, using the address 0xf2B889437F243396b29E829908b5d8ebE2e13048, executed a setOwner transaction that inadvertently transferred ownership of their DeFi Saver Proxy contract to a phishing address 0x0000db5c8B030ae20308ac975898E09741e70000. This phishing transaction resulted in the victim losing control of their proxy contract. Six hours later, when the victim attempted to execute a transaction, it failed because they were no longer the owner of the proxy. Subsequently, the attacker changed the ownership of the proxy to 0x5D4b2A02c59197eB2cAe95A6Df9fE27af60459d4, allowing them to drain all the DAI from the compromised contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xf70042bf3ae7c22f0680f8afa078c38989ed475dfbe5c8d8f30a50d4d2f45dc4</p>",
+        "date": "2024-08-21",
+        "fundsLost": "55000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3970,
+        "projectName": "Penpie",
+        "description": "<p><strong>Quick Summary</strong></p><p>On September 3, 2024, the yield protocol Penpie was exploited for $27 million through a reentrancy vulnerability in its smart contracts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited a reentrancy vulnerability by creating valueless versions of Pendle’s yield-bearing tokens (Standardized Yield, SY) and linking them to valuable assets. They deployed five malicious contracts mimicking legitimate liquidity pools, tricking Penpie’s rewards system. Using these fake SY tokens, they claimed real yield and executed three attack transactions between 6:25 PM and 6:42 PM UTC, siphoning $15.7 million in the first transaction and $5.6 million in the other two. The attacker stole various assets including 695 rswETH, 4,101 agETH, 2,723 wstETH, and 2.52 million sUSDe. Pendle’s team managed to pause the contracts three minutes after the final attack, preventing further exploitation.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x2f2dde668e5426463e05d795f5297db334f61c39</p><p>https://etherscan.io/address/0x69751b7e52dbbd64281ec9049dfa623c7ecdeb52</p><p>https://etherscan.io/address/0x28e3fd9edca8fccb912fe3ab36c78f96cfc74769</p><p>https://etherscan.io/address/0x7a2f4d625fb21f5e51562ce8dc2e722e12a61d1b</p><p><br></p><p><br></p>",
+        "date": "2024-09-03",
+        "fundsLost": "27000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Reentrancy",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3971,
+        "projectName": "CUT token",
+        "description": "<p><strong>Quick Summary</strong></p><p>On an unspecified date, the CUT token was exploited using a flash loan attack, resulting in a loss of approximately $1.4 million through manipulation of the BUSD-CUT PancakeSwap pair on the Binance Smart Chain.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited hidden functionality within the unverified contract ILPFutureYieldContract at address 0x0917914b0A70ee7F1f2460Fcd487696856E31154. By manipulating this contract, the attacker used flash loans to exploit the BUSD-CUT trading pair on PancakeSwap. The malicious contract allowed them to manipulate the yield mechanism of the CUT token, enabling the unauthorized gain of roughly $1.4 million. The exploited pair 0x83681F67069A154815a0c6C2C97e2dAca6eD3249 was specifically targeted for the attack and should not be confused with a separate client using the same CUT ticker.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p><code>https://bscscan.com/address/0x5766d1f03378f50c7c981c014ed5e5a8124f3</code>&nbsp;</p><p><br></p>",
+        "date": "2024-09-10",
+        "fundsLost": "1400000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": [
+            "x83681F67069A154815a0c6C2C97e2dAca6eD3249"
+          ]
+        }
+      },
+      {
+        "id": 3972,
+        "projectName": "Indodax",
+        "description": "<p><strong>Quick Summary</strong></p><p>&nbsp;On September 10, 2024, Indonesian crypto exchange Indodax was hacked, resulting in the loss of approximately $22 million across multiple cryptocurrencies in a methodical attack targeting the exchange’s hot wallets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack targeted Indodax's hot wallets, which store cryptocurrencies that are readily accessible for transactions. The hacker systematically breached Indodax's withdrawal system, allowing unauthorized transfers of funds across multiple blockchain networks. Assets were stolen from Bitcoin, Ethereum, Tron, Polygon, and Optimism, among others. Security experts from firms like SlowMist and Cyvers suggest that the hacker exploited vulnerabilities in how Indodax processes withdrawals, potentially by manipulating signature verification mechanisms. After obtaining the funds, the hacker swiftly converted various tokens into Ethereum and began using Tornado Cash, a crypto-mixing service, to obscure the trail of the stolen assets. Despite the breach, Indodax's team acted quickly to suspend operations and limit further damage, though significant losses were already incurred.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The stolen funds were directed to the following wallets:</p><p>Bitcoin: bc1q5uqpn0ha5llrvhcvkq3nfalp8fj7qe3rydcvmf</p><p>Tron: TBooefeY6FvGuyKfvp5yE1HmzhzvXnvA1P</p><p>Ethereum/ERC-20: 0xb0a2e43d3e0dc4c71346a71484ac6a2627bbcbed</p><p>Optimism: 0x3b8f1131a20e131c195bda6fdd6e9be38935eb6d</p><p>Polygon: 0x90fffbc09e9a5f6d035e92d25d67e244ef5e904f</p><p>Ethereum (ETH): 0x59101e532bc728599a2d373fcdc7aff58cb48df8</p>",
+        "date": "2024-09-10",
+        "fundsLost": "22000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3973,
+        "projectName": "BingX",
+        "description": "<p><strong>Quick Summary</strong></p><p>In September 2024, Singapore-based centralized exchange (CEX) BingX suffered a hack that resulted in the loss of approximately $52 million in cryptocurrency from its compromised hot wallets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack followed a trend of CEX hot wallet hacks in 2024, where attackers gained access to BingX’s wallets across multiple blockchain networks. The hacker exploited at least ten different addresses to collect a range of cryptocurrencies, which were then quickly swapped to Ethereum. While initial estimates of the loss were around $26 million, further investigation revealed the damage to be much greater, with the total loss rising to $52 million. Although the exact method of the attack remains unclear, many security experts, including PeckShield and Cyvers Alerts, have linked the hack to the notorious Lazarus Group, known for its expertise in social engineering and cryptocurrency exploits.</p>",
+        "date": "2024-09-20",
+        "fundsLost": "52000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3974,
+        "projectName": "Delta Prime",
+        "description": "<p><strong>Quick Summary</strong></p><p>On September 16, 2024, DeFi platform Delta Prime suffered a breach, resulting in a loss of approximately $6 million in stablecoins, which the attacker swiftly swapped to ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack began with a suspicious address draining pools on Delta Prime, initially stealing around $4.5 million worth of USDC. The attacker quickly swapped these assets to Ethereum, but another wave of malicious transactions increased the total stolen to nearly $6 million. Onchain security firm Cyvers suggested that the exploit was caused by the loss of control over Delta Prime's admin wallet. The hacker gained access to the wallet’s private key, allowing them to modify Delta Prime’s proxy contracts. This upgrade pointed the contracts to a malicious one, enabling the attacker to drain liquidity pools on the Arbitrum chain.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter address:</p><p>https://arbiscan.io/address/0xd550cfea0bffdc81b2dee7b6d915d9d9e31d83a2</p>",
+        "date": "2024-09-16",
+        "fundsLost": "6000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3975,
+        "projectName": "Bankroll",
+        "description": "<p><strong>Quick Summary</strong></p><p>On September 22, 2024, the DeFi protocol Bankroll Network was exploited, leading to a $230,000 loss due to a vulnerability in its token sale contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack focused on the \"buyFor\" function of the Bankroll Network’s token sale contract, which is designed to allow users to buy tokens for others by sending WBNB to a pool. However, the exploit allowed the hacker to manipulate the “profitPerShare_” variable by making the victim contract its own customer. This allowed the attacker to artificially inflate their share of the pool's profits without depositing the required WBNB. After buying some tokens, the hacker repeatedly invoked the \"buyFor\" function hundreds of times, drastically increasing the \"profitPerShare_.\" They then used the \"withdraw\" function to collect an oversized profit in WBNB, extracting $230,000 from the system. The attack likely used flash loans to make the initial deposit and trigger the manipulation.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0xd4c7c11c46f81b6bf98284e4921a5b9f0ff97b4c71ebade206cb10507e4503b0</p>",
+        "date": "2024-09-22",
+        "fundsLost": "230000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3976,
+        "projectName": "Fire Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 1, 2024, the FireToken smart contract was exploited within 24 seconds of its launch, leading to an attacker profiting around $24,000. The vulnerability lay in its token-burning mechanism, which allowed manipulation of the Uniswap liquidity pool's balance.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The root cause of the exploit stemmed from the FireToken contract's implementation of a token-burning mechanism during transfers. The contract's _transfer() function removed a portion of FireTokens from the circulating supply and sent them to a burn address, reducing the liquidity pool's token reserves. Each time a transfer occurred, the function immediately called sync() to update the Uniswap pool's reserves. This setup allowed the attacker to reduce FireToken reserves while keeping the ETH reserves constant. By decreasing FireToken reserves, the attacker created a price discrepancy in line with Uniswap’s constant product formula (x * y = k), making ETH appear more valuable relative to the dwindling FireTokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xd20b3b31a682322eb0698ecd67a6d8a040ccea653ba429ec73e3584fa176ff2b</p>",
+        "date": "2024-10-01",
+        "fundsLost": "24000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Token",
+        "issueType": "Other",
+        "token": {
+          "name": "FIRE",
+          "addresses": [
+            "0x18775475f50557b96c63e8bbf7d75bfeb412082d"
+          ]
+        }
+      },
+      {
+        "id": 3977,
+        "projectName": "Bedrock",
+        "description": "<p><strong>Quick Summary</strong></p><p>On September 27, 2024, liquid restaking protocol Bedrock suffered a $2 million exploit related to its synthetic Bitcoin token, uniBTC. The protocol confirmed that the vulnerability had been addressed, and all remaining assets were declared safe.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit targeted Bedrock’s uniBTC, a synthetic Bitcoin token used in decentralized finance (DeFi) staking. Hackers managed to siphon approximately $2 million from decentralized exchange liquidity pools, exploiting a vulnerability in the smart contract that handled the token’s staking mechanism. However, Bedrock reassured users that the underlying assets—wrapped BTC and standard Bitcoin held in reserves—were unaffected. The protocol quickly took measures to address the security flaw and ensure that no further losses occurred. Bedrock’s team is preparing a comprehensive post-mortem report alongside a reimbursement plan for affected users.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://etherscan.io/address/0x2bFB373017349820dda2Da8230E6b66739BE9F96</p><p>Exploit tx:</p><p>https://etherscan.io/tx/0x725f0d65340c859e0f64e72ca8260220c526c3e0ccde530004160809f6177940</p>",
+        "date": "2024-09-27",
+        "fundsLost": "2000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3978,
+        "projectName": "OnyxDAO",
+        "description": "<p><strong>Quick Summary</strong></p><p>On September 26th, 2024, Onyx DAO, a decentralized finance (DeFi) protocol derived from Compound Finance, was exploited due to a precision vulnerability, resulting in a loss of approximately $3.8 million, primarily in VUSD stablecoins.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attackers took advantage of a known precision loss vulnerability in the forked Compound V2 code that Onyx DAO implemented. By deploying a malicious contract, they manipulated the market’s exchange rates within the protocol, artificially inflating the value of small deposits. This allowed them to withdraw 4.1 million VUSD along with other cryptocurrencies, such as XCN, DAI, WBTC, and USDT. The attackers executed multiple transactions to miscalculate and inflate their token values, minting excessive amounts of VUSD, which they then converted to other cryptocurrencies. While some of the stolen funds were swapped into ETH, a significant portion remained unswapped, suggesting a strategic move to avoid detection.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker’s Address: 0x085bdff2c522e8637d4154039db8746bb8642bff</p><p>Malicious Contract: 0x526e8e98356194b64eae4c2d443cc8aad367336f</p><p>Vulnerable Contract Address: 0x5fdbcd61bc9bd4b6d3fd1f49a5d253165ea11750</p><p>Attack Transaction Hash: 0xf7c21600452939a81b599017ee24ee0dfd92aaaccd0a55d02819a7658a6ef635</p>",
+        "date": "2024-09-26",
+        "fundsLost": "3800000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3979,
+        "projectName": "Phishing",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 10, 2024, a phishing attack led to the loss of $2.47 million in Aave Ethereum sDAI after a user unknowingly signed a malicious \"permit\" signature.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The victim signed a fraudulent \"permit\" transaction that allowed the scammer to gain control of the sDAI tokens. The scam involved temporary addresses pre-computed using the CREATE2 function, commonly used in phishing schemes to deceive victims into granting access to their assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Victim Address: 0xfcc5acd50ae590889d2a53343d35b5fb80d403c2</p><p>Scammer Address: 0xAc68803BE3ca28299BF09571945d4cd8e867E7f2</p><p>Transaction Hash: https://etherscan.io/tx/0x64a00980f46659d25294f976866e1fb609d0abf7da05f6744bf5bf2bd586454f</p>",
+        "date": "2024-10-10",
+        "fundsLost": "2470000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Other",
+        "issueType": "Phishing",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3980,
+        "projectName": "N/A",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 3, 2024, an unknown lending project on the Arbitrum network suffered a $130,000 loss due to a price oracle manipulation attack involving the WETH-USDC liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The hacker exploited the lending protocol's reliance on a price feed from the UniswapV3Pool to manipulate the value of WETH-USDC LP tokens. Initially, the price of the LP tokens was 5,826,926,145,978,180, but after manipulation, the price jumped to 8,131,590,584,988,874. The attacker first deposited LP tokens, then deposited USDC and borrowed additional LP tokens. During the borrowing, the price of the tokens was artificially low, but the attacker manipulated it to rise, allowing them to withdraw all the LP tokens from the pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Transaction Hash: 0xb5cfa4ae4d6e459ba285fec7f31caf8885e2285a0b4ff62f66b43e280c947216</p>",
+        "date": "2024-10-03",
+        "fundsLost": "130000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3981,
+        "projectName": "Radiant Capital",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 16, 2024, Radiant Capital, a decentralized finance (DeFi) lending protocol, was exploited in a major cyberattack, resulting in over $50 million in losses.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On October 16, 2024, Radiant Capital, a decentralized finance (DeFi) lending protocol, was exploited in a major cyberattack, resulting in over $50 million in losses. Attackers gained access to three out of 11 private keys needed to control Radiant's smart contracts, allowing them to drain funds across multiple blockchains. The breach impacted liquidity pools on the Binance Smart Chain (BSC) and Arbitrum networks, forcing Radiant to suspend its markets on Ethereum and Base as part of its damage control efforts.</p><p>The attackers compromised Radiant’s multi-signature wallet, which requires multiple key holders to approve critical actions. By obtaining three private keys, they gained sufficient control to upgrade the protocol’s smart contracts and initiate unauthorized transfers of assets. Hackers drained liquidity pools holding popular tokens like USDC, WBTC, WETH, and BNB. Notably, $18 million was stolen from Radiant's BSC pools, and additional funds were compromised on Arbitrum. In response, Radiant partnered with security firms, including SEAL911 and Chainalysis, to investigate and urged users to revoke smart contract permissions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:</p><p>https://arbiscan.io/address/0x0629b1048298ae9deff0f4100a31967fb3f98962</p><p>https://bscscan.com/address/0x911215cf312a64c128817af3c24b9fdf66b7ac95</p>",
+        "date": "2024-10-16",
+        "fundsLost": "58000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2,
+          5
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xd50cf00b6e600dd036ba8ef475677d816d6c4281",
+            "0x58b0bb56cfdfc5192989461dd43568bcfb2797db",
+            "0x455a281d508b4e34d55b31ac2e4579bd9b77ca8e",
+            "0x3bdcef9e656fd9d03ea98605946b4fbf362c342b",
+            "0x4ff2dd7c6435789e0bb56b0553142ad00878a004",
+            "0x34d4f4459c1b529bebe1c426f1e584151be2c1e5"
+          ]
+        }
+      },
+      {
+        "id": 3982,
+        "projectName": "Ramses",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 24, 2024, Ramses Exchange on the Arbitrum network lost around $93,000 due to a flaw in its reward distribution system. The attacker repeatedly claimed rewards by leveraging multiple token IDs without reducing the overall reward pool supply. This exploit targeted Ramses’ reward accumulation process rather than affecting liquidity provider assets or user holdings. Ramses Exchange confirmed that liquidity provider funds and user NFTs remain secure despite the incident.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit stemmed from a vulnerability in the Ramses FeeDistributor contract, where the system failed to reduce the total reward supply after each reward claim. By repeatedly using the _getReward() function with multiple NFT token IDs, the attacker manipulated the reward calculations to gain excess rewards. The attacker’s strategy included resetting or splitting NFTs into new token IDs, effectively bypassing the tracking mechanism veWithdrawnTokenAmountByPeriod that restricts double-claiming within the same period. Additionally, the attacker used the getPeriodReward() function with arbitrary period values to retroactively access unclaimed rewards, exploiting a lack of timestamp validation in the contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://arbiscan.io/tx/0xb91c4e0debaf0feb1f20c979eebc1282c8024ae299ef5903591badcf1f4938bb</p><p>Attacker:</p><p>https://arbiscan.io/address/0x1d8b0ee375750839567f266fa75f6fbc9d6b977c</p>",
+        "date": "2024-10-24",
+        "fundsLost": "93000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5
+        ],
+        "category": "Exchange (DEX)",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418"
+          ]
+        }
+      },
+      {
+        "id": 3983,
+        "projectName": "Essence Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 24, 2024, Essence Finance's stablecoin CHI in the Scroll ecosystem dropped 98% in value, sparking significant investor concerns and accusations of a potential rug pull. Reports of sudden, multimillion-dollar collateral withdrawals intensified suspicions.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Essence Finance’s stablecoin CHI faced a severe crash in the Scroll ecosystem, dropping 98% in value, amid suspicions of a rug pull. This turmoil stemmed from sudden multimillion-dollar withdrawals, prompting fears and distrust among investors. Adding to the controversy, the project’s communication channels have been largely silent since September, intensifying speculation. Meanwhile, CHI’s trading volume remains active, showing lingering interest despite the sharp price decline.</p><p>Essence Finance’s stablecoin project has faced scrutiny for its centralized design, where a multisig wallet, controlled by select project members, could manage and operate collateral assets. During the incident, the multisig wallet was used to drain the CHI minter contract and shift substantial collateral into USDC/CHIUSD and DAI/CHIUSD pairs. This centralized control over collateral allowed the operators to restrict redemptions, blocking users from accessing their CHI holdings. With CHI’s stability already fragile due to a small depeg, this inability to redeem triggered a liquidity crisis resembling a bank run, leading to the drastic price collapse.</p>",
+        "date": "2024-10-26",
+        "fundsLost": "20000000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "Stablecoin",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3984,
+        "projectName": "M2",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 31, 2024, the centralized cryptocurrency exchange M2, endorsed by David O'Leary and based in Abu Dhabi, experienced a hack resulting in a $13.7 million loss from multiple hot wallets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The October 31 attack targeted M2’s hot wallets, resulting in the unauthorized transfer of Bitcoin, Ether, and Solana assets valued at nearly $13.7 million. According to on-chain investigator ZachXBT, the breach was carried out by attackers leveraging a vulnerability within the exchange’s online wallet infrastructure. The stolen assets were transferred away from M2’s wallets over a brief period, despite the exchange's swift response to prevent further escalation. M2 immediately suspended affected wallets, activated additional security controls, and restored user funds, resuming normal operations shortly after. This quick action limited the duration of exposure, though the initial vulnerability remains under investigation, with further insights expected as M2 collaborates with cybersecurity and law enforcement agencies.</p>",
+        "date": "2024-10-31",
+        "fundsLost": "13700000",
+        "fundsReturned": "0",
+        "chaindIds": [],
+        "category": "CeFi",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3985,
+        "projectName": "Vista Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>On October 22, 2024, Vista Finance, a protocol on Binance Smart Chain (BSC), suffered an exploit resulting in a loss of approximately $29,000.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit originated from Vista Finance’s use of the flashLoan function, which mints tokens at the beginning of the process and burns them at the end. A critical vulnerability was found in the contract's _burn function, which directly adjusted the balance within _balances[account] rather than utilizing the getFreeBalance method. This discrepancy allowed the attacker to manipulate token balances, bypassing restrictions tied to staked tokens.</p><p><br></p><p>By initiating a flash loan for 1,000,000 tokens, the attacker was able to buy ICO tokens from Vista Finance using $1,500 in BUSD. These ICO tokens were then sold to another address for a profit. The exploit relied on the fact that getFreeBalance did not properly account for staked status, allowing the attacker to use the flash-minted tokens to bypass the staking limitations and cash out the gains undetected.</p>",
+        "date": "2024-10-22",
+        "fundsLost": "29000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3986,
+        "projectName": "Delta Prime",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 11th, 2024, DeltaPrime, a DeFi protocol operating on both Arbitrum and Avalanche networks, experienced a sophisticated exploit leading to a $4.75 million loss.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The DeltaPrime exploit was rooted in two key vulnerabilities: improper validation of borrowing in the swapDebtParaSwap function and unchecked external contract inputs in the claimReward function. In the first instance, the attacker used 59.9 ETH as collateral to borrow 1.18 WBTC. The _repayAmount variable was not validated, allowing the attacker to use a malicious contract to transfer borrowed WBTC without initiating a repayment check, sending it to another address.</p><p><br></p><p>The second flaw involved the claimReward() function. This function accepted arbitrary external contract addresses for reward claims, which the attacker exploited by passing a malicious contract through the pair parameter. This contract manipulated the internal balances of DeltaPrime, deceiving the protocol into paying out additional rewards. Specifically, the attacker’s contract triggered the wrapNative() function, converting ETH collateral into WETH, which then appeared as a rewardable balance. This trick allowed the attacker to extract 59.9 ETH as rewards.</p><p><br></p><p>Instead of cashing out, the attacker chose a novel strategy, reinvesting the stolen assets across DeFi platforms on Avalanche. This included $600K staked in USDC via Stargate, $518K in liquidity for USDC/USDT pairs, 4,865 AVAX staked, 49.68 WETH.e, and 6.34 BTC.b. DeltaPrime acknowledged the incident via social media and their Discord server, highlighting the heaviest losses in AVAX and ETH pools on Avalanche and in ARB and ETH pools on Arbitrum. They have since reached out to the attacker in hopes of recovering the stolen assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TXs:</p><p>https://avascan.info/blockchain/c/tx/0xece4efbe11e59d457cb1359ebdc4efdffdd310f0a82440be03591f2e27d2b59e</p><p>https://arbiscan.io/tx/0x9efe855cd3783462207ff8a3d94dc17a74e2b2f00bf1b4c8a7e0135dae83ab5c</p><p><br></p><p>&nbsp;</p>",
+        "date": "2024-11-11",
+        "fundsLost": "4500000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          5,
+          6
+        ],
+        "category": "Yield Aggregator",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3987,
+        "projectName": "Metawin",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 3, 2024, MetaWin, a prominent online crypto casino, suffered a security breach that resulted in the loss of approximately $4 million.&nbsp;</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The breach at MetaWin exploited the platform’s instant withdrawal mechanism, which was designed for seamless and rapid transactions. This \"frictionless\" system inadvertently allowed a hacker to bypass traditional security checks, gaining access to the casino’s Ethereum and Solana hot wallets. Hot wallets, which remain online for quick transaction processing, are inherently more vulnerable, and this became the critical entry point for the attack.</p><p><br></p><p>Upon detecting the intrusion, MetaWin swiftly disabled withdrawals to secure the system. However, the damage was already done, with over $4 million drained from the platform. The hacker’s method involved targeting addresses directly linked to the withdrawal system, using a sophisticated approach that leveraged over 115 addresses. Blockchain expert ZachXBT collaborated with MetaWin to trace the stolen assets, revealing that the hacker funneled the funds through KuCoin and HitBTC, platforms often utilized for obfuscating the origin of stolen funds.</p><p><br></p>",
+        "date": "2024-11-03",
+        "fundsLost": "4000000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1,
+          24
+        ],
+        "category": "Gaming / Metaverse",
+        "issueType": "Access Control",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3988,
+        "projectName": "Polter Finance",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 16, 2024, Polter Finance, a DeFi lending platform on the Fantom network, experienced a severe security breach that led to the loss of around $8.7 million.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit began with the attacker targeting a vulnerability in the price validation logic of the AaveOracle contract, which Polter Finance depended on for price feeds. The key weakness was in the ChainlinkUniV2Adapter, which relied on spot prices without adequate validation. The attacker exploited this weakness by executing a flash loan of 269,042 BOO and 1,154,788 BOO tokens from Spooky V2 and Spooky V3 liquidity pools, significantly reducing the token reserves in those pools and causing an abnormal price spike for the BOO token.</p><p><br></p><p>Using this inflated price, the attacker deposited a single BOO token as collateral in Polter's lending pool. Due to the flawed oracle system, the value of this 1 BOO token was calculated at an astronomical $1.37 trillion instead of its true market value. The platform's smart contract failed to detect this discrepancy because the price validation checks within the _fetchPrice and getRoundData functions were inadequate, allowing the manipulated price to go unchallenged.</p><p><br></p><p>The attacker repeatedly leveraged the inflated price of the BOO token to borrow wFTM tokens, ultimately draining a total of 9,134,844 wFTM from the lending pools. The price data retrieved by the latestRoundData function failed to account for the rapid changes caused by the flash loan manipulation, lacking necessary safeguards for drastic price swings.</p><p><br></p><p>As part of the exploitation, the attacker used flaws in the _getPriceAndTimestamp function, which contained hardcoded values and insufficient price fluctuation checks. These issues enabled the attacker to execute multiple borrowing operations without triggering any validation alarms, leading to the loss of $8.7 million.</p><p><br></p><p>In an effort to retrieve the stolen funds, the Polter Finance team has reached out to the attacker via social media channels and filed a police report.</p>",
+        "date": "2024-11-16",
+        "fundsLost": "8700000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          4
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Oracle Issue",
+        "token": {
+          "name": null,
+          "addresses": []
+        }
+      },
+      {
+        "id": 3989,
+        "projectName": "vETH",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 14, 2024, the vETH token suffered an exploit caused by a flaw in the business logic of its smart contract, resulting in a loss of approximately $450,000.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The vulnerability stemmed from a flaw in the vETH token’s takeLoan function, which could be triggered by an authorized factory contract. This factory contract was meant to add liquidity to the Uniswap vETH-BIF pair using borrowed vETH and the user’s BIF tokens. However, the attacker manipulated the liquidity pool during this process by borrowing vETH without proper constraints. This allowed them to alter the pool's constant (x * y = k) and drain vETH without incurring the full cost, leading to substantial financial losses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker:&nbsp;</p><p>https://etherscan.io/address/0x713d2b652e5f2a86233c57af5341db42a5559dd1</p><p>Victim contract:</p><p>https://etherscan.io/address/0x280a8955a11fcd81d72ba1f99d265a48ce39ac2e#code</p>",
+        "date": "2024-11-14",
+        "fundsLost": "450000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          1
+        ],
+        "category": "Borrowing and Lending",
+        "issueType": "Other",
+        "token": {
+          "name": null,
+          "addresses": [
+            "0x280a8955a11fcd81d72ba1f99d265a48ce39ac2e#code"
+          ]
+        }
+      },
+      {
+        "id": 3990,
+        "projectName": "BTB Token",
+        "description": "<p><strong>Quick Summary</strong></p><p>On November 18, 2024, the BTB token on BNB Smart Chain (BSC) was exploited, leading to a loss of approximately $5,000. The attacker manipulated the BTB-BUSD price using a flash loan and exploited vulnerabilities in the contract's price oracle mechanism.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker converted the 100,000 BUSD loan into 1,263,427 BTB, significantly reducing liquidity and inflating BTB’s price from 0.00379 BUSD to 1.638 BUSD—a 400x increase. Using the manipulated price, they swapped 3,052 BTB for 4,999 BUSD and later redeemed the remaining 1,260,375 BTB for 99,964 BUSD, completing the arbitrage. The exploit leveraged the outdated oracle, which relied solely on PancakeSwap reserves, allowing easy price manipulation.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0xfb6df4053c2f1000cb03135064af19a79a87cf25efe612ae5f3468390d6be216</p>",
+        "date": "2024-11-18",
+        "fundsLost": "5000",
+        "fundsReturned": "0",
+        "chaindIds": [
+          2
+        ],
+        "category": "Token",
+        "issueType": "Flash Loan Attack",
+        "token": {
+          "name": "BTB",
+          "addresses": [
+            "0x4d8bd2c6e83d8456799b282039187beca21397bd"
+          ]
+        }
+      }
+    ]
+  }
+}
