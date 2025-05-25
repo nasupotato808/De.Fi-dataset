@@ -1,0 +1,142 @@
+{
+  "data": {
+    "chains": [
+      {
+        "id": 1,
+        "name": "ethereum"
+      },
+      {
+        "id": 2,
+        "name": "binance"
+      },
+      {
+        "id": 3,
+        "name": "polygon"
+      },
+      {
+        "id": 4,
+        "name": "fantom"
+      },
+      {
+        "id": 5,
+        "name": "arbitrum"
+      },
+      {
+        "id": 6,
+        "name": "avalanche"
+      },
+      {
+        "id": 7,
+        "name": "gnosis"
+      },
+      {
+        "id": 8,
+        "name": "moonbeam"
+      },
+      {
+        "id": 9,
+        "name": "moonriver"
+      },
+      {
+        "id": 10,
+        "name": "near"
+      },
+      {
+        "id": 11,
+        "name": "boba"
+      },
+      {
+        "id": 12,
+        "name": "solana"
+      },
+      {
+        "id": 13,
+        "name": "okexchain"
+      },
+      {
+        "id": 14,
+        "name": "cronos"
+      },
+      {
+        "id": 15,
+        "name": "celo"
+      },
+      {
+        "id": 16,
+        "name": "harmony"
+      },
+      {
+        "id": 17,
+        "name": "optimism"
+      },
+      {
+        "id": 19,
+        "name": "terra"
+      },
+      {
+        "id": 20,
+        "name": "klaytn"
+      },
+      {
+        "id": 22,
+        "name": "cardano"
+      },
+      {
+        "id": 24,
+        "name": "ronin"
+      },
+      {
+        "id": 32,
+        "name": "thorchain"
+      },
+      {
+        "id": 36,
+        "name": "akash"
+      },
+      {
+        "id": 37,
+        "name": "kujira"
+      },
+      {
+        "id": 40,
+        "name": "terra-2"
+      },
+      {
+        "id": 49,
+        "name": "base"
+      },
+      {
+        "id": 44,
+        "name": "bitcoin"
+      },
+      {
+        "id": 45,
+        "name": "dogecoin"
+      },
+      {
+        "id": 46,
+        "name": "tezos"
+      },
+      {
+        "id": 25,
+        "name": "cosmos"
+      },
+      {
+        "id": 26,
+        "name": "kava"
+      },
+      {
+        "id": 27,
+        "name": "osmosis"
+      },
+      {
+        "id": 51,
+        "name": "linea"
+      },
+      {
+        "id": 47,
+        "name": "zksync"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "data": {
+    "audits": {
+      "items": [
+        {
+          "id": 4073,
+          "projectName": "LooksRare",
+          "projectLink": "https://looksrare.org/",
+          "active": true,
+          "createdAt": "2022-03-28T20:40:43.000Z",
+          "auditNetworks": [
+            {
+              "id": 4469,
+              "tokenAddress": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+              "tokenTicker": "LOOKS",
+              "network": {
+                "id": 1,
+                "name": "Ethereum"
+              }
+            }
+          ],
+          "auditFiles": [
+            {
+              "id": 4068,
+              "name": "Smart Contracts",
+              "date": "2022-03-11",
+              "techIssues": 2,
+              "techIssuesLow": null,
+              "techIssuesHigh": null,
+              "techIssuesMedium": null,
+              "score": "84.68"
+            }
+          ],
+          "partnerAudits": [
+            {
+              "id": 5035,
+              "name": "Smart contracts",
+              "date": "2022-04-05",
+              "techIssues": 8,
+              "techIssuesLow": null,
+              "techIssuesHigh": null,
+              "techIssuesMedium": null,
+              "score": null,
+              "partner": {
+                "id": 18,
+                "name": "Trail of Bits"
+              }
+            }
+          ]
+        }
+      ],
+      "currentPage": 3,
+      "lastPage": 3,
+      "count": 41,
+      "chainsStats": [
+        {
+          "id": 1,
+          "name": "Ethereum",
+          "count": 1919
+        },
+        {
+          "id": 25,
+          "name": "Cronos",
+          "count": 1
+        },
+        {
+          "id": 56,
+          "name": "Binance",
+          "count": 1525
+        },
+        {
+          "id": 66,
+          "name": "OKExChain",
+          "count": 17
+        },
+        {
+          "id": 95,
+          "name": "EOS",
+          "count": 1
+        },
+        {
+          "id": 100,
+          "name": "Gnosis",
+          "count": 47
+        },
+        {
+          "id": 128,
+          "name": "Heco",
+          "count": 44
+        },
+        {
+          "id": 137,
+          "name": "Polygon",
+          "count": 143
+        },
+        {
+          "id": 238,
+          "name": "Blast",
+          "count": 1
+        },
+        {
+          "id": 250,
+          "name": "Fantom",
+          "count": 32
+        },
+        {
+          "id": 1001,
+          "name": "TRON",
+          "count": 12
+        },
+        {
+          "id": 1002,
+          "name": "Solana",
+          "count": 28
+        },
+        {
+          "id": 43114,
+          "name": "Avax",
+          "count": 17
+        },
+        {
+          "id": 1666600000,
+          "name": "Harmony",
+          "count": 4
+        },
+        {
+          "id": 1666600001,
+          "name": "KuCoin",
+          "count": 1
+        },
+        {
+          "id": 1666600002,
+          "name": "Tezos",
+          "count": 2
+        },
+        {
+          "id": 1666600003,
+          "name": "Centralized",
+          "count": 1
+        },
+        {
+          "id": 1666600016,
+          "name": "Other",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

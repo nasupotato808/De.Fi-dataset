@@ -1,0 +1,2381 @@
+{
+  "data": {
+    "protocols": [
+      {
+        "name": "Aave V2",
+        "slug": "AaveV2",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Aave V3",
+        "slug": "AaveV3",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Aerodrome",
+        "slug": "Aerodrome",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "lockedBalances",
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Akash Staking",
+        "slug": "AkashStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 36,
+              "name": "akash"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Arrakis Finance",
+        "slug": "Arrakis",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "AutoFarm",
+        "slug": "AutoFarm",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 14,
+              "name": "cronos"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Balancer V1",
+        "slug": "BalancerV1",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Balancer V2",
+        "slug": "BalancerV2",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking",
+              "claimable"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "claimable"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "claimable"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Beefy",
+        "slug": "BeefyFinance",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 14,
+              "name": "cronos"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Beethoven X",
+        "slug": "Beethoven",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BenQI",
+        "slug": "Benqi",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable",
+              "staking",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Camelot",
+        "slug": "Camelot",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cardano Staking",
+        "slug": "CardanoStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Coinbase cbETH",
+        "slug": "CoinbaseStaking",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Compound",
+        "slug": "CompoundFinance",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Compound V3",
+        "slug": "CompoundV3",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Convex",
+        "slug": "Convex",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cosmos Staking",
+        "slug": "CosmosStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 25,
+              "name": "cosmos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CREAM Finance",
+        "slug": "CreamFinance",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Curve",
+        "slug": "Curve",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "De.Fi",
+        "slug": "DeFi",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "claimable",
+              "vesting"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking",
+              "claimable",
+              "vesting"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "EigenLayer",
+        "slug": "EigenLayer",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "delegation"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Frax",
+        "slug": "Frax",
+        "features": [
+          {
+            "list": [
+              "lockedBalances",
+              "staking",
+              "lending",
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances",
+              "pools"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances",
+              "pools"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gearbox",
+        "slug": "Gearbox",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "leverageFarming",
+              "claimable"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gmx",
+        "slug": "Gmx",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "perpetual"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "staking",
+              "perpetual"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Indigo",
+        "slug": "Indigo",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "claimable",
+              "lending"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Iron Bank",
+        "slug": "IronBank",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "KavaCDP",
+        "slug": "KavaCDP",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable"
+            ],
+            "chain": {
+              "id": 26,
+              "name": "kava"
+            }
+          }
+        ]
+      },
+      {
+        "name": "KavaLend",
+        "slug": "KavaLend",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable"
+            ],
+            "chain": {
+              "id": 26,
+              "name": "kava"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kava Staking",
+        "slug": "KavaStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 26,
+              "name": "kava"
+            }
+          }
+        ]
+      },
+      {
+        "name": "KavaSwap",
+        "slug": "KavaSwap",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "claimable"
+            ],
+            "chain": {
+              "id": 26,
+              "name": "kava"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kord.Fi",
+        "slug": "KordFi",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "leverageFarming"
+            ],
+            "chain": {
+              "id": 46,
+              "name": "tezos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kujira Staking",
+        "slug": "KujiraStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 37,
+              "name": "kujira"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lido",
+        "slug": "Lido",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lynex",
+        "slug": "Lynex",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MakerDAO",
+        "slug": "MakerDAO",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Marinade",
+        "slug": "Marinade",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "lockedBalances",
+              "pools"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mars Protocol",
+        "slug": "MarsProtocol",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "leverageFarming",
+              "claimable"
+            ],
+            "chain": {
+              "id": 27,
+              "name": "osmosis"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MendiFinance",
+        "slug": "MendiFinance",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "staking",
+              "claimable"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Minswap",
+        "slug": "MinSwap",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "lockedBalances",
+              "pools"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MuesliSwap",
+        "slug": "MuesliSwap",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Olympus Pro",
+        "slug": "OlympusPro",
+        "features": [
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Orca",
+        "slug": "Orca",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Osmosis",
+        "slug": "Osmosis",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 27,
+              "name": "osmosis"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Osmosis Staking",
+        "slug": "OsmosisStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 27,
+              "name": "osmosis"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PancakeSwap",
+        "slug": "PancakeSwap",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Pangolin",
+        "slug": "Pangolin",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Polygon Staking",
+        "slug": "PolygonStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quarry",
+        "slug": "Quarry",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quickswap",
+        "slug": "QuickSwap",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          }
+        ]
+      },
+      {
+        "name": "QuipuSwap",
+        "slug": "QuipuSwap",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 46,
+              "name": "tezos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Raydium",
+        "slug": "Raydium",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Renzo",
+        "slug": "Renzo",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rocket Pool",
+        "slug": "RocketPool",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Saber",
+        "slug": "Saber",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Solana Staking",
+        "slug": "SolanaStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Solend",
+        "slug": "Solend",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 12,
+              "name": "solana"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Spark",
+        "slug": "Spark",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stargate",
+        "slug": "Stargate",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lockedBalances",
+              "claimable"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SundaeSwap",
+        "slug": "SundaeSwap",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sushi",
+        "slug": "SushiSwap",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Synapse",
+        "slug": "Synapse",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 14,
+              "name": "cronos"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SyncSwap",
+        "slug": "SyncSwap",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Synthetix",
+        "slug": "Synthetix",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tectonic",
+        "slug": "Tectonic",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable",
+              "staking",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 14,
+              "name": "cronos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Terra 2.0 Staking",
+        "slug": "Terra2Staking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 40,
+              "name": "terra"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Terra Staking",
+        "slug": "TerraStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 19,
+              "name": "terra"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tetu",
+        "slug": "Tetu",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tezos Liquidity Baking",
+        "slug": "TezosLiquidityBaking",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 46,
+              "name": "tezos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thena",
+        "slug": "Thena",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "lockedBalances"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thor Liquidity",
+        "slug": "Thor",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 32,
+              "name": "thor"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 25,
+              "name": "cosmos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thor Staking",
+        "slug": "ThorStaking",
+        "features": [
+          {
+            "list": [
+              "delegation"
+            ],
+            "chain": {
+              "id": 32,
+              "name": "thor"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Trader Joe",
+        "slug": "TraderJoe",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools",
+              "lending",
+              "claimable"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Uniswap V2",
+        "slug": "Uniswap",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Uniswap V3",
+        "slug": "UniswapV3",
+        "features": [
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 6,
+              "name": "avalanche"
+            }
+          },
+          {
+            "list": [
+              "pools"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "VVS",
+        "slug": "VVS",
+        "features": [
+          {
+            "list": [
+              "staking",
+              "pools"
+            ],
+            "chain": {
+              "id": 14,
+              "name": "cronos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Velodrome",
+        "slug": "Velodrome",
+        "features": [
+          {
+            "list": [
+              "lockedBalances",
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Venus",
+        "slug": "Venus",
+        "features": [
+          {
+            "list": [
+              "lending",
+              "claimable",
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "VyFinance",
+        "slug": "VyFinance",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "WingRiders",
+        "slug": "WingRiders",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking"
+            ],
+            "chain": {
+              "id": 22,
+              "name": "cardano"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Wombat Exchange",
+        "slug": "Wombat",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 2,
+              "name": "binance"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Yearn V1",
+        "slug": "YearnV1",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Yearn V2",
+        "slug": "YearnV2",
+        "features": [
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 1,
+              "name": "ethereum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 3,
+              "name": "polygon"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 4,
+              "name": "fantom"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 17,
+              "name": "optimism"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 5,
+              "name": "arbitrum"
+            }
+          },
+          {
+            "list": [
+              "staking"
+            ],
+            "chain": {
+              "id": 49,
+              "name": "base"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Youves",
+        "slug": "Youves",
+        "features": [
+          {
+            "list": [
+              "pools",
+              "staking",
+              "lending"
+            ],
+            "chain": {
+              "id": 46,
+              "name": "tezos"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ZeroLend",
+        "slug": "ZeroLend",
+        "features": [
+          {
+            "list": [
+              "lending"
+            ],
+            "chain": {
+              "id": 51,
+              "name": "linea"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
